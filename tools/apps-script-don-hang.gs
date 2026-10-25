@@ -4,7 +4,7 @@
  * Cài đặt:
  *   1. script.google.com → Dự án mới → dán toàn bộ file này.
  *   2. Cài đặt dự án (bánh răng) → Thuộc tính tập lệnh → thêm:
- *        POS_SHOP_ID = 101108492
+ *        POS_SHOP_ID = 1942180173   (shop "Yến sào", nhân viên xử lý hằng ngày)
  *        POS_API_KEY = <API key lấy trong Pancake POS: Cấu hình → Nâng cao → API>
  *   3. Triển khai → Tùy chọn triển khai mới → Loại: Ứng dụng web
  *        Thực thi với tư cách: Tôi · Ai có quyền truy cập: Bất kỳ ai → Triển khai → chép URL /exec gửi Claude.
