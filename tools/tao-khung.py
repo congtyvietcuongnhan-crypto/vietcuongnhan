@@ -16,6 +16,7 @@ RED_TOP, RED_BOT = (176, 30, 38), (110, 14, 20)
 GOLD_A, GOLD_B = (194, 166, 50), (236, 216, 92)   # vàng logo
 CREAM = (253, 246, 222)
 HOTLINE = "0978 094 739"
+TITLE = (240, 214, 90)   # vàng logo sáng cho tên sản phẩm
 
 def lerp(a, b, t): return tuple(int(a[i] + (b[i] - a[i]) * t) for i in range(3))
 
@@ -55,13 +56,14 @@ def fit_text(d, text, w, start, weight="ExtraBold", minsize=30):
     return font(weight, s)
 
 def wrap(d, text, w, f):
-    words, lines, cur = text.split(), [], ""
-    for x in words:
-        t = (cur + " " + x).strip()
-        if d.textlength(t, font=f) <= w: cur = t
-        else: lines.append(cur); cur = x
-    lines.append(cur)
-    return lines
+    # chia 2 dòng cân nhau
+    words = text.split()
+    best = None
+    for i in range(1, len(words)):
+        l1, l2 = " ".join(words[:i]), " ".join(words[i:])
+        m = max(d.textlength(l1, font=f), d.textlength(l2, font=f))
+        if best is None or m < best[0]: best = (m, [l1, l2])
+    return best[1] if best else [text]
 
 def make(p, mark):
     im = background()
@@ -76,15 +78,18 @@ def make(p, mark):
     d.text((455, 63), "CHÍNH HÃNG", font=font("Bold", 13), fill=(90, 20, 24), anchor="mm")
     # tên + quy cách
     name = p["name"].upper()
-    f = fit_text(d, name, 780, 50)
-    lines = [name] if d.textlength(name, font=f) <= 780 else wrap(d, name, 780, font("ExtraBold", 40))
-    if len(lines) > 1: f = font("ExtraBold", 40)
-    y = 120
+    f = fit_text(d, name, 820, 62)
+    lines = [name] if f.size >= 44 else wrap(d, name, 820, font("ExtraBold", 50))
+    if len(lines) > 1:
+        f = font("ExtraBold", 50)
+        while max(d.textlength(l, font=f) for l in lines) > 820: f = font("ExtraBold", f.size - 2)
+    y = 128
     for ln in lines[:2]:
-        d.text((W // 2, y), ln, font=f, fill=(255, 255, 255), anchor="mm")
+        d.text((W // 2 + 2, y + 3), ln, font=f, fill=(70, 6, 10), anchor="mm")
+        d.text((W // 2, y), ln, font=f, fill=TITLE, anchor="mm")
         y += f.size + 8
     if p.get("spec"):
-        d.text((W // 2, y + 4), p["spec"].upper(), font=font("SemiBold", 28), fill=(255, 236, 200), anchor="mm")
+        d.text((W // 2, y + 4), p["spec"].upper(), font=font("Bold", 30), fill=(255, 255, 255), anchor="mm")
     # ảnh tròn viền vàng
     cy, size, thick = 540, 470, 18
     cx = 560
