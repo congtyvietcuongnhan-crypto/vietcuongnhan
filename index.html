@@ -761,6 +761,10 @@ const DOCS = {
   "dong-trung": pages("dong-trung", 7, "Bản tự công bố Nấm đông trùng hạ thảo")
 };
 document.addEventListener("click", e => { const d = e.target.closest("[data-doc]"); if (d) lbOpen(DOCS[d.dataset.doc], 0); });
+// Link "../#chung-nhan" từ trang khác: mở thẳng ảnh 3 giấy chứng nhận HACCP, ISO 22000, GMP.
+const CERTS = [...DOCS.haccp, ...DOCS.iso, ...DOCS.gmp];
+function certHash() { if (location.hash === "#chung-nhan") lbOpen(CERTS, 0); }
+certHash(); addEventListener("hashchange", certHash);
 document.getElementById("o-zalo").addEventListener("click", async e => {
   // Zalo không cho điền sẵn tin nhắn: chép nội dung đơn rồi mở Zalo để khách dán vào.
   try { await navigator.clipboard.writeText(document.getElementById("o-sum").textContent); e.target.textContent = "Đã chép đơn, dán vào Zalo"; } catch {}
