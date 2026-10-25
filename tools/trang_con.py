@@ -228,9 +228,88 @@ const h = location.hash.slice(1); if (h && document.querySelector('.chip[data-ca
         "kt", body, ld, script=script))
     return m.BAI
 
-def sitemap(bai):
+# Trang chính sách: /chinh-sach/doi-tra.html, van-chuyen.html, bao-mat.html
+CS = [
+    ("doi-tra", "Chính sách đổi trả và hoàn tiền", "Điều kiện, thời hạn và cách đổi trả, hoàn tiền khi mua yến sào, đông trùng hạ thảo và sản phẩm của Việt Cường Nhân.", """
+  <h2>1. Trường hợp được đổi trả</h2>
+  <ul>
+    <li>Giao sai sản phẩm, sai quy cách hoặc thiếu hàng so với đơn đã xác nhận.</li>
+    <li>Sản phẩm hư hỏng, móp vỡ do vận chuyển hoặc lỗi từ nhà sản xuất.</li>
+    <li>Sản phẩm hết hạn sử dụng hoặc có dấu hiệu biến chất khi nhận.</li>
+  </ul>
+  <h2>2. Điều kiện</h2>
+  <ul>
+    <li>Báo cho Việt Cường Nhân trong vòng <b>03 ngày</b> kể từ khi nhận hàng, qua điện thoại hoặc Zalo 0978 094 739.</li>
+    <li>Sản phẩm còn nguyên niêm phong, tem nhãn (trừ lỗi chỉ phát hiện được khi mở).</li>
+    <li>Có hình ảnh hoặc video lúc mở hàng để đối chiếu.</li>
+  </ul>
+  <h2>3. Trường hợp không áp dụng</h2>
+  <p>Vì là thực phẩm và mỹ phẩm, Việt Cường Nhân không nhận đổi trả sản phẩm đã mở niêm phong và sử dụng vì lý do khẩu vị, mùi hương hoặc không còn nhu cầu, trừ các trường hợp ở mục 1.</p>
+  <h2>4. Cách thức và thời gian</h2>
+  <ul>
+    <li>Việt Cường Nhân chịu phí vận chuyển đổi trả cho các trường hợp ở mục 1.</li>
+    <li>Khách chọn đổi sản phẩm mới cùng loại hoặc hoàn tiền.</li>
+    <li>Hoàn tiền bằng chuyển khoản vào tài khoản khách cung cấp trong vòng <b>07 ngày làm việc</b> kể từ khi Việt Cường Nhân nhận lại hàng.</li>
+  </ul>"""),
+    ("van-chuyen", "Chính sách vận chuyển và kiểm hàng", "Phạm vi, thời gian, phí giao hàng và quyền kiểm hàng khi nhận sản phẩm Việt Cường Nhân.", """
+  <h2>1. Phạm vi giao hàng</h2>
+  <p>Giao hàng toàn quốc qua nhân viên Việt Cường Nhân (khu vực gần) hoặc đơn vị vận chuyển.</p>
+  <h2>2. Thời gian dự kiến</h2>
+  <ul>
+    <li>TP. Hồ Chí Minh và khu vực lân cận: 1 đến 2 ngày làm việc.</li>
+    <li>Các tỉnh, thành khác: 2 đến 5 ngày làm việc.</li>
+  </ul>
+  <p>Thời gian có thể kéo dài vào dịp lễ, Tết hoặc do thời tiết; nhân viên sẽ báo khách khi có thay đổi.</p>
+  <h2>3. Phí giao hàng</h2>
+  <p>Giá trên website chưa gồm phí giao hàng. Phí tính theo khu vực và khối lượng đơn, được báo cho khách khi gọi xác nhận đơn, trước khi giao. Chương trình miễn phí giao hàng (nếu có) được ghi rõ trên website.</p>
+  <h2>4. Kiểm hàng khi nhận</h2>
+  <ul>
+    <li>Khách được kiểm tra bên ngoài kiện hàng, số lượng, loại sản phẩm và tình trạng niêm phong trước khi thanh toán.</li>
+    <li>Nếu hàng sai, thiếu hoặc hư hỏng, khách có quyền từ chối nhận và báo ngay cho Việt Cường Nhân.</li>
+    <li>Khách nên quay video khi mở hàng để làm căn cứ đổi trả theo <a href="doi-tra.html">chính sách đổi trả</a>.</li>
+  </ul>"""),
+    ("bao-mat", "Chính sách bảo mật thông tin cá nhân", "Việt Cường Nhân thu thập, sử dụng, lưu trữ và bảo vệ thông tin cá nhân của khách hàng khi đặt hàng trên vietcuongnhan.com như thế nào.", """
+  <h2>1. Thông tin thu thập</h2>
+  <p>Khi đặt hàng, khách cung cấp: họ tên, số điện thoại, địa chỉ giao hàng, sản phẩm đặt mua và ghi chú (nếu có). Website không yêu cầu tạo tài khoản và không thu thập thông tin thẻ thanh toán.</p>
+  <h2>2. Mục đích sử dụng</h2>
+  <ul>
+    <li>Xác nhận và giao đơn hàng, chăm sóc khách hàng sau mua.</li>
+    <li>Giải quyết đổi trả, khiếu nại.</li>
+    <li>Thông báo chương trình ưu đãi, chỉ khi khách đồng ý.</li>
+  </ul>
+  <h2>3. Thời gian lưu trữ</h2>
+  <p>Thông tin đơn hàng được lưu trong thời gian cần thiết để thực hiện giao dịch và theo quy định về lưu trữ chứng từ kế toán, hoặc đến khi khách yêu cầu xóa (nếu pháp luật cho phép).</p>
+  <h2>4. Chia sẻ thông tin</h2>
+  <p>Việt Cường Nhân không bán hay trao đổi thông tin khách hàng. Thông tin chỉ được cung cấp cho đơn vị vận chuyển (họ tên, số điện thoại, địa chỉ) để giao hàng, hoặc cho cơ quan nhà nước có thẩm quyền khi có yêu cầu theo quy định pháp luật.</p>
+  <h2>5. Đơn vị thu thập và quản lý thông tin</h2>
+  <p>Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân, trụ sở: Số 24/22 Khu phố Thống Nhất 1, Phường Dĩ An, TP. Hồ Chí Minh. Hotline, Zalo 0978 094 739.</p>
+  <h2>6. Quyền của khách hàng</h2>
+  <p>Khách có quyền yêu cầu xem, chỉnh sửa, xóa thông tin cá nhân hoặc rút lại sự đồng ý nhận tin ưu đãi bằng cách liên hệ số điện thoại trên. Việt Cường Nhân phản hồi trong vòng 72 giờ.</p>
+  <h2>7. Cam kết bảo mật</h2>
+  <p>Thông tin đơn hàng được lưu trên hệ thống quản lý bán hàng có kiểm soát truy cập, chỉ nhân viên phụ trách đơn hàng được xem. Khi phát hiện sự cố lộ lọt thông tin, Việt Cường Nhân sẽ thông báo cho khách và cơ quan chức năng theo quy định.</p>"""),
+]
+CS_CSS = """<style>.policy-nav { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; margin: 0 0 24px; } .policy-nav a[aria-current] { color: var(--ink); font-weight: 600; text-decoration: none; } .updated { font-size: 13px; color: var(--muted); margin-top: 28px; }</style>"""
+
+def chinh_sach():
+    os.makedirs(R + "chinh-sach", exist_ok=True)
+    for slug, h1, desc, body in CS:
+        cur = ' aria-current="page"'
+        nav = " ".join(f'<a href="{s}.html"{cur if s == slug else ""}>{t}</a>' for s, t, _, _ in CS)
+        art = f"""{CS_CSS}
+<main class="article">
+  <p class="eyebrow">Chính sách</p>
+  <h1>{h1}</h1>
+  <nav class="policy-nav" aria-label="Chính sách">{nav}</nav>
+{body}
+  <p class="updated">Áp dụng từ ngày 25/10/2026. Mọi thắc mắc xin gọi hoặc nhắn Zalo 0978 094 739.</p>
+</main>"""
+        ld = [{"@context": "https://schema.org", "@type": "WebPage", "name": h1, "url": f"{SITE}/chinh-sach/{slug}.html", "inLanguage": "vi"}]
+        open(R + f"chinh-sach/{slug}.html", "w", encoding="utf-8").write(shell(f"chinh-sach/{slug}.html", h1, desc, "", art, ld))
+    return [s for s, _, _, _ in CS]
+
+def sitemap(bai, cs=()):
     today = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=7)).strftime("%Y-%m-%d")
-    urls = [f"{SITE}/", f"{SITE}/gioi-thieu/", f"{SITE}/chung-nhan/", f"{SITE}/kien-thuc/"] + [f"{SITE}/kien-thuc/{b['slug']}.html" for b in bai]
+    urls = [f"{SITE}/", f"{SITE}/gioi-thieu/", f"{SITE}/chung-nhan/", f"{SITE}/kien-thuc/"] + [f"{SITE}/kien-thuc/{b['slug']}.html" for b in bai] + [f"{SITE}/chinh-sach/{c}.html" for c in cs]
     x = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(
         f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n"
     open(R + "sitemap.xml", "w", encoding="utf-8").write(x)
@@ -256,5 +335,6 @@ if __name__ == "__main__":
     gioi_thieu()
     chung_nhan()
     bai = kien_thuc()
-    sitemap(bai)
+    cs = chinh_sach()
+    sitemap(bai, cs)
     print("gioi-thieu + kien-thuc:", len(bai), "bài")
