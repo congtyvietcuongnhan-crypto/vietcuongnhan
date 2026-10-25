@@ -1,3 +1,20 @@
 User-agent: *
 Allow: /
+
+# Cho phép công cụ tìm kiếm AI đọc và trích dẫn bài viết
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://vietcuongnhan.com/sitemap.xml

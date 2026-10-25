@@ -46,6 +46,10 @@ EXTRA_CSS = """<style>
 .article ol, .article ul { padding-left: 22px; display: grid; gap: 6px; }
 .article a { color: var(--emerald-2); }
 .article .note { border-left: 3px solid var(--logo-gold); background: var(--paper); padding: 14px 18px; border-radius: 0 10px 10px 0; color: var(--muted); font-size: 14px; margin-top: 30px; }
+.article .tldr { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin: 0 0 22px; }
+.article .tldr b { color: var(--emerald-2); }
+.article .tldr ul { margin: 8px 0 0; }
+.article .meta { font-size: 13px; color: var(--muted); margin: -14px 0 20px; }
 .article .cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
 .article table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14px; background: var(--paper); border: 1px solid var(--line); }
 .article th, .article td { text-align: left; padding: 9px 12px; border-top: 1px solid var(--line); vertical-align: top; }
@@ -175,7 +179,8 @@ def kien_thuc():
         if b["cat"] not in cats: cats.append(b["cat"])
         body = b["body"]
         lds = [{"@context": "https://schema.org", "@type": "Article", "headline": b["h1"], "description": b["desc"],
-                "datePublished": b["ngay"], "inLanguage": "vi",
+                "datePublished": b["ngay"], "dateModified": b.get("sua", b["ngay"]), "inLanguage": "vi",
+                "keywords": b.get("tu_khoa", ""),
                 "author": {"@type": "Organization", "name": "Việt Cường Nhân"},
                 "publisher": {"@type": "Organization", "name": "Việt Cường Nhân", "logo": {"@type": "ImageObject", "url": f"{SITE}/logo.png"}},
                 "mainEntityOfPage": f"{SITE}/kien-thuc/{b['slug']}.html"}]
@@ -183,12 +188,14 @@ def kien_thuc():
             lds.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
                 {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", a)}} for q, a in b["faq"]]})
             body += "\n  <h2>Câu hỏi thường gặp</h2>\n" + "\n".join(f"  <h3>{q}</h3>\n  <p>{a}</p>" for q, a in b["faq"])
+        tldr = ("  <div class=\"tldr\"><b>Tóm tắt nhanh</b>\n  <ul>\n" + "\n".join(f"    <li>{t}</li>" for t in b["tom_tat"]) + "\n  </ul></div>\n") if b.get("tom_tat") else ""
         art = f'''<main class="article">
   <p class="crumb"><a href="./">Kiến thức</a> / {b["cat"]}</p>
   <p class="eyebrow">{b["cat"]}</p>
   <h1>{b["h1"]}</h1>
   <p class="lede">{b["lede"]}</p>
-{body}
+  <p class="meta">Việt Cường Nhân · Đăng {"/".join(reversed(b["ngay"].split("-")))}</p>
+{tldr}{body}
   <p class="note">Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh. Người đang mang thai, có bệnh nền hoặc đang dùng thuốc nên hỏi ý kiến bác sĩ trước khi dùng.</p>
   <div class="cta">
     <a class="btn btn-gold" href="../#san-pham">Xem bảng giá</a>
@@ -336,10 +343,31 @@ def chung_nhan():
         "chung-nhan/", "Chứng nhận & Cam kết", "Việt Cường Nhân đạt HACCP, ISO 22000:2018 và GMP (G-CERTI); bản tự công bố tổ yến thô, tổ yến tinh chế, nấm đông trùng hạ thảo. Xem bản scan giấy chứng nhận.",
         "cn", c, ld, script=LB_DOCS))
 
+def llms(bai):
+    """llms.txt: bản tóm tắt cho ChatGPT, Perplexity, Gemini đọc nhanh thông tin công ty và bài viết."""
+    t = f"""# Việt Cường Nhân (vietcuongnhan.com)
+
+> Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân (MST 3701518691), thành lập năm 2009 tại Dĩ An, TP. Hồ Chí Minh. Tự sản xuất và bán yến sào (tổ yến thô, yến tinh chế, yến rút lông, nước yến chưng hũ VCN Nest), nấm đông trùng hạ thảo, táo đỏ Tân Cương, thạch nha đam. Đạt HACCP, ISO 22000:2018, GMP. Thương hiệu yến Đỗ Thị Toán.
+
+- Hotline, Zalo: 0978 094 739 · Email: congtyvietcuongnhan@gmail.com
+- Nhà máy: 511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp, TP. Hồ Chí Minh
+- Cơ sở đóng gói: 261-263 Võ Thị Sáu, KP. Tây A, Phường Đông Hòa, TP. Hồ Chí Minh
+- Bảng giá đầy đủ, đặt hàng: {SITE}/#san-pham (giá chưa gồm phí giao hàng)
+
+## Trang chính
+- [Giới thiệu công ty]({SITE}/gioi-thieu/): lịch sử, nhà yến, xưởng, nhà máy
+- [Chứng nhận]({SITE}/chung-nhan/): HACCP, ISO 22000, GMP, tự công bố sản phẩm
+- [Chính sách đổi trả]({SITE}/chinh-sach/doi-tra.html) · [Vận chuyển]({SITE}/chinh-sach/van-chuyen.html) · [Bảo mật]({SITE}/chinh-sach/bao-mat.html)
+
+## Kiến thức
+""" + "\n".join(f"- [{b['h1']}]({SITE}/kien-thuc/{b['slug']}.html): {b['desc']}" for b in reversed(bai)) + "\n"
+    open(R + "llms.txt", "w", encoding="utf-8").write(t)
+
 if __name__ == "__main__":
     gioi_thieu()
     chung_nhan()
     bai = kien_thuc()
     cs = chinh_sach()
     sitemap(bai, cs)
+    llms(bai)
     print("gioi-thieu + kien-thuc:", len(bai), "bài")
