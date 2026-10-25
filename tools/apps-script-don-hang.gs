@@ -26,12 +26,25 @@ function toPancake_(p) {
   const props = PropertiesService.getScriptProperties();
   const shop = props.getProperty("POS_SHOP_ID"), key = props.getProperty("POS_API_KEY");
   if (!shop || !key) return "chưa cài API";
+  const qty = Number(p.qty) || 1;
+  const price = Number(p.price) || Math.round((Number(p.total) || 0) / qty); // đơn giá đúng như trên web
   const note = `[WEBSITE] ${p.product || ""} (${p.spec || ""}) x ${p.qty || 1} · Tạm tính ${Number(p.total || 0).toLocaleString("vi-VN")}đ` + (p.note ? ` · Ghi chú: ${p.note}` : "");
   const body = {
     bill_full_name: p.name,
     bill_phone_number: p.phone,
     shipping_address: { full_name: p.name, phone_number: p.phone, address: p.addr || "" },
     note: note,
+    // Sản phẩm gửi dạng "thêm nhanh" (one_time_product): chỉ tên + giá theo web,
+    // không gắn vào sản phẩm trong kho nên không đổi giá/tồn kho trên Pancake.
+    items: [{
+      one_time_product: true,
+      quantity: Number(p.qty) || 1,
+      discount_each_product: 0,
+      is_bonus_product: false,
+      is_discount_percent: false,
+      is_wholesale: false,
+      variation_info: { name: [p.product, p.spec].filter(Boolean).join(" - ") || "Sản phẩm website", retail_price: price }
+    }],
     order_sources: -1,
     status: 0
   };

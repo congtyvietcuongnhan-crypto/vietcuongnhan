@@ -831,7 +831,7 @@ Ghi chú: ${v("o-note") || "không"}`;
   btn.disabled = true; msg.hidden = false; msg.textContent = "Đang gửi đơn...";
   const body = new URLSearchParams({
     name: v("o-name"), phone: v("o-phone"), addr: v("o-addr"),
-    product: p[2], spec: p[3], qty: q, total: fsPrice(p) * q,
+    product: p[2], spec: p[3], qty: q, price: fsPrice(p), total: fsPrice(p) * q,
     note: (FS_ON && p[4] ? "[FLASH SALE -" + FS_PCT + "%, giá gốc " + vnd(p[4]) + "] " : "") + v("o-note"), website: v("o-web")
   });
   try {
