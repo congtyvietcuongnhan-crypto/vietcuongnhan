@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vietcuongnhan.com/sitemap.xml
