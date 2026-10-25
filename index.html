@@ -76,6 +76,12 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.
 .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
 .hero .eyebrow { font-size: 18px; letter-spacing: .1em; font-weight: 700; color: var(--logo-gold); line-height: 1.5; margin-bottom: 6px; }
 .hero .eyebrow span { white-space: nowrap; }
+.hero .seals { display: flex; flex-wrap: wrap; gap: 14px; margin: 18px 0 22px; }
+.hero .seal-c { width: 104px; height: 104px; padding: 0; border: 0; background: none; cursor: zoom-in; border-radius: 50%; filter: drop-shadow(0 6px 14px rgb(0 0 0 / .3)); transition: transform .2s; }
+.hero .seal-c:hover { transform: translateY(-3px) rotate(-3deg); }
+.hero .seal-c svg { width: 100%; height: 100%; font-family: var(--font-body); }
+@media (max-width: 760px) { .hero .seal-c { width: 88px; height: 88px; } }
+
 :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
 /* header */
@@ -283,7 +289,7 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
     <div>
       <div class="eyebrow"><span>Yến sào ·</span> <span>Đông trùng hạ thảo ·</span> <span>Táo đỏ ·</span> <span>Nha đam</span></div>
       <h1><span>Việt Cường Nhân Company</span></h1>
-      <p>Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân sơ chế, sản xuất và kinh doanh yến sào, nước yến chưng, nấm đông trùng hạ thảo, táo đỏ và nha đam. Hệ thống quản lý an toàn thực phẩm đạt chứng nhận HACCP, ISO 22000:2018 và GMP.</p>
+      <div class="seals"><button type="button" class="seal-c" data-doc="haccp" aria-label="Xem chứng nhận HACCP"><svg viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="ghaccp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6e27a"/><stop offset="1" stop-color="#c9a232"/></linearGradient></defs><circle cx="60" cy="60" r="57" fill="url(#ghaccp)"/><circle cx="60" cy="60" r="49" fill="#fff"/><circle cx="60" cy="60" r="45" fill="none" stroke="#2a52a9" stroke-width="2" stroke-dasharray="3 3"/><text x="60" y="40" text-anchor="middle" font-size="11" font-weight="700" fill="#2a52a9" letter-spacing="1">CERTIFIED</text><text x="60" y="68" text-anchor="middle" font-size="24" font-weight="800" fill="#a81d24">HACCP</text><text x="60" y="86" text-anchor="middle" font-size="9" font-weight="700" fill="#2a52a9">FOOD SAFETY</text></svg></button><button type="button" class="seal-c" data-doc="iso" aria-label="Xem chứng nhận ISO"><svg viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="giso" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6e27a"/><stop offset="1" stop-color="#c9a232"/></linearGradient></defs><circle cx="60" cy="60" r="57" fill="url(#giso)"/><circle cx="60" cy="60" r="49" fill="#fff"/><circle cx="60" cy="60" r="45" fill="none" stroke="#2a52a9" stroke-width="2" stroke-dasharray="3 3"/><text x="60" y="40" text-anchor="middle" font-size="11" font-weight="700" fill="#2a52a9" letter-spacing="1">CERTIFIED</text><text x="60" y="68" text-anchor="middle" font-size="24" font-weight="800" fill="#a81d24">ISO</text><text x="60" y="86" text-anchor="middle" font-size="10" font-weight="700" fill="#2a52a9">22000:2018</text></svg></button><button type="button" class="seal-c" data-doc="gmp" aria-label="Xem chứng nhận GMP"><svg viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="ggmp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6e27a"/><stop offset="1" stop-color="#c9a232"/></linearGradient></defs><circle cx="60" cy="60" r="57" fill="url(#ggmp)"/><circle cx="60" cy="60" r="49" fill="#fff"/><circle cx="60" cy="60" r="45" fill="none" stroke="#2a52a9" stroke-width="2" stroke-dasharray="3 3"/><text x="60" y="40" text-anchor="middle" font-size="11" font-weight="700" fill="#2a52a9" letter-spacing="1">CERTIFIED</text><text x="60" y="68" text-anchor="middle" font-size="24" font-weight="800" fill="#a81d24">GMP</text><text x="60" y="86" text-anchor="middle" font-size="8.5" font-weight="700" fill="#2a52a9">GOOD PRACTICE</text></svg></button></div>
       <div class="cta">
         <a class="btn btn-gold" href="#san-pham">Xem sản phẩm</a>
         <a class="btn btn-ghost" href="https://zalo.me/0978094739" target="_blank" rel="noopener">Nhắn Zalo tư vấn</a>
