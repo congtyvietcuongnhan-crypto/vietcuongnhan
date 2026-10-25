@@ -271,7 +271,6 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
       <a href="kien-thuc/">Kiến thức</a>
       <a href="#dat-hang">Đặt hàng</a>
     </nav>
-    <a class="fs-pill" id="fs-pill" href="#san-pham">⚡ Flash Sale</a>
     <a class="btn btn-line" href="#dat-hang">Liên hệ</a>
   </div>
 </header>
@@ -772,7 +771,6 @@ function fsTick() {
   document.getElementById("flash").classList.toggle("off", !st.on);
   document.getElementById("fs-lbl").textContent = st.on ? "Kết thúc sau" : "Bắt đầu sau";
   document.getElementById("fs-title").textContent = st.on ? `⚡ Flash Sale đang diễn ra: giảm ${FS_PCT}% toàn bộ sản phẩm` : `⚡ Flash Sale giảm ${FS_PCT}% toàn bộ sản phẩm`;
-  const pill = document.getElementById("fs-pill"); pill.classList.toggle("on", st.on); pill.textContent = `⚡ Flash Sale -${FS_PCT}% · ${hh}:${mm}:${ss}`;
 }
 fsTick(); setInterval(fsTick, 1000);
 </script>
