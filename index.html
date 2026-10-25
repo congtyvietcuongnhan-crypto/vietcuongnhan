@@ -97,8 +97,8 @@ nav.menu a:hover { color: var(--ink); }
 .hero { background: var(--emerald); color: var(--on-emerald); position: relative; overflow: hidden; }
 .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(60% 80% at 85% 20%, rgba(216,176,90,.18), transparent 70%); pointer-events: none; }
 .hero .wrap { display: grid; grid-template-columns: 1.2fr .8fr; gap: 40px; align-items: center; padding-block: 56px; position: relative; z-index: 1; }
-.hero h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; }
-.hero h1 span { display: block; font-style: normal; font-weight: 700; color: var(--gold); }
+.hero h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; color: var(--logo-gold); }
+.hero h1 span { display: block; font-style: normal; font-weight: 800; color: #2a52a9; -webkit-text-stroke: 2px #fff; paint-order: stroke fill; text-shadow: 0 3px 10px rgb(0 0 0 / .25); }
 .hero p { max-width: 52ch; color: color-mix(in srgb, var(--on-emerald) 82%, transparent); margin: 18px 0 26px; }
 .hero .cta { display: flex; flex-wrap: wrap; gap: 12px; }
 .hero .seal { justify-self: center; width: min(320px, 100%); aspect-ratio: 1; border-radius: 50%; background: #fff; display: grid; place-items: center; box-shadow: 0 0 0 10px rgba(216,176,90,.25), 0 30px 60px rgba(0,0,0,.35); }
