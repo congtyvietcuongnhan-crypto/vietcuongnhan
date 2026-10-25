@@ -810,7 +810,7 @@ document.addEventListener("click", e => {
   if (k) { sel.value = k.dataset.pick; document.getElementById("dat-hang").scrollIntoView({behavior: "smooth"}); }
 });
 // Địa chỉ Apps Script nhận đơn (Google Sheet). Để trống thì chỉ tạo nội dung đơn để gửi Zalo.
-const ORDER_ENDPOINT = "";
+const ORDER_ENDPOINT = "https://script.google.com/macros/s/AKfycbxMcYapKV29uXVDwTeakEgOVZ7jR0S9IwVD2lI2a8Da1RfYvPLiEZq_Cv0KOJLhZb1KVg/exec";
 document.getElementById("form").addEventListener("submit", async e => {
   e.preventDefault();
   const v = id => document.getElementById(id).value.trim();
