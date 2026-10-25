@@ -694,18 +694,18 @@ const IMG = {
   228: ["khung/228.jpg", "that/xa-bong-hoa-xoai.jpg"],
   229: ["khung/229.jpg", "catalog/xa-bong-hoa-bong-buoi.jpg"],
   230: ["khung/230.jpg", "that/xa-bong-hoa-ca-phe.jpg"],
-  231: ["khung/231.jpg", "catalog/nuoc-tay-trang.jpg"],
-  232: ["khung/232.jpg", "catalog/sua-rua-mat.jpg"],
-  233: ["khung/233.jpg", "catalog/toner.jpg"],
-  234: ["khung/234.jpg", "catalog/serum-trang-da-giam-nep-nhan.jpg"],
-  235: ["khung/235.jpg", "catalog/kem-duong-am-trang-da.jpg"],
-  236: ["khung/236.jpg", "catalog/gel-tay-da-chet.jpg"],
-  237: ["khung/237.jpg", "catalog/kem-chong-nang.jpg"],
-  238: ["khung/238.jpg", "catalog/mat-na.jpg"],
-  239: ["khung/239.jpg", "catalog/dau-goi-nhan-sam-han-quoc.jpg"],
-  240: ["khung/240.jpg", "catalog/tinh-chat-duong-toc-nhan-sam-han-quoc.jpg"],
-  241: ["khung/241.jpg", "catalog/kem-u-toc-nhan-sam-han-quoc.jpg"],
-  242: ["khung/242.jpg", "catalog/mat-na-hong-nau-xanh.jpg"],
+  231: ["khung/231.jpg", "that/tbeauty-nuoc-tay-trang.jpg"],
+  232: ["khung/232.jpg", "that/tbeauty-sua-rua-mat.jpg"],
+  233: ["khung/233.jpg", "that/tbeauty-toner.jpg"],
+  234: ["khung/234.jpg", "that/tbeauty-serum.jpg"],
+  235: ["khung/235.jpg", "that/tbeauty-kem-duong-am.jpg"],
+  236: ["khung/236.jpg", "that/tbeauty-gel-tay-te-bao-chet.jpg"],
+  237: ["khung/237.jpg", "that/tbeauty-kem-chong-nang.jpg"],
+  238: ["khung/238.jpg", "that/tbeauty-mat-na-yen-4-loai.jpg", "that/tbeauty-mat-na-repair-glow.jpg", "that/tbeauty-mat-na-firming-lift.jpg", "that/tbeauty-mat-na-soothing-moist.jpg", "that/tbeauty-mat-na-deep-hydration.jpg", "that/tbeauty-mat-na-soothing-moist-2.jpg", "that/tbeauty-mat-na-deep-hydration-2.jpg", "that/tbeauty-mat-na-repair-glow-2.jpg", "that/tbeauty-mat-na-firming-lift-2.jpg"],
+  239: ["khung/239.jpg", "that/tbeauty-dau-goi-k-ginseng.jpg"],
+  240: ["khung/240.jpg", "that/tbeauty-tinh-chat-duong-toc-k-ginseng.jpg"],
+  241: ["khung/241.jpg", "that/tbeauty-kem-u-toc-k-ginseng.jpg"],
+  242: ["khung/242.jpg", "that/tbeauty-mat-na-queen-xanh.jpg", "that/tbeauty-mat-na-queen-nau.jpg", "that/tbeauty-mat-na-queen-hong.jpg", "that/tbeauty-mat-na-queen-xanh-hop.jpg", "that/tbeauty-mat-na-queen-nau-hop.jpg", "that/tbeauty-mat-na-queen-hong-hop.jpg", "that/tbeauty-mat-na-queen-xanh-hop-2.jpg", "that/tbeauty-mat-na-queen-nau-hop-2.jpg", "that/tbeauty-mat-na-queen-hong-hop-2.jpg"],
   243: ["khung/243.jpg", "catalog/dau-goi-trai-nhau.jpg"],
   244: ["khung/244.jpg", "catalog/xa-bong-giam-mun.jpg"],
   245: ["khung/245.jpg", "catalog/nuoc-rua-tay-kho.jpg"],
@@ -724,7 +724,7 @@ const SETS = [
 const HET_HANG = [];
 const DIR = "images/san-pham/";
 // Đổi số phiên bản khi thay ảnh catalog để trình duyệt tải ảnh mới thay vì ảnh cũ đã lưu.
-const IMG_V = "?v=24";
+const IMG_V = "?v=25";
 // Ảnh hiển thị dùng bản WebP (nhẹ hơn ~40%); bản .jpg gốc giữ lại cho dữ liệu SEO và chia sẻ.
 const webp = f => f.replace(/\.jpg$/, ".webp");
 const full = f => DIR + webp(f) + (/^(catalog|that|khung|tet)\//.test(f) ? IMG_V : "");
