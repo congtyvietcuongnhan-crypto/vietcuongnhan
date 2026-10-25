@@ -199,8 +199,9 @@ section.block { padding-block: 56px; }
 
 /* order */
 .order { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
-form.f { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 22px; display: grid; gap: 12px; }
-.f label { display: grid; gap: 4px; font-size: 13px; color: var(--muted); }
+form.f { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 22px; display: grid; gap: 12px; align-content: start; align-self: start; }
+form.f .btn { justify-content: center; }
+.f label { display: grid; gap: 6px; align-content: start; font-size: 13px; color: var(--muted); }
 .f input, .f select, .f textarea { font: 15px var(--font-body); padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--ivory); color: var(--ink); width: 100%; }
 .f .row { display: grid; grid-template-columns: 2fr 1fr; gap: 12px; }
 .summary { white-space: pre-wrap; background: var(--ivory); border: 1px dashed var(--gold); border-radius: 10px; padding: 12px; font-size: 14px; }
