@@ -8,6 +8,10 @@ import os, re, json, datetime, html as H
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/"
 SITE = "https://vietcuongnhan.com"
 IDX = open(R + "index.html", encoding="utf-8").read()
+# Mã đo lường (GA4) lấy từ trang chủ để mọi trang con dùng chung.
+TRACK = IDX[IDX.index("<!-- Google tag"):IDX.index("</script>", IDX.index("gtag('config'")) + 9] + "\n"
+# Đếm lượt bấm Zalo / gọi điện trên trang con (trang chủ có sẵn đoạn này).
+CLICK = '''<script>document.addEventListener("click", e => { const a = e.target.closest(\'a[href*="zalo.me"], a[href^="tel:"]\'); if (a) { try { gtag("event", a.href.includes("zalo") ? "click_zalo" : "click_call"); } catch {} try { fbq("track", "Contact"); } catch {} } });</script>'''
 
 def cut(a, b, s=IDX, keep_b=True):
     i = s.index(a); j = s.index(b, i)
@@ -74,7 +78,7 @@ def shell(path, title, desc, active, body, ld=None, og="website", script=""):
 <html lang="vi">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+{TRACK}<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{H.escape(title)} | Việt Cường Nhân</title>
 <meta name="description" content="{H.escape(desc)}">
 <link rel="canonical" href="{url}">
@@ -97,6 +101,7 @@ def shell(path, title, desc, active, body, ld=None, og="website", script=""):
 {FOOTER}
 
 {FAB}
+{CLICK}
 {script}
 </body>
 </html>

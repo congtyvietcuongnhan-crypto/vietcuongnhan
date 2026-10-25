@@ -2,6 +2,9 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
+<!-- Google tag (gtag.js) - Việt Cường Nhân G-GYF50SW2ZQ -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GYF50SW2ZQ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-GYF50SW2ZQ');</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Kiến thức yến sào, đông trùng hạ thảo | Việt Cường Nhân</title>
 <meta name="description" content="Bài viết của Việt Cường Nhân về cách chọn, chưng, bảo quản yến sào, nước yến, đông trùng hạ thảo và táo đỏ.">
@@ -413,6 +416,7 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
   <a class="z" href="https://zalo.me/0978094739" target="_blank" rel="noopener" aria-label="Nhắn Zalo Việt Cường Nhân 0978 094 739">Zalo</a>
   <a class="t" href="tel:0978094739" aria-label="Gọi 0978 094 739"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg></a>
 </div>
+<script>document.addEventListener("click", e => { const a = e.target.closest('a[href*="zalo.me"], a[href^="tel:"]'); if (a) { try { gtag("event", a.href.includes("zalo") ? "click_zalo" : "click_call"); } catch {} try { fbq("track", "Contact"); } catch {} } });</script>
 <script>
 const chips = document.querySelectorAll(".kchips .chip"), posts = document.querySelectorAll(".post");
 function show(cat) { posts.forEach(p => p.hidden = !(cat === "all" || p.dataset.cat === cat)); chips.forEach(c => c.setAttribute("aria-pressed", String(c.dataset.cat === cat))); }
