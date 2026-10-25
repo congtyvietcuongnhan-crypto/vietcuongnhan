@@ -1,0 +1,216 @@
+"""Sinh các trang con dùng chung giao diện trang chủ: /gioi-thieu/ và /kien-thuc/.
+Lấy CSS, header, footer, nút nổi từ index.html nên đổi giao diện trang chủ rồi chạy lại là đồng bộ.
+Chạy: python3 tools/trang_con.py
+- Nội dung Giới thiệu: tools/gioi-thieu-noi-dung.html
+- Bài kiến thức: tools/bai_viet.py (danh sách BAI)
+"""
+import os, re, json, datetime, html as H
+R = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/"
+SITE = "https://vietcuongnhan.com"
+IDX = open(R + "index.html", encoding="utf-8").read()
+
+def cut(a, b, s=IDX, keep_b=True):
+    i = s.index(a); j = s.index(b, i)
+    return s[i:j + (len(b) if keep_b else 0)]
+
+STYLE1 = cut("<style>body{margin:0}", "</style>")
+FONTS = cut('<link rel="preconnect" href="https://fonts.googleapis.com">', 'display=swap">')
+STYLE2 = IDX[IDX.index("<style>", IDX.index(FONTS)):]
+STYLE2 = STYLE2[:STYLE2.index("</style>") + 8]
+FOOTER = cut("<footer>", "</footer>")
+FAB = cut('<div class="fab"', "</div>")
+EXTRA_CSS = """<style>
+.intro { padding-block: 44px 16px; display: grid; gap: 10px; }
+.intro h1 { font-size: clamp(32px, 5.5vw, 48px); color: var(--emerald-2); }
+.intro p { margin: 0; color: var(--muted); max-width: 64ch; }
+.kchips { display: flex; flex-wrap: wrap; gap: 8px; padding-block: 8px 22px; }
+.kchips .chip[aria-pressed="true"] { background: var(--emerald-2); border-color: var(--emerald-2); color: #fff; }
+.posts { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; padding-block: 0 56px; }
+.post { display: grid; gap: 8px; align-content: start; text-decoration: none; color: inherit; background: var(--paper); border: 1px solid var(--line); border-top: 3px solid var(--logo-gold); border-radius: 12px; padding: 18px; }
+.post h2 { font-size: 20px; color: var(--ink); }
+.post p { margin: 0; color: var(--muted); font-size: 14px; }
+.post .more { color: var(--emerald-2); font-weight: 700; font-size: 14px; }
+.post:hover { border-color: var(--logo-gold); box-shadow: 0 10px 24px rgb(168 29 36 / .1); }
+.article { max-width: 760px; margin: 0 auto; padding: 36px 20px 56px; }
+.article .crumb { font-size: 13px; color: var(--muted); margin: 0 0 14px; }
+.article .crumb a { color: var(--emerald-2); }
+.article h1 { font-size: clamp(28px, 5vw, 42px); color: var(--emerald-2); margin-block: 6px 12px; }
+.article .lede { font-size: 17px; color: var(--muted); margin: 0 0 24px; }
+.article h2 { font-size: 24px; margin: 30px 0 10px; color: var(--ink); }
+.article h3 { font-size: 18px; margin: 20px 0 6px; color: var(--emerald-2); }
+.article p, .article li { max-width: 68ch; }
+.article ol, .article ul { padding-left: 22px; display: grid; gap: 6px; }
+.article a { color: var(--emerald-2); }
+.article .note { border-left: 3px solid var(--logo-gold); background: var(--paper); padding: 14px 18px; border-radius: 0 10px 10px 0; color: var(--muted); font-size: 14px; margin-top: 30px; }
+.article .cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+.article table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14px; background: var(--paper); border: 1px solid var(--line); }
+.article th, .article td { text-align: left; padding: 9px 12px; border-top: 1px solid var(--line); vertical-align: top; }
+.article td.num { text-align: right; white-space: nowrap; }
+.eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 700; margin: 0; }
+</style>"""
+
+def header(active):
+    items = [("../gioi-thieu/", "Giới thiệu", "gt"), ("../#san-pham", "Sản phẩm", ""), ("../#cam-ket", "Cam kết", ""),
+             ("../#ho-so", "Chứng nhận", ""), ("../kien-thuc/", "Kiến thức", "kt"), ("../#dat-hang", "Đặt hàng", "")]
+    nav = "\n".join(f'      <a href="{h}"{" aria-current=\"page\"" if k == active and k else ""}>{t}</a>' for h, t, k in items)
+    return f'''<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../" aria-label="Việt Cường Nhân">
+      <span class="mark"><img src="../mark.png" alt=""></span>
+      <span><b>VIỆT CƯỜNG NHÂN</b><small>Excellence in Every Product</small></span>
+    </a>
+    <nav class="menu" aria-label="Chính">
+{nav}
+    </nav>
+    <a class="btn btn-line" href="../#dat-hang">Liên hệ</a>
+  </div>
+</header>'''
+
+def shell(path, title, desc, active, body, ld=None, og="website", script=""):
+    url = f"{SITE}/{path}"
+    lds = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>\n' for x in (ld or []))
+    return f'''<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{H.escape(title)} | Việt Cường Nhân</title>
+<meta name="description" content="{H.escape(desc)}">
+<link rel="canonical" href="{url}">
+<link rel="icon" href="../mark.png">
+<meta property="og:type" content="{og}">
+<meta property="og:title" content="{H.escape(title)}">
+<meta property="og:description" content="{H.escape(desc)}">
+<meta property="og:url" content="{url}">
+<meta property="og:image" content="{SITE}/logo.png">
+{lds}{STYLE1}
+{FONTS}
+{STYLE2}
+{EXTRA_CSS}
+</head>
+<body>
+{header(active)}
+
+{body}
+
+{FOOTER}
+
+{FAB}
+{script}
+</body>
+</html>
+'''
+
+LB = '''<dialog class="lb" id="lb" aria-label="Ảnh">
+  <img id="lb-img" alt="">
+  <div class="bar"><span id="lb-n"></span><button type="button" id="lb-x">Đóng</button></div>
+</dialog>
+<script>
+const lb = document.getElementById("lb"), im = document.getElementById("lb-img");
+document.addEventListener("click", e => { const b = e.target.closest("[data-doc]"); if (!b) return;
+  const img = b.querySelector("img"); im.src = img.src.replace("/nho-", "/"); im.alt = img.alt; document.getElementById("lb-n").textContent = img.alt; lb.showModal(); });
+document.getElementById("lb-x").onclick = () => lb.close();
+lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
+</script>'''
+
+def gioi_thieu():
+    c = open(R + "tools/gioi-thieu-noi-dung.html", encoding="utf-8").read()
+    c = c.replace('src="images/', 'src="../images/')
+    c = c.replace('<div class="head"><div><div class="eyebrow">Về chúng tôi</div><h2>Giới thiệu Việt Cường Nhân</h2></div></div>',
+                  '<div class="head"><div><div class="eyebrow">Về chúng tôi</div><h1 style="font-size:clamp(32px,5.5vw,48px);color:var(--emerald-2)">Giới thiệu Việt Cường Nhân</h1></div></div>')
+    c += '''
+<section class="block" style="padding-top:0">
+  <div class="wrap" style="display:flex;flex-wrap:wrap;gap:10px">
+    <a class="btn btn-gold" href="../#san-pham">Xem bảng giá sản phẩm</a>
+    <a class="btn btn-line" href="../#ho-so">Xem chứng nhận HACCP, ISO 22000, GMP</a>
+    <a class="btn btn-line" href="https://zalo.me/0978094739" target="_blank" rel="noopener">Nhắn Zalo 0978 094 739</a>
+  </div>
+</section>'''
+    ld = [{"@context": "https://schema.org", "@type": "AboutPage", "name": "Giới thiệu Việt Cường Nhân", "url": f"{SITE}/gioi-thieu/",
+           "about": {"@type": "Organization", "name": "Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân", "foundingDate": "2009-06",
+                     "url": SITE, "telephone": "+84978094739", "logo": f"{SITE}/logo.png"}}]
+    os.makedirs(R + "gioi-thieu", exist_ok=True)
+    open(R + "gioi-thieu/index.html", "w", encoding="utf-8").write(shell(
+        "gioi-thieu/", "Giới thiệu công ty", "Việt Cường Nhân thành lập năm 2009: nhà yến, xưởng nhặt lông, xưởng tinh chế, nhà máy nước yến chưng, trang trại đông trùng hạ thảo và nha đam. Đạt HACCP, ISO 22000, GMP.",
+        "gt", c, ld, script=LB))
+
+def kien_thuc():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("bai_viet", R + "tools/bai_viet.py")
+    m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+    os.makedirs(R + "kien-thuc", exist_ok=True)
+    cats = []
+    for b in m.BAI:
+        if b["cat"] not in cats: cats.append(b["cat"])
+        body = b["body"]
+        lds = [{"@context": "https://schema.org", "@type": "Article", "headline": b["h1"], "description": b["desc"],
+                "datePublished": b["ngay"], "inLanguage": "vi",
+                "author": {"@type": "Organization", "name": "Việt Cường Nhân"},
+                "publisher": {"@type": "Organization", "name": "Việt Cường Nhân", "logo": {"@type": "ImageObject", "url": f"{SITE}/logo.png"}},
+                "mainEntityOfPage": f"{SITE}/kien-thuc/{b['slug']}.html"}]
+        if b.get("faq"):
+            lds.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", a)}} for q, a in b["faq"]]})
+            body += "\n  <h2>Câu hỏi thường gặp</h2>\n" + "\n".join(f"  <h3>{q}</h3>\n  <p>{a}</p>" for q, a in b["faq"])
+        art = f'''<main class="article">
+  <p class="crumb"><a href="./">Kiến thức</a> / {b["cat"]}</p>
+  <p class="eyebrow">{b["cat"]}</p>
+  <h1>{b["h1"]}</h1>
+  <p class="lede">{b["lede"]}</p>
+{body}
+  <p class="note">Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh. Người đang mang thai, có bệnh nền hoặc đang dùng thuốc nên hỏi ý kiến bác sĩ trước khi dùng.</p>
+  <div class="cta">
+    <a class="btn btn-gold" href="../#san-pham">Xem bảng giá</a>
+    <a class="btn btn-line" href="https://zalo.me/0978094739" target="_blank" rel="noopener">Nhắn Zalo tư vấn</a>
+    <a class="btn btn-line" href="./">Xem bài khác</a>
+  </div>
+</main>'''
+        open(R + f"kien-thuc/{b['slug']}.html", "w", encoding="utf-8").write(
+            shell(f"kien-thuc/{b['slug']}.html", b["h1"], b["desc"], "kt", art, lds, og="article"))
+    slug = lambda c: re.sub(r"[^a-z0-9]+", "-", c.lower().translate(str.maketrans("àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ",
+        "aaaaaaaaaaaaaaaaaeeeeeeeeeeeiiiiiooooooooooooooooouuuuuuuuuuuyyyyyd"))).strip("-")
+    chips = '    <button class="chip" type="button" aria-pressed="true" data-cat="all">Tất cả</button>\n' + "\n".join(
+        f'    <button class="chip" type="button" aria-pressed="false" data-cat="{slug(c)}">{c}</button>' for c in cats)
+    posts = "\n".join(f'''    <a class="post" href="{b["slug"]}.html" data-cat="{slug(b["cat"])}">
+      <span class="eyebrow">{b["cat"]}</span>
+      <h2>{b["h1"]}</h2>
+      <p>{b["desc"]}</p>
+      <span class="more">Đọc bài →</span>
+    </a>''' for b in reversed(m.BAI))
+    body = f'''<main class="wrap">
+  <div class="intro">
+    <p class="eyebrow">Kiến thức</p>
+    <h1>Góc kiến thức Việt Cường Nhân</h1>
+    <p>Cách chọn, sơ chế, chưng và bảo quản yến sào, nước yến, đông trùng hạ thảo, táo đỏ, viết từ kinh nghiệm của xưởng yến và nhà máy Việt Cường Nhân.</p>
+  </div>
+  <div class="kchips" role="group" aria-label="Chuyên mục">
+{chips}
+  </div>
+  <div class="posts" id="posts">
+{posts}
+  </div>
+</main>'''
+    script = '''<script>
+const chips = document.querySelectorAll(".kchips .chip"), posts = document.querySelectorAll(".post");
+function show(cat) { posts.forEach(p => p.hidden = !(cat === "all" || p.dataset.cat === cat)); chips.forEach(c => c.setAttribute("aria-pressed", String(c.dataset.cat === cat))); }
+chips.forEach(c => c.addEventListener("click", () => { show(c.dataset.cat); history.replaceState(null, "", c.dataset.cat === "all" ? "./" : "#" + c.dataset.cat); }));
+const h = location.hash.slice(1); if (h && document.querySelector('.chip[data-cat="' + h + '"]')) show(h);
+</script>'''
+    ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Kiến thức yến sào, đông trùng hạ thảo", "url": f"{SITE}/kien-thuc/"}]
+    open(R + "kien-thuc/index.html", "w", encoding="utf-8").write(shell(
+        "kien-thuc/", "Kiến thức yến sào, đông trùng hạ thảo", "Bài viết của Việt Cường Nhân về cách chọn, chưng, bảo quản yến sào, nước yến, đông trùng hạ thảo và táo đỏ.",
+        "kt", body, ld, script=script))
+    return m.BAI
+
+def sitemap(bai):
+    today = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=7)).strftime("%Y-%m-%d")
+    urls = [f"{SITE}/", f"{SITE}/gioi-thieu/", f"{SITE}/kien-thuc/"] + [f"{SITE}/kien-thuc/{b['slug']}.html" for b in bai]
+    x = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(
+        f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n"
+    open(R + "sitemap.xml", "w", encoding="utf-8").write(x)
+
+if __name__ == "__main__":
+    gioi_thieu()
+    bai = kien_thuc()
+    sitemap(bai)
+    print("gioi-thieu + kien-thuc:", len(bai), "bài")
