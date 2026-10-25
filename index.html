@@ -32,46 +32,47 @@
 .map { margin-top: 18px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; font-size: 14px; }
 .map iframe { width: 100%; aspect-ratio: 4 / 3; max-height: 300px; border: 1px solid var(--line); border-radius: 12px; }
 @media (max-width: 640px) { footer .wrap { padding-right: 76px; } }
-@media (max-width: 640px) { .brand small { display: none; } .brand b { font-size: 18px; } }
+@media (max-width: 640px) { .brand small { display: none; } .brand b { font-size: 16px; white-space: nowrap; } .brand .mark { width: 42px; height: 42px; } .brand .mark img { width: 34px; } header .btn { white-space: nowrap; padding: 9px 14px; } }
 </style>
 <title>Yến Sào, Đông Trùng Hạ Thảo | Việt Cường Nhân</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap">
 <style>
 /* Layout: a narrow shop column; one emerald band carries the brand promise, everything else sits on ivory with gold hairlines. */
 :root {
   --ivory: #fbfaf5;
   --paper: #ffffff;
-  --ink: #16203a;
-  --muted: #5b6478;
-  --emerald: #1c3b85;
-  --emerald-2: #2a52a9;
+  --ink: #2a1a1b;
+  --muted: #6b5a5b;
+  --emerald: #a81d24;
+  --emerald-2: #c9252c;
   --gold: #b8892b;
   --gold-soft: #e9d9b0;
   --line: #e4dfcf;
   --on-emerald: #f6efd9;
   --sale: #a3321f;
-  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --logo-gold: #e8cf55;
+  --font-display: "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;
   --font-body: "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --ivory: #0c1426; --paper: #121c33; --ink: #eee9da; --muted: #a9b2c6;
-    --emerald: #162f6b; --emerald-2: #3563c4; --gold: #d8b05a; --gold-soft: #4a3e22;
-    --line: #2a3350; --on-emerald: #f3ead0; --sale: #ef8a74; color-scheme: dark;
+    --ivory: #1a0d0e; --paper: #241315; --ink: #eee9da; --muted: #c4b0b1;
+    --emerald: #5c1216; --emerald-2: #e2565c; --gold: #d8b05a; --gold-soft: #4a3e22;
+    --line: #3d2426; --on-emerald: #f3ead0; --sale: #ef8a74; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --ivory: #0c1426; --paper: #121c33; --ink: #eee9da; --muted: #a9b2c6;
-  --emerald: #162f6b; --emerald-2: #3563c4; --gold: #d8b05a; --gold-soft: #4a3e22;
-  --line: #2a3350; --on-emerald: #f3ead0; --sale: #ef8a74; color-scheme: dark;
+  --ivory: #1a0d0e; --paper: #241315; --ink: #eee9da; --muted: #c4b0b1;
+  --emerald: #5c1216; --emerald-2: #e2565c; --gold: #d8b05a; --gold-soft: #4a3e22;
+  --line: #3d2426; --on-emerald: #f3ead0; --sale: #ef8a74; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body { background: var(--ivory); color: var(--ink); font: 400 15px/1.6 var(--font-body); }
 a { color: inherit; }
 .wrap { max-width: 1120px; margin: 0 auto; padding-inline: 20px; }
-h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.15; text-wrap: balance; margin: 0; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.25; letter-spacing: -.01em; text-wrap: balance; margin: 0; }
 .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
 :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
@@ -81,7 +82,7 @@ header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; b
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
 .brand .mark { width: 52px; height: 52px; border-radius: 10px; background: #fff; display: grid; place-items: center; border: 1px solid var(--gold-soft); }
 .brand .mark img { width: 42px; }
-.brand b { font-family: var(--font-display); font-size: 22px; letter-spacing: .02em; color: var(--emerald-2); display: block; line-height: 1; }
+.brand b { font-family: var(--font-display); font-size: 19px; font-weight: 800; letter-spacing: .01em; color: var(--emerald-2); display: block; line-height: 1; }
 .brand small { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
 nav.menu { display: flex; gap: 22px; font-size: 14px; }
 nav.menu a { text-decoration: none; color: var(--muted); }
@@ -96,7 +97,7 @@ nav.menu a:hover { color: var(--ink); }
 .hero { background: var(--emerald); color: var(--on-emerald); position: relative; overflow: hidden; }
 .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(60% 80% at 85% 20%, rgba(216,176,90,.18), transparent 70%); pointer-events: none; }
 .hero .wrap { display: grid; grid-template-columns: 1.2fr .8fr; gap: 40px; align-items: center; padding-block: 56px; position: relative; z-index: 1; }
-.hero h1 { font-size: clamp(36px, 5.6vw, 64px); font-style: italic; font-weight: 500; }
+.hero h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 800; }
 .hero h1 span { display: block; font-style: normal; font-weight: 700; color: var(--gold); }
 .hero p { max-width: 52ch; color: color-mix(in srgb, var(--on-emerald) 82%, transparent); margin: 18px 0 26px; }
 .hero .cta { display: flex; flex-wrap: wrap; gap: 12px; }
@@ -117,23 +118,24 @@ section.block { padding-block: 56px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; }
 .card { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
 .ph { aspect-ratio: 1/1; max-width: 100%; background: linear-gradient(140deg, var(--emerald), var(--emerald-2)); color: var(--on-emerald); display: grid; place-items: center; text-align: center; position: relative; }
-.ph strong { font: italic 600 26px var(--font-display); color: var(--gold); padding: 0 12px; }
+.ph strong { font: 700 22px var(--font-display); color: var(--gold); padding: 0 12px; }
 .ph em { position: absolute; bottom: 8px; left: 0; right: 0; font-style: normal; font-size: 11px; opacity: .7; }
 .card .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1; min-width: 0; }
 .card .cat { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
 .card h3 { font: 600 15px/1.4 var(--font-body); }
 .card .spec { font-size: 13px; color: var(--muted); }
 .price { display: flex; align-items: baseline; gap: 8px; margin-top: auto; padding-top: 8px; font-variant-numeric: tabular-nums; }
-.price b { font: 700 22px var(--font-display); color: var(--sale); }
+.price b { font: 700 20px var(--font-display); color: var(--sale); }
 .price s { font-size: 13px; color: var(--muted); }
 .card .btn { justify-content: center; margin-top: 8px; }
 /* product cards sit on the hero green so the whole tile reads as one green block */
-.grid .card { background: linear-gradient(160deg, var(--emerald), var(--emerald-2)); border-color: var(--emerald-2); color: var(--on-emerald); }
+.grid .card { background: linear-gradient(160deg, #7e1218, var(--emerald)); border: 2px solid var(--logo-gold); color: var(--on-emerald); }
+.grid .card .cat { color: var(--logo-gold); }
 .grid .card .spec { color: color-mix(in srgb, var(--on-emerald) 72%, transparent); }
-.grid .card .price b { color: var(--gold); }
+.grid .card .price b { color: var(--logo-gold); }
 .grid .card .price s { color: color-mix(in srgb, var(--on-emerald) 60%, transparent); }
-.grid .card .btn-line { color: var(--on-emerald); box-shadow: inset 0 0 0 1px var(--gold); }
-.grid .card .btn-line:hover { background: var(--gold); color: #1b1404; }
+.grid .card .btn-line { color: var(--on-emerald); box-shadow: inset 0 0 0 1px var(--logo-gold); }
+.grid .card .btn-line:hover { background: var(--logo-gold); color: #3a0a0d; }
 
 /* gift band */
 .gift { background: var(--paper); border-block: 1px solid var(--line); }
@@ -184,7 +186,7 @@ form.f { background: var(--paper); border: 1px solid var(--line); border-radius:
 .f .row { display: grid; grid-template-columns: 2fr 1fr; gap: 12px; }
 .summary { white-space: pre-wrap; background: var(--ivory); border: 1px dashed var(--gold); border-radius: 10px; padding: 12px; font-size: 14px; }
 .contact p { margin: 0 0 10px; }
-.contact .big { font: 700 30px var(--font-display); color: var(--emerald-2); user-select: all; }
+.contact .big { font: 700 28px var(--font-display); color: var(--emerald-2); user-select: all; }
 @media (max-width: 760px) { .order { grid-template-columns: 1fr; } .f .row { grid-template-columns: 1fr; } }
 
 footer { background: var(--emerald); color: var(--on-emerald); font-size: 13px; }
@@ -193,7 +195,7 @@ footer b { color: var(--gold); }
 footer .policy-links a { color: var(--on-emerald); }
 footer p { margin: 0 0 6px; opacity: .9; }
 @media (max-width: 760px) { footer .wrap { grid-template-columns: 1fr; } }
-@media (prefers-reduced-motion: no-preference) { .card { transition: transform .2s, box-shadow .2s; } .card:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(28,59,133,.12); } }
+@media (prefers-reduced-motion: no-preference) { .card { transition: transform .2s, box-shadow .2s; } .card:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(168,29,36,.12); } }
 /* product photos */
 button.ph { border: 0; padding: 0; width: 100%; cursor: zoom-in; font: inherit; }
 .ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -466,101 +468,101 @@ const AN_XA_BONG = false;
 if (AN_XA_BONG) for (let i = P.length - 1; i >= 0; i--) if (/xà bông/i.test(P[i][1] + " " + P[i][2])) P.splice(i, 1);
 const R = (k, n) => n.map(i => `${k}-${i}.jpg`);
 const IMG = {
-  101: ["that/yen-tho-nguyen-to-it-long.jpg", "that/yen-tho-to-ab-that-1.jpg", "that/yen-tho-to-ab-that-2.jpg", "that/yen-tho-to-ab-that-3.jpg", "catalog/yen-tho-to-ab-it-long.jpg"],
-  102: ["that/yen-tho-nguyen-to-that-1.jpg", "that/yen-tho-nguyen-to-that-2.jpg", "that/yen-tho-nguyen-to-that-3.jpg", "catalog/yen-tho-nguyen-to-gia-mem.jpg"],
-  103: ["that/yen-tho-be-nut-nhe-it-long-that-1.jpg", "that/yen-tho-be-nut-nhe-it-long-that-2.jpg", "catalog/yen-tho-be-nut-nhe-it-long.jpg"],
-  104: ["that/yen-tho-be-nut-nhe-that-1.jpg", "catalog/yen-tho-be-nut-nhe.jpg"],
-  105: ["that/chan-ria-tho-that-2.jpg", "catalog/chan-ria-tho.jpg"],
-  106: ["catalog/tinh-che-vun-dap-to.jpg"],
-  107: ["catalog/tinh-che-vun-baby.jpg"],
-  108: ["catalog/tinh-che-soi-ngan-dau-chan.jpg"],
-  109: ["that/tinh-che-1-lop-soi-vua-that-1.jpg", "catalog/tinh-che-1-lop-soi-vua.jpg"],
-  110: ["catalog/tinh-che-1-lop-soi-10-tai.jpg"],
-  111: ["catalog/tinh-che-1-lop-soi-18-20-tai.jpg"],
-  112: ["catalog/tinh-che-2-lop-soi.jpg"],
-  113: ["that/yen-rut-long-dap-to-sach.jpg", "catalog/rut-long-dap-to.jpg"],
-  114: ["that/rut-long-dinh-hinh-that-1.jpg", "catalog/rut-long-dinh-hinh.jpg"],
-  115: ["catalog/rut-long-xuong.jpg"],
-  116: ["that/rut-long-kho-that-1.jpg", "catalog/rut-long-kho.jpg"],
-  117: ["that/rut-long-kho-ep-mieng-that-1.jpg"],
-  118: ["that/chan-tua-loai-1-that-1.jpg", "that/chan-tua-loai-1-that-2.jpg", "catalog/chan-tua-sach-loai-1.jpg"],
-  119: ["that/chan-tua-loai-2-that-1.jpg", "catalog/chan-tua-sach-loai-2.jpg"],
-  120: ["catalog/vien-baby-mix-phu-gia-goi.jpg"],
-  121: ["catalog/vien-baby-mix-phu-gia-goi.jpg"],
-  122: ["catalog/dap-mieng-soi-vuong.jpg"],
-  123: ["catalog/vuong-mieng-lon.jpg"],
-  124: ["that/yen-chung-thu-cong-70ml-1-hu.jpg"],
-  125: ["that/yen-chung-thu-cong-200ml-1-chai.jpg"],
-  126: ["that/vcn-nest-0-3gr-1-hu.jpg"],
-  127: ["that/vcn-nest-0-8gr-1-hu.jpg"],
-  128: ["that/nuoc-yen-chung-duong-phen.jpg"],
-  129: ["catalog/vcn-nest-loc-6-0-3gr.jpg"],
-  130: ["that/vcn-nest-loc-10-0-3gr-do.jpg"],
-  131: ["catalog/vcn-nest-loc-10-0-3gr.jpg"],
-  132: ["that/nuoc-yen-chung-duong-phen.jpg"],
-  133: ["catalog/vcn-nest-loc-6-0-3gr.jpg"],
-  134: ["that/vcn-nest-loc-10-0-3gr-do.jpg"],
-  135: ["catalog/vcn-nest-loc-10-0-3gr.jpg"],
-  136: ["catalog/nam-dong-trung-loai-cay-100gr.jpg"],
-  137: ["catalog/nam-dong-trung-loai-cay-100gr.jpg"],
-  138: ["that/dong-trung-loai-gay-that-1.jpg", "catalog/nam-dong-trung-loai-gay.jpg"],
-  139: ["catalog/dong-trung-tuoi.jpg"],
-  140: ["that/dong-trung-ha-thao-10gr-hu.jpg", "catalog/dong-trung-10gr.jpg"],
-  141: ["catalog/dong-trung-20gr.jpg"],
-  142: ["catalog/tao-do-size-trung-1kg.jpg"],
-  143: ["catalog/tao-do-size-dai-1kg.jpg"],
-  144: ["catalog/tao-do-thuong-hang-1kg.jpg"],
-  145: ["catalog/tao-do-size-trung-hop.jpg"],
-  146: ["catalog/tao-do-size-dai-hop.jpg"],
-  147: ["catalog/tao-do-nhuoc-khuong-hop.jpg"],
-  148: ["that/nha-dam-co-duong-tui-that-1.jpg"],
-  149: ["that/nha-dam-khong-duong-tui-that-1.jpg"],
-  201: ["that/xa-bong-vuong-tra-xanh.jpg"],
-  202: ["that/xa-bong-vuong-bac-ha.jpg"],
-  203: ["that/xa-bong-vuong-cherry.jpg"],
-  204: ["that/xa-bong-vuong-chuoi.jpg"],
-  205: ["that/xa-bong-vuong-dua-thom.jpg"],
-  206: ["that/xa-bong-vuong-dua-coc.jpg"],
-  207: ["that/xa-bong-vuong-gao-rang.jpg"],
-  208: ["that/xa-bong-vuong-lyly.jpg"],
-  209: ["that/xa-bong-vuong-lan.jpg"],
-  210: ["that/xa-bong-vuong-mang-cut.jpg"],
-  211: ["that/xa-bong-vuong-sen.jpg"],
-  212: ["that/xa-bong-vuong-vani.jpg"],
-  213: ["that/xa-bong-hoa-mau-don.jpg"],
-  214: ["that/xa-bong-hoa-nho.jpg"],
-  215: ["that/xa-bong-hoa-bap.jpg"],
-  216: ["that/xa-bong-hoa-buoi.jpg", "that/xa-bong-hoa-buoi-2.jpg"],
-  217: ["that/xa-bong-hoa-cam.jpg"],
-  218: ["that/xa-bong-hoa-chuoi.jpg"],
-  219: ["that/xa-bong-hoa-dau.jpg"],
-  220: ["that/xa-bong-hoa-dua-coc.jpg"],
-  221: ["that/xa-bong-hoa-dua-thom.jpg"],
-  222: ["that/xa-bong-hoa-hong.jpg"],
-  223: ["that/xa-bong-hoa-huong-duong.jpg"],
-  224: ["that/xa-bong-hoa-lan.jpg", "that/xa-bong-hoa-lan-2.jpg"],
-  225: ["that/xa-bong-hoa-mang-cut.jpg", "that/xa-bong-hoa-mang-cut-2.jpg"],
-  226: ["that/xa-bong-hoa-mat-ong.jpg"],
-  227: ["that/xa-bong-hoa-su.jpg"],
-  228: ["that/xa-bong-hoa-xoai.jpg"],
-  229: ["catalog/xa-bong-hoa-bong-buoi.jpg"],
-  230: ["that/xa-bong-hoa-ca-phe.jpg"],
-  231: ["catalog/nuoc-tay-trang.jpg"],
-  232: ["catalog/sua-rua-mat.jpg"],
-  233: ["catalog/toner.jpg"],
-  234: ["catalog/serum-trang-da-giam-nep-nhan.jpg"],
-  235: ["catalog/kem-duong-am-trang-da.jpg"],
-  236: ["catalog/gel-tay-da-chet.jpg"],
-  237: ["catalog/kem-chong-nang.jpg"],
-  238: ["catalog/mat-na.jpg"],
-  239: ["catalog/dau-goi-nhan-sam-han-quoc.jpg"],
-  240: ["catalog/tinh-chat-duong-toc-nhan-sam-han-quoc.jpg"],
-  241: ["catalog/kem-u-toc-nhan-sam-han-quoc.jpg"],
-  242: ["catalog/mat-na-hong-nau-xanh.jpg"],
-  243: ["catalog/dau-goi-trai-nhau.jpg"],
-  244: ["catalog/xa-bong-giam-mun.jpg"],
-  245: ["catalog/nuoc-rua-tay-kho.jpg"],
-  246: ["catalog/combo-3-xa-bong.jpg"],
+  101: ["khung/101.jpg", "that/yen-tho-nguyen-to-it-long.jpg", "that/yen-tho-to-ab-that-1.jpg", "that/yen-tho-to-ab-that-2.jpg", "that/yen-tho-to-ab-that-3.jpg", "catalog/yen-tho-to-ab-it-long.jpg"],
+  102: ["khung/102.jpg", "that/yen-tho-nguyen-to-that-1.jpg", "that/yen-tho-nguyen-to-that-2.jpg", "that/yen-tho-nguyen-to-that-3.jpg", "catalog/yen-tho-nguyen-to-gia-mem.jpg"],
+  103: ["khung/103.jpg", "that/yen-tho-be-nut-nhe-it-long-that-1.jpg", "that/yen-tho-be-nut-nhe-it-long-that-2.jpg", "catalog/yen-tho-be-nut-nhe-it-long.jpg"],
+  104: ["khung/104.jpg", "that/yen-tho-be-nut-nhe-that-1.jpg", "catalog/yen-tho-be-nut-nhe.jpg"],
+  105: ["khung/105.jpg", "that/chan-ria-tho-that-2.jpg", "catalog/chan-ria-tho.jpg"],
+  106: ["khung/106.jpg", "catalog/tinh-che-vun-dap-to.jpg"],
+  107: ["khung/107.jpg", "catalog/tinh-che-vun-baby.jpg"],
+  108: ["khung/108.jpg", "catalog/tinh-che-soi-ngan-dau-chan.jpg"],
+  109: ["khung/109.jpg", "that/tinh-che-1-lop-soi-vua-that-1.jpg", "catalog/tinh-che-1-lop-soi-vua.jpg"],
+  110: ["khung/110.jpg", "catalog/tinh-che-1-lop-soi-10-tai.jpg"],
+  111: ["khung/111.jpg", "catalog/tinh-che-1-lop-soi-18-20-tai.jpg"],
+  112: ["khung/112.jpg", "catalog/tinh-che-2-lop-soi.jpg"],
+  113: ["khung/113.jpg", "that/yen-rut-long-dap-to-sach.jpg", "catalog/rut-long-dap-to.jpg"],
+  114: ["khung/114.jpg", "that/rut-long-dinh-hinh-that-1.jpg", "catalog/rut-long-dinh-hinh.jpg"],
+  115: ["khung/115.jpg", "catalog/rut-long-xuong.jpg"],
+  116: ["khung/116.jpg", "that/rut-long-kho-that-1.jpg", "catalog/rut-long-kho.jpg"],
+  117: ["khung/117.jpg", "that/rut-long-kho-ep-mieng-that-1.jpg"],
+  118: ["khung/118.jpg", "that/chan-tua-loai-1-that-1.jpg", "that/chan-tua-loai-1-that-2.jpg", "catalog/chan-tua-sach-loai-1.jpg"],
+  119: ["khung/119.jpg", "that/chan-tua-loai-2-that-1.jpg", "catalog/chan-tua-sach-loai-2.jpg"],
+  120: ["khung/120.jpg", "catalog/vien-baby-mix-phu-gia-goi.jpg"],
+  121: ["khung/121.jpg", "catalog/vien-baby-mix-phu-gia-goi.jpg"],
+  122: ["khung/122.jpg", "catalog/dap-mieng-soi-vuong.jpg"],
+  123: ["khung/123.jpg", "catalog/vuong-mieng-lon.jpg"],
+  124: ["khung/124.jpg", "that/yen-chung-thu-cong-70ml-1-hu.jpg"],
+  125: ["khung/125.jpg", "that/yen-chung-thu-cong-200ml-1-chai.jpg"],
+  126: ["khung/126.jpg", "that/vcn-nest-0-3gr-1-hu.jpg"],
+  127: ["khung/127.jpg", "that/vcn-nest-0-8gr-1-hu.jpg"],
+  128: ["khung/128.jpg", "that/nuoc-yen-chung-duong-phen.jpg"],
+  129: ["khung/129.jpg", "catalog/vcn-nest-loc-6-0-3gr.jpg"],
+  130: ["khung/130.jpg", "that/vcn-nest-loc-10-0-3gr-do.jpg"],
+  131: ["khung/131.jpg", "catalog/vcn-nest-loc-10-0-3gr.jpg"],
+  132: ["khung/132.jpg", "that/nuoc-yen-chung-duong-phen.jpg"],
+  133: ["khung/133.jpg", "catalog/vcn-nest-loc-6-0-3gr.jpg"],
+  134: ["khung/134.jpg", "that/vcn-nest-loc-10-0-3gr-do.jpg"],
+  135: ["khung/135.jpg", "catalog/vcn-nest-loc-10-0-3gr.jpg"],
+  136: ["khung/136.jpg", "catalog/nam-dong-trung-loai-cay-100gr.jpg"],
+  137: ["khung/137.jpg", "catalog/nam-dong-trung-loai-cay-100gr.jpg"],
+  138: ["khung/138.jpg", "that/dong-trung-loai-gay-that-1.jpg", "catalog/nam-dong-trung-loai-gay.jpg"],
+  139: ["khung/139.jpg", "catalog/dong-trung-tuoi.jpg"],
+  140: ["khung/140.jpg", "that/dong-trung-ha-thao-10gr-hu.jpg", "catalog/dong-trung-10gr.jpg"],
+  141: ["khung/141.jpg", "catalog/dong-trung-20gr.jpg"],
+  142: ["khung/142.jpg", "catalog/tao-do-size-trung-1kg.jpg"],
+  143: ["khung/143.jpg", "catalog/tao-do-size-dai-1kg.jpg"],
+  144: ["khung/144.jpg", "catalog/tao-do-thuong-hang-1kg.jpg"],
+  145: ["khung/145.jpg", "catalog/tao-do-size-trung-hop.jpg"],
+  146: ["khung/146.jpg", "catalog/tao-do-size-dai-hop.jpg"],
+  147: ["khung/147.jpg", "catalog/tao-do-nhuoc-khuong-hop.jpg"],
+  148: ["khung/148.jpg", "that/nha-dam-co-duong-tui-that-1.jpg"],
+  149: ["khung/149.jpg", "that/nha-dam-khong-duong-tui-that-1.jpg"],
+  201: ["khung/201.jpg", "that/xa-bong-vuong-tra-xanh.jpg"],
+  202: ["khung/202.jpg", "that/xa-bong-vuong-bac-ha.jpg"],
+  203: ["khung/203.jpg", "that/xa-bong-vuong-cherry.jpg"],
+  204: ["khung/204.jpg", "that/xa-bong-vuong-chuoi.jpg"],
+  205: ["khung/205.jpg", "that/xa-bong-vuong-dua-thom.jpg"],
+  206: ["khung/206.jpg", "that/xa-bong-vuong-dua-coc.jpg"],
+  207: ["khung/207.jpg", "that/xa-bong-vuong-gao-rang.jpg"],
+  208: ["khung/208.jpg", "that/xa-bong-vuong-lyly.jpg"],
+  209: ["khung/209.jpg", "that/xa-bong-vuong-lan.jpg"],
+  210: ["khung/210.jpg", "that/xa-bong-vuong-mang-cut.jpg"],
+  211: ["khung/211.jpg", "that/xa-bong-vuong-sen.jpg"],
+  212: ["khung/212.jpg", "that/xa-bong-vuong-vani.jpg"],
+  213: ["khung/213.jpg", "that/xa-bong-hoa-mau-don.jpg"],
+  214: ["khung/214.jpg", "that/xa-bong-hoa-nho.jpg"],
+  215: ["khung/215.jpg", "that/xa-bong-hoa-bap.jpg"],
+  216: ["khung/216.jpg", "that/xa-bong-hoa-buoi.jpg", "that/xa-bong-hoa-buoi-2.jpg"],
+  217: ["khung/217.jpg", "that/xa-bong-hoa-cam.jpg"],
+  218: ["khung/218.jpg", "that/xa-bong-hoa-chuoi.jpg"],
+  219: ["khung/219.jpg", "that/xa-bong-hoa-dau.jpg"],
+  220: ["khung/220.jpg", "that/xa-bong-hoa-dua-coc.jpg"],
+  221: ["khung/221.jpg", "that/xa-bong-hoa-dua-thom.jpg"],
+  222: ["khung/222.jpg", "that/xa-bong-hoa-hong.jpg"],
+  223: ["khung/223.jpg", "that/xa-bong-hoa-huong-duong.jpg"],
+  224: ["khung/224.jpg", "that/xa-bong-hoa-lan.jpg", "that/xa-bong-hoa-lan-2.jpg"],
+  225: ["khung/225.jpg", "that/xa-bong-hoa-mang-cut.jpg", "that/xa-bong-hoa-mang-cut-2.jpg"],
+  226: ["khung/226.jpg", "that/xa-bong-hoa-mat-ong.jpg"],
+  227: ["khung/227.jpg", "that/xa-bong-hoa-su.jpg"],
+  228: ["khung/228.jpg", "that/xa-bong-hoa-xoai.jpg"],
+  229: ["khung/229.jpg", "catalog/xa-bong-hoa-bong-buoi.jpg"],
+  230: ["khung/230.jpg", "that/xa-bong-hoa-ca-phe.jpg"],
+  231: ["khung/231.jpg", "catalog/nuoc-tay-trang.jpg"],
+  232: ["khung/232.jpg", "catalog/sua-rua-mat.jpg"],
+  233: ["khung/233.jpg", "catalog/toner.jpg"],
+  234: ["khung/234.jpg", "catalog/serum-trang-da-giam-nep-nhan.jpg"],
+  235: ["khung/235.jpg", "catalog/kem-duong-am-trang-da.jpg"],
+  236: ["khung/236.jpg", "catalog/gel-tay-da-chet.jpg"],
+  237: ["khung/237.jpg", "catalog/kem-chong-nang.jpg"],
+  238: ["khung/238.jpg", "catalog/mat-na.jpg"],
+  239: ["khung/239.jpg", "catalog/dau-goi-nhan-sam-han-quoc.jpg"],
+  240: ["khung/240.jpg", "catalog/tinh-chat-duong-toc-nhan-sam-han-quoc.jpg"],
+  241: ["khung/241.jpg", "catalog/kem-u-toc-nhan-sam-han-quoc.jpg"],
+  242: ["khung/242.jpg", "catalog/mat-na-hong-nau-xanh.jpg"],
+  243: ["khung/243.jpg", "catalog/dau-goi-trai-nhau.jpg"],
+  244: ["khung/244.jpg", "catalog/xa-bong-giam-mun.jpg"],
+  245: ["khung/245.jpg", "catalog/nuoc-rua-tay-kho.jpg"],
+  246: ["khung/246.jpg", "catalog/combo-3-xa-bong.jpg"],
 };
 const SETS = [
   ["Set quà yến tinh chế sợi ngắn 50g"],
@@ -575,7 +577,7 @@ const SETS = [
 const HET_HANG = [];
 const DIR = "images/san-pham/";
 // Đổi số phiên bản khi thay ảnh catalog để trình duyệt tải ảnh mới thay vì ảnh cũ đã lưu.
-const IMG_V = "?v=21";
+const IMG_V = "?v=22";
 // Ảnh hiển thị dùng bản WebP (nhẹ hơn ~40%); bản .jpg gốc giữ lại cho dữ liệu SEO và chia sẻ.
 const webp = f => f.replace(/\.jpg$/, ".webp");
 const full = f => DIR + webp(f) + (/^(catalog|that|khung|tet)\//.test(f) ? IMG_V : "");
