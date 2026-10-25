@@ -50,7 +50,7 @@ EXTRA_CSS = """<style>
 </style>"""
 
 def header(active):
-    items = [("../gioi-thieu/", "Giới thiệu", "gt"), ("../#san-pham", "Sản phẩm", ""), ("../#cam-ket", "Cam kết &amp; Chứng nhận", ""),
+    items = [("../gioi-thieu/", "Giới thiệu", "gt"), ("../#san-pham", "Sản phẩm", ""), ("../chung-nhan/", "Chứng nhận &amp; Cam kết", "cn"),
              ("../kien-thuc/", "Kiến thức", "kt")]
     nav = "\n".join(f'      <a href="{h}"{" aria-current=\"page\"" if k == active and k else ""}>{t}</a>' for h, t, k in items)
     return f'''<header class="top">
@@ -113,6 +113,31 @@ document.getElementById("lb-x").onclick = () => lb.close();
 lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
 </script>'''
 
+# Lightbox nhiều trang cho giấy chứng nhận và bản tự công bố (bấm Trước/Sau để lật trang).
+LB_DOCS = '''<dialog class="lb" id="lb" aria-label="Giấy tờ">
+  <img id="lb-img" alt="">
+  <div class="bar"><button type="button" id="lb-prev">Trước</button><span id="lb-n"></span><button type="button" id="lb-next">Sau</button><button type="button" id="lb-x">Đóng</button></div>
+</dialog>
+<script>
+const pages = (n, c, t) => Array.from({length: c}, (_, i) => [`../ho-so/trang/${n}-${i + 1}.jpg`, `${t} (trang ${i + 1}/${c})`]);
+const DOCS = {
+  haccp: [["../ho-so/haccp-vn.jpg", "Chứng nhận HACCP, GKVN-0387-HC (tiếng Việt)"], ["../ho-so/haccp.jpg", "HACCP certificate, GKVN-0387-HC (English)"]],
+  iso: [["../ho-so/iso22000-vn.jpg", "Chứng nhận ISO 22000:2018, GKVN-0387-FC (tiếng Việt)"], ["../ho-so/iso22000.jpg", "ISO 22000:2018 certificate, GKVN-0387-FC (English)"]],
+  gmp: [["../ho-so/gmp.jpg", "Chứng nhận GMP, GKVN-0387-GMP"]],
+  "yen-tho": pages("yen-tho", 5, "Bản tự công bố Tổ yến thô"),
+  "yen-tinh-che": pages("yen-tinh-che", 5, "Bản tự công bố Tổ yến tinh chế"),
+  "dong-trung": pages("dong-trung", 7, "Bản tự công bố Nấm đông trùng hạ thảo")
+};
+const lb = document.getElementById("lb"), lbImg = document.getElementById("lb-img"), prev = document.getElementById("lb-prev"), next = document.getElementById("lb-next");
+let gal = [], gi = 0;
+function lbShow() { lbImg.src = gal[gi][0]; lbImg.alt = gal[gi][1]; document.getElementById("lb-n").textContent = gal.length > 1 && !/trang \\d/.test(gal[gi][1]) ? `${gal[gi][1]} · ${gi + 1}/${gal.length}` : gal[gi][1]; prev.hidden = next.hidden = gal.length < 2; }
+document.addEventListener("click", e => { const d = e.target.closest("[data-doc]"); if (d && DOCS[d.dataset.doc]) { gal = DOCS[d.dataset.doc]; gi = 0; lbShow(); lb.showModal(); } });
+prev.onclick = () => { gi = (gi + gal.length - 1) % gal.length; lbShow(); };
+next.onclick = () => { gi = (gi + 1) % gal.length; lbShow(); };
+document.getElementById("lb-x").onclick = () => lb.close();
+lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
+</script>'''
+
 def gioi_thieu():
     c = open(R + "tools/gioi-thieu-noi-dung.html", encoding="utf-8").read()
     c = c.replace('src="images/', 'src="../images/')
@@ -122,7 +147,7 @@ def gioi_thieu():
 <section class="block" style="padding-top:0">
   <div class="wrap" style="display:flex;flex-wrap:wrap;gap:10px">
     <a class="btn btn-gold" href="../#san-pham">Xem bảng giá sản phẩm</a>
-    <a class="btn btn-line" href="../#ho-so">Xem chứng nhận HACCP, ISO 22000, GMP</a>
+    <a class="btn btn-line" href="../chung-nhan/">Xem chứng nhận HACCP, ISO 22000, GMP</a>
     <a class="btn btn-line" href="https://zalo.me/0978094739" target="_blank" rel="noopener">Nhắn Zalo 0978 094 739</a>
   </div>
 </section>'''
@@ -204,13 +229,31 @@ const h = location.hash.slice(1); if (h && document.querySelector('.chip[data-ca
 
 def sitemap(bai):
     today = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=7)).strftime("%Y-%m-%d")
-    urls = [f"{SITE}/", f"{SITE}/gioi-thieu/", f"{SITE}/kien-thuc/"] + [f"{SITE}/kien-thuc/{b['slug']}.html" for b in bai]
+    urls = [f"{SITE}/", f"{SITE}/gioi-thieu/", f"{SITE}/chung-nhan/", f"{SITE}/kien-thuc/"] + [f"{SITE}/kien-thuc/{b['slug']}.html" for b in bai]
     x = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(
         f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>\n" for u in urls) + "</urlset>\n"
     open(R + "sitemap.xml", "w", encoding="utf-8").write(x)
 
+def chung_nhan():
+    c = open(R + "tools/chung-nhan-noi-dung.html", encoding="utf-8").read()
+    c += '''
+<section class="block" style="padding-top:0">
+  <div class="wrap" style="display:flex;flex-wrap:wrap;gap:10px">
+    <a class="btn btn-gold" href="../#san-pham">Xem bảng giá sản phẩm</a>
+    <a class="btn btn-line" href="../gioi-thieu/">Giới thiệu công ty</a>
+    <a class="btn btn-line" href="https://zalo.me/0978094739" target="_blank" rel="noopener">Nhắn Zalo 0978 094 739</a>
+  </div>
+</section>'''
+    ld = [{"@context": "https://schema.org", "@type": "WebPage", "name": "Chứng nhận & Cam kết Việt Cường Nhân", "url": f"{SITE}/chung-nhan/",
+           "about": {"@type": "Organization", "name": "Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân", "url": SITE}}]
+    os.makedirs(R + "chung-nhan", exist_ok=True)
+    open(R + "chung-nhan/index.html", "w", encoding="utf-8").write(shell(
+        "chung-nhan/", "Chứng nhận & Cam kết", "Việt Cường Nhân đạt HACCP, ISO 22000:2018 và GMP (G-CERTI); bản tự công bố tổ yến thô, tổ yến tinh chế, nấm đông trùng hạ thảo. Xem bản scan giấy chứng nhận.",
+        "cn", c, ld, script=LB_DOCS))
+
 if __name__ == "__main__":
     gioi_thieu()
+    chung_nhan()
     bai = kien_thuc()
     sitemap(bai)
     print("gioi-thieu + kien-thuc:", len(bai), "bài")

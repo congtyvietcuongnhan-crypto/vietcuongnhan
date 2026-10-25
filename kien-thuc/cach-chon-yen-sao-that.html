@@ -68,6 +68,12 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; line-height: 1.
 .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
 .hero .eyebrow { font-size: 18px; letter-spacing: .1em; font-weight: 700; color: var(--logo-gold); line-height: 1.5; margin-bottom: 6px; }
 .hero .eyebrow span { white-space: nowrap; }
+.hero .seals { display: flex; flex-wrap: wrap; gap: 14px; margin: 20px 0 0; }
+.hero .seal-c { width: 104px; height: 104px; padding: 0; border: 0; background: none; cursor: zoom-in; border-radius: 50%; filter: drop-shadow(0 6px 14px rgb(0 0 0 / .3)); transition: transform .2s; }
+.hero .seal-c:hover { transform: translateY(-3px) rotate(-3deg); }
+.hero .seal-c svg { width: 100%; height: 100%; font-family: var(--font-body); }
+@media (max-width: 760px) { .hero .seal-c { width: 88px; height: 88px; } }
+
 :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
 /* header */
@@ -101,11 +107,17 @@ nav.menu a { white-space: nowrap; }
 .hero h1 span { display: block; font-style: normal; font-weight: 800; color: #2a52a9; -webkit-text-stroke: 2px #fff; paint-order: stroke fill; text-shadow: 0 3px 10px rgb(0 0 0 / .25); }
 .hero p { max-width: 52ch; color: color-mix(in srgb, var(--on-emerald) 82%, transparent); margin: 18px 0 26px; }
 .hero .cta { display: flex; flex-wrap: wrap; gap: 12px; }
-.hero .seal { justify-self: center; width: min(320px, 100%); aspect-ratio: 1; border-radius: 50%; background: #fff; display: grid; place-items: center; box-shadow: 0 0 0 10px rgba(216,176,90,.25), 0 30px 60px rgba(0,0,0,.35); }
+.hero .seal { justify-self: center; width: min(320px, 100%); aspect-ratio: 1; border-radius: 50%; background: #fff; display: grid; place-items: center; border: 10px solid transparent; background: linear-gradient(#fff, #fff) padding-box, linear-gradient(160deg, #f6e27a, #e8cf55 45%, #c9a232) border-box; box-shadow: 0 30px 60px rgba(0,0,0,.35); }
 .hero .seal img { width: 78%; }
 .facts { display: flex; flex-wrap: wrap; gap: 10px 28px; margin-top: 30px; font-size: 13px; }
 .facts div { border-left: 1px solid var(--gold); padding-left: 10px; }
 .facts b { display: block; color: var(--gold); font-weight: 600; }
+.hero .wrap > div:first-child { text-align: center; display: flex; flex-direction: column; align-items: center; }
+.hero .seals, .hero .facts { justify-content: center; }
+.hero .flash { width: 100%; justify-content: center; text-align: center; }
+.hero .flash .cd { justify-content: center; }
+.hero .facts div { text-align: left; }
+
 @media (max-width: 760px) { .hero .wrap { grid-template-columns: 1fr; } .hero .seal { width: 200px; order: -1; } }
 
 /* products */
@@ -291,6 +303,7 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
     <nav class="menu" aria-label="Chính">
       <a href="../gioi-thieu/">Giới thiệu</a>
       <a href="../#san-pham">Sản phẩm</a>
+      <a href="../chung-nhan/">Chứng nhận &amp; Cam kết</a>
       <a href="../kien-thuc/" aria-current="page">Kiến thức</a>
     </nav>
     <a class="btn btn-line" href="../#dat-hang">Liên hệ</a>
@@ -318,7 +331,7 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
     <li>Chứng nhận an toàn thực phẩm của cơ sở sản xuất như HACCP, ISO 22000, GMP.</li>
     <li>Địa chỉ xưởng, nhà máy có thể đến xem.</li>
   </ul>
-  <p>Việt Cường Nhân công khai chứng nhận HACCP, ISO 22000:2018, GMP và bản tự công bố tổ yến thô, tổ yến tinh chế ngay trên <a href="../#chung-nhan">trang chủ</a>.</p>
+  <p>Việt Cường Nhân công khai chứng nhận HACCP, ISO 22000:2018, GMP và bản tự công bố tổ yến thô, tổ yến tinh chế ngay trên <a href="../chung-nhan/">trang chủ</a>.</p>
   <h2>Câu hỏi thường gặp</h2>
   <h3>Yến quá trắng có phải hàng tẩy?</h3>
   <p>Yến tự nhiên thường trắng ngà; màu trắng tinh bất thường nên hỏi kỹ nguồn gốc.</p>

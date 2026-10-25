@@ -283,6 +283,7 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
     <nav class="menu" aria-label="Chính">
       <a href="gioi-thieu/">Giới thiệu</a>
       <a href="#san-pham">Sản phẩm</a>
+      <a href="chung-nhan/">Chứng nhận &amp; Cam kết</a>
       <a href="kien-thuc/">Kiến thức</a>
     </nav>
     <a class="btn btn-line" href="#dat-hang">Liên hệ</a>
@@ -322,22 +323,6 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
 </section>
 
 
-
-<section class="block" id="cam-ket" hidden>
-  <div class="wrap">
-    <div class="head"><div><div class="eyebrow">Vì sao chọn Việt Cường Nhân</div><h2>Cam kết &amp; Chứng nhận</h2></div></div>
-    <div class="trust">
-      <div><h3>Tự sản xuất</h3><p>Yến sào, nước yến chưng và nấm đông trùng hạ thảo do Việt Cường Nhân sơ chế, sản xuất tại cơ sở đóng gói Võ Thị Sáu và nhà máy Bùi Thị Xuân, TP.HCM.</p></div>
-      <div><h3>HACCP · ISO 22000 · GMP</h3><p>Hệ thống quản lý an toàn thực phẩm đạt HACCP, ISO 22000:2018 và GMP (G-CERTI). Sản phẩm yến và đông trùng hạ thảo có bản tự công bố. <a href="#ho-so">Xem giấy tờ</a></p></div>
-      <div><h3>Tư vấn cách dùng</h3><p>Hướng dẫn ngâm, chưng và bảo quản cho từng loại yến. Gọi hoặc nhắn Zalo 0978 094 739.</p></div>
-    </div>
-    <div class="docs" id="ho-so">
-      <h3>Chứng nhận &amp; hồ sơ công bố</h3>
-      <p style="margin:0;color:var(--muted)">Phạm vi chứng nhận HACCP, ISO 22000 và GMP: sơ chế và kinh doanh yến sào, sản phẩm từ yến (yến chưng sẵn, nước yến, yến đóng gói); nuôi cấy, sản xuất nấm đông trùng hạ thảo; đóng gói nhụy hoa nghệ tây, táo đỏ; kinh doanh nhân sâm. Bấm vào giấy để xem rõ.</p>
-      <div class="grid-d"><button type="button" data-doc="haccp"><img src="ho-so/haccp-vn.jpg" alt="Chứng nhận HACCP Việt Cường Nhân" loading="lazy"><span>HACCP (hiệu lực đến 30/11/2026)</span></button><button type="button" data-doc="iso"><img src="ho-so/iso22000-vn.jpg" alt="Chứng nhận ISO 22000:2018 Việt Cường Nhân" loading="lazy"><span>ISO 22000:2018 (hiệu lực đến 28/06/2027)</span></button><button type="button" data-doc="gmp"><img src="ho-so/gmp.jpg" alt="Chứng nhận GMP Việt Cường Nhân" loading="lazy"><span>GMP (hiệu lực đến 21/08/2027)</span></button><button type="button" data-doc="yen-tho"><img src="ho-so/trang/yen-tho-1.jpg" alt="Bản tự công bố sản phẩm Tổ yến thô" loading="lazy"><span>Tự công bố: Tổ yến thô</span></button><button type="button" data-doc="yen-tinh-che"><img src="ho-so/trang/yen-tinh-che-1.jpg" alt="Bản tự công bố sản phẩm Tổ yến tinh chế" loading="lazy"><span>Tự công bố: Tổ yến tinh chế</span></button><button type="button" data-doc="dong-trung"><img src="ho-so/trang/dong-trung-1.jpg" alt="Bản tự công bố sản phẩm Nấm đông trùng hạ thảo" loading="lazy"><span>Tự công bố: Nấm đông trùng hạ thảo</span></button></div>
-    </div>
-  </div>
-</section>
 
 <section class="block" id="dat-hang" style="padding-top:0">
   <div class="wrap order">
@@ -761,10 +746,8 @@ const DOCS = {
   "dong-trung": pages("dong-trung", 7, "Bản tự công bố Nấm đông trùng hạ thảo")
 };
 document.addEventListener("click", e => { const d = e.target.closest("[data-doc]"); if (d) lbOpen(DOCS[d.dataset.doc], 0); });
-// Link "../#chung-nhan" từ trang khác: mở thẳng ảnh 3 giấy chứng nhận HACCP, ISO 22000, GMP.
-const CERTS = [...DOCS.haccp, ...DOCS.iso, ...DOCS.gmp];
-function certHash() { if (location.hash === "#chung-nhan") lbOpen(CERTS, 0); }
-certHash(); addEventListener("hashchange", certHash);
+// Link cũ tới mục chứng nhận (#cam-ket, #ho-so, #chung-nhan) chuyển sang trang riêng /chung-nhan/.
+if (/^#(cam-ket|ho-so|chung-nhan)$/.test(location.hash)) location.replace("chung-nhan/" + (location.hash === "#cam-ket" ? "" : "#ho-so"));
 document.getElementById("o-zalo").addEventListener("click", async e => {
   // Zalo không cho điền sẵn tin nhắn: chép nội dung đơn rồi mở Zalo để khách dán vào.
   try { await navigator.clipboard.writeText(document.getElementById("o-sum").textContent); e.target.textContent = "Đã chép đơn, dán vào Zalo"; } catch {}
