@@ -282,9 +282,9 @@ CS = [
   <h2>4. Chia sẻ thông tin</h2>
   <p>Việt Cường Nhân không bán hay trao đổi thông tin khách hàng. Thông tin chỉ được cung cấp cho đơn vị vận chuyển (họ tên, số điện thoại, địa chỉ) để giao hàng, hoặc cho cơ quan nhà nước có thẩm quyền khi có yêu cầu theo quy định pháp luật.</p>
   <h2>5. Đơn vị thu thập và quản lý thông tin</h2>
-  <p>Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân, trụ sở: Số 24/22 Khu phố Thống Nhất 1, Phường Dĩ An, TP. Hồ Chí Minh. Hotline, Zalo 0978 094 739.</p>
+  <p>Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân, trụ sở: Số 24/22 Khu phố Thống Nhất 1, Phường Dĩ An, TP. Hồ Chí Minh. Mã số doanh nghiệp: 3701518691. Hotline, Zalo 0978 094 739. Email: congtyvietcuongnhan@gmail.com.</p>
   <h2>6. Quyền của khách hàng</h2>
-  <p>Khách có quyền yêu cầu xem, chỉnh sửa, xóa thông tin cá nhân hoặc rút lại sự đồng ý nhận tin ưu đãi bằng cách liên hệ số điện thoại trên. Việt Cường Nhân phản hồi trong vòng 72 giờ.</p>
+  <p>Khách có quyền yêu cầu xem, chỉnh sửa, xóa thông tin cá nhân hoặc rút lại sự đồng ý nhận tin ưu đãi bằng cách liên hệ số điện thoại hoặc email trên. Việt Cường Nhân phản hồi trong vòng 72 giờ.</p>
   <h2>7. Cam kết bảo mật</h2>
   <p>Thông tin đơn hàng được lưu trên hệ thống quản lý bán hàng có kiểm soát truy cập, chỉ nhân viên phụ trách đơn hàng được xem. Khi phát hiện sự cố lộ lọt thông tin, Việt Cường Nhân sẽ thông báo cho khách và cơ quan chức năng theo quy định.</p>"""),
 ]
