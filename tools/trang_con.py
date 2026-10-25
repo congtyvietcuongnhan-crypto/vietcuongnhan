@@ -50,8 +50,8 @@ EXTRA_CSS = """<style>
 </style>"""
 
 def header(active):
-    items = [("../gioi-thieu/", "Giới thiệu", "gt"), ("../#san-pham", "Sản phẩm", ""), ("../#cam-ket", "Cam kết", ""),
-             ("../#ho-so", "Chứng nhận", ""), ("../kien-thuc/", "Kiến thức", "kt"), ("../#dat-hang", "Đặt hàng", "")]
+    items = [("../gioi-thieu/", "Giới thiệu", "gt"), ("../#san-pham", "Sản phẩm", ""), ("../#cam-ket", "Cam kết &amp; Chứng nhận", ""),
+             ("../kien-thuc/", "Kiến thức", "kt"), ("../#dat-hang", "Đặt hàng", "")]
     nav = "\n".join(f'      <a href="{h}"{" aria-current=\"page\"" if k == active and k else ""}>{t}</a>' for h, t, k in items)
     return f'''<header class="top">
   <div class="wrap">
