@@ -8,8 +8,8 @@ import os, re, json, datetime, html as H
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/"
 SITE = "https://vietcuongnhan.com"
 IDX = open(R + "index.html", encoding="utf-8").read()
-# Mã đo lường (GA4) lấy từ trang chủ để mọi trang con dùng chung.
-TRACK = IDX[IDX.index("<!-- Google tag"):IDX.index("</script>", IDX.index("gtag('config'")) + 9] + "\n"
+# Mã đo lường (GA4, Meta Pixel) lấy từ trang chủ để mọi trang con dùng chung.
+TRACK = IDX[IDX.index("<!-- Google tag"):IDX.index("<!-- /tracking -->")]  # GA4 + Meta Pixel
 # Đếm lượt bấm Zalo / gọi điện trên trang con (trang chủ có sẵn đoạn này).
 CLICK = '''<script>document.addEventListener("click", e => { const a = e.target.closest(\'a[href*="zalo.me"], a[href^="tel:"]\'); if (a) { try { gtag("event", a.href.includes("zalo") ? "click_zalo" : "click_call"); } catch {} try { fbq("track", "Contact"); } catch {} } });</script>'''
 
