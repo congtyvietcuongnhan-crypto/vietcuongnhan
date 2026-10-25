@@ -1,0 +1,641 @@
+{
+ "ghi_chu": "Lịch bài SEO vietcuongnhan.com: 7:00 và 13:00 mỗi ngày từ 26/10/2026. trang_thai: chua_viet | da_dang. Viết theo tools/HUONG-DAN-VIET-BAI.md.",
+ "bai": [
+  {
+   "stt": 1,
+   "ngay": "2026-10-26",
+   "gio": "07:00",
+   "slug": "gia-yen-sao-bao-nhieu-tien",
+   "tu_khoa": "giá yến sào",
+   "tieu_de_lich": "Giá yến sào bao nhiêu tiền 100gr? Bảng giá các loại 2026",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thương mại",
+   "san_pham": [
+    101,
+    104,
+    106,
+    109,
+    112,
+    113,
+    116
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 2,
+   "ngay": "2026-10-26",
+   "gio": "13:00",
+   "slug": "yen-sao-loai-nao-tot",
+   "tu_khoa": "yến sào loại nào tốt",
+   "tieu_de_lich": "Yến sào loại nào tốt? Chọn theo nhu cầu và ngân sách",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    104,
+    109,
+    113,
+    124
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 3,
+   "ngay": "2026-10-27",
+   "gio": "07:00",
+   "slug": "100gr-yen-chung-duoc-bao-nhieu-chen",
+   "tu_khoa": "100gr yến chưng được bao nhiêu chén",
+   "tieu_de_lich": "100gr yến chưng được bao nhiêu chén, dùng được bao lâu?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    106,
+    109,
+    113
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 4,
+   "ngay": "2026-10-27",
+   "gio": "13:00",
+   "slug": "an-yen-luc-nao-tot-nhat",
+   "tu_khoa": "ăn yến lúc nào tốt nhất",
+   "tieu_de_lich": "Ăn yến lúc nào trong ngày là hợp lý?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    109,
+    124,
+    126
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 5,
+   "ngay": "2026-10-28",
+   "gio": "07:00",
+   "slug": "yen-sao-binh-duong-di-an-mua-o-dau",
+   "tu_khoa": "yến sào Dĩ An Bình Dương",
+   "tieu_de_lich": "Mua yến sào ở Dĩ An, Bình Dương cũ: xem xưởng tận nơi",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "địa phương",
+   "san_pham": [
+    101,
+    109,
+    124
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 6,
+   "ngay": "2026-10-28",
+   "gio": "13:00",
+   "slug": "chan-yen-chan-tua-la-gi",
+   "tu_khoa": "chân yến là gì",
+   "tieu_de_lich": "Chân yến (chân tua) là gì? Có nên mua không?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    105,
+    118,
+    119
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 7,
+   "ngay": "2026-10-29",
+   "gio": "07:00",
+   "slug": "yen-vun-baby-la-gi",
+   "tu_khoa": "yến vụn",
+   "tieu_de_lich": "Yến vụn baby là gì, dùng làm món gì?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    106,
+    107,
+    120,
+    121
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 8,
+   "ngay": "2026-10-29",
+   "gio": "13:00",
+   "slug": "yen-chung-tao-do-hat-sen",
+   "tu_khoa": "yến chưng táo đỏ hạt sen",
+   "tieu_de_lich": "Cách làm yến chưng táo đỏ hạt sen thơm ngon",
+   "chuyen_muc": "Món ngon",
+   "y_dinh": "công thức",
+   "san_pham": [
+    109,
+    142,
+    145
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 9,
+   "ngay": "2026-10-30",
+   "gio": "07:00",
+   "slug": "yen-chung-dong-trung-ha-thao",
+   "tu_khoa": "yến chưng đông trùng hạ thảo",
+   "tieu_de_lich": "Yến chưng đông trùng hạ thảo: cách làm và tỉ lệ",
+   "chuyen_muc": "Món ngon",
+   "y_dinh": "công thức",
+   "san_pham": [
+    109,
+    136,
+    140
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 10,
+   "ngay": "2026-10-30",
+   "gio": "13:00",
+   "slug": "chao-yen-cho-be",
+   "tu_khoa": "cháo yến cho bé",
+   "tieu_de_lich": "Cháo yến cho bé: cách nấu và lưu ý theo độ tuổi",
+   "chuyen_muc": "Món ngon",
+   "y_dinh": "công thức",
+   "san_pham": [
+    106,
+    107
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 11,
+   "ngay": "2026-10-31",
+   "gio": "07:00",
+   "slug": "ba-bau-an-yen-duoc-khong",
+   "tu_khoa": "bà bầu ăn yến",
+   "tieu_de_lich": "Bà bầu ăn yến được không? Lưu ý khi dùng",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    109,
+    124
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 12,
+   "ngay": "2026-10-31",
+   "gio": "13:00",
+   "slug": "tre-may-tuoi-an-duoc-yen",
+   "tu_khoa": "trẻ mấy tuổi ăn được yến",
+   "tieu_de_lich": "Trẻ mấy tuổi ăn được yến sào?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    106,
+    124
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 13,
+   "ngay": "2026-11-01",
+   "gio": "07:00",
+   "slug": "nguoi-gia-an-yen-the-nao",
+   "tu_khoa": "người già ăn yến",
+   "tieu_de_lich": "Người lớn tuổi dùng yến sào thế nào cho hợp?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    109,
+    124,
+    125
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 14,
+   "ngay": "2026-11-01",
+   "gio": "13:00",
+   "slug": "bao-quan-yen-sao",
+   "tu_khoa": "bảo quản yến sào",
+   "tieu_de_lich": "Cách bảo quản yến sào khô và yến đã chưng",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    109,
+    113
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 15,
+   "ngay": "2026-11-02",
+   "gio": "07:00",
+   "slug": "nuoc-yen-hu-uong-luc-nao",
+   "tu_khoa": "nước yến uống lúc nào",
+   "tieu_de_lich": "Nước yến hũ uống lúc nào, mỗi ngày mấy hũ?",
+   "chuyen_muc": "Nước yến",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    124,
+    126,
+    127,
+    129
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 16,
+   "ngay": "2026-11-02",
+   "gio": "13:00",
+   "slug": "nuoc-yen-hu-va-yen-to-chung",
+   "tu_khoa": "nước yến hũ hay yến tổ",
+   "tieu_de_lich": "Nước yến đóng hũ và yến tổ tự chưng: chọn cái nào?",
+   "chuyen_muc": "Nước yến",
+   "y_dinh": "so sánh",
+   "san_pham": [
+    124,
+    126,
+    109
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 17,
+   "ngay": "2026-11-03",
+   "gio": "07:00",
+   "slug": "qua-tet-yen-sao",
+   "tu_khoa": "quà Tết yến sào",
+   "tieu_de_lich": "Quà Tết yến sào: chọn hộp quà biếu theo ngân sách",
+   "chuyen_muc": "Quà tặng",
+   "y_dinh": "thương mại",
+   "san_pham": [
+    110,
+    114,
+    133,
+    135
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 18,
+   "ngay": "2026-11-03",
+   "gio": "13:00",
+   "slug": "qua-tang-doanh-nghiep-yen-sao",
+   "tu_khoa": "quà tặng doanh nghiệp yến sào",
+   "tieu_de_lich": "Đặt quà tặng doanh nghiệp bằng yến sào: quy trình và lưu ý",
+   "chuyen_muc": "Quà tặng",
+   "y_dinh": "thương mại",
+   "san_pham": [
+    131,
+    135,
+    110
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 19,
+   "ngay": "2026-11-04",
+   "gio": "07:00",
+   "slug": "yen-nha-va-yen-dao",
+   "tu_khoa": "yến nhà và yến đảo",
+   "tieu_de_lich": "Yến nhà và yến đảo khác nhau thế nào?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "so sánh",
+   "san_pham": [
+    101,
+    109
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 20,
+   "ngay": "2026-11-04",
+   "gio": "13:00",
+   "slug": "yen-trang-yen-hong-huyet-yen",
+   "tu_khoa": "huyết yến",
+   "tieu_de_lich": "Yến trắng, yến hồng, huyết yến khác nhau ra sao?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "so sánh",
+   "san_pham": [
+    109,
+    112
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 21,
+   "ngay": "2026-11-05",
+   "gio": "07:00",
+   "slug": "yen-bi-chay-nuoc-khi-chung",
+   "tu_khoa": "yến bị chảy nước",
+   "tieu_de_lich": "Vì sao yến bị chảy nước khi chưng? Cách khắc phục",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    109,
+    113
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 22,
+   "ngay": "2026-11-05",
+   "gio": "13:00",
+   "slug": "yen-co-mui-tanh-khong",
+   "tu_khoa": "yến có mùi tanh",
+   "tieu_de_lich": "Yến sào có mùi tanh không? Mùi thế nào là bình thường",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    109,
+    113
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 23,
+   "ngay": "2026-11-06",
+   "gio": "07:00",
+   "slug": "phan-biet-yen-tay-trang-yen-tron",
+   "tu_khoa": "yến tẩy trắng",
+   "tieu_de_lich": "Cách nhận biết yến tẩy trắng, yến trộn tạp chất",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    101,
+    113
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 24,
+   "ngay": "2026-11-06",
+   "gio": "13:00",
+   "slug": "yen-tinh-che-1-lop-va-2-lop",
+   "tu_khoa": "yến tinh chế 1 lớp 2 lớp",
+   "tieu_de_lich": "Yến tinh chế 1 lớp và 2 lớp sợi khác nhau thế nào?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "so sánh",
+   "san_pham": [
+    109,
+    110,
+    111,
+    112
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 25,
+   "ngay": "2026-11-07",
+   "gio": "07:00",
+   "slug": "yen-rut-long-kho-la-gi",
+   "tu_khoa": "yến rút lông khô",
+   "tieu_de_lich": "Yến rút lông khô là gì, vì sao giá cao?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    113,
+    114,
+    115,
+    116,
+    117
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 26,
+   "ngay": "2026-11-07",
+   "gio": "13:00",
+   "slug": "dong-trung-ha-thao-loai-cay-va-loai-gay",
+   "tu_khoa": "đông trùng hạ thảo loại cây",
+   "tieu_de_lich": "Đông trùng hạ thảo loại cây và loại gãy: chọn loại nào?",
+   "chuyen_muc": "Đông trùng hạ thảo",
+   "y_dinh": "so sánh",
+   "san_pham": [
+    136,
+    137,
+    138
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 27,
+   "ngay": "2026-11-08",
+   "gio": "07:00",
+   "slug": "dong-trung-ha-thao-ngam-mat-ong",
+   "tu_khoa": "đông trùng hạ thảo ngâm mật ong",
+   "tieu_de_lich": "Đông trùng hạ thảo ngâm mật ong: cách làm và bảo quản",
+   "chuyen_muc": "Đông trùng hạ thảo",
+   "y_dinh": "công thức",
+   "san_pham": [
+    136,
+    141
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 28,
+   "ngay": "2026-11-08",
+   "gio": "13:00",
+   "slug": "bao-quan-dong-trung-ha-thao",
+   "tu_khoa": "bảo quản đông trùng hạ thảo",
+   "tieu_de_lich": "Bảo quản đông trùng hạ thảo sấy khô và tươi đúng cách",
+   "chuyen_muc": "Đông trùng hạ thảo",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    136,
+    139,
+    140
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 29,
+   "ngay": "2026-11-09",
+   "gio": "07:00",
+   "slug": "tao-do-tan-cuong-va-nhuoc-khuong",
+   "tu_khoa": "táo đỏ Nhược Khương",
+   "tieu_de_lich": "Táo đỏ Tân Cương và táo đỏ Nhược Khương khác gì?",
+   "chuyen_muc": "Táo đỏ",
+   "y_dinh": "so sánh",
+   "san_pham": [
+    142,
+    143,
+    147
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 30,
+   "ngay": "2026-11-09",
+   "gio": "13:00",
+   "slug": "tra-tao-do-ky-tu",
+   "tu_khoa": "trà táo đỏ kỷ tử",
+   "tieu_de_lich": "Cách pha trà táo đỏ kỷ tử thơm ngon tại nhà",
+   "chuyen_muc": "Món ngon",
+   "y_dinh": "công thức",
+   "san_pham": [
+    143,
+    146
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 31,
+   "ngay": "2026-11-10",
+   "gio": "07:00",
+   "slug": "thach-nha-dam-lam-mon-gi",
+   "tu_khoa": "thạch nha đam",
+   "tieu_de_lich": "Thạch nha đam làm món gì? 5 món giải nhiệt dễ làm",
+   "chuyen_muc": "Món ngon",
+   "y_dinh": "công thức",
+   "san_pham": [
+    148,
+    149
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 32,
+   "ngay": "2026-11-10",
+   "gio": "13:00",
+   "slug": "quy-trinh-san-xuat-yen-viet-cuong-nhan",
+   "tu_khoa": "quy trình sản xuất yến sào",
+   "tieu_de_lich": "Quy trình làm sạch tổ yến tại xưởng Việt Cường Nhân",
+   "chuyen_muc": "Về Việt Cường Nhân",
+   "y_dinh": "thương hiệu",
+   "san_pham": [
+    109,
+    113,
+    124
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 33,
+   "ngay": "2026-11-11",
+   "gio": "07:00",
+   "slug": "viet-cuong-nhan-la-ai",
+   "tu_khoa": "Việt Cường Nhân",
+   "tieu_de_lich": "Việt Cường Nhân là ai? Hành trình từ nhà yến đến nhà máy",
+   "chuyen_muc": "Về Việt Cường Nhân",
+   "y_dinh": "thương hiệu",
+   "san_pham": [
+    101,
+    124,
+    136
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 34,
+   "ngay": "2026-11-11",
+   "gio": "13:00",
+   "slug": "mua-yen-online-can-kiem-tra-gi",
+   "tu_khoa": "mua yến online",
+   "tieu_de_lich": "Mua yến sào online cần kiểm tra những gì?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    109,
+    113
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 35,
+   "ngay": "2026-11-12",
+   "gio": "07:00",
+   "slug": "thanh-phan-dinh-duong-yen-sao",
+   "tu_khoa": "thành phần dinh dưỡng yến sào",
+   "tieu_de_lich": "Trong tổ yến có gì? Thành phần dinh dưỡng chính",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    109,
+    113
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 36,
+   "ngay": "2026-11-12",
+   "gio": "13:00",
+   "slug": "mua-yen-si-lam-dai-ly",
+   "tu_khoa": "mua yến sỉ",
+   "tieu_de_lich": "Mua yến sào sỉ, làm đại lý: cần chuẩn bị gì?",
+   "chuyen_muc": "Yến sào",
+   "y_dinh": "thương mại",
+   "san_pham": [
+    101,
+    109,
+    128,
+    130
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 37,
+   "ngay": "2026-11-13",
+   "gio": "07:00",
+   "slug": "yen-chung-sua-tuoi",
+   "tu_khoa": "yến chưng sữa tươi",
+   "tieu_de_lich": "Yến chưng sữa tươi và yến chưng hạt chia cho cả nhà",
+   "chuyen_muc": "Món ngon",
+   "y_dinh": "công thức",
+   "san_pham": [
+    106,
+    109
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 38,
+   "ngay": "2026-11-13",
+   "gio": "13:00",
+   "slug": "sup-ga-yen-sao",
+   "tu_khoa": "súp gà yến sào",
+   "tieu_de_lich": "Cách nấu súp gà yến sào cho bữa tiệc gia đình",
+   "chuyen_muc": "Món ngon",
+   "y_dinh": "công thức",
+   "san_pham": [
+    106,
+    107
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 39,
+   "ngay": "2026-11-14",
+   "gio": "07:00",
+   "slug": "xa-bong-handmade-tbeauty",
+   "tu_khoa": "xà bông handmade",
+   "tieu_de_lich": "Xà bông thủ công T'Beauty: chọn mùi hương và cách dùng",
+   "chuyen_muc": "Mỹ phẩm",
+   "y_dinh": "thương mại",
+   "san_pham": [
+    201,
+    211,
+    222
+   ],
+   "trang_thai": "chua_viet"
+  },
+  {
+   "stt": 40,
+   "ngay": "2026-11-14",
+   "gio": "13:00",
+   "slug": "cach-giu-xa-bong-handmade-ben-lau",
+   "tu_khoa": "bảo quản xà bông handmade",
+   "tieu_de_lich": "Cách giữ xà bông thủ công dùng bền, không nhũn",
+   "chuyen_muc": "Mỹ phẩm",
+   "y_dinh": "thông tin",
+   "san_pham": [
+    201,
+    213,
+    231
+   ],
+   "trang_thai": "chua_viet"
+  }
+ ]
+}
