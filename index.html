@@ -147,6 +147,29 @@ section.block { padding-block: 56px; }
 @media (max-width: 760px) { .gift .wrap { grid-template-columns: 1fr; } }
 
 /* trust */
+.about .lead { display: grid; grid-template-columns: 1.3fr 1fr; gap: 28px; align-items: start; }
+.about .lead p { margin: 0 0 12px; color: var(--muted); font-size: 15.5px; }
+.about blockquote { margin: 0; padding: 18px 20px; border-left: 4px solid var(--logo-gold); background: var(--paper); border-radius: 0 12px 12px 0; font-weight: 700; font-size: 18px; color: var(--emerald-2); }
+.about blockquote small { display: block; margin-top: 6px; font-weight: 500; font-size: 13px; color: var(--muted); }
+.about .vmv { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 28px; }
+.about .vmv div { background: var(--paper); border: 1px solid var(--line); border-top: 3px solid var(--emerald-2); border-radius: 12px; padding: 16px 18px; }
+.about .vmv h3 { font-size: 18px; color: var(--emerald-2); margin-bottom: 8px; }
+.about .vmv p, .about .vmv li { margin: 0; color: var(--muted); font-size: 14px; }
+.about .vmv ul { margin: 0; padding-left: 18px; }
+.about h3.sub { font-size: 22px; color: var(--emerald-2); margin: 34px 0 14px; }
+.tl { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }
+.tl div { border-top: 3px solid var(--logo-gold); padding-top: 10px; }
+.tl b { display: block; font-size: 22px; font-weight: 800; color: var(--emerald-2); }
+.tl p { margin: 4px 0 0; font-size: 13.5px; color: var(--muted); }
+.facil { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.facil button { border: 2px solid var(--logo-gold); border-radius: 12px; padding: 0; overflow: hidden; background: var(--emerald); cursor: zoom-in; font: inherit; text-align: left; }
+.facil img { display: block; width: 100%; aspect-ratio: 4/5; object-fit: cover; }
+.facil span { display: block; padding: 8px 10px; color: var(--on-emerald); font-weight: 600; font-size: 13.5px; }
+.market { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.market div { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+.market h4 { margin: 0 0 6px; font-size: 16px; color: var(--emerald-2); }
+.market p { margin: 0; color: var(--muted); font-size: 14px; }
+@media (max-width: 760px) { .about .lead, .about .vmv, .market { grid-template-columns: 1fr; } .tl { grid-template-columns: 1fr 1fr; } .facil { grid-template-columns: 1fr 1fr; } }
 .trust { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .budget { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: -6px 0 18px; font-size: 13px; color: var(--muted); }
 .budget .chip { padding: 5px 12px; }
@@ -212,13 +235,14 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
 .lb img { width: 100%; border-radius: 12px; display: block; }
 .lb .bar { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 10px; color: #fff; font-size: 14px; }
 .lb .bar button { background: rgba(255,255,255,.14); color: #fff; border: 0; border-radius: 999px; padding: 8px 14px; font: 600 14px var(--font-body); cursor: pointer; }
-.flash { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; margin: 0 0 20px; padding: 14px 18px; border-radius: 14px; background: linear-gradient(100deg, #b4261a, #e0562b); color: #fff; box-shadow: 0 6px 18px rgb(180 38 26 / .25); }
-.flash.off { background: var(--paper); color: var(--ink); box-shadow: inset 0 0 0 1px var(--gold-soft); }
-.flash h3 { margin: 0; font: 700 20px var(--font-display); letter-spacing: .02em; }
-.flash p { margin: 2px 0 0; font-size: 13px; opacity: .9; }
+.flash { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; margin: 22px 0 6px; padding: 14px 18px; border-radius: 14px; background: linear-gradient(100deg, #f3dc6a, #d9b23c); color: #4a0c10; box-shadow: 0 8px 22px rgb(0 0 0 / .25); }
+.flash.off { background: rgb(255 255 255 / .1); color: var(--on-emerald); box-shadow: inset 0 0 0 1px var(--logo-gold); }
+.flash h3 { margin: 0; font: 800 19px var(--font-display); color: inherit; }
+.hero .flash p { margin: 2px 0 0; font-size: 13px; color: #6a1a1e; max-width: none; }
+.hero .flash.off p { color: var(--on-emerald); opacity: .85; }
 .flash .cd { display: flex; align-items: center; gap: 6px; font-variant-numeric: tabular-nums; }
-.flash .cd span { min-width: 44px; padding: 6px 4px; border-radius: 8px; background: rgb(0 0 0 / .28); text-align: center; font: 700 22px/1 var(--font-body); }
-.flash.off .cd span { background: var(--emerald); color: var(--on-emerald); }
+.flash .cd span { min-width: 48px; padding: 6px 4px; border-radius: 8px; background: #7e1218; color: #fff; text-align: center; font: 800 22px/1 var(--font-body); }
+.flash.off .cd span { background: var(--logo-gold); color: #4a0c10; }
 .flash .cd small { display: block; font-size: 10px; font-weight: 500; opacity: .8; margin-top: 3px; }
 .fs-tag { align-self: center; padding: 1px 6px; border-radius: 6px; background: #d93a22; color: #fff; font-size: 12px; font-weight: 700; }
 .fs-pill { display: none; padding: 6px 10px; border-radius: 999px; background: #d93a22; color: #fff; font-size: 13px; font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
@@ -236,12 +260,14 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
       <span><b>VIỆT CƯỜNG NHÂN</b><small>Excellence in Every Product</small></span>
     </a>
     <nav class="menu" aria-label="Chính">
+      <a href="#gioi-thieu">Giới thiệu</a>
       <a href="#san-pham">Sản phẩm</a>
       <a href="#cam-ket">Cam kết</a>
       <a href="#ho-so">Chứng nhận</a>
       <a href="#dat-hang">Đặt hàng</a>
     </nav>
-    <a class="btn btn-line" href="#dat-hang">Đặt hàng</a>
+    <a class="fs-pill" id="fs-pill" href="#san-pham">⚡ Flash Sale</a>
+    <a class="btn btn-line" href="#dat-hang">Liên hệ</a>
   </div>
 </header>
 
@@ -254,6 +280,10 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
       <div class="cta">
         <a class="btn btn-gold" href="#san-pham">Xem sản phẩm</a>
         <a class="btn btn-ghost" href="https://zalo.me/0978094739" target="_blank" rel="noopener">Nhắn Zalo tư vấn</a>
+      </div>
+      <div class="flash" id="flash" aria-live="polite">
+        <div><h3 id="fs-title">⚡ Flash Sale giảm 10% toàn bộ sản phẩm</h3><p id="fs-sub">Mỗi ngày 11:30–14:30 và 19:00–22:00 (giờ Việt Nam)</p></div>
+        <div class="cd" role="timer"><b id="fs-lbl" style="font-size:13px;font-weight:600;margin-right:4px">Bắt đầu sau</b><span><b id="fs-h">00</b><small>giờ</small></span><span><b id="fs-m">00</b><small>phút</small></span><span><b id="fs-s">00</b><small>giây</small></span></div>
       </div>
       <div class="facts">
         <div><b id="f-count">67</b>sản phẩm</div>
@@ -278,6 +308,40 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
 </section>
 
 
+
+<section class="block about" id="gioi-thieu">
+  <div class="wrap">
+    <div class="head"><div><div class="eyebrow">Về chúng tôi</div><h2>Giới thiệu Việt Cường Nhân</h2></div></div>
+    <div class="lead">
+      <div>
+        <p>Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân thành lập tháng 6 năm 2009, hoạt động trong sản xuất, thương mại và dịch vụ. Sau hơn một thập kỷ, công ty xây dựng được chuỗi khép kín từ nhà yến, xưởng nhặt lông, xưởng tinh chế đến nhà máy nước yến chưng sẵn, cùng trang trại nấm đông trùng hạ thảo và nha đam.</p>
+        <p>Việt Cường Nhân không ngừng đổi mới, nâng cao năng lực sản xuất và mở rộng sản phẩm để phục vụ khách hàng trong và ngoài nước.</p>
+      </div>
+      <blockquote>“Chất lượng tạo nên giá trị – Uy tín tạo nên thương hiệu”<small>Phương châm hoạt động của Việt Cường Nhân</small></blockquote>
+    </div>
+    <div class="vmv">
+      <div><h3>Tầm nhìn</h3><p>Trở thành doanh nghiệp hàng đầu tại Việt Nam trong lĩnh vực thực phẩm dinh dưỡng, mỹ phẩm và dịch vụ thương mại, mang đến giá trị bền vững cho cộng đồng.</p></div>
+      <div><h3>Sứ mệnh</h3><ul><li>Cung cấp sản phẩm chất lượng cao, an toàn cho sức khỏe.</li><li>Mang đến dịch vụ chuyên nghiệp, tận tâm.</li><li>Góp phần nâng cao chất lượng cuộc sống người Việt.</li></ul></div>
+      <div><h3>Giá trị cốt lõi</h3><ul><li><b>Chất lượng:</b> luôn đặt chất lượng lên hàng đầu.</li><li><b>Uy tín:</b> xây dựng niềm tin lâu dài.</li><li><b>Đổi mới:</b> không ngừng cải tiến.</li><li><b>Trách nhiệm:</b> cam kết với cộng đồng.</li></ul></div>
+    </div>
+    <h3 class="sub">Hành trình phát triển</h3>
+    <div class="tl">
+      <div><b>2009</b><p>Thành lập công ty.</p></div>
+      <div><b>2018</b><p>Xây dựng và nuôi yến tại Gò Công Tây (Tiền Giang) và Bình Thuận; mua bán yến thô, yến tinh chế.</p></div>
+      <div><b>2019</b><p>Đưa vào hoạt động xưởng tinh chế yến sào đầu tiên tại Dĩ An, Bình Dương.</p></div>
+      <div><b>2020</b><p>Mở thêm 2 xưởng nhặt lông yến tại Đạ Tẻh và Madagui (Lâm Đồng), nâng lên 3 xưởng.</p></div>
+      <div><b>2022</b><p>Nuôi trồng nấm đông trùng hạ thảo, xây nhà máy nước yến chưng sẵn.</p></div>
+      <div><b>2024</b><p>Mở rộng hợp tác trong và ngoài nước; phát triển thêm thực phẩm dinh dưỡng, mỹ phẩm.</p></div>
+    </div>
+    <h3 class="sub">Nhà máy &amp; vùng nguyên liệu</h3>
+    <div class="facil"><button type="button" data-doc="gt-nha-may"><img src="images/gioi-thieu/nho-nha-may.webp" alt="Nhà máy sản xuất Việt Cường Nhân" loading="lazy"><span>Nhà máy sản xuất</span></button><button type="button" data-doc="gt-phong-sach"><img src="images/gioi-thieu/nho-phong-sach.webp" alt="Khu sản xuất khép kín Việt Cường Nhân" loading="lazy"><span>Khu sản xuất khép kín</span></button><button type="button" data-doc="gt-xuong-nhat-long"><img src="images/gioi-thieu/nho-xuong-nhat-long.webp" alt="Xưởng nhặt lông yến Việt Cường Nhân" loading="lazy"><span>Xưởng nhặt lông yến</span></button><button type="button" data-doc="gt-nuoc-yen"><img src="images/gioi-thieu/nho-nuoc-yen.webp" alt="Nước yến chưng VCN Việt Cường Nhân" loading="lazy"><span>Nước yến chưng VCN</span></button><button type="button" data-doc="gt-dong-trung"><img src="images/gioi-thieu/nho-dong-trung.webp" alt="Trang trại đông trùng hạ thảo Việt Cường Nhân" loading="lazy"><span>Trang trại đông trùng hạ thảo</span></button><button type="button" data-doc="gt-nha-dam"><img src="images/gioi-thieu/nho-nha-dam.webp" alt="Trang trại &amp; nhà máy nha đam Việt Cường Nhân" loading="lazy"><span>Trang trại &amp; nhà máy nha đam</span></button><button type="button" data-doc="gt-tao-do"><img src="images/gioi-thieu/nho-tao-do.webp" alt="Kho táo đỏ Tân Cương Việt Cường Nhân" loading="lazy"><span>Kho táo đỏ Tân Cương</span></button><button type="button" data-doc="gt-xuat-khau"><img src="images/gioi-thieu/nho-xuat-khau.webp" alt="Xuất khẩu Campuchia, Hàn Quốc Việt Cường Nhân" loading="lazy"><span>Xuất khẩu Campuchia, Hàn Quốc</span></button></div>
+    <h3 class="sub">Thị trường &amp; kênh phân phối</h3>
+    <div class="market">
+      <div><h4>Trong nước</h4><p>Cung cấp yến thô cho các xưởng tinh chế trên toàn quốc. Sản phẩm có mặt tại LOTTE Mart, KingKong Mart, Z-Mart, LongBeach Mart, YOUTH MARKET, HELLO MART, Taka Mart, JAPAN VINA, J24 MART, EM BEAUTY, MAAYAN, ESTELLA WELLNESS &amp; SPA; bán sỉ và bán trực tuyến qua TikTok Shop, Shopee, Facebook, website.</p></div>
+      <div><h4>Xuất khẩu</h4><p><b>Campuchia:</b> nước yến chưng đóng hũ.<br><b>Hàn Quốc:</b> nước yến chưng đóng hũ và yến tinh chế.</p></div>
+    </div>
+  </div>
+</section>
 
 <section class="block" id="cam-ket">
   <div class="wrap">
@@ -414,8 +478,6 @@ const P = [
   [147,"Táo Đỏ Tân Cương","Táo Đỏ Nhược Khương","Hộp 350gr",45000],
   [148,"Thạch Nha Đam","Nha Đam Có Đường","Túi 1kg",59000],
   [149,"Thạch Nha Đam","Nha Đam Không Đường","Túi 1kg",59000],
-  [150,"Thạch Nha Đam","Nha Đam Có Đường","Hũ 1kg",69000],
-  [151,"Thạch Nha Đam","Nha Đam Không Đường","Hũ 1kg",69000],
   [201,"Mỹ Phẩm","Xà Bông Hương Trà Xanh","Cục 110g",69000],
   [202,"Mỹ Phẩm","Xà Bông Hương Bạc Hà","Cục 110g",69000],
   [203,"Mỹ Phẩm","Xà Bông Hương Cherry","Cục 110g",69000],
@@ -577,14 +639,14 @@ const SETS = [
 const HET_HANG = [];
 const DIR = "images/san-pham/";
 // Đổi số phiên bản khi thay ảnh catalog để trình duyệt tải ảnh mới thay vì ảnh cũ đã lưu.
-const IMG_V = "?v=22";
+const IMG_V = "?v=23";
 // Ảnh hiển thị dùng bản WebP (nhẹ hơn ~40%); bản .jpg gốc giữ lại cho dữ liệu SEO và chia sẻ.
 const webp = f => f.replace(/\.jpg$/, ".webp");
 const full = f => DIR + webp(f) + (/^(catalog|that|khung|tet)\//.test(f) ? IMG_V : "");
 const thumb = f => DIR + "nho/" + webp(f) + (/^(catalog|that|khung|tet)\//.test(f) ? IMG_V : "");
 const lb = document.getElementById("lb"), lbImg = document.getElementById("lb-img");
 let gal = [], gi = 0;
-function lbShow() { lbImg.src = gal[gi][0].startsWith("ho-so/") ? gal[gi][0] : full(gal[gi][0]); lbImg.alt = gal[gi][1]; document.getElementById("lb-n").textContent = gal.length > 1 ? `${gi + 1}/${gal.length}` : gal[gi][1]; }
+function lbShow() { lbImg.src = /^(ho-so|images\/gioi-thieu)\//.test(gal[gi][0]) ? gal[gi][0] : full(gal[gi][0]); lbImg.alt = gal[gi][1]; document.getElementById("lb-n").textContent = gal.length > 1 ? `${gi + 1}/${gal.length}` : gal[gi][1]; }
 function lbOpen(list, i) { gal = list; gi = i; lbShow(); lb.showModal(); }
 document.getElementById("lb-prev").onclick = () => { gi = (gi + gal.length - 1) % gal.length; lbShow(); };
 document.getElementById("lb-next").onclick = () => { gi = (gi + 1) % gal.length; lbShow(); };
@@ -593,7 +655,14 @@ lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
 const vnd = n => n ? n.toLocaleString("vi-VN") + "đ" : "Liên hệ báo giá";
 // Flash Sale: giảm FS_PCT% mọi sản phẩm trong các khung giờ FS_SLOTS (phút trong ngày, giờ Việt Nam UTC+7).
 const FS_PCT = 10, FS_SLOTS = [[11 * 60 + 30, 14 * 60 + 30], [19 * 60, 22 * 60]];
-function fsState() { return { on: false, t: 0 }; }
+function fsState(now = Date.now()) {
+  const vn = new Date(now + 7 * 3600e3), day = now - (vn.getUTCHours() * 3600 + vn.getUTCMinutes() * 60 + vn.getUTCSeconds()) * 1000 - vn.getUTCMilliseconds();
+  for (let d = 0; d < 2; d++) for (const [a, b] of FS_SLOTS) {
+    const st = day + d * 864e5 + a * 6e4, en = day + d * 864e5 + b * 6e4;
+    if (now < st) return { on: false, t: st };
+    if (now < en) return { on: true, t: en };
+  }
+}
 let FS_ON = fsState().on;
 const fsPrice = p => FS_ON && p[4] ? Math.round(p[4] * (100 - FS_PCT) / 100 / 1000) * 1000 : p[4];
 const priceHtml = p => FS_ON && p[4] ? `<b>${vnd(fsPrice(p))}</b><s>${vnd(p[4])}</s><span class="fs-tag">-${FS_PCT}%</span>` : `<b>${vnd(p[4])}</b>${p[5] ? `<s>${vnd(p[5])}</s>` : ""}`;
@@ -696,6 +765,14 @@ document.addEventListener("click", e => { const a = e.target.closest('a[href*="z
 // Hồ sơ pháp lý: mỗi giấy tờ mở trong khung xem ảnh, đủ các trang.
 const pages = (n, c, t) => Array.from({length: c}, (_, i) => [`ho-so/trang/${n}-${i + 1}.jpg`, `${t} (trang ${i + 1}/${c})`]);
 const DOCS = {
+  "gt-nha-may": [["images/gioi-thieu/nha-may.webp", "Nhà máy sản xuất"]],
+  "gt-phong-sach": [["images/gioi-thieu/phong-sach.webp", "Khu sản xuất khép kín"]],
+  "gt-xuong-nhat-long": [["images/gioi-thieu/xuong-nhat-long.webp", "Xưởng nhặt lông yến"]],
+  "gt-nuoc-yen": [["images/gioi-thieu/nuoc-yen.webp", "Nước yến chưng VCN"]],
+  "gt-dong-trung": [["images/gioi-thieu/dong-trung.webp", "Trang trại đông trùng hạ thảo"]],
+  "gt-nha-dam": [["images/gioi-thieu/nha-dam.webp", "Trang trại và nhà máy nha đam"]],
+  "gt-tao-do": [["images/gioi-thieu/tao-do.webp", "Kho táo đỏ Tân Cương"]],
+  "gt-xuat-khau": [["images/gioi-thieu/xuat-khau.webp", "Xuất khẩu Campuchia, Hàn Quốc"]],
   haccp: [["ho-so/haccp-vn.jpg", "Chứng nhận HACCP, GKVN-0387-HC (tiếng Việt)"], ["ho-so/haccp.jpg", "HACCP certificate, GKVN-0387-HC (English)"]],
   iso: [["ho-so/iso22000-vn.jpg", "Chứng nhận ISO 22000:2018, GKVN-0387-FC (tiếng Việt)"], ["ho-so/iso22000.jpg", "ISO 22000:2018 certificate, GKVN-0387-FC (English)"]],
   gmp: [["ho-so/gmp.jpg", "Chứng nhận GMP, GKVN-0387-GMP"]],
@@ -714,6 +791,19 @@ document.getElementById("o-copy").addEventListener("click", async e => {
   try { await navigator.clipboard.writeText(t.textContent); e.target.textContent = "Đã chép"; }
   catch { const r = document.createRange(); r.selectNodeContents(t); const s = getSelection(); s.removeAllRanges(); s.addRange(r); e.target.textContent = "Đã chọn nội dung, bấm sao chép"; }
 });
+
+const two = n => String(n).padStart(2, "0");
+function fsTick() {
+  const st = fsState();
+  if (st.on !== FS_ON) { FS_ON = st.on; draw(); fillSel(); }
+  const left = Math.max(0, Math.floor((st.t - Date.now()) / 1000)), hh = two(Math.floor(left / 3600)), mm = two(Math.floor(left / 60) % 60), ss = two(left % 60);
+  document.getElementById("fs-h").textContent = hh; document.getElementById("fs-m").textContent = mm; document.getElementById("fs-s").textContent = ss;
+  document.getElementById("flash").classList.toggle("off", !st.on);
+  document.getElementById("fs-lbl").textContent = st.on ? "Kết thúc sau" : "Bắt đầu sau";
+  document.getElementById("fs-title").textContent = st.on ? `⚡ Flash Sale đang diễn ra: giảm ${FS_PCT}% toàn bộ sản phẩm` : `⚡ Flash Sale giảm ${FS_PCT}% toàn bộ sản phẩm`;
+  const pill = document.getElementById("fs-pill"); pill.classList.toggle("on", st.on); pill.textContent = `⚡ Flash Sale -${FS_PCT}% · ${hh}:${mm}:${ss}`;
+}
+fsTick(); setInterval(fsTick, 1000);
 </script>
 
 </body>
