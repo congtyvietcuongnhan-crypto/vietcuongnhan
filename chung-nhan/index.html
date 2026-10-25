@@ -95,8 +95,28 @@ nav.menu a { white-space: nowrap; }
 @media (max-width: 1260px) { .fs-pill.on { display: none !important; } }
 @media (max-width: 1120px) { .brand small { display: none; } nav.menu { gap: 14px; font-size: 14px; } }
 @media (max-width: 900px) { nav.menu { display: none; } }
-@media (max-width: 380px) { .brand { gap: 8px; } .brand b { font-size: 14px; } header .btn { padding: 8px 12px; } }
+@media (max-width: 430px) { .brand b { font-size: 15px; } }
+@media (max-width: 340px) { .brand b { font-size: 12px; } header .btn { padding: 7px 10px; font-size: 13px; } }
+@media (max-width: 380px) { .brand { gap: 8px; } .brand b { font-size: 14px; } header .btn { padding: 8px 12px; } .brand .mark { width: 38px; height: 38px; } .nav-t { width: 38px; height: 38px; } }
 @media (max-width: 760px) { nav.menu { display: none; } }
+/* Nút menu ☰ cho điện thoại: bấm mở danh sách mục bên dưới đầu trang. */
+.nav-t { display: none; width: 42px; height: 42px; border: 1px solid var(--line); border-radius: 10px; background: var(--paper); padding: 0; cursor: pointer; flex-direction: column; justify-content: center; align-items: center; gap: 5px; }
+.nav-t span { display: block; width: 18px; height: 2px; border-radius: 2px; background: var(--ink); transition: transform .2s, opacity .2s; }
+header.open .nav-t span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+header.open .nav-t span:nth-child(2) { opacity: 0; }
+header.open .nav-t span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+@media (max-width: 900px) {
+  .top .wrap { flex-wrap: wrap; }
+  .top .wrap { column-gap: 8px; }
+  .brand { min-width: 0; flex: 1 1 0; }
+  .brand > span:last-child { min-width: 0; overflow: hidden; }
+  .brand b { overflow: hidden; text-overflow: ellipsis; }
+  .top .wrap > .btn { order: 1; margin-left: auto; }
+  .nav-t { display: flex; order: 2; }
+  header.top nav.menu { order: 3; flex-basis: 100%; flex-direction: column; gap: 0; font-size: 16px; display: none; }
+  header.top.open nav.menu { display: flex; }
+  header.top nav.menu a { padding: 13px 4px; border-top: 1px solid var(--line); color: var(--ink); }
+}
 
 /* hero */
 .hero { background: var(--emerald); color: var(--on-emerald); position: relative; overflow: hidden; }
@@ -299,12 +319,13 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
       <span class="mark"><img src="../mark.png" alt=""></span>
       <span><b>VIỆT CƯỜNG NHÂN</b><small>Excellence in Every Product</small></span>
     </a>
-    <nav class="menu" aria-label="Chính">
+    <nav class="menu" id="menu" aria-label="Chính" onclick="if(event.target.closest('a')){const h=this.closest('header');h.classList.remove('open');h.querySelector('.nav-t').setAttribute('aria-expanded','false')}">
       <a href="../gioi-thieu/">Giới thiệu</a>
       <a href="../#san-pham">Sản phẩm</a>
       <a href="../chung-nhan/" aria-current="page">Chứng nhận &amp; Cam kết</a>
       <a href="../kien-thuc/">Kiến thức</a>
     </nav>
+    <button type="button" class="nav-t" aria-label="Mở menu" aria-expanded="false" aria-controls="menu" onclick="const h=this.closest('header');this.setAttribute('aria-expanded',h.classList.toggle('open'))"><span></span><span></span><span></span></button>
     <a class="btn btn-line" href="../#dat-hang">Liên hệ</a>
   </div>
 </header>

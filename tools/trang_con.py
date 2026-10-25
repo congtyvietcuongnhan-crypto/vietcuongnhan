@@ -59,9 +59,10 @@ def header(active):
       <span class="mark"><img src="../mark.png" alt=""></span>
       <span><b>VIỆT CƯỜNG NHÂN</b><small>Excellence in Every Product</small></span>
     </a>
-    <nav class="menu" aria-label="Chính">
+    <nav class="menu" id="menu" aria-label="Chính" onclick="if(event.target.closest('a')){{const h=this.closest('header');h.classList.remove('open');h.querySelector('.nav-t').setAttribute('aria-expanded','false')}}">
 {nav}
     </nav>
+    <button type="button" class="nav-t" aria-label="Mở menu" aria-expanded="false" aria-controls="menu" onclick="const h=this.closest('header');this.setAttribute('aria-expanded',h.classList.toggle('open'))"><span></span><span></span><span></span></button>
     <a class="btn btn-line" href="../#dat-hang">Liên hệ</a>
   </div>
 </header>'''
