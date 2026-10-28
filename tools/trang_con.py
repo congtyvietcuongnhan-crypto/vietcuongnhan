@@ -191,7 +191,7 @@ def kien_thuc():
                         "thumbnailUrl": f"https://i.ytimg.com/vi/{v['yt']}/hqdefault.jpg", "uploadDate": v.get("ngay", b["ngay"]),
                         "duration": v.get("thoi_luong", ""), "embedUrl": f"https://www.youtube.com/embed/{v['yt']}",
                         "contentUrl": f"https://www.youtube.com/shorts/{v['yt']}"})
-            vid = (f'  <div class="video" style="max-width:360px;margin:18px auto;aspect-ratio:9/16"><iframe src="https://www.youtube-nocookie.com/embed/{v["yt"]}" '
+            vid = (f'  <div class="video" style="max-width:360px;margin:18px auto;aspect-ratio:9/16"><iframe src="https://www.youtube.com/embed/{v["yt"]}" referrerpolicy="strict-origin-when-cross-origin" '
                    f'title="{v["ten"]}" loading="lazy" style="width:100%;height:100%;border:0;border-radius:12px" '
                    'allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>\n')
         if b.get("faq"):
