@@ -1,5 +1,6 @@
 /**
- * Cầu nối đơn hàng: website vietcuongnhan.com → Pancake POS (không qua Google Sheet).
+ * Cầu nối đơn hàng: website vietcuongnhan.com và shop Zalo Mini App → Pancake POS (không qua Google Sheet).
+ * Gửi thêm tham số source=zalo cho đơn từ shop Zalo (nguồn Zalo, nhãn [ZALO SHOP]); còn lại là website (nguồn Website, nhãn [WEBSITE]).
  * Cần cầu nối này để API key Pancake nằm kín ở đây, không lộ trong code công khai của website.
  * Cài đặt:
  *   1. script.google.com → Dự án mới → dán toàn bộ file này.
@@ -22,7 +23,10 @@ function toPancake_(p) {
   if (!shop || !key) return "chưa cài API";
   const qty = Number(p.qty) || 1;
   const price = Number(p.price) || Math.round((Number(p.total) || 0) / qty); // đơn giá đúng như trên web
-  const note = `[WEBSITE] ${p.product || ""} (${p.spec || ""}) x ${p.qty || 1} · Tạm tính ${Number(p.total || 0).toLocaleString("vi-VN")}đ` + (p.note ? ` · Ghi chú: ${p.note}` : "");
+  const isZalo = p.source === "zalo";
+  const tag = isZalo ? "[ZALO SHOP]" : "[WEBSITE]";
+  const userNote = String(p.note || "").replace(/^\[ZALO SHOP\]\s*/, ""); // shop Zalo đã tự gắn nhãn, bỏ để khỏi lặp
+  const note = `${tag} ${p.product || ""} (${p.spec || ""}) x ${p.qty || 1} · Tạm tính ${Number(p.total || 0).toLocaleString("vi-VN")}đ` + (userNote ? (isZalo ? ` · ${userNote}` : ` · Ghi chú: ${userNote}`) : "");
   const body = {
     bill_full_name: p.name,
     bill_phone_number: p.phone,
@@ -39,12 +43,14 @@ function toPancake_(p) {
       is_wholesale: false,
       variation_info: { name: [p.product, p.spec].filter(Boolean).join(" - ") || "Sản phẩm website", retail_price: price }
     }],
-    order_sources: -1,
+    // Nguồn đơn trên POS: -8 = Zalo, -14 = Website. Nếu POS không nhận mã nguồn, tạo lại với -1 để không mất đơn.
+    order_sources: isZalo ? -8 : -14,
     status: 0
   };
-  const res = UrlFetchApp.fetch(`https://pos.pages.fm/api/v1/shops/${shop}/orders?api_key=${encodeURIComponent(key)}`, {
-    method: "post", contentType: "application/json", payload: JSON.stringify(body), muteHttpExceptions: true
-  });
+  const url = `https://pos.pages.fm/api/v1/shops/${shop}/orders?api_key=${encodeURIComponent(key)}`;
+  const send = () => UrlFetchApp.fetch(url, { method: "post", contentType: "application/json", payload: JSON.stringify(body), muteHttpExceptions: true });
+  let res = send();
+  if (res.getResponseCode() >= 300) { body.order_sources = -1; res = send(); }
   const code = res.getResponseCode(), txt = res.getContentText().slice(0, 300);
   if (code >= 300) throw code + " " + txt;
   try { const j = JSON.parse(txt); return "ok " + ((j.data && (j.data.id || j.data.display_id)) || ""); } catch (_) { return "ok"; }
