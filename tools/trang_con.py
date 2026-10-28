@@ -184,6 +184,16 @@ def kien_thuc():
                 "author": {"@type": "Organization", "name": "Việt Cường Nhân"},
                 "publisher": {"@type": "Organization", "name": "Việt Cường Nhân", "logo": {"@type": "ImageObject", "url": f"{SITE}/logo.png"}},
                 "mainEntityOfPage": f"{SITE}/kien-thuc/{b['slug']}.html"}]
+        vid = ""
+        if b.get("video"):
+            v = b["video"]
+            lds.append({"@context": "https://schema.org", "@type": "VideoObject", "name": v["ten"], "description": b["desc"],
+                        "thumbnailUrl": f"https://i.ytimg.com/vi/{v['yt']}/hqdefault.jpg", "uploadDate": v.get("ngay", b["ngay"]),
+                        "duration": v.get("thoi_luong", ""), "embedUrl": f"https://www.youtube.com/embed/{v['yt']}",
+                        "contentUrl": f"https://www.youtube.com/shorts/{v['yt']}"})
+            vid = (f'  <div class="video" style="max-width:360px;margin:18px auto;aspect-ratio:9/16"><iframe src="https://www.youtube-nocookie.com/embed/{v["yt"]}" '
+                   f'title="{v["ten"]}" loading="lazy" style="width:100%;height:100%;border:0;border-radius:12px" '
+                   'allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>\n')
         if b.get("faq"):
             lds.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
                 {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", a)}} for q, a in b["faq"]]})
@@ -195,7 +205,7 @@ def kien_thuc():
   <h1>{b["h1"]}</h1>
   <p class="lede">{b["lede"]}</p>
   <p class="meta">Việt Cường Nhân · Đăng {"/".join(reversed(b["ngay"].split("-")))}</p>
-{tldr}{body}
+{vid}{tldr}{body}
   <p class="note">Thực phẩm này không phải là thuốc và không có tác dụng thay thế thuốc chữa bệnh. Người đang mang thai, có bệnh nền hoặc đang dùng thuốc nên hỏi ý kiến bác sĩ trước khi dùng.</p>
   <div class="cta">
     <a class="btn btn-gold" href="../#san-pham">Xem bảng giá</a>
