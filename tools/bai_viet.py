@@ -438,4 +438,64 @@ dict(slug="an-yen-luc-nao-tot-nhat", cat="Yến sào", ngay="2026-10-27",
        ("Nên ăn yến trước hay sau bữa ăn?", "Trước bữa ăn chính khoảng 30 phút hoặc sau bữa ăn khoảng 1 tiếng, khi bụng không quá no."),
        ("Nước yến hũ uống lúc nào?", "Uống lúc nào trong ngày cũng được, tiện nhất là giữa buổi sáng hoặc giữa buổi chiều. Hũ đã mở nên uống hết trong ngày."),
        ("Bà bầu và trẻ nhỏ ăn yến lúc nào?", "Nên hỏi bác sĩ trước về việc có nên dùng, thời điểm và lượng dùng phù hợp với từng người.")]),
+dict(slug="nam-dong-trung-ha-thao-tiem-ga-ac", cat="Đông trùng hạ thảo", ngay="2026-10-28",
+  tu_khoa="nấm đông trùng hạ thảo tiềm gà ác, gà ác tiềm đông trùng hạ thảo, cách nấu gà ác tiềm, gà ác hầm táo đỏ hạt sen",
+  h1="Nấm đông trùng hạ thảo tiềm gà ác: cách nấu tại nhà",
+  desc="Cách nấu nấm đông trùng hạ thảo tiềm gà ác với táo đỏ, hạt sen, kỷ tử: nguyên liệu, 6 bước làm, thời gian hầm và mẹo giữ nước dùng trong, ngọt thanh.",
+  lede="Nấm đông trùng hạ thảo tiềm gà ác là món hầm gồm gà ác, đông trùng hạ thảo sấy khô, táo đỏ, hạt sen, kỷ tử và vài lát sâm, nấu lửa nhỏ khoảng 1 tiếng cho nước dùng vàng trong, ngọt thanh. Món này làm được bằng nồi thường hoặc nồi áp suất, chỉ cần 6 bước.",
+  video=dict(yt="vFkUoRGhTMo", ten="Nấm đông trùng hạ thảo tiềm gà ác – cách nấu tại nhà", ngay="2026-10-28", thoi_luong="PT1M12S"),
+  tom_tat=["Nguyên liệu cho 3–4 người: 1 con gà ác 400–500 g, 5–10 g nấm đông trùng hạ thảo sấy khô, 6–8 quả táo đỏ, 30 g hạt sen, 1 muỗng kỷ tử, 2–3 lát sâm.",
+           "Gà ác chần sơ 2–3 phút cho sạch, rồi hầm với khoảng 1–1,2 lít nước.",
+           "Táo đỏ và kỷ tử cho vào khi nước sôi; đông trùng hạ thảo cho sau, hầm lửa nhỏ thêm 30–40 phút.",
+           "Tổng thời gian khoảng 60–75 phút với nồi thường, 25–30 phút với nồi áp suất.",
+           f"Nấm đông trùng hạ thảo tại Việt Cường Nhân: loại gãy {gia(138)}/100gr, loại cây {gia(136)}/100gr; táo đỏ Tân Cương hộp 350gr từ {gia(147)}."],
+  body=f"""  <h2>Nguyên liệu nấm đông trùng hạ thảo tiềm gà ác</h2>
+  <p>Một nồi nấm đông trùng hạ thảo tiềm gà ác cho 3–4 người cần 1 con gà ác nhỏ và một ít dược liệu khô quen thuộc. Gà ác (gà đen) thịt chắc, xương nhỏ nên hầm lâu không bị bở.</p>
+  <table><thead><tr><th>Nguyên liệu</th><th>Định lượng</th><th>Ghi chú</th></tr></thead><tbody>
+  <tr><td>Gà ác</td><td>1 con, 400–500 g</td><td>Để nguyên con hoặc chặt đôi</td></tr>
+  <tr><td>Nấm đông trùng hạ thảo sấy khô</td><td>5–10 g</td><td>Loại gãy dùng nấu ăn là đủ</td></tr>
+  <tr><td>Táo đỏ</td><td>6–8 quả</td><td>Rửa sạch, có thể khứa nhẹ</td></tr>
+  <tr><td>Hạt sen</td><td>30 g</td><td>Hạt sen khô nên ngâm trước 1–2 tiếng</td></tr>
+  <tr><td>Kỷ tử</td><td>1 muỗng canh</td><td>Rửa nhanh, cho vào cuối</td></tr>
+  <tr><td>Sâm</td><td>2–3 lát mỏng</td><td>Không bắt buộc</td></tr>
+  <tr><td>Nước, muối</td><td>1–1,2 lít nước, muối vừa ăn</td><td>Có thể thay bằng nước dùng gà</td></tr>
+  </tbody></table>
+
+  <h2>Cách nấu nấm đông trùng hạ thảo tiềm gà ác (6 bước)</h2>
+  <p>Cách nấu gà ác tiềm đông trùng hạ thảo gồm 6 bước: chần gà, hầm gà, thêm táo đỏ và kỷ tử, thêm đông trùng, gắp gà ra bát và hoàn thiện. Video ở đầu bài làm đúng theo các bước này.</p>
+  <ol>
+    <li><b>Chần sơ gà ác.</b> Cho gà vào nồi nước sôi 2–3 phút, vớt ra rửa lại nước sạch để nước dùng trong, không hôi.</li>
+    <li><b>Hầm gà.</b> Cho gà vào nồi hoặc thố, đổ 1–1,2 lít nước, thêm hạt sen đã ngâm, đun sôi rồi hạ lửa nhỏ.</li>
+    <li><b>Thêm táo đỏ, kỷ tử.</b> Khi nước sôi lại, thả táo đỏ để nước ngọt thanh, thêm kỷ tử và vài lát sâm.</li>
+    <li><b>Cho nấm đông trùng hạ thảo.</b> Thả đông trùng vào, giữ lửa nhỏ liu riu, hầm thêm 30–40 phút cho gà mềm, ngấm vị.</li>
+    <li><b>Gắp gà ra bát lớn.</b> Nêm muối vừa ăn, gắp gà ra bát hoặc thố.</li>
+    <li><b>Hoàn thiện.</b> Xếp hạt sen, táo đỏ, đông trùng lên trên, chan nước dùng nóng là ăn được.</li>
+  </ol>
+
+  <h2>Thời gian hầm bao lâu?</h2>
+  <p>Gà ác tiềm đông trùng hạ thảo hầm tổng khoảng 60–75 phút với nồi thường, hoặc 25–30 phút với nồi áp suất. Nếu dùng nồi áp suất, nên cho đông trùng và kỷ tử sau khi xả van, đun sôi lại 5–10 phút để nấm giữ màu cam, không bị nát.</p>
+  <ul>
+    <li><b>Chưng cách thủy trong thố:</b> khoảng 1,5–2 tiếng, nước dùng trong nhất.</li>
+    <li><b>Nồi thường:</b> 60–75 phút, lửa nhỏ, hớt bọt khi sôi.</li>
+    <li><b>Nồi áp suất:</b> 25–30 phút, tiện cho ngày bận.</li>
+  </ul>
+
+  <h2>Mẹo để món tiềm ngon, nước dùng trong</h2>
+  <ul>
+    <li>Luôn chần gà trước và hớt bọt khi nước sôi lần đầu.</li>
+    <li>Không cho đông trùng quá sớm; cho ở nửa sau thời gian hầm để nấm giữ màu và độ giòn nhẹ.</li>
+    <li>Táo đỏ khứa nhẹ vỏ để ra vị ngọt nhanh hơn, nhờ vậy bớt nêm đường.</li>
+    <li>Nêm nhạt, để vị ngọt tự nhiên của gà và táo đỏ.</li>
+  </ul>
+  <p>Các cách dùng khác của đông trùng (pha trà, nấu canh, chưng cùng yến) có ở bài <a href="cach-dung-dong-trung-ha-thao.html">cách dùng nấm đông trùng hạ thảo sấy khô</a>. Cách chọn táo đỏ theo size xem bài <a href="tao-do-tan-cuong-cach-chon-va-mon-ngon.html">táo đỏ Tân Cương: cách chọn size và món ngon</a>.</p>
+
+  <h2>Chọn đông trùng hạ thảo và táo đỏ cho món tiềm</h2>
+  <p>Để nấu ăn trong gia đình, nấm đông trùng hạ thảo loại gãy là lựa chọn tiết kiệm vì vị như loại cây, chỉ khác cọng ngắn. Loại cây cọng nguyên đẹp hơn, hợp khi nấu đãi khách hoặc biếu tặng. Giá dưới đây lấy từ bảng giá website Việt Cường Nhân, chưa gồm phí giao hàng.</p>
+""" + ul(li(138, "Hợp nấu tiềm, nấu canh hằng ngày."), li(136, "Cọng nguyên, đẹp, hợp đãi khách, biếu tặng."), li(140), li(146, "Quả to, cùi dày, hợp món hầm."), li(145)) + """
+  <p>Cần thêm kỷ tử, sâm hoặc hạt sen để nấu cùng, anh chị nhắn Zalo 0978 094 739 để Việt Cường Nhân báo hàng có sẵn. Xem toàn bộ <a href="../#san-pham">bảng giá sản phẩm</a> để đặt hàng.</p>""",
+  faq=[("Gà ác tiềm đông trùng hạ thảo nấu bao lâu?", "Khoảng 60–75 phút với nồi thường, 25–30 phút với nồi áp suất, hoặc 1,5–2 tiếng nếu chưng cách thủy trong thố."),
+       ("Nấu gà ác tiềm cần bao nhiêu đông trùng hạ thảo?", "Một con gà ác 400–500 g dùng khoảng 5–10 g nấm đông trùng hạ thảo sấy khô là vừa cho 3–4 người."),
+       ("Khi nào cho đông trùng hạ thảo vào nồi?", "Cho ở nửa sau thời gian hầm, khoảng 30–40 phút trước khi tắt bếp, để nấm giữ màu cam và không bị nát."),
+       ("Dùng loại đông trùng nào để nấu tiềm?", "Loại gãy đủ cho nấu ăn hằng ngày và giá mềm hơn; loại cây cọng nguyên hợp khi đãi khách hoặc biếu tặng."),
+       ("Có thể thay gà ác bằng gà ta không?", "Được. Gà ta thịt to hơn nên tăng nước và thời gian hầm thêm khoảng 15–20 phút.")]),
 ]
