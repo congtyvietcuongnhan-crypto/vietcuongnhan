@@ -498,4 +498,69 @@ dict(slug="nam-dong-trung-ha-thao-tiem-ga-ac", cat="Đông trùng hạ thảo", 
        ("Khi nào cho đông trùng hạ thảo vào nồi?", "Cho ở nửa sau thời gian hầm, khoảng 30–40 phút trước khi tắt bếp, để nấm giữ màu cam và không bị nát."),
        ("Dùng loại đông trùng nào để nấu tiềm?", "Loại gãy đủ cho nấu ăn hằng ngày và giá mềm hơn; loại cây cọng nguyên hợp khi đãi khách hoặc biếu tặng."),
        ("Có thể thay gà ác bằng gà ta không?", "Được. Gà ta thịt to hơn nên tăng nước và thời gian hầm thêm khoảng 15–20 phút.")]),
+dict(slug="yen-sao-binh-duong-di-an-mua-o-dau", cat="Yến sào", ngay="2026-10-29",
+  tu_khoa="yến sào Dĩ An Bình Dương, mua yến sào ở Dĩ An, yến sào Bình Dương, xưởng yến sào Dĩ An, cửa hàng yến sào Tân Đông Hiệp",
+  h1="Mua yến sào ở Dĩ An, Bình Dương cũ: địa chỉ xưởng",
+  desc="Mua yến sào Dĩ An Bình Dương ở đâu? Địa chỉ nhà máy, cơ sở đóng gói Việt Cường Nhân tại Tân Đông Hiệp, Đông Hòa, cách đặt hàng, giao nhận và bảng giá.",
+  lede="Ở Dĩ An (Bình Dương cũ, nay thuộc TP. Hồ Chí Minh), bạn có thể mua yến sào trực tiếp tại xưởng Việt Cường Nhân: nhà máy ở 511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp và cơ sở đóng gói ở 261-263 Võ Thị Sáu, Phường Đông Hòa. Nên gọi hoặc nhắn Zalo 0978 094 739 trước khi đến để được hẹn giờ và chuẩn bị sẵn hàng.",
+  tom_tat=["Việt Cường Nhân thành lập năm 2009, trụ sở tại Phường Dĩ An, xưởng tinh chế yến đầu tiên hoạt động ở Dĩ An từ năm 2019.",
+           "Nhà máy: 511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp; cơ sở đóng gói: 261-263 Võ Thị Sáu, KP. Tây A, Phường Đông Hòa, TP. Hồ Chí Minh.",
+           "Gọi hoặc nhắn Zalo 0978 094 739 trước khi đến để hẹn giờ; đặt online thì giao TP. Hồ Chí Minh và khu vực lân cận trong 1–2 ngày làm việc.",
+           f"Giá tham khảo: {P[109][2]} {gia(109)}/100gr, {P[101][2]} {gia(101)}/100gr, {P[124][2]} {gia(124)}/hũ.",
+           "Xưởng đạt HACCP, ISO 22000:2018 và GMP; giá trên web chưa gồm phí giao hàng."],
+  body=f"""  <h2>Mua yến sào ở Dĩ An, Bình Dương ở đâu?</h2>
+  <p>Người ở Dĩ An có thể mua yến sào ngay tại xưởng của Việt Cường Nhân, doanh nghiệp yến sào có trụ sở và nhà máy trong khu vực Dĩ An (trước đây thuộc tỉnh Bình Dương, nay thuộc TP. Hồ Chí Minh). Mua tại xưởng giúp bạn xem tận mắt sợi yến, hỏi trực tiếp cách sơ chế và nhận hàng trong ngày.</p>
+  <p>Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân thành lập tháng 6 năm 2009. Năm 2019, công ty đưa vào hoạt động xưởng tinh chế yến sào đầu tiên tại Dĩ An; đến năm 2022 xây thêm nhà máy nước yến chưng sẵn. Vì vậy yến bán ở đây là hàng xưởng tự làm sạch, đóng gói, không qua nhiều khâu trung gian.</p>
+
+  <h2>Địa chỉ xưởng yến sào Việt Cường Nhân tại Dĩ An</h2>
+  <p>Việt Cường Nhân có 3 địa điểm trong khu vực Dĩ An cũ, đều dùng chung số điện thoại và Zalo 0978 094 739. Sau khi sắp xếp lại đơn vị hành chính, các địa chỉ được ghi theo phường mới thuộc TP. Hồ Chí Minh.</p>
+  <table><thead><tr><th>Địa điểm</th><th>Địa chỉ</th><th>Ghi chú</th></tr></thead><tbody>
+  <tr><td>Nhà máy</td><td>511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp, TP. Hồ Chí Minh</td><td>Nơi sản xuất yến tinh chế, nước yến chưng</td></tr>
+  <tr><td>Cơ sở đóng gói</td><td>261-263 Võ Thị Sáu, KP. Tây A, Phường Đông Hòa, TP. Hồ Chí Minh</td><td>Đóng gói, chuẩn bị đơn hàng</td></tr>
+  <tr><td>Trụ sở công ty</td><td>Số 24/22 Khu phố Thống Nhất 1, Phường Dĩ An, TP. Hồ Chí Minh</td><td>Trụ sở đăng ký kinh doanh, MST 3701518691</td></tr>
+  </tbody></table>
+  <p>Khi tìm trên bản đồ, bạn có thể gõ cả tên phường mới lẫn tên cũ (Tân Đông Hiệp, Đông Hòa thuộc Dĩ An, Bình Dương) để ra đúng vị trí.</p>
+
+  <h3>Nên gọi trước khi đến</h3>
+  <p>Hãy gọi hoặc nhắn Zalo 0978 094 739 trước khi ghé để được hẹn giờ, báo địa điểm phù hợp và chuẩn bị sẵn loại yến bạn cần. Xưởng là nơi sản xuất, nên hẹn trước giúp bạn không phải chờ và có người tư vấn trực tiếp.</p>
+
+  <h2>Mua yến tại xưởng có gì khác mua online?</h2>
+  <p>Mua tại xưởng Dĩ An phù hợp khi bạn muốn xem sợi yến trước khi chọn; mua online phù hợp khi bạn đã biết loại cần mua và muốn giao tận nhà. Giá sản phẩm lấy theo cùng một bảng giá trên website.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Đến xưởng</th><th>Đặt online</th></tr></thead><tbody>
+  <tr><td>Xem sợi yến</td><td>Xem tận tay, so sánh nhiều loại</td><td>Xem ảnh, hỏi thêm qua Zalo</td></tr>
+  <tr><td>Nhận hàng</td><td>Nhận ngay khi đến</td><td>TP. Hồ Chí Minh và lân cận 1–2 ngày làm việc</td></tr>
+  <tr><td>Phí giao hàng</td><td>Không phát sinh</td><td>Tính theo khu vực, báo khi xác nhận đơn</td></tr>
+  <tr><td>Tư vấn</td><td>Hỏi trực tiếp cách ngâm, chưng</td><td>Qua điện thoại, Zalo</td></tr>
+  </tbody></table>
+  <p>Theo <a href="../chinh-sach/van-chuyen.html">chính sách vận chuyển</a>, khu vực gần có thể được giao bởi nhân viên Việt Cường Nhân, và khách được kiểm tra kiện hàng trước khi thanh toán.</p>
+
+  <h2>Các loại yến sào bán tại xưởng Dĩ An</h2>
+  <p>Xưởng Việt Cường Nhân bán đủ ba nhóm: yến thô còn lông, yến tinh chế đã nhặt sạch lông và nước yến chưng sẵn đóng hũ. Ở xưởng chúng tôi, khách mua dùng trong gia đình thường chọn yến tinh chế 1 lớp sợi vừa, khách có thời gian tự nhặt lông chọn yến thô, còn người bận rộn chọn nước yến hũ.</p>
+""" + ul(li(109, "Đã nhặt sạch lông, ngâm xong là chưng."), li(101, "Còn lông, cần ngâm và nhặt tại nhà."), li(124, "Chưng sẵn, mở nắp là dùng.")) + f"""
+  <p>Sự khác nhau giữa các nhóm yến được giải thích ở bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông khác nhau thế nào</a>. Bảng giá đầy đủ các loại xem tại bài <a href="gia-yen-sao-bao-nhieu-tien.html">giá yến sào bao nhiêu tiền 100gr</a> hoặc <a href="../#san-pham">bảng giá sản phẩm</a>.</p>
+
+  <h2>Kiểm tra gì khi mua yến sào ở Dĩ An?</h2>
+  <p>Dù mua ở đâu, bạn nên xem sợi yến, nhãn mác và giấy tờ của cơ sở sản xuất. Đây là những điểm khách đến xưởng hay hỏi:</p>
+  <ol>
+    <li><b>Xem sợi yến:</b> sợi tự nhiên to nhỏ không đều, màu trắng ngà, không bóng nhựa.</li>
+    <li><b>Hỏi nguồn gốc:</b> yến từ nhà yến nào, làm sạch ở đâu. Việt Cường Nhân có nhà yến tại Gò Công Tây (Tiền Giang cũ), Bình Thuận và các xưởng nhặt lông tại Lâm Đồng.</li>
+    <li><b>Xem chứng nhận:</b> HACCP, ISO 22000:2018, GMP và hồ sơ tự công bố sản phẩm, có thể xem trên <a href="../chung-nhan/">trang chứng nhận</a>.</li>
+    <li><b>Xem nhãn:</b> tên sản phẩm, khối lượng, ngày sản xuất, hạn dùng, thông tin cơ sở sản xuất.</li>
+  </ol>
+  <p>Các dấu hiệu chi tiết hơn có ở bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>. Ý nghĩa từng chứng nhận xem ở bài <a href="chung-nhan-haccp-iso-22000-gmp-la-gi.html">HACCP, ISO 22000 và GMP nghĩa là gì</a>.</p>
+
+  <h2>Cách đặt yến sào giao tận nhà ở Dĩ An</h2>
+  <p>Cách nhanh nhất là đặt trên website hoặc nhắn Zalo 0978 094 739, nhân viên sẽ gọi xác nhận đơn và báo phí giao trước khi giao.</p>
+  <ol>
+    <li>Chọn sản phẩm ở <a href="../#san-pham">bảng giá</a> và điền thông tin đặt hàng.</li>
+    <li>Nhân viên Việt Cường Nhân gọi xác nhận, báo phí giao hàng theo khu vực.</li>
+    <li>Nhận hàng, kiểm tra bên ngoài kiện, số lượng và niêm phong trước khi thanh toán.</li>
+    <li>Nên quay video lúc mở hàng để làm căn cứ theo <a href="../chinh-sach/doi-tra.html">chính sách đổi trả</a>.</li>
+  </ol>
+  <p>Nhận yến về, bạn có thể làm theo bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý ở Dĩ An và khu vực lân cận: nhắn Zalo 0978 094 739 để được tư vấn.</p>""",
+  faq=[("Mua yến sào ở Dĩ An, Bình Dương ở đâu?", "Có thể mua tại xưởng Việt Cường Nhân: nhà máy 511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp hoặc cơ sở đóng gói 261-263 Võ Thị Sáu, Phường Đông Hòa, TP. Hồ Chí Minh. Nên gọi hoặc nhắn Zalo 0978 094 739 trước khi đến."),
+       ("Có được đến xưởng xem yến trước khi mua không?", "Được, bạn nên gọi hoặc nhắn Zalo 0978 094 739 trước để hẹn giờ và địa điểm, nhân viên sẽ chuẩn bị sẵn các loại yến để bạn xem."),
+       ("Đặt yến online giao về Dĩ An mất bao lâu?", "Theo chính sách vận chuyển của Việt Cường Nhân, TP. Hồ Chí Minh và khu vực lân cận nhận hàng trong 1 đến 2 ngày làm việc. Phí giao được báo khi gọi xác nhận đơn."),
+       ("Yến sào ở xưởng Dĩ An giá bao nhiêu?", f"Ví dụ {P[109][2]} giá {gia(109)}/100gr, {P[101][2]} giá {gia(101)}/100gr. Giá chưa gồm phí giao hàng, bảng giá đầy đủ có trên website."),
+       ("Muốn mua sỉ yến sào ở Bình Dương thì liên hệ ai?", "Nhắn Zalo 0978 094 739 để được Việt Cường Nhân tư vấn mua số lượng lớn, mua sỉ hoặc làm đại lý.")]),
 ]
