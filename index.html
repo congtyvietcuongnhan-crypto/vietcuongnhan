@@ -722,9 +722,9 @@ const IMG = {
   240: ["khung/240.jpg", "that/tbeauty-tinh-chat-duong-toc-k-ginseng.jpg"],
   241: ["khung/241.jpg", "that/tbeauty-kem-u-toc-k-ginseng.jpg"],
   242: ["khung/242.jpg", "that/tbeauty-mat-na-queen-xanh.jpg", "that/tbeauty-mat-na-queen-nau.jpg", "that/tbeauty-mat-na-queen-hong.jpg", "that/tbeauty-mat-na-queen-xanh-hop.jpg", "that/tbeauty-mat-na-queen-nau-hop.jpg", "that/tbeauty-mat-na-queen-hong-hop.jpg", "that/tbeauty-mat-na-queen-xanh-hop-2.jpg", "that/tbeauty-mat-na-queen-nau-hop-2.jpg", "that/tbeauty-mat-na-queen-hong-hop-2.jpg"],
-  243: ["khung/243.jpg", "catalog/dau-goi-trai-nhau.jpg"],
-  244: ["khung/244.jpg", "catalog/xa-bong-giam-mun.jpg"],
-  245: ["khung/245.jpg", "catalog/nuoc-rua-tay-kho.jpg"],
+  243: ["khung/243.jpg", "that/dau-goi-trai-nhau-noni.jpg"],
+  244: ["khung/244.jpg", "that/xa-bong-tri-nhau-noni.jpg", "that/xa-bong-que-cinnamon.jpg", "that/xa-bong-chum-ngay-moringa.jpg"],
+  245: ["khung/245.jpg", "that/nuoc-rua-tay-hand-wash.jpg"],
   246: ["khung/246.jpg", "catalog/combo-3-xa-bong.jpg"],
 };
 const SETS = [
@@ -740,7 +740,7 @@ const SETS = [
 const HET_HANG = [];
 const DIR = "images/san-pham/";
 // Đổi số phiên bản khi thay ảnh catalog để trình duyệt tải ảnh mới thay vì ảnh cũ đã lưu.
-const IMG_V = "?v=25";
+const IMG_V = "?v=26";
 // Ảnh hiển thị dùng bản WebP (nhẹ hơn ~40%); bản .jpg gốc giữ lại cho dữ liệu SEO và chia sẻ.
 const webp = f => f.replace(/\.jpg$/, ".webp");
 const full = f => DIR + webp(f) + (/^(catalog|that|khung|tet)\//.test(f) ? IMG_V : "");
