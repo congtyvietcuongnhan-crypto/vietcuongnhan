@@ -1238,4 +1238,85 @@ dict(slug="tre-may-tuoi-an-duoc-yen", cat="Yến sào", ngay="2026-10-31",
        ("Cho bé ăn yến lần đầu cần lưu ý gì?", "Cho lượng rất nhỏ yến nấu chín trong món bé đã quen, ăn vào buổi sáng, không thử cùng lúc với món mới khác và theo dõi bé 2–3 ngày."),
        ("Trẻ ăn yến bao nhiêu là đủ?", "Lượng phù hợp tùy từng bé, cha mẹ nên hỏi bác sĩ nhi. Việt Cường Nhân không đưa ra lượng dùng cho trẻ."),
        ("Trẻ ăn yến bị dị ứng có biểu hiện gì?", "Có thể nổi mẩn, ngứa, nôn, tiêu chảy hoặc quấy khác thường; khi đó ngưng cho ăn và hỏi bác sĩ. Nếu bé khó thở, sưng môi mặt thì đưa đến cơ sở y tế ngay.")]),
+dict(slug="nguoi-gia-an-yen-the-nao", cat="Yến sào", ngay="2026-11-01",
+  tu_khoa="người già ăn yến, người lớn tuổi ăn yến, người già ăn yến lúc nào, cách chưng yến cho người già, người già uống nước yến",
+  h1="Người già ăn yến thế nào cho hợp? Lưu ý khi dùng",
+  desc="Người già ăn yến thế nào cho hợp? Cách chọn yến sợi mềm, chưng loãng ít đường, ăn lúc nào trong ngày, và khi nào người lớn tuổi có bệnh nền nên hỏi bác sĩ trước.",
+  lede="Người già ăn yến hợp nhất khi yến được chưng mềm, loãng, ít đường và dùng chén nhỏ vào lúc bụng nhẹ, như giữa buổi sáng hoặc đầu giờ tối. Yến sào là thực phẩm, không phải thuốc; người lớn tuổi có bệnh nền như tiểu đường, bệnh thận hoặc đang dùng thuốc nên hỏi bác sĩ trước khi đưa yến vào thực đơn.",
+  tom_tat=["Yến sào là thực phẩm, không thay thế thuốc hay chế độ ăn bác sĩ chỉ định cho người lớn tuổi.",
+           "Người có tiểu đường, bệnh thận, dị ứng hoặc đang dùng thuốc nên hỏi bác sĩ trước khi dùng yến.",
+           "Chọn yến tinh chế sợi vừa hoặc yến vụn, chưng mềm với nhiều nước hơn (khoảng 200 ml cho mỗi chén) và ít đường phèn.",
+           "Dùng chén nhỏ, ăn ấm vào giữa buổi sáng hoặc đầu giờ tối, cách bữa chính khoảng 1 tiếng.",
+           f"Ông bà ngại nấu có thể dùng nước yến chưng sẵn, ví dụ {P[124][2]} giá {gia(124)}/hũ; nên đọc thành phần đường trên nhãn."],
+  body=f"""  <h2>Người già ăn yến được không?</h2>
+  <p>Người già ăn yến được như một món ăn trong bữa ăn đa dạng, miễn là yến được chọn sạch, chưng mềm và phù hợp với tình trạng sức khỏe của từng người. Yến sào là thực phẩm, không phải thuốc, nên không thay thế thuốc men hay chế độ ăn mà bác sĩ đã dặn.</p>
+  <p>Ở xưởng Việt Cường Nhân, con cháu hay hỏi "mua yến cho ông bà thì chọn loại nào, chưng thế nào". Câu trả lời ngắn: chọn yến đã nhặt sạch lông, chưng loãng và mềm, ít đường, chén nhỏ; còn ông bà có bệnh nền thì nên hỏi bác sĩ trước.</p>
+
+  <h2>Khi nào người lớn tuổi nên hỏi bác sĩ trước khi ăn yến?</h2>
+  <p>Người lớn tuổi có bệnh mạn tính hoặc đang dùng thuốc nên hỏi bác sĩ trước, vì chế độ ăn của họ thường cần điều chỉnh riêng. Bảng dưới là các trường hợp thường gặp.</p>
+  <table><thead><tr><th>Tình trạng</th><th>Vì sao nên hỏi bác sĩ</th></tr></thead><tbody>
+  <tr><td>Tiểu đường, đường huyết cao</td><td>Yến chưng và nước yến hũ thường có đường; cần kiểm soát lượng đường trong khẩu phần</td></tr>
+  <tr><td>Bệnh thận, cần hạn chế đạm</td><td>Yến là thực phẩm giàu đạm; bác sĩ sẽ cho biết khẩu phần đạm phù hợp</td></tr>
+  <tr><td>Có tiền sử dị ứng thực phẩm</td><td>Bất kỳ thực phẩm mới nào cũng có thể gây dị ứng ở người có cơ địa nhạy cảm</td></tr>
+  <tr><td>Đang dùng nhiều loại thuốc</td><td>Bác sĩ cần biết toàn bộ những gì người bệnh đang ăn uống, dùng thêm</td></tr>
+  <tr><td>Khó nuốt, đang ốm, mới phẫu thuật</td><td>Cần chọn kết cấu món ăn và thời điểm phù hợp</td></tr>
+  </tbody></table>
+
+  <h2>Chọn loại yến nào cho người già?</h2>
+  <p>Người già nên dùng yến đã nhặt sạch lông, sợi vừa hoặc sợi vụn, vì dễ chưng mềm và dễ nhai, nuốt. Tránh chân yến (sợi dai, cứng) với người răng yếu, và tránh yến thô nếu không có người nhặt lông kỹ.</p>
+  <table><thead><tr><th>Loại yến</th><th>Kết cấu khi chưng</th><th>Hợp với</th></tr></thead><tbody>
+  <tr><td>Yến tinh chế 1 lớp sợi vừa</td><td>Mềm, sợi rõ</td><td>Người còn nhai tốt, ăn yến chưng đường phèn</td></tr>
+  <tr><td>Yến tinh chế vụn</td><td>Rất mềm, hòa vào món</td><td>Người răng yếu, nấu cháo, súp</td></tr>
+  <tr><td>Chân yến</td><td>Dai, giòn</td><td>Không hợp người răng yếu</td></tr>
+  <tr><td>Nước yến chưng sẵn</td><td>Lỏng, mở nắp là dùng</td><td>Người ngại nấu, cần tiện</td></tr>
+  </tbody></table>
+  <p>Khác nhau giữa các nhóm yến xem bài <a href="yen-sao-loai-nao-tot.html">yến sào loại nào tốt</a>; yến vụn xem bài <a href="yen-vun-baby-la-gi.html">yến vụn baby là gì</a>.</p>
+
+  <h2>Cách chưng yến cho người già mềm, ít đường</h2>
+  <p>Chưng yến cho người già nên dùng nhiều nước hơn bình thường, chưng đủ mềm và giảm đường phèn. Một chén thường dùng 3–5 g yến khô; với người lớn tuổi, nhiều gia đình chưng loãng hơn với khoảng 200 ml nước.</p>
+  <ol>
+    <li><b>Ngâm yến:</b> yến tinh chế sợi 30–60 phút, yến vụn 15–20 phút; vớt qua rây, xé tơi nhỏ.</li>
+    <li><b>Cho vào thố:</b> yến với khoảng 200 ml nước, thêm 2–3 lát táo đỏ hoặc vài hạt sen đã nấu mềm nếu thích.</li>
+    <li><b>Chưng cách thủy:</b> lửa nhỏ, đậy kín, khoảng 25–30 phút để sợi yến mềm.</li>
+    <li><b>Nêm nhẹ:</b> rất ít đường phèn ở 5 phút cuối, hoặc bỏ hẳn đường và dùng vị ngọt tự nhiên của táo đỏ.</li>
+    <li><b>Ăn ấm:</b> để nguội bớt đến độ ấm vừa rồi mới dùng.</li>
+  </ol>
+  <p>Các bước chưng cơ bản có ở bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>; công thức có hạt sen xem bài <a href="yen-chung-tao-do-hat-sen.html">cách làm yến chưng táo đỏ hạt sen</a>.</p>
+
+  <h2>Người già ăn yến lúc nào?</h2>
+  <p>Người lớn tuổi có thể ăn yến vào lúc bụng nhẹ, thường là giữa buổi sáng hoặc đầu giờ tối, cách bữa chính khoảng 1 tiếng. Không nên ăn quá khuya ngay trước khi ngủ hoặc ăn khi vừa no.</p>
+  <ul>
+    <li><b>Giữa buổi sáng (khoảng 9–10 giờ):</b> thay cho bữa phụ, ăn ấm.</li>
+    <li><b>Đầu giờ tối:</b> chén nhỏ, ít đường, cách giờ ngủ ít nhất 1 tiếng.</li>
+    <li><b>Đều đặn hơn là nhiều:</b> dùng chén nhỏ vài lần mỗi tuần dễ duy trì hơn ăn nhiều một lúc.</li>
+  </ul>
+  <p>Gợi ý thời điểm chung cho người lớn xem bài <a href="an-yen-luc-nao-tot-nhat.html">ăn yến lúc nào trong ngày là hợp lý</a>.</p>
+
+  <h2>Món yến dễ ăn cho người lớn tuổi</h2>
+  <table><thead><tr><th>Món</th><th>Cách làm ngắn</th><th>Lưu ý</th></tr></thead><tbody>
+  <tr><td>Yến chưng táo đỏ ít đường</td><td>Chưng yến với táo đỏ cắt lát 25–30 phút</td><td>Có thể bỏ đường phèn</td></tr>
+  <tr><td>Cháo yến thịt bằm</td><td>Cho yến vụn vào cháo nhừ, nấu thêm 5–7 phút</td><td>Hợp người răng yếu</td></tr>
+  <tr><td>Súp gà yến</td><td>Thêm yến vào nồi súp 10 phút cuối</td><td>Nêm nhạt, ít muối</td></tr>
+  <tr><td>Yến chưng hạt sen</td><td>Nấu hạt sen mềm trước rồi chưng cùng yến</td><td>Nhớ bỏ tim sen</td></tr>
+  </tbody></table>
+
+  <h2>Lưu ý khi người già ăn yến</h2>
+  <ul>
+    <li><b>Bắt đầu chén nhỏ:</b> lần đầu dùng ít, theo dõi; ngưng và hỏi bác sĩ nếu thấy ngứa, nổi mẩn, khó chịu bụng.</li>
+    <li><b>Không thay bữa chính:</b> yến chỉ là một món, ông bà vẫn cần đủ cơm, rau, thịt cá theo hướng dẫn của bác sĩ.</li>
+    <li><b>Không ngưng thuốc:</b> ăn yến không thay cho thuốc đang dùng.</li>
+    <li><b>Ít đường, ít muối:</b> nhất là với người có tiểu đường, huyết áp cao.</li>
+    <li><b>Không tự ý chưng với thuốc bắc:</b> hỏi bác sĩ trước khi kết hợp yến với thảo dược.</li>
+    <li><b>Bảo quản đúng:</b> yến đã chưng để nguội, đậy kín, cất ngăn mát và dùng trong vài ngày.</li>
+  </ul>
+
+  <h2>Yến chưng tại nhà hay nước yến hũ cho ông bà?</h2>
+  <p>Yến chưng tại nhà giúp con cháu chủ động lượng đường và độ mềm; nước yến chưng sẵn tiện cho ông bà ở một mình hoặc ngại nấu, nhưng nên đọc thành phần trên nhãn. Giá dưới đây lấy từ bảng giá website Việt Cường Nhân, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Đã nhặt sạch lông, ngâm xong là chưng."), li(124, "Chưng sẵn từ yến tươi, hũ nhỏ."), li(125, "Hũ lớn, hợp gia đình dùng chung.")) + """
+  <p>Cách dùng và bảo quản nước yến xem bài <a href="nuoc-yen-chung-san-cach-dung-bao-quan.html">nước yến chưng sẵn: chọn loại nào, dùng và bảo quản ra sao</a>. Việt Cường Nhân làm yến từ năm 2009, có xưởng nhặt lông và nhà máy đạt HACCP, ISO 22000:2018, GMP. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>; mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Người già ăn yến được không?", "Được, như một món ăn trong bữa ăn đa dạng. Người lớn tuổi có bệnh nền như tiểu đường, bệnh thận hoặc đang dùng thuốc nên hỏi bác sĩ trước."),
+       ("Người già nên ăn yến loại nào?", "Yến tinh chế sợi vừa hoặc yến vụn đã nhặt sạch lông, vì dễ chưng mềm và dễ nuốt. Người răng yếu nên tránh chân yến vì sợi dai, cứng."),
+       ("Người già ăn yến lúc nào?", "Giữa buổi sáng hoặc đầu giờ tối, cách bữa chính khoảng 1 tiếng, dùng chén nhỏ và ăn ấm. Không nên ăn quá khuya."),
+       ("Người bị tiểu đường ăn yến được không?", "Cần hỏi bác sĩ trước. Nếu được đồng ý, nên chưng yến không đường hoặc rất ít đường và đọc kỹ thành phần đường của nước yến hũ."),
+       ("Chưng yến cho người già thế nào?", "Dùng 3–5 g yến khô với khoảng 200 ml nước, chưng cách thủy lửa nhỏ 25–30 phút cho mềm, nêm rất ít đường phèn hoặc dùng táo đỏ để có vị ngọt.")]),
 ]
