@@ -640,4 +640,81 @@ dict(slug="chan-yen-chan-tua-la-gi", cat="Yến sào", ngay="2026-10-31",
        ("Chân yến ngâm bao lâu?", "Khoảng 2–3 tiếng, đến khi khối yến mềm và xé tơi được. Sau đó chưng cách thủy khoảng 30–40 phút."),
        ("Chân yến giá bao nhiêu 100gr?", f"Tại Việt Cường Nhân, {P[118][2]} giá {gia(118)}/100gr, {P[119][2]} giá {gia(119)}/100gr và {P[105][2]} giá {gia(105)}/100gr, chưa gồm phí giao hàng."),
        ("Chân tua và chân rìa khác nhau thế nào?", "Chân tua sạch là phần chân tổ đã nhặt sạch lông tại xưởng, ngâm xong là chưng. Chân rìa thô là phần chân và rìa tổ chưa làm sạch, phải tự ngâm và nhặt lông.")]),
+dict(slug="yen-vun-baby-la-gi", cat="Yến sào", ngay="2026-10-31",
+  tu_khoa="yến vụn, yến vụn baby là gì, yến vụn nấu món gì, yến vụn đắp tổ, giá yến vụn 100gr",
+  h1="Yến vụn baby là gì, dùng làm món gì?",
+  desc="Yến vụn baby là gì? Là sợi yến ngắn, nhỏ đã nhặt sạch lông, nở nhanh, hợp nấu cháo, súp, chưng sữa. Cách ngâm, chưng, món ngon và giá yến vụn 100gr.",
+  lede="Yến vụn baby là những sợi yến ngắn, nhỏ rơi ra trong lúc làm sạch và định hình tổ yến, đã được nhặt sạch lông. Yến vụn nở nhanh, mềm, dễ hòa vào món ăn nên hợp nấu cháo, súp, chưng sữa, và có giá mềm hơn yến sợi.",
+  tom_tat=["Yến vụn là sợi yến ngắn, nhỏ tách ra khi làm sạch và định hình tổ; vẫn là tổ yến, đã nhặt sạch lông.",
+           "Yến vụn chỉ cần ngâm khoảng 15–20 phút và chưng khoảng 10–15 phút; chưng lâu dễ tan.",
+           "Hợp nấu cháo yến, súp gà yến, yến chưng sữa tươi, chè và yến chưng táo đỏ.",
+           f"Giá tham khảo tại Việt Cường Nhân: {P[107][2]} và {P[106][2]} cùng giá {gia(107)}/100gr.",
+           f"Muốn tiện hơn có {P[120][2]} chia sẵn từng viên: {gia(120)}/10 gói, {gia(121)}/10 hũ."],
+  body=f"""  <h2>Yến vụn baby là gì?</h2>
+  <p>Yến vụn baby là phần sợi yến ngắn và nhỏ tách ra trong quá trình ngâm, nhặt lông và định hình tổ yến. Sau khi gom lại, yến vụn cũng được nhặt sạch lông và sấy khô như yến sợi, nên về bản chất vẫn là tổ yến, chỉ khác độ dài sợi.</p>
+  <p>Chữ "baby" là cách gọi trong nghề để chỉ loại vụn có sợi rất nhỏ, mịn. Ở xưởng Việt Cường Nhân, khi thợ nhặt lông và tạo hình tai yến, những sợi quá ngắn không đắp được vào tổ sẽ được gom riêng thành yến vụn.</p>
+  <h3>Các dạng yến vụn thường gặp</h3>
+  <ul>
+    <li><b>Yến vụn baby:</b> sợi nhỏ, rời, nở nhanh, dễ chia lượng ít.</li>
+    <li><b>Yến vụn đắp tổ:</b> sợi vụn được đắp lại thành dạng tai tổ, dễ lấy từng phần, nhìn gọn hơn.</li>
+    <li><b>Viên yến baby:</b> yến vụn ép thành viên tròn, chia sẵn từng gói hoặc hũ, mỗi lần dùng một viên.</li>
+  </ul>
+
+  <h2>Yến vụn có tốt không, khác yến sợi thế nào?</h2>
+  <p>Yến vụn và yến sợi đều là tổ yến đã làm sạch; điểm khác chính là độ dài sợi, cảm giác khi ăn và giá. Sợi dài không làm chén yến "bổ" hơn, nó chủ yếu tạo cảm giác dai và chén yến đẹp hơn.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Yến tinh chế vụn</th><th>Yến tinh chế 1 lớp sợi vừa</th></tr></thead><tbody>
+  <tr><td>Sợi yến</td><td>Ngắn, nhỏ, rời</td><td>Dài vừa, đan thành tai</td></tr>
+  <tr><td>Ngâm</td><td>Khoảng 15–20 phút</td><td>Khoảng 30–60 phút</td></tr>
+  <tr><td>Chưng cách thủy</td><td>Khoảng 10–15 phút</td><td>Khoảng 20–30 phút</td></tr>
+  <tr><td>Khi ăn</td><td>Mềm, hòa vào món</td><td>Sợi rõ, hơi dai</td></tr>
+  <tr><td>Hợp món</td><td>Cháo, súp, chưng sữa, chè</td><td>Chưng đường phèn, biếu tặng</td></tr>
+  <tr><td>Giá 100gr</td><td>{gia(107)}</td><td>{gia(109)}</td></tr>
+  </tbody></table>
+  <p>Vì nở nhanh và mềm, yến vụn thường được chọn để nấu cho trẻ nhỏ và người lớn tuổi. Trẻ nhỏ, phụ nữ mang thai, người có bệnh nền nên hỏi bác sĩ trước khi dùng. Muốn hiểu thêm các nhóm yến, xem bài <a href="yen-sao-loai-nao-tot.html">yến sào loại nào tốt</a>.</p>
+
+  <h2>Yến vụn nấu món gì ngon?</h2>
+  <p>Yến vụn hợp nhất với các món nấu nhừ hoặc có nước dùng, vì sợi nhỏ hòa đều vào món và không cần chưng lâu. Dưới đây là năm món nhiều gia đình hay làm với yến vụn.</p>
+  <table><thead><tr><th>Món</th><th>Yến khô</th><th>Cách cho yến</th></tr></thead><tbody>
+  <tr><td>Cháo yến thịt bằm</td><td>2–3 g cho 1 chén</td><td>Cho yến đã ngâm vào cháo chín, nấu thêm 5–7 phút</td></tr>
+  <tr><td>Súp gà yến</td><td>3–4 g cho 2 chén</td><td>Thêm yến vào nồi súp ở 10 phút cuối</td></tr>
+  <tr><td>Yến chưng sữa tươi</td><td>3 g cho 1 chén</td><td>Chưng yến với nước 10 phút, tắt bếp rồi mới cho sữa</td></tr>
+  <tr><td>Yến chưng táo đỏ</td><td>3–4 g cho 1 chén</td><td>Chưng cùng táo đỏ cắt lát 10–15 phút</td></tr>
+  <tr><td>Chè hạt sen yến</td><td>4 g cho 2 chén</td><td>Nấu hạt sen mềm, cho yến vào 10 phút cuối</td></tr>
+  </tbody></table>
+  <h3>Cách nấu cháo yến thịt bằm (1 chén)</h3>
+  <ol>
+    <li>Ngâm 2–3 g yến vụn trong nước sạch khoảng 15–20 phút, vớt ra để ráo.</li>
+    <li>Nấu 30 g gạo với khoảng 400 ml nước thành cháo nhừ.</li>
+    <li>Cho khoảng 30 g thịt nạc bằm vào, khuấy tan, nấu chín.</li>
+    <li>Cho yến vào, nấu nhỏ lửa thêm 5–7 phút, nêm nhạt vừa ăn rồi tắt bếp.</li>
+  </ol>
+  <p>Với món ngọt, có thể chưng cùng táo đỏ Tân Cương; cách chọn size táo xem ở bài <a href="tao-do-tan-cuong-cach-chon-va-mon-ngon.html">táo đỏ Tân Cương: cách chọn size và món ngon</a>.</p>
+
+  <h2>Cách ngâm và chưng yến vụn không bị tan</h2>
+  <p>Yến vụn sợi nhỏ nên chỉ cần ngâm ngắn và chưng ngắn; ngâm hoặc chưng quá lâu là nguyên nhân chính khiến yến vụn tan thành nước. Mỗi chén yến chưng đường phèn dùng khoảng 3–4 g yến vụn với 150–200 ml nước.</p>
+  <ol>
+    <li><b>Ngâm:</b> 15–20 phút trong nước sạch, đến khi sợi nở mềm.</li>
+    <li><b>Lọc:</b> đổ yến qua rây lưới nhỏ để không trôi mất sợi, rửa nhẹ tay.</li>
+    <li><b>Chưng:</b> cho yến và nước vào thố, chưng cách thủy lửa nhỏ 10–15 phút.</li>
+    <li><b>Nêm:</b> thêm đường phèn ở 3–5 phút cuối.</li>
+  </ol>
+  <p>Các bước chưng chung xem ở bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>; số chén từ một hộp xem bài <a href="100gr-yen-chung-duoc-bao-nhieu-chen.html">100gr yến chưng được bao nhiêu chén</a>.</p>
+
+  <h2>Giá yến vụn 100gr và nên chọn loại nào</h2>
+  <p>Yến vụn có giá thấp hơn yến tinh chế dạng sợi vì sợi ngắn, không định hình được tổ đẹp. Giá dưới đây lấy từ bảng giá website Việt Cường Nhân, chưa gồm phí giao hàng:</p>
+""" + ul(li(107, "Sợi nhỏ, rời, dễ chia lượng ít để nấu cháo, súp."), li(106, "Vụn được đắp thành tai, lấy từng phần gọn hơn."), li(120, "Mỗi viên một lần dùng, đóng gói."), li(121, "Mỗi viên một lần dùng, đóng hũ.")) + f"""
+  <ul>
+    <li><b>Nấu cháo, súp hằng ngày:</b> {P[107][2]}.</li>
+    <li><b>Muốn dễ lấy, dễ bảo quản:</b> {P[106][2]}.</li>
+    <li><b>Bận rộn, không muốn cân:</b> {P[120][2]}, thành phần ghi trên bao bì.</li>
+  </ul>
+
+  <h2>Bảo quản yến vụn</h2>
+  <p>Yến vụn khô bảo quản trong hộp hoặc túi kín, nơi khô ráo, tránh nắng; sau mỗi lần lấy cần đậy kín ngay vì sợi nhỏ dễ hút ẩm. Yến đã chưng hoặc cháo yến nên ăn trong ngày; nếu còn thừa thì để nguội, đậy kín, cất ngăn mát.</p>
+  <p>Việt Cường Nhân làm yến từ năm 2009, xưởng đạt HACCP, ISO 22000:2018 và GMP; yến vụn được gom và nhặt lông cùng quy trình với yến sợi. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Yến vụn là gì?", "Yến vụn là những sợi yến ngắn, nhỏ tách ra khi ngâm, nhặt lông và định hình tổ yến. Yến vụn vẫn là tổ yến, được nhặt sạch lông và sấy khô như yến sợi."),
+       ("Yến vụn có tốt bằng yến sợi không?", "Yến vụn và yến sợi đều là tổ yến đã làm sạch, khác nhau chủ yếu ở độ dài sợi và cảm giác khi ăn. Sợi dài cho chén yến đẹp và dai hơn, còn yến vụn mềm, nở nhanh, hợp nấu cháo, súp."),
+       ("Yến vụn ngâm bao lâu?", "Khoảng 15–20 phút là sợi nở mềm. Sau đó chưng cách thủy khoảng 10–15 phút; chưng lâu hơn yến dễ bị tan."),
+       ("Yến vụn nấu món gì?", "Hợp nấu cháo yến, súp gà yến, yến chưng sữa tươi, yến chưng táo đỏ và chè hạt sen yến."),
+       ("Yến vụn baby giá bao nhiêu?", f"Tại Việt Cường Nhân, {P[107][2]} giá {gia(107)}/100gr, chưa gồm phí giao hàng. {P[120][2]} giá {gia(120)}/10 gói.")]),
 ]
