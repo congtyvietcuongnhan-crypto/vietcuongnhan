@@ -788,4 +788,73 @@ dict(slug="yen-chung-tao-do-hat-sen", cat="Món ngon", ngay="2026-10-31",
        ("Vì sao yến chưng hạt sen bị đắng?", "Thường do chưa bỏ tim sen. Hãy dùng tăm đẩy bỏ phần tim màu xanh ở giữa hạt trước khi nấu."),
        ("Có cho hạt sen và yến vào chưng cùng lúc được không?", "Không nên, vì hạt sen chín lâu hơn yến. Nếu chưng cùng lúc đến khi sen mềm thì sợi yến dễ bị tan; nên nấu sen trước."),
        ("Yến chưng táo đỏ hạt sen để được bao lâu?", "Để nguội, đậy kín, cất ngăn mát và dùng trong vài ngày. Nên chưng vừa đủ ăn trong 2–3 ngày.")]),
+dict(slug="yen-chung-dong-trung-ha-thao", cat="Món ngon", ngay="2026-10-31",
+  tu_khoa="yến chưng đông trùng hạ thảo, cách chưng yến với đông trùng hạ thảo, tỉ lệ yến và đông trùng, yến chưng đông trùng táo đỏ",
+  h1="Yến chưng đông trùng hạ thảo: cách làm và tỉ lệ",
+  desc="Yến chưng đông trùng hạ thảo làm thế nào? Tỉ lệ 4 g yến khô với 1 g đông trùng sấy cho 1 chén, các bước chưng cách thủy 20–30 phút và mẹo giữ màu nấm.",
+  lede="Yến chưng đông trùng hạ thảo dùng tỉ lệ phổ biến khoảng 4 g yến khô với 1 g nấm đông trùng hạ thảo sấy khô (khoảng 10–15 sợi) cho một chén 150–200 ml. Chưng yến cách thủy 20–30 phút, cho đông trùng và đường phèn vào ở 5–10 phút cuối để nấm giữ màu cam đẹp.",
+  tom_tat=["Tỉ lệ 1 chén: 4 g yến khô, khoảng 1 g đông trùng hạ thảo sấy (10–15 sợi), 150–200 ml nước.",
+           "Chưng cách thủy tổng 20–30 phút; đông trùng cho vào 5–10 phút cuối để giữ màu cam và không nát.",
+           "Có thể thêm 2–3 quả táo đỏ cắt lát để nước chưng ngọt tự nhiên, giảm đường phèn.",
+           "Đông trùng loại gãy hợp chưng hằng ngày; loại cây cọng nguyên đẹp hơn khi đãi khách, biếu tặng.",
+           f"Giá tham khảo: {P[109][2]} {gia(109)}/100gr, {P[140][2]} {gia(140)}/hũ, {P[138][2]} {gia(138)}/100gr."],
+  body=f"""  <h2>Tỉ lệ yến chưng đông trùng hạ thảo</h2>
+  <p>Tỉ lệ yến chưng đông trùng hạ thảo dễ dùng nhất là 4 g yến khô với khoảng 1 g nấm đông trùng hạ thảo sấy khô cho mỗi chén. Đông trùng chỉ đóng vai trò thêm màu và vị ngọt nhẹ, nên không cần cho nhiều.</p>
+  <table><thead><tr><th>Số chén</th><th>Yến khô</th><th>Đông trùng hạ thảo sấy</th><th>Nước</th><th>Đường phèn</th></tr></thead><tbody>
+  <tr><td>1 chén</td><td>4 g</td><td>khoảng 1 g (10–15 sợi)</td><td>150–200 ml</td><td>10–15 g</td></tr>
+  <tr><td>2 chén</td><td>8 g</td><td>khoảng 2 g</td><td>300–400 ml</td><td>20–30 g</td></tr>
+  <tr><td>4 chén</td><td>16 g</td><td>khoảng 3–4 g</td><td>600–800 ml</td><td>40–50 g</td></tr>
+  </tbody></table>
+  <p>Nếu dùng đông trùng tươi thay cho loại sấy, cần lượng nhiều hơn vì đông trùng tươi còn nước; cho một nhúm nhỏ và điều chỉnh theo màu nước chưng. Số chén từ một hộp yến 100gr xem ở bài <a href="100gr-yen-chung-duoc-bao-nhieu-chen.html">100gr yến chưng được bao nhiêu chén</a>.</p>
+
+  <h2>Nguyên liệu và dụng cụ</h2>
+  <ul>
+    <li><b>Yến tinh chế:</b> 4 g mỗi chén. Yến 1 lớp sợi vừa cho sợi rõ; yến vụn nở nhanh, chưng ngắn hơn.</li>
+    <li><b>Nấm đông trùng hạ thảo sấy khô:</b> khoảng 1 g mỗi chén.</li>
+    <li><b>Đường phèn:</b> 10–15 g mỗi chén, tùy khẩu vị; có thể bỏ.</li>
+    <li><b>Táo đỏ (tùy chọn):</b> 2–3 quả mỗi chén, cắt lát bỏ hạt.</li>
+    <li><b>Dụng cụ:</b> thố sứ có nắp, nồi chưng cách thủy, rây lưới nhỏ.</li>
+  </ul>
+
+  <h2>Cách chưng yến với đông trùng hạ thảo từng bước</h2>
+  <p>Chưng yến trước, đông trùng sau: yến cần 20–30 phút để mềm, còn nấm đông trùng sấy chỉ cần 5–10 phút để nở và ra màu. Cho đông trùng từ đầu sẽ làm nấm nhạt màu và dễ nát.</p>
+  <ol>
+    <li><b>Ngâm yến:</b> yến tinh chế sợi ngâm 30–60 phút, yến vụn 15–20 phút. Vớt qua rây, xé tơi, để ráo.</li>
+    <li><b>Rửa đông trùng:</b> tráng nhanh nấm đông trùng sấy qua nước sạch, không ngâm lâu để giữ màu và vị.</li>
+    <li><b>Chưng yến:</b> cho yến và nước vào thố (thêm táo đỏ nếu dùng), đậy nắp, chưng cách thủy lửa nhỏ khoảng 15–20 phút.</li>
+    <li><b>Thêm đông trùng:</b> mở nắp, cho đông trùng vào, chưng tiếp 5–10 phút đến khi sợi nấm nở và nước chuyển màu vàng cam nhạt.</li>
+    <li><b>Nêm đường phèn:</b> cho đường phèn ở 3–5 phút cuối, khuấy nhẹ cho tan rồi tắt bếp.</li>
+  </ol>
+  <p>Chén yến đạt khi sợi yến trong, mềm mà còn dai, sợi đông trùng giữ màu cam và nước có vị ngọt thanh. Các bước chưng yến cơ bản xem bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>.</p>
+
+  <h2>Biến tấu yến chưng đông trùng hạ thảo</h2>
+  <table><thead><tr><th>Món</th><th>Thêm gì</th><th>Lưu ý</th></tr></thead><tbody>
+  <tr><td>Yến chưng đông trùng táo đỏ</td><td>2–3 quả táo đỏ cắt lát mỗi chén</td><td>Cho táo từ đầu, giảm đường phèn</td></tr>
+  <tr><td>Yến chưng đông trùng hạt sen</td><td>15 g hạt sen đã nấu mềm mỗi chén</td><td>Nấu sen trước khoảng 20 phút</td></tr>
+  <tr><td>Yến chưng đông trùng kỷ tử</td><td>8–10 hạt kỷ tử</td><td>Cho cùng lúc với đông trùng</td></tr>
+  <tr><td>Yến chưng đông trùng không đường</td><td>Bỏ đường phèn, thêm táo đỏ</td><td>Hợp người ăn kiêng đường</td></tr>
+  </tbody></table>
+  <p>Cách làm sen trước rồi mới chưng yến có ở bài <a href="yen-chung-tao-do-hat-sen.html">cách làm yến chưng táo đỏ hạt sen</a>. Đông trùng còn dùng được trong món mặn như <a href="nam-dong-trung-ha-thao-tiem-ga-ac.html">nấm đông trùng hạ thảo tiềm gà ác</a>.</p>
+
+  <h2>Mẹo giữ màu đông trùng và sợi yến không tan</h2>
+  <ul>
+    <li><b>Cho đông trùng sau cùng:</b> 5–10 phút cuối là đủ để nấm nở, giữ màu cam tươi.</li>
+    <li><b>Lửa nhỏ lăn tăn:</b> nước sôi mạnh làm sợi yến tan và đông trùng nát.</li>
+    <li><b>Không chưng quá 30 phút</b> tính từ lúc cho yến vào thố.</li>
+    <li><b>Đậy kín nắp thố</b> để hơi nước không nhỏ vào làm loãng chén yến.</li>
+    <li><b>Ăn cả sợi đông trùng</b> sau khi chưng, sợi mềm và có vị ngọt nhẹ.</li>
+  </ul>
+
+  <h2>Nên chọn đông trùng loại cây hay loại gãy để chưng yến?</h2>
+  <p>Để chưng yến hằng ngày, đông trùng loại gãy là đủ vì vị như loại cây, chỉ khác sợi ngắn hơn. Loại cây cọng nguyên đẹp hơn, hợp chưng đãi khách hoặc làm quà. Hũ 10gr tiện để thử hoặc dùng dần cho vài chục chén. Cách dùng đông trùng trong các món khác xem bài <a href="cach-dung-dong-trung-ha-thao.html">cách dùng nấm đông trùng hạ thảo sấy khô</a>.</p>
+""" + ul(li(138, "Sợi gãy, giá mềm, hợp chưng hằng ngày."), li(136, "Cọng nguyên, đẹp, hợp đãi khách."), li(140, "Hũ nhỏ, tiện dùng thử."), li(109, "Yến đã nhặt sạch lông, ngâm xong là chưng.")) + """
+
+  <h2>Bảo quản và lưu ý khi dùng</h2>
+  <p>Yến chưng đông trùng hạ thảo nên để nguội, đậy kín, cất ngăn mát và dùng trong vài ngày. Đông trùng sấy khô chưa dùng thì để hũ kín, nơi khô mát, đậy nắp ngay sau mỗi lần lấy để nấm không hút ẩm. Đây là món ăn, không thay thế thuốc; trẻ nhỏ, phụ nữ mang thai, người có bệnh nền hoặc đang dùng thuốc nên hỏi bác sĩ trước khi dùng đông trùng hạ thảo.</p>
+  <p>Việt Cường Nhân làm yến từ năm 2009, có xưởng nhặt lông và nhà máy đạt HACCP, ISO 22000:2018, GMP; nấm đông trùng hạ thảo do Việt Cường Nhân nuôi trồng và sấy khô. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>, giá chưa gồm phí giao hàng. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Chưng yến với đông trùng hạ thảo tỉ lệ bao nhiêu?", "Mỗi chén khoảng 4 g yến khô với 1 g nấm đông trùng hạ thảo sấy (khoảng 10–15 sợi) và 150–200 ml nước."),
+       ("Khi nào cho đông trùng hạ thảo vào yến?", "Cho ở 5–10 phút cuối khi chưng. Cho từ đầu nấm dễ nhạt màu và nát."),
+       ("Yến chưng đông trùng hạ thảo chưng bao lâu?", "Tổng khoảng 20–30 phút cách thủy với lửa nhỏ: chưng yến 15–20 phút, sau đó thêm đông trùng chưng tiếp 5–10 phút."),
+       ("Có cần ngâm đông trùng hạ thảo trước khi chưng không?", "Không cần ngâm lâu. Chỉ tráng nhanh qua nước sạch rồi cho vào thố ở cuối thời gian chưng."),
+       ("Dùng đông trùng loại nào để chưng yến?", "Loại gãy đủ cho chưng hằng ngày và giá mềm hơn; loại cây cọng nguyên hợp khi đãi khách hoặc biếu tặng.")]),
 ]
