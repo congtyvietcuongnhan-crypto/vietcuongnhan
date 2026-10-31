@@ -1005,4 +1005,84 @@ dict(slug="ba-bau-an-yen-duoc-khong", cat="Yến sào", ngay="2026-10-31",
        ("Bà bầu ăn yến lúc nào?", "Nếu bác sĩ đồng ý, có thể ăn giữa buổi sáng hoặc giữa buổi chiều, cách bữa chính khoảng 1 tiếng, tránh lúc đang buồn nôn hoặc quá no."),
        ("Bà bầu bị tiểu đường thai kỳ có ăn yến được không?", "Cần hỏi bác sĩ trước. Nếu được đồng ý, nên chưng yến không đường hoặc rất ít đường và đọc kỹ thành phần đường của nước yến hũ."),
        ("Bà bầu uống nước yến hũ được không?", "Nên hỏi bác sĩ trước và đọc thành phần trên nhãn, nhất là lượng đường. Hũ đã mở nên dùng hết trong ngày.")]),
+dict(slug="cach-lam-sach-yen-tho", cat="Yến sào", ngay="2026-10-31",
+  tu_khoa="cách làm sạch yến thô, cách nhặt lông yến thô tại nhà, sơ chế yến thô, ngâm yến thô bao lâu",
+  h1="Cách làm sạch yến thô tại nhà: 5 bước (có video)",
+  desc="Cách làm sạch yến thô tại nhà qua 5 bước: ngâm nở mềm, xé tơi theo thớ, lọc qua rây, nhặt lông bằng nhíp trên nền trắng, xả lại nước sạch. Kèm video và mẹo.",
+  lede="Cách làm sạch yến thô tại nhà gồm 5 bước: ngâm nước sạch đến khi tổ nở mềm, xé tơi nhẹ tay theo thớ sợi, lọc qua rây cho bụi và lông nổi lên, đặt trên nền trắng dùng nhíp nhặt từng sợi lông, rồi xả lại nước sạch và để ráo. Sau đó yến đã sạch có thể chưng cách thủy cùng hạt sen, đường phèn.",
+  tom_tat=["5 bước: ngâm nở mềm, xé tơi theo thớ sợi, lọc qua rây, nhặt lông bằng nhíp trên nền trắng, xả lại nước sạch.",
+           "Nhặt lông bằng nhíp là khâu lâu nhất; thời gian tùy lượng lông của từng tổ.",
+           "Chỉ dùng nước sạch, không dùng nước nóng hay hóa chất để làm sạch yến.",
+           "Yến sạch đem chưng cách thủy cùng hạt sen, đường phèn là có chén yến sợi dai, thơm nhẹ.",
+           f"Không có thời gian thì chọn yến tinh chế đã làm sạch sẵn, ví dụ {P[109][2]} {gia(109)}/100gr."],
+  video=dict(yt="Shx390T-45g", ten="5 bước làm sạch yến thô tại nhà", ngay="2026-10-30"),
+  cac_buoc=[("Ngâm nước sạch", "Ngâm tổ yến thô trong nước sạch đến khi tổ nở mềm."),
+            ("Xé tơi theo thớ sợi", "Xé tơi tổ yến nhẹ tay theo thớ sợi để lông và bụi lộ ra."),
+            ("Lọc qua rây", "Lọc yến qua rây trong nước cho bụi và lông nổi lên rồi gạn bỏ."),
+            ("Nhặt lông bằng nhíp", "Đặt yến trên nền trắng, dùng nhíp nhặt từng sợi lông còn sót."),
+            ("Xả lại nước sạch", "Xả yến lại bằng nước sạch, để ráo rồi đem chưng.")],
+  body=f"""  <h2>Cách làm sạch yến thô tại nhà: 5 bước</h2>
+  <p>Làm sạch yến thô tại nhà chỉ cần nước sạch, một cái rây, một cái nhíp và nền trắng để dễ thấy lông. Đây cũng là 5 bước trong video hướng dẫn của Việt Cường Nhân ở đầu bài.</p>
+  <ol>
+    <li><b>Ngâm nước sạch đến khi tổ nở mềm.</b> Cho tổ yến thô vào tô nước sạch ở nhiệt độ thường, ngâm đến khi tổ mềm, các sợi tách nhẹ ra. Yến thô thường cần ngâm lâu hơn yến tinh chế; phần chân tổ đặc nên mềm chậm nhất.</li>
+    <li><b>Xé tơi nhẹ tay theo thớ sợi.</b> Dùng tay tách tổ theo chiều thớ sợi thành từng mảng nhỏ. Xé nhẹ để sợi yến không bị đứt vụn, đồng thời lông và bụi kẹt bên trong lộ ra.</li>
+    <li><b>Lọc qua rây cho bụi và lông nổi lên.</b> Đặt yến vào rây lưới nhỏ, nhúng trong tô nước sạch và lắc nhẹ. Bụi, lông nhẹ nổi lên mặt nước hoặc trôi ra; thay nước vài lần đến khi nước trong.</li>
+    <li><b>Đặt trên nền trắng, dùng nhíp nhặt từng sợi lông.</b> Trải từng ít yến lên đĩa trắng hoặc khay trắng có chút nước, dùng nhíp đầu nhọn nhặt từng sợi lông nhỏ còn bám. Đây là khâu lâu nhất và cần kiên nhẫn.</li>
+    <li><b>Xả lại nước sạch, để ráo.</b> Cho yến đã nhặt lông vào rây, xả lại bằng nước sạch, để ráo nước. Yến lúc này sẵn sàng để chưng.</li>
+  </ol>
+
+  <h2>Dụng cụ cần chuẩn bị</h2>
+  <p>Dụng cụ làm sạch yến thô đều là đồ có sẵn trong bếp, quan trọng nhất là nhíp tốt và đủ ánh sáng.</p>
+  <table><thead><tr><th>Dụng cụ</th><th>Dùng để</th><th>Lưu ý</th></tr></thead><tbody>
+  <tr><td>Tô hoặc thau sạch</td><td>Ngâm yến</td><td>Đủ rộng để tổ nở ra</td></tr>
+  <tr><td>Rây lưới nhỏ</td><td>Lọc bụi, lông, giữ sợi yến</td><td>Lưới mịn để không trôi sợi vụn</td></tr>
+  <tr><td>Nhíp đầu nhọn</td><td>Nhặt từng sợi lông</td><td>Đầu nhíp khít, không gỉ</td></tr>
+  <tr><td>Đĩa hoặc khay màu trắng</td><td>Làm nền để thấy lông đen</td><td>Đổ chút nước để sợi yến tơi ra</td></tr>
+  <tr><td>Đèn sáng</td><td>Soi lông nhỏ</td><td>Ngồi nơi sáng, ánh sáng trắng</td></tr>
+  </tbody></table>
+
+  <h2>Ngâm yến thô bao lâu là đủ?</h2>
+  <p>Ngâm yến thô đến khi tổ nở mềm và xé tơi được là đủ, không có một con số cố định cho mọi tổ. Tổ khô, dày hoặc có nhiều phần chân sẽ cần ngâm lâu hơn tổ mỏng.</p>
+  <ul>
+    <li>Dùng nước sạch ở nhiệt độ thường, không dùng nước nóng vì sợi yến dễ bị nhũn và tan khi chưng.</li>
+    <li>Nếu cần ngâm lâu, có thể để tô yến trong ngăn mát tủ lạnh.</li>
+    <li>Phần chân tổ đặc, có thể tách riêng và ngâm thêm; xem bài <a href="chan-yen-chan-tua-la-gi.html">chân yến là gì</a>.</li>
+  </ul>
+
+  <h2>Mẹo nhặt lông yến nhanh và sạch hơn</h2>
+  <p>Nhặt lông nhanh hơn khi chia yến thành từng phần nhỏ và làm trên nền trắng có nước, vì sợi yến tơi ra còn lông đen nổi rõ.</p>
+  <ul>
+    <li><b>Làm từng ít một:</b> mỗi lần chỉ trải một nhúm nhỏ lên đĩa, nhặt xong mới lấy tiếp.</li>
+    <li><b>Đĩa có chút nước:</b> sợi yến xòe ra, lông nhỏ dễ thấy và dễ gắp hơn.</li>
+    <li><b>Chấm nhíp vào nước:</b> lông dính vào nhíp được rửa ngay, không rơi lại vào yến.</li>
+    <li><b>Kiểm tra lần cuối:</b> sau khi xả nước, soi lại dưới đèn một lượt.</li>
+    <li><b>Ngồi thoải mái:</b> khâu này tốn thời gian, nên chọn lúc rảnh như buổi tối.</li>
+  </ul>
+
+  <h2>Những lỗi thường gặp khi làm sạch yến thô</h2>
+  <ul>
+    <li><b>Ngâm nước nóng:</b> làm sợi yến mềm nhũn, khi chưng dễ tan.</li>
+    <li><b>Vò mạnh tay:</b> sợi yến đứt vụn, trôi qua rây.</li>
+    <li><b>Dùng hóa chất, chất tẩy:</b> tuyệt đối không dùng; chỉ cần nước sạch và nhíp.</li>
+    <li><b>Bỏ qua bước xả cuối:</b> bụi nhỏ còn sót có thể làm nước chưng bị đục.</li>
+  </ul>
+
+  <h2>Sau khi làm sạch: chưng yến cùng hạt sen, đường phèn</h2>
+  <p>Yến thô đã làm sạch được chưng giống yến tinh chế: chưng cách thủy lửa nhỏ, thêm hạt sen đã nấu mềm và đường phèn ở cuối. Một chén thường dùng 3–5 g yến khô với 150–200 ml nước.</p>
+  <p>Công thức chi tiết có ở bài <a href="yen-chung-tao-do-hat-sen.html">cách làm yến chưng táo đỏ hạt sen</a> và <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>. Lưu ý yến thô sau khi nhặt lông sẽ hao hụt một phần khối lượng, nên số chén ít hơn yến tinh chế cùng khối lượng, xem bài <a href="100gr-yen-chung-duoc-bao-nhieu-chen.html">100gr yến chưng được bao nhiêu chén</a>.</p>
+
+  <h2>Không có thời gian? Chọn yến tinh chế đã làm sạch sẵn</h2>
+  <p>Nếu không có thời gian ngâm và nhặt lông, yến tinh chế đã được làm sạch sẵn tại xưởng là lựa chọn tiện hơn: chỉ cần ngâm rồi chưng. Yến thô hợp với người có thời gian và muốn tự tay làm sạch.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Yến thô</th><th>Yến tinh chế</th></tr></thead><tbody>
+  <tr><td>Lông, tạp chất</td><td>Còn, phải tự nhặt</td><td>Đã nhặt sạch tại xưởng</td></tr>
+  <tr><td>Công sơ chế tại nhà</td><td>5 bước, nhặt lông lâu</td><td>Ngâm 30–60 phút rồi chưng</td></tr>
+  <tr><td>Giá 100gr</td><td>{gia(104)} – {gia(101)}</td><td>{gia(109)} (1 lớp sợi vừa)</td></tr>
+  </tbody></table>
+""" + ul(li(101, "Ít lông, dễ làm sạch hơn."), li(104, "Giá mềm, cần nhặt lông kỹ."), li(109, "Đã nhặt sạch lông, ngâm xong là chưng.")) + """
+  <p>Muốn so sánh kỹ các loại, xem bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông khác nhau thế nào</a>. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>, giá chưa gồm phí giao hàng. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Làm sạch yến thô tại nhà như thế nào?", "Gồm 5 bước: ngâm nước sạch đến khi tổ nở mềm, xé tơi nhẹ tay theo thớ sợi, lọc qua rây cho bụi và lông nổi lên, đặt trên nền trắng dùng nhíp nhặt từng sợi lông, rồi xả lại nước sạch và để ráo."),
+       ("Ngâm yến thô bao lâu?", "Ngâm đến khi tổ nở mềm và xé tơi được; tổ dày hoặc nhiều phần chân cần lâu hơn. Dùng nước sạch nhiệt độ thường, không dùng nước nóng."),
+       ("Nhặt lông yến thô bằng gì?", "Dùng nhíp đầu nhọn, đặt yến trên đĩa hoặc khay trắng có chút nước dưới đèn sáng để dễ thấy và gắp từng sợi lông."),
+       ("Có nên dùng hóa chất để làm sạch yến nhanh hơn không?", "Không. Chỉ cần nước sạch, rây và nhíp; không dùng hóa chất hay chất tẩy cho thực phẩm."),
+       ("Không có thời gian nhặt lông thì mua loại nào?", "Chọn yến tinh chế đã được nhặt sạch lông tại xưởng, về nhà chỉ cần ngâm 30–60 phút rồi chưng.")]),
 ]
