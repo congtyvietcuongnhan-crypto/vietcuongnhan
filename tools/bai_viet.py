@@ -935,4 +935,74 @@ dict(slug="chao-yen-cho-be", cat="Món ngon", ngay="2026-10-31",
        ("Cho yến vào cháo lúc nào?", "Khi cháo đã nấu nhừ, cho yến đã ngâm mềm vào và nấu lửa nhỏ thêm 5–7 phút."),
        ("Bé ăn cháo yến bao nhiêu là đủ?", "Lượng phù hợp tùy từng bé, nên hỏi bác sĩ nhi. Lần đầu chỉ nên cho lượng rất nhỏ và theo dõi bé trong ngày."),
        ("Bé ăn yến bị nổi mẩn thì làm sao?", "Ngưng cho bé ăn và hỏi bác sĩ. Nếu bé khó thở, sưng môi, sưng mặt hoặc nôn nhiều thì đưa bé đến cơ sở y tế ngay.")]),
+dict(slug="ba-bau-an-yen-duoc-khong", cat="Yến sào", ngay="2026-10-31",
+  tu_khoa="bà bầu ăn yến, bà bầu ăn yến được không, bà bầu ăn yến lúc nào, mẹ bầu ăn yến chưng, bà bầu uống nước yến",
+  h1="Bà bầu ăn yến được không? Lưu ý khi dùng",
+  desc="Bà bầu ăn yến được không? Yến sào là thực phẩm, nhiều mẹ bầu vẫn dùng nhưng nên hỏi bác sĩ trước. Lưu ý chọn yến, cách chưng ít đường, khi nào cần thận trọng.",
+  lede="Bà bầu ăn yến là chuyện nhiều gia đình quan tâm: yến sào là một thực phẩm, nhiều mẹ bầu vẫn dùng như một món ăn trong chế độ ăn đa dạng. Tuy vậy mỗi thai kỳ khác nhau, nên mẹ bầu cần hỏi bác sĩ sản khoa trước khi dùng, nhất là khi có tiểu đường thai kỳ, dị ứng hoặc bệnh nền.",
+  tom_tat=["Yến sào là thực phẩm, không phải thuốc; bà bầu nên hỏi bác sĩ sản khoa trước khi đưa yến vào thực đơn.",
+           "Mẹ bầu có tiểu đường thai kỳ, dị ứng thực phẩm hoặc bệnh nền cần đặc biệt hỏi ý kiến bác sĩ.",
+           "Chọn yến có nguồn gốc rõ ràng, đã làm sạch, chưng chín kỹ và nêm ít đường phèn.",
+           "Lần đầu dùng lượng nhỏ, không ăn thay bữa chính, ngưng ngay nếu thấy biểu hiện bất thường.",
+           f"Nước yến hũ tiện cho mẹ bầu đi làm, ví dụ {P[124][2]} giá {gia(124)}/hũ; nên xem thành phần đường trên nhãn."],
+  body=f"""  <h2>Bà bầu ăn yến được không?</h2>
+  <p>Bà bầu ăn yến được hay không nên do bác sĩ theo dõi thai kỳ trả lời cho từng người, vì sức khỏe mỗi mẹ bầu khác nhau. Về bản chất, yến sào là một loại thực phẩm, và nhiều mẹ bầu vẫn dùng yến chưng như một món ăn bên cạnh các bữa chính.</p>
+  <p>Ở xưởng Việt Cường Nhân, mẹ bầu và người nhà hay hỏi "bầu mấy tháng ăn yến được" hoặc "mỗi tuần ăn mấy lần". Chúng tôi là cơ sở sản xuất thực phẩm, không đưa ra lời khuyên y khoa, nên luôn khuyên mẹ bầu mang câu hỏi này đến bác sĩ trong lần khám thai, sau đó chọn loại yến và cách chưng phù hợp.</p>
+  <p>Bài viết này không nói về công dụng của yến với thai kỳ. Yến sào không phải là thuốc và không thay thế chế độ ăn, thuốc bổ hay chỉ định của bác sĩ.</p>
+
+  <h2>Khi nào bà bầu cần hỏi kỹ bác sĩ trước khi ăn yến?</h2>
+  <p>Mọi mẹ bầu đều nên hỏi bác sĩ trước, nhưng các trường hợp dưới đây cần đặc biệt thận trọng và chỉ dùng khi bác sĩ đồng ý.</p>
+  <table><thead><tr><th>Trường hợp</th><th>Vì sao cần hỏi bác sĩ</th></tr></thead><tbody>
+  <tr><td>Tiểu đường thai kỳ hoặc đường huyết cao</td><td>Yến chưng và nước yến thường có đường; cần kiểm soát lượng đường trong khẩu phần</td></tr>
+  <tr><td>Có tiền sử dị ứng thực phẩm</td><td>Bất kỳ thực phẩm mới nào cũng có thể gây dị ứng ở người có cơ địa nhạy cảm</td></tr>
+  <tr><td>Thai kỳ có nguy cơ, đang điều trị</td><td>Chế độ ăn cần theo chỉ định riêng của bác sĩ</td></tr>
+  <tr><td>Ốm nghén nặng, khó tiêu</td><td>Cần chọn thời điểm và món ăn hợp với tình trạng tiêu hóa</td></tr>
+  <tr><td>Đang dùng thuốc, thực phẩm bổ sung</td><td>Bác sĩ cần biết toàn bộ những gì mẹ bầu đang dùng</td></tr>
+  </tbody></table>
+
+  <h2>Bà bầu ăn yến lúc nào?</h2>
+  <p>Nếu bác sĩ đồng ý, mẹ bầu có thể ăn yến vào lúc thấy dễ chịu nhất trong ngày, thường là giữa buổi sáng hoặc giữa buổi chiều, cách bữa chính khoảng 1 tiếng. Tránh ăn khi bụng quá no hoặc lúc đang buồn nôn.</p>
+  <ul>
+    <li><b>Giữa buổi:</b> khoảng 9–10 giờ sáng hoặc 15–16 giờ chiều, như một bữa phụ nhẹ.</li>
+    <li><b>Buổi tối:</b> nếu ăn tối, nên dùng chén nhỏ, ít đường và cách giờ ngủ khoảng 1 tiếng.</li>
+    <li><b>Ba tháng đầu:</b> nhiều mẹ bầu bị nghén, nên hỏi bác sĩ về thời điểm bắt đầu và chọn lúc ít nghén nhất.</li>
+  </ul>
+  <p>Thời điểm ăn yến chung cho người lớn xem thêm ở bài <a href="an-yen-luc-nao-tot-nhat.html">ăn yến lúc nào trong ngày là hợp lý</a>.</p>
+
+  <h2>Lưu ý khi bà bầu ăn yến</h2>
+  <p>Những lưu ý dưới đây là kinh nghiệm chung về chọn và chế biến thực phẩm, giúp mẹ bầu dùng yến an toàn hơn sau khi đã hỏi bác sĩ.</p>
+  <ol>
+    <li><b>Chọn yến có nguồn gốc rõ ràng:</b> mua của cơ sở có địa chỉ sản xuất, chứng nhận an toàn thực phẩm và bản tự công bố sản phẩm.</li>
+    <li><b>Chọn yến đã làm sạch:</b> yến tinh chế đã nhặt lông tại xưởng giúp mẹ bầu đỡ mất công ngâm, nhặt lâu.</li>
+    <li><b>Chưng chín kỹ:</b> chưng cách thủy đủ thời gian, ăn khi còn ấm hoặc để ngăn mát và dùng sớm.</li>
+    <li><b>Ít đường:</b> nêm ít đường phèn hoặc dùng vị ngọt tự nhiên của táo đỏ; với nước yến hũ, đọc thành phần đường trên nhãn.</li>
+    <li><b>Bắt đầu lượng nhỏ:</b> lần đầu dùng chén nhỏ, theo dõi cơ thể; ngưng và hỏi bác sĩ nếu thấy ngứa, nổi mẩn, khó chịu.</li>
+    <li><b>Không thay bữa chính:</b> yến chỉ là một món trong thực đơn, mẹ bầu vẫn cần đủ các nhóm thực phẩm theo hướng dẫn của bác sĩ.</li>
+    <li><b>Không kết hợp tùy tiện:</b> tránh tự ý chưng yến cùng các vị thuốc bắc, thảo dược khi chưa hỏi bác sĩ.</li>
+  </ol>
+
+  <h2>Cách chưng yến cho bà bầu ít đường</h2>
+  <p>Cách đơn giản nhất là chưng yến cách thủy với táo đỏ hoặc hạt sen, dùng rất ít hoặc không dùng đường phèn. Một chén thường dùng 3–5 g yến khô với 150–200 ml nước; lượng phù hợp cho mẹ bầu nên hỏi bác sĩ.</p>
+  <ol>
+    <li>Ngâm yến tinh chế 30–60 phút, vớt qua rây, xé tơi.</li>
+    <li>Cho yến, 2–3 quả táo đỏ cắt lát và nước vào thố.</li>
+    <li>Chưng cách thủy lửa nhỏ 20–30 phút, đậy kín nắp.</li>
+    <li>Nếm thử; chỉ thêm chút đường phèn ở 5 phút cuối nếu cần.</li>
+  </ol>
+  <p>Công thức chi tiết với hạt sen có ở bài <a href="yen-chung-tao-do-hat-sen.html">cách làm yến chưng táo đỏ hạt sen</a>; các bước chưng cơ bản xem bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>.</p>
+
+  <h2>Chọn yến chưng tại nhà hay nước yến hũ?</h2>
+  <p>Yến chưng tại nhà giúp mẹ bầu tự kiểm soát lượng đường và nguyên liệu; nước yến hũ chưng sẵn tiện mang đi làm nhưng cần đọc kỹ thành phần trên nhãn.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Yến tự chưng</th><th>Nước yến hũ</th></tr></thead><tbody>
+  <tr><td>Kiểm soát đường</td><td>Tự quyết định, có thể không đường</td><td>Theo công thức nhà sản xuất, xem nhãn</td></tr>
+  <tr><td>Thời gian</td><td>Ngâm và chưng khoảng 1–1,5 tiếng</td><td>Mở nắp là dùng</td></tr>
+  <tr><td>Bảo quản</td><td>Ngăn mát, dùng trong vài ngày</td><td>Hũ chưa mở để nơi khô mát; mở rồi dùng trong ngày</td></tr>
+  </tbody></table>
+""" + ul(li(109, "Đã nhặt sạch lông, ngâm xong là chưng."), li(124, "Chưng sẵn từ yến tươi, xem thành phần trên nhãn.")) + """
+  <p>Cách chọn yến thật và các giấy tờ nên hỏi người bán xem bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>. Việt Cường Nhân làm yến từ năm 2009, nhà máy đạt HACCP, ISO 22000:2018 và GMP. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>, giá chưa gồm phí giao hàng; cần tư vấn chọn loại yến, nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Bà bầu ăn yến được không?", "Yến sào là một thực phẩm và nhiều mẹ bầu vẫn dùng như một món ăn. Tuy vậy mỗi thai kỳ khác nhau, nên mẹ bầu cần hỏi bác sĩ sản khoa trước khi dùng."),
+       ("Bà bầu 3 tháng đầu ăn yến được không?", "Ba tháng đầu là giai đoạn nhiều mẹ bầu bị nghén và cần theo dõi kỹ. Mẹ bầu nên hỏi bác sĩ về việc có nên dùng và thời điểm bắt đầu."),
+       ("Bà bầu ăn yến lúc nào?", "Nếu bác sĩ đồng ý, có thể ăn giữa buổi sáng hoặc giữa buổi chiều, cách bữa chính khoảng 1 tiếng, tránh lúc đang buồn nôn hoặc quá no."),
+       ("Bà bầu bị tiểu đường thai kỳ có ăn yến được không?", "Cần hỏi bác sĩ trước. Nếu được đồng ý, nên chưng yến không đường hoặc rất ít đường và đọc kỹ thành phần đường của nước yến hũ."),
+       ("Bà bầu uống nước yến hũ được không?", "Nên hỏi bác sĩ trước và đọc thành phần trên nhãn, nhất là lượng đường. Hũ đã mở nên dùng hết trong ngày.")]),
 ]
