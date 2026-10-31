@@ -20,6 +20,7 @@ Bài vừa đạt chuẩn Google (SEO) vừa dễ được ChatGPT, Gemini, Perp
 3. Chạy `python3 tools/trang_con.py` (sinh trang bài, trang Kiến thức, sitemap.xml, llms.txt).
 4. Kiểm tra: mở `kien-thuc/<slug>.html` xem HTML đúng, `xmllint --noout sitemap.xml`, mọi link nội bộ tồn tại.
 5. Sửa `trang_thai` của bài trong lịch thành `"da_dang"`, thêm `"ngay_dang"` và `"url"`.
+   Bài thêm ngoài lịch (bài kèm video, bài đặt riêng): thêm entry mới ở **cuối** lịch với `"trang_thai": "da_dang"` và **luôn** có `"ngoai_lich": true`; không thay thế chủ đề đã có trong lịch.
 6. Nhánh `bai-<slug>`, commit, PR, merge squash (xem lịch chạy tự động).
 
 ## 2. Chuẩn SEO Google
@@ -62,4 +63,6 @@ Bài vừa đạt chuẩn Google (SEO) vừa dễ được ChatGPT, Gemini, Perp
 ## 6. Làm bù khi lỡ lịch
 
 Mốc đăng: 6:40 và 12:40 mỗi ngày từ 26/10/2026 (để bài lên web khoảng 7:00 và 13:00).
-Số bài đáng lẽ đã đăng = số mốc đã qua tính đến giờ chạy. Nếu số bài `da_dang` ít hơn: đăng bù theo thứ tự lịch, tối đa 3 bài mỗi lần chạy, mỗi bài một PR.
+Số bài đáng lẽ đã đăng = số mốc đã qua tính đến giờ chạy.
+Số bài đã đăng theo lịch = số entry có `"trang_thai": "da_dang"` và **không** có `"ngoai_lich": true`. Bài ngoài lịch (`"ngoai_lich": true`, ví dụ bài kèm video) **không** được tính, nên không làm lùi lịch.
+Nếu số bài đã đăng theo lịch ít hơn số mốc đã qua: đăng bù theo thứ tự lịch (bài `chua_viet` đầu tiên), tối đa 3 bài mỗi lần chạy, mỗi bài một PR.
