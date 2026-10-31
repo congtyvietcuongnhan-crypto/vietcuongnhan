@@ -857,4 +857,82 @@ dict(slug="yen-chung-dong-trung-ha-thao", cat="Món ngon", ngay="2026-10-31",
        ("Yến chưng đông trùng hạ thảo chưng bao lâu?", "Tổng khoảng 20–30 phút cách thủy với lửa nhỏ: chưng yến 15–20 phút, sau đó thêm đông trùng chưng tiếp 5–10 phút."),
        ("Có cần ngâm đông trùng hạ thảo trước khi chưng không?", "Không cần ngâm lâu. Chỉ tráng nhanh qua nước sạch rồi cho vào thố ở cuối thời gian chưng."),
        ("Dùng đông trùng loại nào để chưng yến?", "Loại gãy đủ cho chưng hằng ngày và giá mềm hơn; loại cây cọng nguyên hợp khi đãi khách hoặc biếu tặng.")]),
+dict(slug="chao-yen-cho-be", cat="Món ngon", ngay="2026-10-31",
+  tu_khoa="cháo yến cho bé, cách nấu cháo yến cho bé, cháo yến cho bé ăn dặm, cháo yến thịt bằm cho bé, cháo yến bí đỏ",
+  h1="Cháo yến cho bé: cách nấu và lưu ý theo độ tuổi",
+  desc="Cách nấu cháo yến cho bé từ yến vụn: nguyên liệu 1 chén nhỏ, các bước nấu, 4 món dễ làm và lưu ý theo độ tuổi. Nên hỏi bác sĩ nhi trước khi cho bé ăn.",
+  lede="Cháo yến cho bé nấu đơn giản: nấu cháo thật nhừ, cho yến vụn đã ngâm mềm vào ở 5–7 phút cuối, nêm thật nhạt. Trước khi cho bé ăn yến lần đầu, cha mẹ nên hỏi bác sĩ nhi về độ tuổi và lượng phù hợp, rồi bắt đầu với lượng rất nhỏ để theo dõi.",
+  tom_tat=["Hỏi bác sĩ nhi trước khi cho bé ăn yến lần đầu, nhất là bé dưới 1 tuổi hoặc có cơ địa dị ứng.",
+           "Dùng yến vụn hoặc yến tinh chế đã nhặt sạch lông, ngâm 15–20 phút, nấu cùng cháo 5–7 phút cuối.",
+           "Lần đầu chỉ cho lượng rất nhỏ, ăn vào buổi sáng để dễ theo dõi biểu hiện lạ trong ngày.",
+           "Cháo cho bé nêm thật nhạt, không thêm đường phèn nhiều, không dùng chung với nhiều món mới cùng lúc.",
+           f"{P[107][2]} giá {gia(107)}/100gr tại Việt Cường Nhân, sợi nhỏ, nở nhanh, hợp nấu cháo."],
+  body=f"""  <h2>Bé mấy tuổi thì nên ăn cháo yến?</h2>
+  <p>Không có một độ tuổi chung áp dụng cho mọi bé; thời điểm cho bé ăn yến nên được bác sĩ nhi tư vấn dựa trên sức khỏe, cơ địa và quá trình ăn dặm của bé. Nhiều gia đình chờ đến khi bé đã ăn dặm quen với nhiều loại thực phẩm mới bắt đầu thử yến.</p>
+  <p>Ở xưởng Việt Cường Nhân, câu cha mẹ hay hỏi nhất là "bé nhà em ăn yến được chưa". Chúng tôi là cơ sở sản xuất thực phẩm, không phải bác sĩ, nên luôn khuyên cha mẹ hỏi bác sĩ nhi trước, sau đó mới chọn loại yến và cách nấu phù hợp.</p>
+  <table><thead><tr><th>Giai đoạn</th><th>Gợi ý chung</th><th>Kết cấu cháo</th></tr></thead><tbody>
+  <tr><td>Bé mới ăn dặm, dưới 1 tuổi</td><td>Không tự ý cho ăn; hỏi bác sĩ nhi trước</td><td>Theo hướng dẫn của bác sĩ</td></tr>
+  <tr><td>Bé đã ăn dặm quen, được bác sĩ đồng ý</td><td>Thử lượng rất nhỏ, mỗi lần một món mới</td><td>Cháo nấu nhừ, yến vụn xé thật nhỏ</td></tr>
+  <tr><td>Bé lớn, đã nhai tốt</td><td>Có thể kết hợp thịt, rau củ quen thuộc</td><td>Cháo hạt, sợi yến ngắn</td></tr>
+  </tbody></table>
+  <p>Nếu bé có tiền sử dị ứng thực phẩm, chàm, hen hoặc đang điều trị bệnh, cha mẹ càng cần hỏi bác sĩ trước khi cho bé thử bất kỳ thực phẩm mới nào, kể cả yến.</p>
+
+  <h2>Chọn loại yến nấu cháo cho bé</h2>
+  <p>Yến vụn đã nhặt sạch lông là lựa chọn tiện nhất để nấu cháo cho bé, vì sợi nhỏ, nở nhanh và hòa đều vào cháo. Không nên dùng yến thô còn lông cho bé nếu không có thời gian nhặt thật kỹ.</p>
+  <ul>
+    <li><b>Yến tinh chế vụn baby:</b> sợi nhỏ, dễ chia lượng ít, ngâm 15–20 phút.</li>
+    <li><b>Yến tinh chế vụn đắp tổ:</b> vụn được đắp thành tai, lấy từng phần gọn.</li>
+    <li><b>Tránh:</b> chân yến (sợi dai, cứng) và yến thô chưa làm sạch.</li>
+  </ul>
+  <p>Yến vụn là gì và khác yến sợi thế nào, xem bài <a href="yen-vun-baby-la-gi.html">yến vụn baby là gì, dùng làm món gì</a>.</p>
+
+  <h2>Cách nấu cháo yến cho bé (1 chén nhỏ)</h2>
+  <p>Cách nấu cháo yến cho bé gồm 3 phần: nấu cháo nhừ, sơ chế yến, rồi cho yến vào cháo ở cuối. Lượng yến trong công thức dưới đây là lượng nhỏ để nấu một chén; lượng cho từng bé nên theo tư vấn của bác sĩ.</p>
+  <h3>Nguyên liệu</h3>
+  <ul>
+    <li>Khoảng 20 g gạo tẻ (hoặc cháo trắng nấu sẵn).</li>
+    <li>Khoảng 300 ml nước hoặc nước dùng rau củ không nêm.</li>
+    <li>Một lượng nhỏ yến vụn, khoảng 1 g yến khô.</li>
+    <li>Rau củ hoặc thịt bé đã ăn quen (tùy chọn).</li>
+  </ul>
+  <h3>Các bước</h3>
+  <ol>
+    <li><b>Nấu cháo:</b> vo gạo, nấu với nước lửa nhỏ khoảng 30–40 phút đến khi hạt nở bung. Bé nhỏ thì rây hoặc xay mịn.</li>
+    <li><b>Ngâm yến:</b> ngâm yến vụn trong nước sạch 15–20 phút, đổ qua rây lưới nhỏ, kiểm tra lại dưới đèn xem còn sợi lông nào không.</li>
+    <li><b>Xé nhỏ:</b> dùng tay xé sợi yến thật nhỏ hoặc băm nhuyễn để bé dễ nuốt.</li>
+    <li><b>Cho yến vào cháo:</b> khi cháo đã nhừ, cho yến vào, khuấy đều, nấu lửa nhỏ thêm 5–7 phút.</li>
+    <li><b>Để nguội bớt:</b> nêm rất nhạt hoặc không nêm, để nguội đến độ ấm vừa rồi cho bé ăn.</li>
+  </ol>
+
+  <h2>4 món cháo yến cho bé dễ làm</h2>
+  <p>Khi bé đã ăn quen cháo yến và từng nguyên liệu kèm theo, có thể đổi món bằng các loại rau củ, thịt bé đã ăn không có vấn đề gì. Mỗi lần chỉ thêm một nguyên liệu mới.</p>
+  <table><thead><tr><th>Món</th><th>Nguyên liệu thêm</th><th>Cách làm</th></tr></thead><tbody>
+  <tr><td>Cháo yến bí đỏ</td><td>30 g bí đỏ</td><td>Hấp chín, nghiền mịn, khuấy vào cháo trước khi cho yến</td></tr>
+  <tr><td>Cháo yến cà rốt</td><td>20 g cà rốt</td><td>Luộc mềm, nghiền, cho vào cháo cùng lúc với yến</td></tr>
+  <tr><td>Cháo yến thịt gà</td><td>20 g ức gà</td><td>Băm nhuyễn, nấu chín kỹ trong cháo rồi mới cho yến</td></tr>
+  <tr><td>Cháo yến hạt sen</td><td>10 g hạt sen bỏ tim</td><td>Nấu sen thật nhừ, nghiền, khuấy vào cháo</td></tr>
+  </tbody></table>
+  <p>Cách sơ chế hạt sen để không bị đắng có ở bài <a href="yen-chung-tao-do-hat-sen.html">cách làm yến chưng táo đỏ hạt sen</a>.</p>
+
+  <h2>Lưu ý an toàn khi nấu cháo yến cho bé</h2>
+  <p>Điều quan trọng nhất khi cho bé ăn yến là bắt đầu thật ít, theo dõi kỹ và hỏi bác sĩ khi có thắc mắc. Các lưu ý dưới đây là kinh nghiệm chung về chế biến thực phẩm cho trẻ, không thay thế tư vấn y tế.</p>
+  <ul>
+    <li><b>Lần đầu ăn buổi sáng:</b> để dễ theo dõi bé trong ngày; không thử cùng lúc nhiều món mới.</li>
+    <li><b>Theo dõi biểu hiện lạ:</b> nếu bé nổi mẩn, ngứa, nôn, tiêu chảy, quấy khác thường thì ngưng cho ăn; nếu bé khó thở, sưng môi mặt thì đưa bé đi cơ sở y tế ngay.</li>
+    <li><b>Nhặt lông thật kỹ:</b> kể cả yến tinh chế, nên kiểm tra lại dưới đèn trước khi nấu.</li>
+    <li><b>Nấu chín, ăn ngay:</b> cháo nấu xong nên cho bé ăn trong bữa, không để cháo qua đêm ở nhiệt độ phòng.</li>
+    <li><b>Nêm nhạt:</b> không thêm muối, nước mắm, đường phèn nhiều vào cháo của bé.</li>
+    <li><b>Không thay bữa chính:</b> cháo yến là một món trong thực đơn đa dạng, không thay sữa và các nhóm thực phẩm khác.</li>
+  </ul>
+
+  <h2>Bảo quản yến vụn để nấu cháo cho bé</h2>
+  <p>Yến vụn khô cất trong hộp kín, nơi khô ráo, tránh nắng; đậy kín ngay sau khi lấy vì sợi nhỏ dễ hút ẩm. Có thể chia sẵn yến thành các phần nhỏ trong túi kín để mỗi lần nấu lấy một phần, đỡ phải mở hộp nhiều lần.</p>
+  <p>Yến vụn của Việt Cường Nhân được nhặt lông tại xưởng, nhà máy đạt HACCP, ISO 22000:2018 và GMP. Giá dưới đây lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(107, "Sợi nhỏ, rời, dễ chia lượng ít."), li(106, "Vụn đắp thành tai, lấy từng phần gọn.")) + """
+  <p>Cách chọn yến có nguồn gốc rõ ràng xem bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739 để được tư vấn chọn loại yến.</p>""",
+  faq=[("Bé mấy tuổi ăn được cháo yến?", "Không có một độ tuổi chung cho mọi bé. Cha mẹ nên hỏi bác sĩ nhi trước; nhiều gia đình chờ bé ăn dặm quen với nhiều loại thực phẩm rồi mới thử yến."),
+       ("Nấu cháo yến cho bé dùng loại yến nào?", "Nên dùng yến vụn hoặc yến tinh chế đã nhặt sạch lông, sợi nhỏ, nở nhanh và dễ hòa vào cháo. Tránh chân yến và yến thô chưa làm sạch."),
+       ("Cho yến vào cháo lúc nào?", "Khi cháo đã nấu nhừ, cho yến đã ngâm mềm vào và nấu lửa nhỏ thêm 5–7 phút."),
+       ("Bé ăn cháo yến bao nhiêu là đủ?", "Lượng phù hợp tùy từng bé, nên hỏi bác sĩ nhi. Lần đầu chỉ nên cho lượng rất nhỏ và theo dõi bé trong ngày."),
+       ("Bé ăn yến bị nổi mẩn thì làm sao?", "Ngưng cho bé ăn và hỏi bác sĩ. Nếu bé khó thở, sưng môi, sưng mặt hoặc nôn nhiều thì đưa bé đến cơ sở y tế ngay.")]),
 ]
