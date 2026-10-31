@@ -717,4 +717,75 @@ dict(slug="yen-vun-baby-la-gi", cat="Yến sào", ngay="2026-10-31",
        ("Yến vụn ngâm bao lâu?", "Khoảng 15–20 phút là sợi nở mềm. Sau đó chưng cách thủy khoảng 10–15 phút; chưng lâu hơn yến dễ bị tan."),
        ("Yến vụn nấu món gì?", "Hợp nấu cháo yến, súp gà yến, yến chưng sữa tươi, yến chưng táo đỏ và chè hạt sen yến."),
        ("Yến vụn baby giá bao nhiêu?", f"Tại Việt Cường Nhân, {P[107][2]} giá {gia(107)}/100gr, chưa gồm phí giao hàng. {P[120][2]} giá {gia(120)}/10 gói.")]),
+dict(slug="yen-chung-tao-do-hat-sen", cat="Món ngon", ngay="2026-10-31",
+  tu_khoa="yến chưng táo đỏ hạt sen, cách chưng yến táo đỏ hạt sen, yến chưng hạt sen, tỉ lệ yến táo đỏ hạt sen",
+  h1="Cách làm yến chưng táo đỏ hạt sen thơm ngon",
+  desc="Cách làm yến chưng táo đỏ hạt sen tại nhà: định lượng cho 2 chén, cách sơ chế hạt sen không đắng, các bước chưng khoảng 45 phút và mẹo giữ sợi yến không tan.",
+  lede="Yến chưng táo đỏ hạt sen mất khoảng 45 phút trên bếp (chưa tính thời gian ngâm): nấu hạt sen cho mềm trước, rồi chưng cách thủy cùng yến và táo đỏ khoảng 20–25 phút, thêm đường phèn ở 5 phút cuối. Cho 2 chén cần khoảng 8 g yến khô, 30 g hạt sen và 4–6 quả táo đỏ.",
+  tom_tat=["Định lượng 2 chén: 8 g yến khô, 30 g hạt sen, 4–6 quả táo đỏ, 400 ml nước, 20–30 g đường phèn.",
+           "Hạt sen nấu mềm trước khoảng 20 phút vì chín lâu hơn yến; nhớ bỏ tim sen để không đắng.",
+           "Chưng cách thủy yến cùng hạt sen và táo đỏ khoảng 20–25 phút, đường phèn cho ở 5 phút cuối.",
+           "Không đun sôi mạnh và không chưng quá 30 phút sau khi cho yến để sợi yến không tan.",
+           f"Nguyên liệu tại Việt Cường Nhân: {P[109][2]} {gia(109)}/100gr, {P[145][2]} {gia(145)}/hộp 350gr."],
+  body=f"""  <h2>Nguyên liệu yến chưng táo đỏ hạt sen (2 chén)</h2>
+  <p>Một mẻ yến chưng táo đỏ hạt sen cho 2 chén cần 8 g yến khô, 30 g hạt sen, 4–6 quả táo đỏ, 400 ml nước và đường phèn tùy khẩu vị. Đây là định lượng xưởng Việt Cường Nhân hay gợi ý cho khách mới chưng lần đầu.</p>
+  <table><thead><tr><th>Nguyên liệu</th><th>Định lượng</th><th>Ghi chú</th></tr></thead><tbody>
+  <tr><td>Yến tinh chế khô</td><td>8 g (khoảng 4 g mỗi chén)</td><td>Yến sợi hoặc yến vụn đều được</td></tr>
+  <tr><td>Hạt sen</td><td>30 g khô hoặc 50 g tươi</td><td>Đã bỏ tim</td></tr>
+  <tr><td>Táo đỏ</td><td>4–6 quả</td><td>Rửa sạch, cắt lát, bỏ hạt</td></tr>
+  <tr><td>Nước lọc</td><td>400 ml</td><td>Muốn sệt thì giảm còn 300 ml</td></tr>
+  <tr><td>Đường phèn</td><td>20–30 g</td><td>Tùy khẩu vị, có thể bỏ</td></tr>
+  <tr><td>Gừng (tùy chọn)</td><td>1–2 lát mỏng</td><td>Giảm mùi tanh nhẹ của yến</td></tr>
+  </tbody></table>
+  <p>Dụng cụ: 2 thố sứ có nắp hoặc 1 thố lớn, nồi để chưng cách thủy, rây lưới nhỏ.</p>
+
+  <h2>Sơ chế nguyên liệu</h2>
+  <h3>Ngâm yến</h3>
+  <p>Yến tinh chế 1 lớp sợi ngâm nước sạch 30–60 phút đến khi sợi nở mềm; yến vụn chỉ cần 15–20 phút. Vớt yến qua rây, xé tơi theo thớ sợi, để ráo. Nếu dùng chân yến thì ngâm lâu hơn, khoảng 2–3 tiếng, xem bài <a href="chan-yen-chan-tua-la-gi.html">chân yến là gì</a>.</p>
+  <h3>Sơ chế hạt sen</h3>
+  <p>Hạt sen khô ngâm nước khoảng 2 tiếng cho mềm, hạt sen tươi chỉ cần rửa sạch. Dùng tăm đẩy bỏ tim sen màu xanh ở giữa hạt, vì tim sen có vị đắng.</p>
+  <h3>Sơ chế táo đỏ</h3>
+  <p>Rửa táo đỏ, ngâm nước ấm 10 phút cho mềm vỏ, cắt lát mỏng và bỏ hạt để táo ra vị ngọt nhanh hơn. Cách chọn size táo xem bài <a href="tao-do-tan-cuong-cach-chon-va-mon-ngon.html">táo đỏ Tân Cương: cách chọn size và món ngon</a>.</p>
+
+  <h2>Cách chưng yến táo đỏ hạt sen từng bước</h2>
+  <p>Nguyên tắc chính: nấu hạt sen chín trước, sau đó mới chưng cùng yến, vì hạt sen cần thời gian lâu hơn yến rất nhiều. Tổng thời gian trên bếp khoảng 45 phút.</p>
+  <ol>
+    <li><b>Nấu hạt sen (20 phút):</b> cho hạt sen vào nồi cùng 400 ml nước, nấu lửa vừa khoảng 20 phút đến khi bóp nhẹ thấy bở mềm. Giữ lại phần nước nấu sen.</li>
+    <li><b>Cho vào thố:</b> chia yến đã ngâm, hạt sen, táo đỏ và nước nấu sen vào thố, thêm lát gừng nếu dùng. Nước ngập yến khoảng 1–2 đốt ngón tay.</li>
+    <li><b>Chưng cách thủy (20–25 phút):</b> đậy nắp thố, đặt vào nồi nước đang sôi lăn tăn, mực nước ngoài thố khoảng nửa thân thố. Giữ lửa nhỏ.</li>
+    <li><b>Thêm đường phèn (5 phút cuối):</b> mở nắp, cho đường phèn, khuấy nhẹ đến khi tan rồi đậy lại.</li>
+    <li><b>Tắt bếp:</b> vớt bỏ gừng, để thố nghỉ vài phút. Ăn ấm hoặc để nguội rồi cất ngăn mát.</li>
+  </ol>
+  <p>Chén yến đạt khi sợi yến trong, mềm nhưng còn dai, hạt sen bở, táo đỏ mềm và nước có vị ngọt thanh. Các bước chưng yến cơ bản có ở bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>.</p>
+
+  <h2>Mẹo để yến chưng táo đỏ hạt sen ngon hơn</h2>
+  <ul>
+    <li><b>Không đun sôi mạnh:</b> nước sôi sùng sục làm sợi yến tan; chỉ giữ lửa nhỏ lăn tăn.</li>
+    <li><b>Không chưng quá lâu:</b> sau khi cho yến vào, tối đa khoảng 30 phút là đủ.</li>
+    <li><b>Đường phèn cho sau cùng:</b> dễ nếm và điều chỉnh độ ngọt theo khẩu vị.</li>
+    <li><b>Táo đỏ cắt lát:</b> giúp nước chưng có màu vàng nhạt, ngọt tự nhiên, nên có thể giảm đường.</li>
+    <li><b>Thêm kỷ tử:</b> 8–10 hạt cho vào ở 5 phút cuối để giữ màu đỏ đẹp.</li>
+    <li><b>Ít đường cho người ăn kiêng:</b> có thể bỏ đường phèn, dùng vị ngọt của táo đỏ.</li>
+  </ul>
+
+  <h2>Biến tấu khác với yến chưng hạt sen</h2>
+  <table><thead><tr><th>Món</th><th>Thay đổi so với công thức gốc</th></tr></thead><tbody>
+  <tr><td>Yến chưng hạt sen long nhãn</td><td>Bỏ táo đỏ, thêm 10–15 g long nhãn ở 10 phút cuối</td></tr>
+  <tr><td>Yến chưng táo đỏ kỷ tử</td><td>Bỏ hạt sen, thêm 8–10 hạt kỷ tử, chưng 20 phút</td></tr>
+  <tr><td>Yến chưng hạt sen đông trùng</td><td>Thêm vài sợi đông trùng hạ thảo khô ở 5 phút cuối</td></tr>
+  <tr><td>Chè hạt sen yến</td><td>Nấu hạt sen với nhiều nước hơn, cho yến vào 10 phút cuối</td></tr>
+  </tbody></table>
+
+  <h2>Bảo quản yến chưng táo đỏ hạt sen</h2>
+  <p>Yến chưng xong nên để nguội, đậy kín và cất ngăn mát, dùng trong vài ngày; khi ăn có thể hâm cách thủy vài phút hoặc ăn mát. Nên chưng vừa đủ cho 2–3 ngày thay vì chưng một lần quá nhiều. Lượng dùng mỗi tuần và số chén từ một hộp yến xem bài <a href="100gr-yen-chung-duoc-bao-nhieu-chen.html">100gr yến chưng được bao nhiêu chén</a>. Trẻ nhỏ, phụ nữ mang thai, người có bệnh nền nên hỏi bác sĩ trước khi dùng.</p>
+
+  <h2>Nguyên liệu chưng yến tại Việt Cường Nhân</h2>
+  <p>Yến tinh chế của Việt Cường Nhân đã nhặt sạch lông tại xưởng, ngâm xong là chưng; táo đỏ Tân Cương chia theo size. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Sợi vừa, hợp chưng hằng ngày."), li(107, "Nở nhanh, chưng 10–15 phút."), li(145, "Đủ cho nhiều mẻ chưng."), li(142, "Mua dùng lâu, tiết kiệm hơn.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Yến chưng táo đỏ hạt sen chưng bao lâu?", "Nấu hạt sen mềm trước khoảng 20 phút, sau đó chưng cách thủy cùng yến và táo đỏ khoảng 20–25 phút. Tổng thời gian trên bếp khoảng 45 phút."),
+       ("Tỉ lệ yến, táo đỏ, hạt sen thế nào?", "Cho 2 chén dùng khoảng 8 g yến khô, 30 g hạt sen khô, 4–6 quả táo đỏ và 400 ml nước, đường phèn 20–30 g tùy khẩu vị."),
+       ("Vì sao yến chưng hạt sen bị đắng?", "Thường do chưa bỏ tim sen. Hãy dùng tăm đẩy bỏ phần tim màu xanh ở giữa hạt trước khi nấu."),
+       ("Có cho hạt sen và yến vào chưng cùng lúc được không?", "Không nên, vì hạt sen chín lâu hơn yến. Nếu chưng cùng lúc đến khi sen mềm thì sợi yến dễ bị tan; nên nấu sen trước."),
+       ("Yến chưng táo đỏ hạt sen để được bao lâu?", "Để nguội, đậy kín, cất ngăn mát và dùng trong vài ngày. Nên chưng vừa đủ ăn trong 2–3 ngày.")]),
 ]
