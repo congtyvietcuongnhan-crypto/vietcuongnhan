@@ -1167,4 +1167,75 @@ dict(slug="cach-chung-yen-tho-hat-sen", cat="Món ngon", ngay="2026-10-31",
        ("Khâu nào lâu nhất khi chưng yến thô?", "Nhặt từng sợi lông nhỏ bằng nhíp là khâu lâu nhất, vì lông bám xen giữa các sợi tổ và phải gắp thủ công."),
        ("Chưng yến thô cần bao nhiêu hạt sen?", "Cho 2 chén dùng khoảng 8 g yến (tính theo yến khô), 30 g hạt sen khô đã bỏ tim và 400 ml nước."),
        ("Không có thời gian làm sạch yến thô thì nên mua gì?", "Chọn yến tinh chế đã nhặt sạch lông tại xưởng, hoặc nước yến chưng sẵn đóng hũ, mở nắp là dùng.")]),
+dict(slug="tre-may-tuoi-an-duoc-yen", cat="Yến sào", ngay="2026-10-31",
+  tu_khoa="trẻ mấy tuổi ăn được yến, bé mấy tuổi ăn yến được, trẻ em ăn yến, cho bé ăn yến lần đầu, trẻ uống nước yến được không",
+  h1="Trẻ mấy tuổi ăn được yến sào? Lưu ý cho cha mẹ",
+  desc="Trẻ mấy tuổi ăn được yến? Không có một mốc chung cho mọi bé, cha mẹ nên hỏi bác sĩ nhi trước. Cách cho bé thử lần đầu, chọn loại yến, dấu hiệu dị ứng cần lưu ý.",
+  lede="Trẻ mấy tuổi ăn được yến là câu hỏi không có một mốc chung cho mọi bé: thời điểm phù hợp tùy sức khỏe, cơ địa và quá trình ăn dặm của từng trẻ, nên cha mẹ cần hỏi bác sĩ nhi trước. Nhiều gia đình chờ đến khi bé đã ăn dặm quen với nhiều loại thực phẩm, thường sau 1 tuổi, rồi mới cho thử một lượng rất nhỏ.",
+  tom_tat=["Không có độ tuổi chung cho mọi trẻ; cha mẹ nên hỏi bác sĩ nhi trước khi cho bé ăn yến lần đầu.",
+           "Bé dưới 1 tuổi, bé có cơ địa dị ứng, chàm, hen hoặc đang điều trị bệnh càng cần ý kiến bác sĩ.",
+           "Lần đầu chỉ cho lượng rất nhỏ, vào buổi sáng, không thử cùng lúc với món mới khác để dễ theo dõi.",
+           "Ngưng cho ăn nếu bé nổi mẩn, ngứa, nôn, tiêu chảy; đưa đi cơ sở y tế ngay nếu bé khó thở, sưng môi mặt.",
+           f"Yến vụn đã nhặt sạch lông dễ nấu cho trẻ, ví dụ {P[106][2]} giá {gia(106)}/100gr tại Việt Cường Nhân."],
+  body=f"""  <h2>Trẻ mấy tuổi ăn được yến?</h2>
+  <p>Không có một độ tuổi áp dụng cho mọi trẻ; bé nào ăn yến được và từ khi nào nên do bác sĩ nhi tư vấn dựa trên sức khỏe, cơ địa và quá trình ăn dặm của bé. Yến sào là một thực phẩm, nên cách tiếp cận giống khi cho bé làm quen bất kỳ thực phẩm mới nào: hỏi bác sĩ, thử ít, theo dõi kỹ.</p>
+  <p>Ở xưởng Việt Cường Nhân, nhiều cha mẹ hỏi "bé nhà em mấy tháng thì ăn yến được". Chúng tôi là cơ sở sản xuất thực phẩm, không phải bác sĩ, nên không đưa ra mốc tuổi hay lượng dùng cho trẻ. Điều chúng tôi chia sẻ được là cách chọn yến sạch, cách sơ chế và những lưu ý chung khi cho bé thử thực phẩm mới.</p>
+  <table><thead><tr><th>Tình huống</th><th>Cha mẹ nên làm gì</th></tr></thead><tbody>
+  <tr><td>Bé dưới 1 tuổi, đang ăn dặm giai đoạn đầu</td><td>Không tự ý cho ăn yến; hỏi bác sĩ nhi trước</td></tr>
+  <tr><td>Bé đã ăn dặm quen nhiều loại thực phẩm</td><td>Hỏi bác sĩ; nếu được đồng ý, thử lượng rất nhỏ trong cháo</td></tr>
+  <tr><td>Bé có cơ địa dị ứng, chàm, hen</td><td>Cần ý kiến bác sĩ trước khi thử bất kỳ thực phẩm mới nào</td></tr>
+  <tr><td>Bé đang ốm, đang điều trị hoặc dùng thuốc</td><td>Hỏi bác sĩ đang điều trị cho bé</td></tr>
+  <tr><td>Bé lớn, đã ăn yến nhiều lần không có vấn đề</td><td>Dùng như một món trong thực đơn đa dạng, không thay bữa chính</td></tr>
+  </tbody></table>
+
+  <h2>Vì sao cần hỏi bác sĩ trước khi cho trẻ ăn yến?</h2>
+  <p>Cần hỏi bác sĩ vì hệ tiêu hóa và cơ địa của trẻ nhỏ khác người lớn, và như mọi thực phẩm giàu đạm, yến có thể không hợp với một số bé. Bác sĩ nhi theo dõi bé qua các lần khám nên đánh giá được bé đã sẵn sàng hay chưa.</p>
+  <ul>
+    <li><b>Dị ứng thực phẩm:</b> bất kỳ thực phẩm mới nào cũng có thể gây dị ứng ở trẻ có cơ địa nhạy cảm.</li>
+    <li><b>Giai đoạn ăn dặm:</b> bé cần làm quen lần lượt từng nhóm thực phẩm cơ bản trước.</li>
+    <li><b>Đường và gia vị:</b> yến chưng, nước yến hũ thường có đường, không hợp với trẻ nhỏ nếu bác sĩ khuyên hạn chế.</li>
+  </ul>
+  <p>Khi đi khám, cha mẹ có thể hỏi bác sĩ: bé đã ăn yến được chưa, nên bắt đầu với món gì, bao lâu cho ăn một lần, và cần theo dõi dấu hiệu gì.</p>
+
+  <h2>Cho bé ăn yến lần đầu thế nào?</h2>
+  <p>Nếu bác sĩ đồng ý, lần đầu nên cho bé ăn một lượng rất nhỏ yến nấu chín kỹ trong món bé đã quen, như cháo, rồi theo dõi bé trong ngày. Không nên cho bé thử yến cùng lúc với một món mới khác.</p>
+  <ol>
+    <li><b>Chọn yến sạch:</b> yến tinh chế hoặc yến vụn đã nhặt sạch lông, có nguồn gốc rõ ràng.</li>
+    <li><b>Sơ chế kỹ:</b> ngâm yến vụn 15–20 phút, lọc qua rây, soi dưới đèn để nhặt sợi lông còn sót.</li>
+    <li><b>Nấu chín, xé nhỏ:</b> xé sợi yến thật nhỏ, nấu cùng cháo đã nhừ thêm 5–7 phút.</li>
+    <li><b>Thử vào buổi sáng:</b> để cả ngày có thể quan sát bé.</li>
+    <li><b>Theo dõi 2–3 ngày:</b> chưa thêm món mới nào khác trong thời gian này để dễ nhận biết nếu có phản ứng.</li>
+  </ol>
+  <p>Công thức chi tiết và các món cháo đổi vị xem bài <a href="chao-yen-cho-be.html">cháo yến cho bé: cách nấu và lưu ý theo độ tuổi</a>.</p>
+
+  <h2>Dấu hiệu dị ứng cần lưu ý khi trẻ ăn yến</h2>
+  <p>Sau khi bé ăn yến, nếu thấy biểu hiện bất thường thì ngưng cho ăn và hỏi bác sĩ; các dấu hiệu nặng cần đưa bé đi cơ sở y tế ngay. Đây là lưu ý chung cho mọi thực phẩm mới, không riêng yến sào.</p>
+  <table><thead><tr><th>Biểu hiện</th><th>Cha mẹ nên làm gì</th></tr></thead><tbody>
+  <tr><td>Nổi mẩn đỏ, ngứa, quấy khóc khác thường</td><td>Ngưng cho ăn, liên hệ bác sĩ</td></tr>
+  <tr><td>Nôn, tiêu chảy, đau bụng</td><td>Ngưng cho ăn, theo dõi và hỏi bác sĩ</td></tr>
+  <tr><td>Khó thở, thở rít, sưng môi, sưng mặt, lừ đừ</td><td>Đưa bé đến cơ sở y tế ngay</td></tr>
+  </tbody></table>
+
+  <h2>Trẻ em ăn yến loại nào, nấu món gì?</h2>
+  <p>Với trẻ nhỏ, yến vụn đã nhặt sạch lông là loại dễ dùng nhất vì sợi nhỏ, nở nhanh, hòa đều vào cháo và súp. Không nên dùng chân yến (sợi dai, cứng) hay yến thô chưa làm sạch cho bé.</p>
+  <ul>
+    <li><b>Bé nhỏ:</b> cháo nấu nhừ, sợi yến xé hoặc băm thật nhỏ, nêm nhạt.</li>
+    <li><b>Bé lớn hơn, nhai tốt:</b> cháo hạt, súp gà yến, yến chưng táo đỏ ít đường.</li>
+    <li><b>Hạn chế đường:</b> chưng yến cho trẻ nên ít hoặc không đường phèn, dùng vị ngọt của táo đỏ.</li>
+  </ul>
+  <p>Yến vụn là gì, khác yến sợi thế nào xem bài <a href="yen-vun-baby-la-gi.html">yến vụn baby là gì, dùng làm món gì</a>.</p>
+
+  <h2>Trẻ uống nước yến hũ được không?</h2>
+  <p>Nước yến hũ chưng sẵn thường có đường, nên cha mẹ cần đọc thành phần trên nhãn và hỏi bác sĩ trước khi cho trẻ uống, nhất là trẻ nhỏ. Với trẻ nhỏ, yến tự nấu tại nhà giúp cha mẹ chủ động hơn về lượng đường và cách chế biến.</p>
+  <p>Cách dùng và bảo quản nước yến xem bài <a href="nuoc-yen-chung-san-cach-dung-bao-quan.html">nước yến chưng sẵn: chọn loại nào, dùng và bảo quản ra sao</a>.</p>
+
+  <h2>Chọn yến sạch cho trẻ</h2>
+  <p>Khi mua yến cho trẻ, nên chọn cơ sở có địa chỉ sản xuất, chứng nhận an toàn thực phẩm và bản tự công bố sản phẩm; các dấu hiệu chọn yến thật xem bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>. Việt Cường Nhân làm yến từ năm 2009, yến được nhặt lông tại xưởng, nhà máy đạt HACCP, ISO 22000:2018 và GMP. Giá dưới đây lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(107, "Sợi nhỏ, rời, dễ chia lượng ít để nấu cháo."), li(106, "Vụn đắp thành tai, lấy từng phần gọn."), li(124, "Chưng sẵn; đọc thành phần đường trên nhãn trước khi cho trẻ dùng.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>, hoặc nhắn Zalo 0978 094 739 để được tư vấn chọn loại yến.</p>""",
+  faq=[("Trẻ mấy tuổi ăn được yến?", "Không có một độ tuổi chung cho mọi trẻ. Cha mẹ nên hỏi bác sĩ nhi; nhiều gia đình chờ bé ăn dặm quen với nhiều loại thực phẩm, thường sau 1 tuổi, rồi mới cho thử."),
+       ("Trẻ dưới 1 tuổi ăn yến được không?", "Không nên tự ý cho bé dưới 1 tuổi ăn yến. Hãy hỏi bác sĩ nhi trước, vì bé còn trong giai đoạn làm quen các nhóm thực phẩm cơ bản."),
+       ("Cho bé ăn yến lần đầu cần lưu ý gì?", "Cho lượng rất nhỏ yến nấu chín trong món bé đã quen, ăn vào buổi sáng, không thử cùng lúc với món mới khác và theo dõi bé 2–3 ngày."),
+       ("Trẻ ăn yến bao nhiêu là đủ?", "Lượng phù hợp tùy từng bé, cha mẹ nên hỏi bác sĩ nhi. Việt Cường Nhân không đưa ra lượng dùng cho trẻ."),
+       ("Trẻ ăn yến bị dị ứng có biểu hiện gì?", "Có thể nổi mẩn, ngứa, nôn, tiêu chảy hoặc quấy khác thường; khi đó ngưng cho ăn và hỏi bác sĩ. Nếu bé khó thở, sưng môi mặt thì đưa đến cơ sở y tế ngay.")]),
 ]
