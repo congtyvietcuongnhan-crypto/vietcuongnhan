@@ -563,4 +563,81 @@ dict(slug="yen-sao-binh-duong-di-an-mua-o-dau", cat="Yến sào", ngay="2026-10-
        ("Đặt yến online giao về Dĩ An mất bao lâu?", "Theo chính sách vận chuyển của Việt Cường Nhân, TP. Hồ Chí Minh và khu vực lân cận nhận hàng trong 1 đến 2 ngày làm việc. Phí giao được báo khi gọi xác nhận đơn."),
        ("Yến sào ở xưởng Dĩ An giá bao nhiêu?", f"Ví dụ {P[109][2]} giá {gia(109)}/100gr, {P[101][2]} giá {gia(101)}/100gr. Giá chưa gồm phí giao hàng, bảng giá đầy đủ có trên website."),
        ("Muốn mua sỉ yến sào ở Bình Dương thì liên hệ ai?", "Nhắn Zalo 0978 094 739 để được Việt Cường Nhân tư vấn mua số lượng lớn, mua sỉ hoặc làm đại lý.")]),
+dict(slug="chan-yen-chan-tua-la-gi", cat="Yến sào", ngay="2026-10-31",
+  tu_khoa="chân yến là gì, chân tua yến, chân yến có tốt không, giá chân yến 100gr, cách chưng chân yến",
+  h1="Chân yến là gì? Chân tua yến có nên mua không?",
+  desc="Chân yến là gì? Chân yến (chân tua) là phần gốc tổ bám vào xà nhà yến, sợi dày và dai. Cách phân biệt, cách ngâm chưng, giá 100gr và ai nên mua.",
+  lede="Chân yến là phần gốc của tổ yến bám chặt vào xà gỗ trong nhà yến, còn gọi là chân tua hay chân tổ. Phần này đặc, sợi dày và dai hơn thân tổ, nên cần ngâm và chưng lâu hơn; hợp với người thích ăn sợi dai, giòn.",
+  tom_tat=["Chân yến (chân tua) là phần gốc tổ bám vào xà nhà yến, sợi đặc, dày và cứng hơn thân tổ.",
+           "Chân yến cần ngâm khoảng 2–3 tiếng và chưng cách thủy khoảng 30–40 phút, lâu hơn yến tinh chế thường.",
+           f"Giá tham khảo tại Việt Cường Nhân: {P[118][2]} {gia(118)}/100gr, {P[119][2]} {gia(119)}/100gr, {P[105][2]} {gia(105)}/100gr.",
+           "Chân yến khác yến sợi chủ yếu ở kết cấu khi ăn (dai, giòn) và cách sơ chế; không có căn cứ để nói bổ hơn hay kém hơn.",
+           "Hợp với người thích sợi dai, có thời gian ngâm chưng; trẻ nhỏ, người lớn tuổi khó nhai nên chọn yến sợi mềm hoặc yến vụn."],
+  body=f"""  <h2>Chân yến là gì?</h2>
+  <p>Chân yến là phần gốc của tổ yến, nơi tổ dính chặt vào xà gỗ trong nhà yến. Khi làm tổ, chim yến nhả nhiều lớp nước dãi chồng lên nhau ở phần này để tổ bám chắc, nên chân tổ đặc, dày và cứng hơn hẳn phần thân và miệng tổ.</p>
+  <p>Trong nghề yến, phần chân thường được tách riêng khi làm sạch và định hình tổ. Người bán gọi bằng nhiều tên: <b>chân yến</b>, <b>chân tổ</b>, <b>chân tua</b> (vì phần chân sau khi tách có dạng tua, khối nhỏ). Còn <b>chân rìa</b> là phần chân và rìa tổ được gom lại khi chưa nhặt lông.</p>
+  <p>Ở xưởng Việt Cường Nhân, khách hay hỏi "chân yến có phải yến vụn không". Không phải: yến vụn là sợi ngắn rơi ra trong lúc nhặt lông, còn chân yến là khối đặc ở gốc tổ, hai loại khác nhau về hình dạng lẫn cách nấu.</p>
+
+  <h2>Chân yến khác yến sợi và yến vụn thế nào?</h2>
+  <p>Chân yến khác yến sợi và yến vụn chủ yếu ở kết cấu, thời gian sơ chế và món phù hợp. Bảng dưới so sánh ba loại đều đã nhặt sạch lông tại xưởng.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Chân tua sạch</th><th>Yến tinh chế sợi</th><th>Yến tinh chế vụn</th></tr></thead><tbody>
+  <tr><td>Phần của tổ</td><td>Gốc tổ bám vào xà</td><td>Thân tổ, sợi dài vừa</td><td>Sợi ngắn rơi ra khi làm sạch</td></tr>
+  <tr><td>Hình dạng</td><td>Khối nhỏ, đặc, dày</td><td>Tai yến, sợi đan đều</td><td>Sợi vụn, mảnh nhỏ</td></tr>
+  <tr><td>Thời gian ngâm</td><td>Khoảng 2–3 tiếng</td><td>Khoảng 30–60 phút</td><td>Khoảng 15–20 phút</td></tr>
+  <tr><td>Thời gian chưng</td><td>Khoảng 30–40 phút</td><td>Khoảng 20–30 phút</td><td>Khoảng 10–15 phút</td></tr>
+  <tr><td>Khi ăn</td><td>Dai, giòn sần sật</td><td>Mềm, sợi rõ</td><td>Mềm, hòa vào món</td></tr>
+  <tr><td>Hợp món</td><td>Chưng đường phèn, chè, hầm</td><td>Chưng hằng ngày, biếu tặng</td><td>Cháo, súp, chưng sữa</td></tr>
+  <tr><td>Giá 100gr</td><td>{gia(119)} – {gia(118)}</td><td>{gia(109)}</td><td>{gia(107)}</td></tr>
+  </tbody></table>
+  <p>Thời gian ngâm và chưng trong bảng là mức tham khảo; tổ khô, cứng hơn thì ngâm lâu hơn. Sự khác nhau giữa yến thô, yến tinh chế và yến rút lông xem ở bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông khác nhau thế nào</a>.</p>
+
+  <h2>Chân yến có tốt không, có nên mua không?</h2>
+  <p>Chân yến vẫn là tổ yến, chỉ khác phần của tổ, nên nên mua hay không tùy vào khẩu vị và thời gian sơ chế của bạn. Không có căn cứ để nói chân yến bổ hơn hay kém hơn yến sợi; điểm khác rõ nhất là cảm giác ăn dai, giòn và cần nấu lâu hơn.</p>
+  <h3>Nên chọn chân yến khi</h3>
+  <ul>
+    <li>Bạn thích chén yến có sợi dai, giòn, nhai được, không bị tan.</li>
+    <li>Bạn hay nấu chè, hầm hoặc chưng lâu, cần loại yến chịu nhiệt tốt.</li>
+    <li>Bạn có thời gian ngâm từ sáng để chiều chưng, hoặc ngâm buổi tối để sáng hôm sau chưng.</li>
+  </ul>
+  <h3>Nên chọn loại khác khi</h3>
+  <ul>
+    <li>Bạn cần nấu nhanh: chọn yến tinh chế sợi, ngâm 30–60 phút là chưng được.</li>
+    <li>Nấu cho trẻ nhỏ hoặc người lớn tuổi khó nhai: chọn yến sợi mềm hoặc yến vụn, chưng mềm.</li>
+    <li>Mua để biếu, cần hình thức đẹp: chọn yến rút lông hoặc yến tinh chế dạng tai.</li>
+  </ul>
+
+  <h2>Vì sao chân yến sạch giá cao hơn yến tinh chế thường?</h2>
+  <p>Chân tua sạch có giá cao hơn yến tinh chế 1 lớp sợi vừa vì mỗi tổ chỉ có một phần chân nhỏ, và phần này cứng, đặc nên làm sạch tốn công hơn. Chân yến bám vào xà gỗ dễ dính mùn gỗ, cát và lông ở các kẽ, thợ phải ngâm và nhặt kỹ từng khối.</p>
+  <p>Chân rìa thô thì giá mềm hơn chân tua sạch vì chưa làm sạch, khi mua về bạn phải tự ngâm, nhặt lông và tạp chất. Giá dưới đây lấy từ bảng giá website Việt Cường Nhân, chưa gồm phí giao hàng:</p>
+""" + ul(li(118, "Khối chân đều, đã nhặt sạch lông tại xưởng."), li(119, "Đã nhặt sạch lông, khối nhỏ hơn loại 1."), li(105, "Còn lông và tạp chất, cần tự làm sạch.")) + f"""
+  <p>Muốn so sánh với các loại yến khác, xem bài <a href="gia-yen-sao-bao-nhieu-tien.html">giá yến sào bao nhiêu tiền 100gr</a>.</p>
+
+  <h2>Cách ngâm và chưng chân yến tại nhà</h2>
+  <p>Chân yến cần ngâm lâu hơn và chưng lâu hơn yến sợi, vì phần gốc tổ đặc và cứng. Một chén dùng khoảng 3–5 g chân yến khô với 150–200 ml nước, giống mức chưng yến thường.</p>
+  <ol>
+    <li><b>Ngâm:</b> ngâm chân yến trong nước sạch khoảng 2–3 tiếng, đến khi khối yến mềm và tơi ra. Có thể ngâm trong ngăn mát nếu để lâu hơn.</li>
+    <li><b>Xé tơi:</b> dùng tay xé khối chân thành sợi nhỏ; phần nào còn cứng thì ngâm thêm.</li>
+    <li><b>Kiểm tra:</b> với chân rìa thô, đặt yến lên đĩa trắng, dùng nhíp nhặt lông và mùn gỗ còn sót.</li>
+    <li><b>Chưng cách thủy:</b> cho yến và nước vào thố, đậy nắp, chưng lửa nhỏ khoảng 30–40 phút.</li>
+    <li><b>Nêm:</b> thêm đường phèn trong 5 phút cuối. Có thể chưng cùng táo đỏ, hạt sen hoặc vài sợi đông trùng hạ thảo.</li>
+  </ol>
+  <p>Các bước chưng cơ bản có ở bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>. Tính số chén từ một hộp xem bài <a href="100gr-yen-chung-duoc-bao-nhieu-chen.html">100gr yến chưng được bao nhiêu chén</a>.</p>
+
+  <h2>Cách nhận biết chân yến thật</h2>
+  <p>Chân yến thật có màu trắng ngà đến vàng nhạt, khối đặc nhưng nhìn kỹ vẫn thấy sợi yến xếp lớp, khi ngâm nở mềm và tơi thành sợi. Nên cẩn thận với chân yến trắng tinh bất thường, bóng như nhựa hoặc ngâm lâu vẫn không tơi.</p>
+  <ul>
+    <li><b>Nhìn:</b> các lớp sợi chồng lên nhau, to nhỏ không đều.</li>
+    <li><b>Ngâm:</b> nước ngâm trong, không có váng lạ; khối yến mềm dần và xé được thành sợi.</li>
+    <li><b>Chưng:</b> sợi vẫn còn, dai, có mùi tanh nhẹ đặc trưng của yến.</li>
+    <li><b>Nguồn gốc:</b> hỏi rõ cơ sở làm sạch, xem chứng nhận an toàn thực phẩm và bản tự công bố sản phẩm.</li>
+  </ul>
+  <p>Các dấu hiệu chung xem thêm ở bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>.</p>
+
+  <h2>Mua chân yến ở Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân làm yến từ năm 2009, có nhà yến và xưởng nhặt lông riêng, nhà máy đạt HACCP, ISO 22000:2018 và GMP. Chân tua sạch được tách và nhặt lông tại xưởng, về nhà chỉ cần ngâm và chưng. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>, giá chưa gồm phí giao hàng. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739 để được tư vấn.</p>""",
+  faq=[("Chân yến là gì?", "Chân yến (chân tua, chân tổ) là phần gốc của tổ yến bám vào xà gỗ trong nhà yến. Phần này có nhiều lớp nước dãi chồng lên nhau nên đặc, dày và dai hơn thân tổ."),
+       ("Chân yến có tốt hơn yến sợi không?", "Chân yến và yến sợi đều là tổ yến, khác nhau ở phần của tổ và kết cấu khi ăn. Không có căn cứ để nói loại nào bổ hơn; chọn theo khẩu vị và thời gian sơ chế."),
+       ("Chân yến ngâm bao lâu?", "Khoảng 2–3 tiếng, đến khi khối yến mềm và xé tơi được. Sau đó chưng cách thủy khoảng 30–40 phút."),
+       ("Chân yến giá bao nhiêu 100gr?", f"Tại Việt Cường Nhân, {P[118][2]} giá {gia(118)}/100gr, {P[119][2]} giá {gia(119)}/100gr và {P[105][2]} giá {gia(105)}/100gr, chưa gồm phí giao hàng."),
+       ("Chân tua và chân rìa khác nhau thế nào?", "Chân tua sạch là phần chân tổ đã nhặt sạch lông tại xưởng, ngâm xong là chưng. Chân rìa thô là phần chân và rìa tổ chưa làm sạch, phải tự ngâm và nhặt lông.")]),
 ]
