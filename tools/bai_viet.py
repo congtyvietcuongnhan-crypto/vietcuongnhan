@@ -1400,4 +1400,66 @@ dict(slug="bao-quan-yen-sao", cat="Yến sào", ngay="2026-11-01",
        ("Có nên để yến khô trong tủ lạnh không?", "Không bắt buộc nếu nhà khô thoáng. Ở nơi nồm ẩm có thể để yến trong hộp kín khí ở ngăn mát, và để hộp về nhiệt độ phòng rồi mới mở nắp."),
        ("Làm sao biết yến bị hỏng?", "Yến có mùi chua, mùi mốc, đốm lạ, sợi nhớt hoặc nước đục, có váng thì nên bỏ. Yến tự nhiên chỉ có mùi tanh nhẹ đặc trưng."),
        ("Yến đã ngâm mà chưa chưng thì làm sao?", "Vớt yến để ráo, cho vào hộp kín, cất ngăn mát và chưng sớm trong ngày. Tốt nhất chỉ ngâm vừa đủ lượng định chưng.")]),
+dict(slug="nuoc-yen-hu-uong-luc-nao", cat="Nước yến", ngay="2026-11-02",
+  tu_khoa="nước yến uống lúc nào, nước yến hũ uống lúc nào, mỗi ngày uống mấy hũ nước yến, uống nước yến buổi tối được không, nước yến uống lạnh hay nóng",
+  h1="Nước yến uống lúc nào, mỗi ngày mấy hũ là vừa?",
+  desc="Nước yến uống lúc nào trong ngày? Gợi ý thời điểm uống nước yến hũ, mỗi lần một hũ như bữa phụ, uống lạnh hay ấm, lưu ý đường và cách bảo quản hũ đã mở.",
+  lede="Nước yến uống lúc nào cũng được vì đây là thực phẩm, nhưng tiện và dễ chịu nhất là giữa buổi sáng hoặc giữa buổi chiều, cách bữa chính khoảng 1 tiếng. Nhiều người dùng mỗi lần một hũ như một bữa phụ nhẹ; người có bệnh nền, trẻ nhỏ và phụ nữ mang thai nên hỏi bác sĩ trước.",
+  tom_tat=["Thời điểm tiện nhất: giữa buổi sáng (9–10 giờ) hoặc giữa buổi chiều (15–16 giờ), cách bữa chính khoảng 1 tiếng.",
+           "Nhiều người dùng mỗi lần 1 hũ như một bữa phụ; nước yến không thay bữa chính hay thuốc.",
+           "Uống lạnh ngon hơn; muốn uống ấm thì ngâm cả hũ vào nước ấm vài phút, không đun sôi.",
+           "Nước yến hũ thường có đường: người tiểu đường, ăn kiêng nên đọc nhãn và hỏi bác sĩ.",
+           f"Giá tham khảo: {P[126][2]} {gia(126)}/hũ, {P[127][2]} {gia(127)}/hũ, {P[124][2]} {gia(124)}/hũ."],
+  body=f"""  <h2>Nước yến uống lúc nào trong ngày?</h2>
+  <p>Nước yến hũ uống được vào bất cứ lúc nào trong ngày; thời điểm phổ biến nhất là giữa buổi sáng hoặc giữa buổi chiều, thay cho món ăn vặt. Vì là thực phẩm chưng sẵn, nước yến không có "giờ uống" bắt buộc như thuốc, nên hãy chọn lúc hợp nếp sinh hoạt của bạn.</p>
+  <p>Ở xưởng Việt Cường Nhân, khách mua nước yến hay hỏi "uống sáng hay tối mới tốt". Câu trả lời ngắn: lúc nào bụng không quá no và bạn thấy tiện là được; quan trọng hơn là chọn loại hũ phù hợp và không uống thay bữa chính.</p>
+  <table><thead><tr><th>Thời điểm</th><th>Hợp với</th><th>Lưu ý</th></tr></thead><tbody>
+  <tr><td>Sáng, trước bữa sáng khoảng 30 phút</td><td>Người dậy sớm, muốn món nhẹ đầu ngày</td><td>Không uống thay bữa sáng</td></tr>
+  <tr><td>Giữa buổi sáng (9–10 giờ)</td><td>Dân văn phòng, học sinh lớn</td><td>Thay món ăn vặt, mang theo tiện</td></tr>
+  <tr><td>Giữa buổi chiều (15–16 giờ)</td><td>Người làm việc cả ngày</td><td>Cách bữa tối ít nhất 1 tiếng</td></tr>
+  <tr><td>Buổi tối, trước khi ngủ khoảng 1 tiếng</td><td>Người bận ban ngày</td><td>Chọn hũ nhỏ, không uống quá khuya</td></tr>
+  </tbody></table>
+
+  <h2>Uống nước yến trước hay sau bữa ăn?</h2>
+  <p>Nên uống nước yến khi bụng không quá no: trước bữa chính khoảng 30 phút hoặc sau bữa ăn khoảng 1 tiếng. Uống ngay sau bữa no dễ thấy đầy bụng và ngán.</p>
+  <p>Thời điểm ăn yến chưng tại nhà cũng theo nguyên tắc tương tự, xem bài <a href="an-yen-luc-nao-tot-nhat.html">ăn yến lúc nào trong ngày là hợp lý</a>.</p>
+
+  <h2>Uống nước yến buổi tối được không?</h2>
+  <p>Uống nước yến buổi tối được, miễn là trước khi ngủ khoảng 1 tiếng và chọn hũ nhỏ. Nước yến hũ thường có đường, nên uống quá khuya ngay trước khi nằm không phải thói quen tốt, nhất là với người đang kiểm soát đường.</p>
+
+  <h2>Mỗi ngày uống mấy hũ nước yến?</h2>
+  <p>Nhiều người dùng mỗi lần 1 hũ như một bữa phụ, vài lần trong tuần hoặc mỗi ngày tùy thói quen. Nước yến là thực phẩm, không có "liều" cố định; điều cần để ý là tổng lượng đường trong ngày và không dùng nước yến thay các bữa ăn đủ chất.</p>
+  <ul>
+    <li><b>Người lớn khỏe mạnh:</b> dùng 1 hũ mỗi lần như món ăn phụ, đọc thành phần đường trên nhãn.</li>
+    <li><b>Người tiểu đường, đang ăn kiêng đường:</b> hỏi bác sĩ trước; có thể tự chưng yến không đường tại nhà để chủ động hơn.</li>
+    <li><b>Trẻ nhỏ, phụ nữ mang thai, người có bệnh nền hoặc đang dùng thuốc:</b> hỏi bác sĩ trước khi dùng. Xem thêm bài <a href="ba-bau-an-yen-duoc-khong.html">bà bầu ăn yến được không</a> và <a href="tre-may-tuoi-an-duoc-yen.html">trẻ mấy tuổi ăn được yến</a>.</li>
+    <li><b>Người lớn tuổi:</b> chọn hũ nhỏ, uống mát hoặc ấm nhẹ; xem bài <a href="nguoi-gia-an-yen-the-nao.html">người già ăn yến thế nào cho hợp</a>.</li>
+  </ul>
+
+  <h2>Nước yến uống lạnh hay nóng?</h2>
+  <p>Nước yến hũ ngon nhất khi uống mát, sau khi để ngăn mát tủ lạnh vài tiếng. Muốn uống ấm, ngâm nguyên hũ còn đậy nắp vào tô nước ấm vài phút; không đun sôi hay cho vào lò vi sóng nguyên hũ.</p>
+  <ol>
+    <li>Lắc nhẹ hũ trước khi mở để sợi yến và nước hòa đều.</li>
+    <li>Mở nắp, uống trực tiếp hoặc đổ ra chén, dùng muỗng ăn phần sợi yến.</li>
+    <li>Có thể thêm vài viên đá hoặc vài quả táo đỏ ngâm mềm nếu thích.</li>
+  </ol>
+
+  <h2>Chọn loại nước yến hũ nào?</h2>
+  <p>Việt Cường Nhân có hai dòng nước yến: nước yến chưng thủ công từ yến tươi theo từng mẻ, và nước yến VCN Nest sản xuất trên dây chuyền tại nhà máy, đóng hũ tiệt trùng, ghi rõ lượng tổ yến thô mỗi hũ. Giá dưới đây lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(126, "Hũ nhỏ, giá mềm, hợp dùng hằng ngày."), li(127, "Lượng yến nhiều hơn loại 0.3gr."), li(129, "Lốc 6 hũ, tiện để sẵn trong tủ lạnh."), li(124, "Chưng thủ công từ yến tươi.")) + f"""
+  <table><thead><tr><th>Nhu cầu</th><th>Gợi ý</th></tr></thead><tbody>
+  <tr><td>Uống hằng ngày, mang đi làm</td><td>{P[126][2]}</td></tr>
+  <tr><td>Muốn nhiều yến hơn trong mỗi hũ</td><td>{P[127][2]}</td></tr>
+  <tr><td>Thích yến chưng kiểu nhà làm</td><td>{P[124][2]}</td></tr>
+  <tr><td>Để sẵn cho cả nhà</td><td>Lốc 6 hoặc lốc 10 hũ</td></tr>
+  </tbody></table>
+
+  <h2>Bảo quản nước yến hũ</h2>
+  <p>Hũ chưa mở để nơi khô mát, tránh nắng, theo hạn dùng in trên hũ; đã mở nắp thì nên uống hết trong ngày. Bỏ hũ nếu nắp phồng, hũ hở, có mùi vị lạ hoặc quá hạn. Chi tiết xem bài <a href="nuoc-yen-chung-san-cach-dung-bao-quan.html">nước yến chưng sẵn: chọn loại nào, dùng và bảo quản ra sao</a> và <a href="bao-quan-yen-sao.html">cách bảo quản yến sào khô và yến đã chưng</a>.</p>
+  <p>Việt Cường Nhân làm yến từ năm 2009, xây nhà máy nước yến chưng sẵn năm 2022 và đạt chứng nhận HACCP, ISO 22000:2018, GMP. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Nước yến uống lúc nào tốt nhất?", "Lúc nào trong ngày cũng được; tiện nhất là giữa buổi sáng hoặc giữa buổi chiều, cách bữa chính khoảng 1 tiếng, khi bụng không quá no."),
+       ("Mỗi ngày uống mấy hũ nước yến?", "Nhiều người dùng mỗi lần 1 hũ như một bữa phụ. Nước yến là thực phẩm, không có liều cố định; nên để ý lượng đường và không uống thay bữa chính."),
+       ("Uống nước yến buổi tối có được không?", "Được, nên uống trước khi ngủ khoảng 1 tiếng và chọn hũ nhỏ, không uống quá khuya."),
+       ("Nước yến uống lạnh hay nóng?", "Uống mát ngon hơn. Muốn uống ấm thì ngâm nguyên hũ còn đậy nắp vào nước ấm vài phút, không đun sôi."),
+       ("Người tiểu đường uống nước yến được không?", "Nên hỏi bác sĩ trước và đọc thành phần đường trên nhãn. Có thể tự chưng yến không đường tại nhà để chủ động lượng đường.")]),
 ]
