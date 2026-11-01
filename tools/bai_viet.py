@@ -1319,4 +1319,85 @@ dict(slug="nguoi-gia-an-yen-the-nao", cat="Yến sào", ngay="2026-11-01",
        ("Người già ăn yến lúc nào?", "Giữa buổi sáng hoặc đầu giờ tối, cách bữa chính khoảng 1 tiếng, dùng chén nhỏ và ăn ấm. Không nên ăn quá khuya."),
        ("Người bị tiểu đường ăn yến được không?", "Cần hỏi bác sĩ trước. Nếu được đồng ý, nên chưng yến không đường hoặc rất ít đường và đọc kỹ thành phần đường của nước yến hũ."),
        ("Chưng yến cho người già thế nào?", "Dùng 3–5 g yến khô với khoảng 200 ml nước, chưng cách thủy lửa nhỏ 25–30 phút cho mềm, nêm rất ít đường phèn hoặc dùng táo đỏ để có vị ngọt.")]),
+dict(slug="bao-quan-yen-sao", cat="Yến sào", ngay="2026-11-01",
+  tu_khoa="bảo quản yến sào, bảo quản yến chưng, yến sào để được bao lâu, bảo quản yến khô, yến bị ẩm mốc",
+  h1="Cách bảo quản yến sào khô và yến đã chưng",
+  desc="Cách bảo quản yến sào đúng: yến khô để hộp kín nơi khô mát, yến đã ngâm và đã chưng cất ngăn mát, dùng trong vài ngày. Dấu hiệu yến bị ẩm mốc, hỏng cần bỏ.",
+  lede="Bảo quản yến sào khô đúng cách là để trong hộp hoặc túi kín, nơi khô ráo, thoáng mát, tránh nắng và hơi ẩm; yến đã ngâm hoặc đã chưng thì phải cất ngăn mát tủ lạnh và dùng trong vài ngày. Yến có mùi chua, mốc, nhớt hoặc đổi màu bất thường thì nên bỏ.",
+  tom_tat=["Yến khô: hộp hoặc túi kín, nơi khô ráo, thoáng mát, tránh nắng; xem hạn dùng in trên bao bì.",
+           "Yến đã ngâm nở nhưng chưa chưng: để ráo, đậy kín, cất ngăn mát và chưng sớm trong ngày.",
+           "Yến đã chưng: để nguội, chia hũ nhỏ đậy kín, cất ngăn mát và dùng trong vài ngày.",
+           "Nước yến hũ chưa mở để nơi khô mát; đã mở nắp thì dùng hết trong ngày.",
+           "Bỏ yến nếu có mùi chua, mốc, đốm lạ, sợi nhớt hoặc đổi màu bất thường."],
+  body=f"""  <h2>Bảo quản yến sào khô thế nào?</h2>
+  <p>Yến sào khô bảo quản tốt nhất trong hộp hoặc túi kín, đặt nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp và hơi ẩm. Kẻ thù lớn nhất của yến khô là độ ẩm: yến hút ẩm sẽ mềm, dễ mốc và có mùi lạ.</p>
+  <ul>
+    <li><b>Giữ hộp gốc:</b> hộp yến của nhà sản xuất thường có túi hút ẩm; mở ra lấy xong thì đóng kín ngay.</li>
+    <li><b>Hộp kín khí:</b> nếu hộp gốc không kín, chuyển yến sang hũ thủy tinh hoặc hộp nhựa thực phẩm có nắp khít.</li>
+    <li><b>Tránh nơi nóng ẩm:</b> không để gần bếp, bồn rửa, cửa sổ nắng chiếu hay trong xe hơi.</li>
+    <li><b>Dùng tay khô, dụng cụ khô:</b> lấy yến bằng tay sạch, khô để không đưa hơi nước vào hộp.</li>
+    <li><b>Xem hạn dùng:</b> thời hạn sử dụng in trên bao bì là mốc nên theo.</li>
+  </ul>
+  <h3>Có nên để yến khô trong tủ lạnh?</h3>
+  <p>Yến khô đóng kín không cần để tủ lạnh nếu nhà khô thoáng. Ở nơi nồm ẩm, có thể cho yến vào hộp kín khí rồi đặt ngăn mát; khi lấy ra nên để hộp về nhiệt độ phòng rồi mới mở nắp, tránh hơi nước đọng lên sợi yến. Mở tủ, lấy yến rồi cất lại nhiều lần trong ngày dễ làm yến bị ẩm hơn.</p>
+
+  <h2>Bảng bảo quản yến theo từng dạng</h2>
+  <p>Mỗi dạng yến có cách bảo quản khác nhau: yến càng nhiều nước thì càng phải giữ lạnh và dùng sớm.</p>
+  <table><thead><tr><th>Dạng yến</th><th>Cách bảo quản</th><th>Nên dùng trong</th></tr></thead><tbody>
+  <tr><td>Yến khô (thô, tinh chế, rút lông)</td><td>Hộp kín, nơi khô ráo, thoáng mát, tránh nắng</td><td>Theo hạn dùng trên bao bì</td></tr>
+  <tr><td>Yến đã ngâm, chưa chưng</td><td>Để ráo, hộp kín, ngăn mát tủ lạnh</td><td>Chưng sớm trong ngày</td></tr>
+  <tr><td>Yến đã chưng</td><td>Để nguội, hũ nhỏ đậy kín, ngăn mát</td><td>Vài ngày</td></tr>
+  <tr><td>Nước yến hũ chưa mở</td><td>Nơi khô mát, tránh nắng</td><td>Theo hạn dùng trên hũ</td></tr>
+  <tr><td>Nước yến hũ đã mở nắp</td><td>Đậy lại, ngăn mát</td><td>Trong ngày</td></tr>
+  </tbody></table>
+
+  <h2>Bảo quản yến đã chưng</h2>
+  <p>Yến đã chưng cần để nguội, chia vào hũ nhỏ đậy kín, cất ngăn mát tủ lạnh và dùng trong vài ngày. Không để yến chưng ở nhiệt độ phòng qua đêm.</p>
+  <ol>
+    <li><b>Để nguội tự nhiên:</b> để yến chưng nguội đến nhiệt độ phòng, đậy hờ để không bị bụi.</li>
+    <li><b>Chia hũ nhỏ:</b> mỗi hũ đủ một lần ăn, để không phải mở nắp và múc nhiều lần từ một hũ lớn.</li>
+    <li><b>Đậy kín, cất ngăn mát:</b> hũ thủy tinh có nắp khít giúp yến không lẫn mùi thức ăn khác trong tủ.</li>
+    <li><b>Dùng muỗng sạch:</b> không dùng muỗng đã ăn để múc lại vào hũ.</li>
+    <li><b>Hâm lại nhẹ:</b> muốn ăn ấm thì hâm cách thủy vài phút, không đun sôi lại nhiều lần.</li>
+  </ol>
+  <p>Mẹo hay nhất là chưng vừa đủ ăn trong 2–3 ngày thay vì chưng cả tuần một lần. Cách tính lượng yến cho từng mẻ xem bài <a href="100gr-yen-chung-duoc-bao-nhieu-chen.html">100gr yến chưng được bao nhiêu chén</a>; các bước chưng xem bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>.</p>
+  <h3>Có nên để yến chưng ngăn đá?</h3>
+  <p>Ở xưởng Việt Cường Nhân, chúng tôi khuyên nên chưng vừa đủ ăn và để ngăn mát thay vì cấp đông, vì sợi yến sau khi rã đông thường mềm hơn và dễ tan. Nếu buộc phải cấp đông, nên chia hũ nhỏ, rã đông trong ngăn mát và dùng ngay sau khi rã.</p>
+
+  <h2>Bảo quản yến đã ngâm nhưng chưa chưng</h2>
+  <p>Yến đã ngâm nở chứa nhiều nước nên hỏng nhanh hơn yến khô nhiều; tốt nhất là ngâm vừa đủ và chưng ngay. Nếu chưa kịp chưng, vớt yến để ráo, cho vào hộp kín, cất ngăn mát và chưng sớm trong ngày.</p>
+  <ul>
+    <li>Không ngâm sẵn cả hộp yến để dùng dần.</li>
+    <li>Không để yến đã ngâm ở nhiệt độ phòng nhiều giờ, nhất là ngày nóng.</li>
+    <li>Yến thô đang nhặt lông dở có thể để trong tô nước, đậy kín, đặt ngăn mát; xem bài <a href="cach-lam-sach-yen-tho.html">cách làm sạch yến thô tại nhà</a>.</li>
+  </ul>
+
+  <h2>Dấu hiệu yến bị ẩm, mốc, hỏng</h2>
+  <p>Yến khô hoặc yến chưng có mùi chua, mùi mốc, đốm xanh đen, sợi nhớt hoặc màu lạ thì nên bỏ, không cố rửa lại để dùng. Yến tự nhiên chỉ có mùi tanh nhẹ đặc trưng.</p>
+  <table><thead><tr><th>Dạng yến</th><th>Dấu hiệu nên bỏ</th></tr></thead><tbody>
+  <tr><td>Yến khô</td><td>Sợi mềm ẩm, có đốm mốc, mùi mốc hoặc mùi hôi lạ, chuyển màu bất thường</td></tr>
+  <tr><td>Yến đã ngâm</td><td>Nước ngâm đục, có bọt, mùi chua; sợi nhớt</td></tr>
+  <tr><td>Yến đã chưng</td><td>Mùi chua, vị lạ, nước đục hoặc có váng, sợi nhũn nhớt</td></tr>
+  <tr><td>Nước yến hũ</td><td>Nắp phồng, hũ hở, mùi vị lạ, quá hạn dùng</td></tr>
+  </tbody></table>
+  <p>Yến khô có màu ngà vàng không đồng đều là bình thường với yến tự nhiên; màu trắng tinh bất thường mới là điều nên hỏi kỹ. Xem thêm bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>.</p>
+
+  <h2>Bảo quản nước yến hũ</h2>
+  <p>Nước yến hũ tiệt trùng chưa mở nắp để nơi khô mát, tránh nắng, theo hạn dùng in trên hũ; để lạnh trước khi uống sẽ ngon hơn. Đã mở nắp thì nên uống hết trong ngày. Chi tiết xem bài <a href="nuoc-yen-chung-san-cach-dung-bao-quan.html">nước yến chưng sẵn: chọn loại nào, dùng và bảo quản ra sao</a>.</p>
+
+  <h2>Mẹo mua và chia yến để bảo quản dễ hơn</h2>
+  <ul>
+    <li><b>Mua vừa đủ dùng:</b> một hộp 100gr đủ cho một người dùng khoảng 2–3 tháng nếu ăn 2–3 lần mỗi tuần.</li>
+    <li><b>Chia phần khi mở hộp:</b> tách yến thành phần 4 g trong túi zip nhỏ, mỗi lần lấy một túi, hộp lớn ít bị mở.</li>
+    <li><b>Ghi ngày mở hộp</b> lên nắp để biết yến đã mở bao lâu.</li>
+    <li><b>Yến biếu tặng:</b> giữ nguyên hộp, dặn người nhận cất nơi khô mát.</li>
+  </ul>
+  <p>Yến của Việt Cường Nhân được sấy khô và đóng hộp tại xưởng đạt HACCP, ISO 22000:2018 và GMP, có ghi ngày sản xuất và hạn dùng trên bao bì. Giá dưới đây lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Dùng hằng ngày, ngâm xong là chưng."), li(113, "Sợi dài, hộp đẹp, hợp biếu tặng."), li(124, "Chưng sẵn, mở nắp là dùng.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Yến sào khô để được bao lâu?", "Yến khô đóng kín, để nơi khô ráo, thoáng mát dùng được theo hạn sử dụng in trên bao bì. Sau khi mở hộp nên đóng kín ngay và dùng dần."),
+       ("Yến đã chưng để được bao lâu?", "Để nguội, chia hũ nhỏ đậy kín, cất ngăn mát và dùng trong vài ngày. Không để yến chưng ở nhiệt độ phòng qua đêm."),
+       ("Có nên để yến khô trong tủ lạnh không?", "Không bắt buộc nếu nhà khô thoáng. Ở nơi nồm ẩm có thể để yến trong hộp kín khí ở ngăn mát, và để hộp về nhiệt độ phòng rồi mới mở nắp."),
+       ("Làm sao biết yến bị hỏng?", "Yến có mùi chua, mùi mốc, đốm lạ, sợi nhớt hoặc nước đục, có váng thì nên bỏ. Yến tự nhiên chỉ có mùi tanh nhẹ đặc trưng."),
+       ("Yến đã ngâm mà chưa chưng thì làm sao?", "Vớt yến để ráo, cho vào hộp kín, cất ngăn mát và chưng sớm trong ngày. Tốt nhất chỉ ngâm vừa đủ lượng định chưng.")]),
 ]
