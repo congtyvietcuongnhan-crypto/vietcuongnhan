@@ -1462,4 +1462,81 @@ dict(slug="nuoc-yen-hu-uong-luc-nao", cat="Nước yến", ngay="2026-11-02",
        ("Uống nước yến buổi tối có được không?", "Được, nên uống trước khi ngủ khoảng 1 tiếng và chọn hũ nhỏ, không uống quá khuya."),
        ("Nước yến uống lạnh hay nóng?", "Uống mát ngon hơn. Muốn uống ấm thì ngâm nguyên hũ còn đậy nắp vào nước ấm vài phút, không đun sôi."),
        ("Người tiểu đường uống nước yến được không?", "Nên hỏi bác sĩ trước và đọc thành phần đường trên nhãn. Có thể tự chưng yến không đường tại nhà để chủ động lượng đường.")]),
+dict(slug="nuoc-yen-hu-va-yen-to-chung", cat="Nước yến", ngay="2026-11-02",
+  tu_khoa="nước yến hũ hay yến tổ, nên mua nước yến hay yến tổ, so sánh nước yến hũ và yến tự chưng, yến chưng sẵn hay yến khô",
+  h1="Nước yến hũ hay yến tổ tự chưng: chọn cái nào?",
+  desc="Nước yến hũ hay yến tổ tự chưng tốt hơn cho bạn? So sánh lượng yến, công chuẩn bị, chi phí mỗi lần dùng, đường, bảo quản và gợi ý chọn theo từng nhu cầu.",
+  lede="Nước yến hũ hay yến tổ tự chưng không có lựa chọn nào hơn hẳn: nước yến hũ tiện, mở nắp là dùng; yến tổ tự chưng cho lượng yến mỗi chén nhiều hơn và bạn chủ động được lượng đường, nhưng mất công ngâm và chưng. Người bận rộn hợp nước yến hũ, gia đình có thời gian hợp yến tổ.",
+  tom_tat=["Nước yến hũ: mở nắp là dùng, tiện mang đi, hợp người bận rộn và làm quà.",
+           "Yến tổ tự chưng: mỗi chén thường dùng 3–5 g yến khô, nhiều yến hơn hũ VCN Nest ghi 0.3–0.8 g tổ yến thô mỗi hũ.",
+           f"Chi phí tham khảo: {P[126][2]} {gia(126)}/hũ; chén tự chưng 4 g {P[109][2]} khoảng {vnd(int(round(P[109][4]*4/100, -3)))} tiền yến.",
+           "Tự chưng chủ động được đường; nước yến hũ cần đọc thành phần đường trên nhãn.",
+           "Nhiều gia đình kết hợp: chưng yến tổ cuối tuần, ngày bận dùng nước yến hũ."],
+  body=f"""  <h2>Nước yến hũ hay yến tổ: khác nhau ở đâu?</h2>
+  <p>Nước yến hũ và yến tổ tự chưng khác nhau chủ yếu ở sự tiện lợi, lượng yến trong mỗi lần dùng, chi phí và khả năng tự điều chỉnh đường. Cả hai đều là thực phẩm từ tổ yến, chọn loại nào tùy thời gian và nhu cầu của gia đình bạn.</p>
+  <p>Ở xưởng Việt Cường Nhân, chúng tôi làm cả hai: yến tinh chế nhặt lông tại xưởng và nước yến chưng sẵn từ nhà máy xây năm 2022. Câu khách hay hỏi nhất là "mua hũ cho tiện hay mua yến về chưng", và bảng dưới là cách chúng tôi thường giải thích.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Nước yến hũ</th><th>Yến tổ tự chưng</th></tr></thead><tbody>
+  <tr><td>Chuẩn bị</td><td>Mở nắp là dùng</td><td>Ngâm 30–60 phút, chưng cách thủy 20–30 phút</td></tr>
+  <tr><td>Lượng yến mỗi lần</td><td>Theo nhãn: VCN Nest 0.3 g hoặc 0.8 g tổ yến thô mỗi hũ; hũ thủ công 12 g hoặc 36 g yến tươi</td><td>Thường 3–5 g yến khô mỗi chén</td></tr>
+  <tr><td>Đường</td><td>Theo công thức nhà sản xuất, xem nhãn</td><td>Tự quyết định, có thể không đường</td></tr>
+  <tr><td>Chi phí mỗi lần</td><td>Từ {gia(126)}/hũ</td><td>Khoảng {vnd(int(round(P[109][4]*4/100, -3)))} tiền yến cho chén 4 g (yến tinh chế 1 lớp sợi vừa)</td></tr>
+  <tr><td>Bảo quản</td><td>Hũ chưa mở để nơi khô mát theo hạn dùng; mở rồi dùng trong ngày</td><td>Yến khô để hộp kín lâu dài; yến đã chưng để ngăn mát, dùng trong vài ngày</td></tr>
+  <tr><td>Mang đi</td><td>Rất tiện</td><td>Cần hũ đựng và giữ lạnh</td></tr>
+  <tr><td>Biếu tặng</td><td>Lốc hũ có hộp, gọn đẹp</td><td>Hộp yến rút lông, yến tinh chế</td></tr>
+  </tbody></table>
+
+  <h2>Khi nào nên chọn nước yến hũ?</h2>
+  <p>Nên chọn nước yến hũ khi bạn không có thời gian ngâm, chưng, cần mang theo đi làm, đi học, đi xa hoặc cần một món quà gọn đẹp. Nước yến hũ cũng hợp với người mới thử yến, chưa muốn mua cả hộp yến khô.</p>
+  <ul>
+    <li>Người đi làm, ăn trưa ở văn phòng.</li>
+    <li>Ông bà ở một mình, ngại bếp núc.</li>
+    <li>Biếu tặng, thăm hỏi, cần quà mở ra dùng được ngay.</li>
+    <li>Dự trữ vài hũ trong tủ lạnh cho ngày bận.</li>
+  </ul>
+""" + ul(li(126, "Hũ nhỏ, giá mềm, dùng hằng ngày."), li(127, "Nhiều yến hơn loại 0.3gr."), li(124, "Chưng thủ công từ yến tươi.")) + f"""
+  <p>Cách uống và thời điểm hợp lý xem bài <a href="nuoc-yen-hu-uong-luc-nao.html">nước yến uống lúc nào, mỗi ngày mấy hũ là vừa</a>.</p>
+
+  <h2>Khi nào nên chọn yến tổ tự chưng?</h2>
+  <p>Nên chọn yến tổ tự chưng khi gia đình có thời gian, muốn mỗi chén có nhiều sợi yến, muốn tự kiểm soát lượng đường hoặc muốn biến tấu với hạt sen, táo đỏ, đông trùng hạ thảo. Tính theo lượng yến, tự chưng thường tiết kiệm hơn.</p>
+  <ul>
+    <li>Gia đình nhiều người cùng ăn yến hằng tuần.</li>
+    <li>Người cần ăn ít hoặc không đường, theo lời dặn của bác sĩ.</li>
+    <li>Người thích chén yến đặc sợi, dai.</li>
+    <li>Người muốn nấu cháo yến, súp yến cho cả nhà.</li>
+  </ul>
+""" + ul(li(109, "Đã nhặt sạch lông, ngâm xong là chưng."), li(107, "Nở nhanh, hợp nấu cháo, súp.")) + f"""
+  <p>Các bước chưng xem bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>; một hộp chưng được bao nhiêu chén xem bài <a href="100gr-yen-chung-duoc-bao-nhieu-chen.html">100gr yến chưng được bao nhiêu chén</a>.</p>
+
+  <h2>So sánh chi phí: nước yến hũ và yến tự chưng</h2>
+  <p>Tính theo mỗi lần dùng, một hũ VCN Nest nhỏ có giá thấp hơn một chén yến tự chưng 4 g; nhưng tính theo lượng yến, yến tự chưng cho nhiều yến hơn trên cùng số tiền. Bảng dưới tính từ bảng giá website Việt Cường Nhân, chưa gồm đường phèn, nguyên liệu chưng kèm và phí giao hàng.</p>
+  <table><thead><tr><th>Lựa chọn</th><th>Lượng yến ghi nhận</th><th>Giá mỗi lần dùng</th></tr></thead><tbody>
+  <tr><td>{P[126][2]}</td><td>0.3 g tổ yến thô/hũ</td><td>{gia(126)}</td></tr>
+  <tr><td>{P[127][2]}</td><td>0.8 g tổ yến thô/hũ</td><td>{gia(127)}</td></tr>
+  <tr><td>{P[124][2]}</td><td>12 g yến tươi/hũ 70ml</td><td>{gia(124)}</td></tr>
+  <tr><td>Chén tự chưng, {P[107][2]}</td><td>4 g yến khô/chén</td><td>khoảng {vnd(int(round(P[107][4]*4/100, -3)))}</td></tr>
+  <tr><td>Chén tự chưng, {P[109][2]}</td><td>4 g yến khô/chén</td><td>khoảng {vnd(int(round(P[109][4]*4/100, -3)))}</td></tr>
+  </tbody></table>
+  <p>Lưu ý: "yến tươi" (đã ngâm nở) và "yến khô" là hai cách tính khác nhau, nên không so trực tiếp số gam của hũ chưng thủ công với chén tự chưng. Bảng giá đầy đủ xem bài <a href="gia-yen-sao-bao-nhieu-tien.html">giá yến sào bao nhiêu tiền 100gr</a>.</p>
+
+  <h2>Kết hợp cả hai cho tiện</h2>
+  <p>Nhiều gia đình kết hợp: cuối tuần chưng một mẻ yến tổ đủ ăn 2–3 ngày, những ngày bận thì dùng nước yến hũ để trong tủ lạnh. Cách này vừa giữ được thói quen dùng yến đều, vừa không phải chưng mỗi ngày.</p>
+  <ol>
+    <li>Chủ nhật: ngâm và chưng yến tổ cho 2–3 ngày đầu tuần, cất ngăn mát.</li>
+    <li>Giữa tuần: dùng nước yến hũ mang đi làm.</li>
+    <li>Chia yến khô thành phần 4 g ngay khi mở hộp để lần chưng sau nhanh hơn.</li>
+  </ol>
+
+  <h2>Lưu ý chung khi dùng yến</h2>
+  <ul>
+    <li>Yến là thực phẩm, không thay bữa chính hay thuốc.</li>
+    <li>Trẻ nhỏ, phụ nữ mang thai, người có bệnh nền hoặc đang dùng thuốc nên hỏi bác sĩ trước khi dùng.</li>
+    <li>Người tiểu đường nên đọc thành phần đường của nước yến hũ hoặc tự chưng yến không đường.</li>
+    <li>Bảo quản đúng cách: xem bài <a href="bao-quan-yen-sao.html">cách bảo quản yến sào khô và yến đã chưng</a>.</li>
+  </ul>
+  <p>Việt Cường Nhân làm yến từ năm 2009, đạt HACCP, ISO 22000:2018 và GMP. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>, giá chưa gồm phí giao hàng. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Nên mua nước yến hũ hay yến tổ?", "Bận rộn, cần mang đi hoặc làm quà thì chọn nước yến hũ. Có thời gian, muốn nhiều sợi yến và tự kiểm soát đường thì chọn yến tổ tự chưng."),
+       ("Nước yến hũ có nhiều yến bằng yến tự chưng không?", "Thường ít hơn. Hũ VCN Nest ghi 0.3 g hoặc 0.8 g tổ yến thô mỗi hũ, còn một chén tự chưng thường dùng 3–5 g yến khô."),
+       ("Yến tự chưng có rẻ hơn nước yến hũ không?", "Tính theo lượng yến thì tự chưng thường tiết kiệm hơn. Tính theo mỗi lần dùng, hũ VCN Nest nhỏ có giá thấp hơn một chén tự chưng 4 g."),
+       ("Người tiểu đường nên chọn nước yến hũ hay tự chưng?", "Nên hỏi bác sĩ trước. Tự chưng giúp chủ động không dùng đường; với nước yến hũ cần đọc kỹ thành phần đường trên nhãn."),
+       ("Mua yến biếu nên chọn loại nào?", "Lốc nước yến có hộp gọn, mở ra dùng ngay; hộp yến rút lông hoặc yến tinh chế hợp khi người nhận quen tự chưng.")]),
 ]
