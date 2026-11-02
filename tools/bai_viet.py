@@ -1539,4 +1539,70 @@ dict(slug="nuoc-yen-hu-va-yen-to-chung", cat="Nước yến", ngay="2026-11-02",
        ("Yến tự chưng có rẻ hơn nước yến hũ không?", "Tính theo lượng yến thì tự chưng thường tiết kiệm hơn. Tính theo mỗi lần dùng, hũ VCN Nest nhỏ có giá thấp hơn một chén tự chưng 4 g."),
        ("Người tiểu đường nên chọn nước yến hũ hay tự chưng?", "Nên hỏi bác sĩ trước. Tự chưng giúp chủ động không dùng đường; với nước yến hũ cần đọc kỹ thành phần đường trên nhãn."),
        ("Mua yến biếu nên chọn loại nào?", "Lốc nước yến có hộp gọn, mở ra dùng ngay; hộp yến rút lông hoặc yến tinh chế hợp khi người nhận quen tự chưng.")]),
+dict(slug="qua-tet-yen-sao", cat="Quà tặng", ngay="2026-11-03",
+  tu_khoa="quà Tết yến sào, hộp quà Tết yến sào, giỏ quà Tết yến sào, quà biếu Tết yến sào theo ngân sách, quà Tết 2027",
+  h1="Quà Tết yến sào: chọn hộp quà biếu theo ngân sách",
+  desc="Chọn quà Tết yến sào theo ngân sách: dưới 500 nghìn, 500 nghìn – 1 triệu, 1–2 triệu và trên 2 triệu. Bảng giá giỏ, hộp quà Tết 2027 Việt Cường Nhân, cách đặt.",
+  lede=f"Chọn quà Tết yến sào dễ nhất là chọn theo ngân sách trước, rồi theo người nhận: dưới 500 nghìn có túi, hộp yến hũ; từ 500 nghìn đến 2 triệu có nhiều hộp, giỏ, khay quà; trên 2 triệu là giỏ, khay quà cao cấp. Bộ quà Tết 2027 của Việt Cường Nhân có giá từ {gia(358)} đến {gia(301)}, giá bán lẻ đã gồm VAT.",
+  tom_tat=["Chọn theo ngân sách trước: dưới 500 nghìn, 500 nghìn – 1 triệu, 1–2 triệu, trên 2 triệu.",
+           f"Bộ quà Tết 2027 của Việt Cường Nhân có giá từ {gia(358)} ({P[358][2]}) đến {gia(301)} ({P[301][2]}).",
+           "Người nhận quen tự chưng yến: chọn hộp có yến khô; người bận rộn, người lớn tuổi ở xa: chọn quà yến hũ chưng sẵn.",
+           f"Muốn tự phối quà: lốc yến hũ có hộp như {P[135][2]} {gia(135)}, hoặc 100gr {P[114][2]} {gia(114)}.",
+           "Đặt sớm trước Tết để có hàng và giao kịp; đặt số lượng lớn cho công ty nhắn Zalo 0978 094 739."],
+  body=f"""  <h2>Quà Tết yến sào nên chọn thế nào?</h2>
+  <p>Quà Tết yến sào nên chọn theo ba câu hỏi: ngân sách bao nhiêu, người nhận là ai, và họ có quen tự chưng yến hay không. Trả lời xong ba câu này thì danh sách quà thu hẹp chỉ còn vài lựa chọn.</p>
+  <p>Ở Việt Cường Nhân, mùa Tết khách hay hỏi "khoảng một triệu thì biếu gì cho đẹp". Bộ quà Tết 2027 của chúng tôi được chia sẵn theo dạng túi, hộp, giỏ, khay và hộp gỗ; giá bán lẻ trên website đã gồm VAT, chưa gồm phí giao hàng.</p>
+  <table><thead><tr><th>Người nhận</th><th>Gợi ý dạng quà</th></tr></thead><tbody>
+  <tr><td>Ông bà, cha mẹ</td><td>Hộp, giỏ có yến hũ chưng sẵn, dễ dùng</td></tr>
+  <tr><td>Họ hàng, bạn bè thân</td><td>Túi hoặc hộp quà tầm trung</td></tr>
+  <tr><td>Đối tác, sếp, khách hàng</td><td>Hộp gỗ, giỏ hoặc khay quà cao cấp</td></tr>
+  <tr><td>Người quen tự chưng yến</td><td>Hộp yến khô (yến tinh chế, yến rút lông)</td></tr>
+  <tr><td>Nhân viên, quà số lượng nhiều</td><td>Túi, hộp yến hũ giá vừa phải, đồng bộ</td></tr>
+  </tbody></table>
+
+  <h2>Quà Tết yến sào dưới 500 nghìn</h2>
+  <p>Dưới 500 nghìn có các túi, hộp và giỏ yến hũ gọn nhẹ, hợp biếu họ hàng, bạn bè hoặc làm quà cho nhân viên. Giá lấy từ bảng giá website Việt Cường Nhân:</p>
+""" + ul(li(358), li(359), li(357), li(348), li(349)) + f"""
+
+  <h2>Quà Tết yến sào từ 500 nghìn đến 1 triệu</h2>
+  <p>Tầm giá 500 nghìn đến 1 triệu có nhiều lựa chọn nhất, hợp biếu cha mẹ, thầy cô, người thân. Một số hộp, túi, giỏ tiêu biểu:</p>
+""" + ul(li(347), li(340), li(335), li(325), li(323)) + f"""
+
+  <h2>Quà Tết yến sào từ 1 đến 2 triệu</h2>
+  <p>Từ 1 đến 2 triệu là tầm giá thường được chọn để biếu đối tác, cấp trên hoặc người lớn tuổi trong gia đình, với dạng hộp gỗ, giỏ và khay quà trang trọng hơn.</p>
+""" + ul(li(320), li(318), li(316), li(312), li(309), li(306)) + f"""
+
+  <h2>Quà Tết yến sào cao cấp trên 2 triệu</h2>
+  <p>Trên 2 triệu là các giỏ, khay và hộp quà cao cấp nhất trong bộ quà Tết 2027, hợp biếu đối tác quan trọng.</p>
+""" + ul(li(305), li(304), li(301)) + f"""
+  <p>Ảnh từng giỏ, hộp có trong <a href="../#san-pham">bảng giá sản phẩm</a>; cần hỏi rõ trong hộp có gì, nhắn Zalo 0978 094 739.</p>
+
+  <h2>Tự phối quà Tết từ yến khô và yến hũ</h2>
+  <p>Nếu muốn quà theo ý mình, có thể chọn yến khô hoặc lốc yến hũ có hộp. Cách này hợp khi bạn biết rõ người nhận thích tự chưng hay thích loại chưng sẵn.</p>
+  <table><thead><tr><th>Sản phẩm</th><th>Quy cách</th><th>Giá</th><th>Hợp với</th></tr></thead><tbody>
+  <tr><td>{P[133][2]}</td><td>{P[133][3]}</td><td>{gia(133)}</td><td>Quà gọn, người bận rộn</td></tr>
+  <tr><td>{P[135][2]}</td><td>{P[135][3]}</td><td>{gia(135)}</td><td>Gia đình đông người</td></tr>
+  <tr><td>{P[110][2]}</td><td>{P[110][3]}</td><td>{gia(110)}</td><td>Người quen tự chưng yến</td></tr>
+  <tr><td>{P[114][2]}</td><td>{P[114][3]}</td><td>{gia(114)}</td><td>Biếu trang trọng, tổ nguyên dáng</td></tr>
+  </tbody></table>
+  <p>Khác nhau giữa yến tinh chế và yến rút lông xem bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông khác nhau thế nào</a>. Nên biếu yến hũ hay yến khô, xem bài <a href="nuoc-yen-hu-va-yen-to-chung.html">nước yến hũ hay yến tổ tự chưng: chọn cái nào</a>.</p>
+
+  <h2>Kinh nghiệm chọn quà Tết yến sào</h2>
+  <ol>
+    <li><b>Xem hạn dùng:</b> quà biếu thường được để dành qua Tết, nên chọn sản phẩm còn hạn dài và dặn người nhận cất nơi khô mát.</li>
+    <li><b>Xem nguồn gốc:</b> chọn nơi bán có địa chỉ sản xuất, chứng nhận an toàn thực phẩm; xem bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật</a>.</li>
+    <li><b>Hợp người nhận:</b> người lớn tuổi ở xa hợp yến hũ chưng sẵn; người có bệnh nền hoặc đang mang thai nên được khuyên hỏi bác sĩ trước khi dùng.</li>
+    <li><b>Đặt sớm:</b> dịp sát Tết lượng đơn tăng và thời gian giao có thể kéo dài theo <a href="../chinh-sach/van-chuyen.html">chính sách vận chuyển</a>.</li>
+    <li><b>Kiểm tra khi nhận:</b> xem kiện hàng, số lượng, niêm phong trước khi thanh toán.</li>
+  </ol>
+  <p>Cách bảo quản yến sau khi nhận quà xem bài <a href="bao-quan-yen-sao.html">cách bảo quản yến sào khô và yến đã chưng</a>.</p>
+
+  <h2>Cách đặt quà Tết yến sào tại Việt Cường Nhân</h2>
+  <p>Đặt quà Tết qua <a href="../#san-pham">bảng giá sản phẩm</a> trên website hoặc nhắn Zalo 0978 094 739; nhân viên sẽ gọi xác nhận đơn và báo phí giao hàng trước khi giao. Muốn xem quà tận nơi, gọi hoặc nhắn Zalo hẹn trước rồi ghé xưởng ở Dĩ An, xem địa chỉ trong bài <a href="yen-sao-binh-duong-di-an-mua-o-dau.html">mua yến sào ở Dĩ An, Bình Dương cũ</a>.</p>
+  <p>Việt Cường Nhân làm yến từ năm 2009, có nhà yến, xưởng nhặt lông và nhà máy nước yến, đạt HACCP, ISO 22000:2018 và GMP. Công ty, cơ quan cần đặt quà Tết số lượng lớn hoặc mua sỉ: nhắn Zalo 0978 094 739 để được tư vấn.</p>""",
+  faq=[("Quà Tết yến sào giá bao nhiêu?", f"Bộ quà Tết 2027 của Việt Cường Nhân có giá từ {gia(358)} đến {gia(301)}, giá bán lẻ đã gồm VAT, chưa gồm phí giao hàng."),
+       ("Biếu Tết 1 triệu nên chọn quà yến sào nào?", f"Tầm 1 triệu có các hộp, giỏ như {P[320][2]} ({gia(320)}) hoặc {P[323][2]} ({gia(323)}). Xem thêm trong bảng giá để chọn theo người nhận."),
+       ("Nên biếu yến hũ hay yến khô dịp Tết?", "Người nhận bận rộn hoặc lớn tuổi ở xa hợp yến hũ chưng sẵn; người quen tự chưng yến hợp yến khô như yến tinh chế, yến rút lông."),
+       ("Đặt quà Tết yến sào số lượng lớn cho công ty thế nào?", "Nhắn Zalo 0978 094 739 để Việt Cường Nhân tư vấn mẫu quà, số lượng và thời gian giao."),
+       ("Trong hộp quà Tết có những gì?", "Mỗi hộp, giỏ có ảnh trong bảng giá trên website. Để biết chính xác thành phần, nhắn Zalo 0978 094 739.")]),
 ]
