@@ -1605,4 +1605,76 @@ dict(slug="qua-tet-yen-sao", cat="Quà tặng", ngay="2026-11-03",
        ("Nên biếu yến hũ hay yến khô dịp Tết?", "Người nhận bận rộn hoặc lớn tuổi ở xa hợp yến hũ chưng sẵn; người quen tự chưng yến hợp yến khô như yến tinh chế, yến rút lông."),
        ("Đặt quà Tết yến sào số lượng lớn cho công ty thế nào?", "Nhắn Zalo 0978 094 739 để Việt Cường Nhân tư vấn mẫu quà, số lượng và thời gian giao."),
        ("Trong hộp quà Tết có những gì?", "Mỗi hộp, giỏ có ảnh trong bảng giá trên website. Để biết chính xác thành phần, nhắn Zalo 0978 094 739.")]),
+dict(slug="qua-tang-doanh-nghiep-yen-sao", cat="Quà tặng", ngay="2026-11-03",
+  tu_khoa="quà tặng doanh nghiệp yến sào, đặt quà tặng doanh nghiệp, quà tặng đối tác yến sào, quà tặng nhân viên yến sào, quà Tết doanh nghiệp",
+  h1="Quà tặng doanh nghiệp yến sào: quy trình đặt và lưu ý",
+  desc="Quà tặng doanh nghiệp yến sào: chọn mẫu theo đối tượng và ngân sách, quy trình 6 bước đặt số lượng lớn, nên đặt trước bao lâu và cần kiểm tra gì khi nhận.",
+  lede="Đặt quà tặng doanh nghiệp yến sào nên làm theo thứ tự: xác định đối tượng nhận và ngân sách mỗi phần quà, chọn mẫu, chốt số lượng và lịch giao, rồi kiểm tra hàng khi nhận. Với Việt Cường Nhân, doanh nghiệp nhắn Zalo 0978 094 739 để được tư vấn mẫu quà, số lượng và báo giá theo đơn.",
+  tom_tat=["Quy trình 6 bước: xác định đối tượng và ngân sách, chọn mẫu, xem hàng mẫu, chốt đơn, giao hàng, kiểm tra khi nhận.",
+           "Quà nhân viên thường chọn yến hũ gọn, đồng bộ; quà đối tác chọn hộp gỗ, giỏ, khay hoặc yến khô cao cấp.",
+           f"Ví dụ giá lẻ: {P[131][2]} ({P[131][3]}) {gia(131)}, {P[135][2]} ({P[135][3]}) {gia(135)}, {P[110][2]} {gia(110)}/100gr.",
+           "Đơn số lượng lớn nên đặt sớm, nhất là mùa Tết, để có đủ hàng và thời gian giao.",
+           "Báo giá cho đơn doanh nghiệp, mua sỉ: nhắn Zalo 0978 094 739."],
+  body=f"""  <h2>Vì sao doanh nghiệp chọn yến sào làm quà tặng?</h2>
+  <p>Yến sào là món quà phổ biến trong các dịp Tết, tri ân khách hàng, kỷ niệm thành lập hay chúc mừng đối tác, vì đây là thực phẩm quen thuộc với người Việt, dùng được cho cả gia đình người nhận và có nhiều mức giá để chọn. Với doanh nghiệp, yến còn dễ đồng bộ: cùng một mẫu quà có thể tặng hàng chục, hàng trăm người.</p>
+  <p>Việt Cường Nhân làm yến từ năm 2009, có nhà yến, xưởng nhặt lông và nhà máy nước yến tại Dĩ An, đạt HACCP, ISO 22000:2018 và GMP. Với khách doanh nghiệp, chúng tôi thường tư vấn trực tiếp qua Zalo để chọn mẫu phù hợp với ngân sách và số lượng.</p>
+
+  <h2>Chọn quà tặng doanh nghiệp yến sào theo đối tượng</h2>
+  <p>Cách chọn nhanh nhất là chia người nhận thành nhóm, mỗi nhóm một mẫu quà và một mức ngân sách. Bảng dưới là gợi ý dạng quà theo từng nhóm.</p>
+  <table><thead><tr><th>Đối tượng nhận</th><th>Gợi ý dạng quà</th><th>Lý do</th></tr></thead><tbody>
+  <tr><td>Nhân viên</td><td>Lốc yến hũ, túi hoặc hộp quà giá vừa</td><td>Gọn, đồng bộ, dễ phát tận tay</td></tr>
+  <tr><td>Khách hàng thân thiết</td><td>Lốc yến hũ có hộp, hộp quà tầm trung</td><td>Mở ra dùng ngay, hình thức đẹp</td></tr>
+  <tr><td>Đối tác, lãnh đạo</td><td>Hộp gỗ, giỏ, khay quà; yến tinh chế, yến rút lông</td><td>Trang trọng, giá trị cao</td></tr>
+  <tr><td>Người nhận quen tự chưng yến</td><td>Hộp yến khô 100gr</td><td>Chủ động cách chưng, dùng dần</td></tr>
+  </tbody></table>
+
+  <h2>Một số mẫu quà tham khảo</h2>
+  <p>Giá dưới đây là giá lẻ lấy từ bảng giá website Việt Cường Nhân, chưa gồm phí giao hàng; đơn doanh nghiệp được báo giá riêng theo số lượng qua Zalo.</p>
+  <h3>Yến hũ chưng sẵn</h3>
+""" + ul(li(131, "Hợp quà nhân viên, khách hàng."), li(133, "Có hộp, gọn đẹp."), li(135, "Có hộp, hợp quà khách hàng, đối tác.")) + """
+  <h3>Yến khô</h3>
+""" + ul(li(110, "Tai yến đều, người nhận tự chưng."), li(114, "Tổ nguyên dáng, hợp quà trang trọng.")) + """
+  <h3>Quà Tết dạng hộp, giỏ, khay</h3>
+""" + ul(li(358), li(323), li(306), li(305)) + f"""
+  <p>Danh sách quà Tết theo từng mức giá xem bài <a href="qua-tet-yen-sao.html">quà Tết yến sào: chọn hộp quà biếu theo ngân sách</a>. Nên tặng yến hũ hay yến khô, xem bài <a href="nuoc-yen-hu-va-yen-to-chung.html">nước yến hũ hay yến tổ tự chưng</a>.</p>
+
+  <h2>Quy trình đặt quà tặng doanh nghiệp yến sào</h2>
+  <p>Quy trình đặt quà doanh nghiệp tại Việt Cường Nhân gồm 6 bước, bắt đầu bằng việc nhắn Zalo 0978 094 739 với thông tin cơ bản về đơn hàng.</p>
+  <ol>
+    <li><b>Gửi thông tin:</b> dịp tặng, số lượng dự kiến, ngân sách mỗi phần quà, ngày cần nhận hàng, địa điểm giao.</li>
+    <li><b>Nhận tư vấn mẫu:</b> nhân viên gợi ý mẫu quà phù hợp và báo giá theo số lượng.</li>
+    <li><b>Xem hàng mẫu:</b> xem ảnh, hoặc hẹn trước để đến xưởng ở Dĩ An xem tận nơi.</li>
+    <li><b>Chốt đơn:</b> thống nhất mẫu, số lượng, giá, thời gian và cách giao, các yêu cầu đi kèm.</li>
+    <li><b>Giao hàng:</b> giao theo lịch đã thống nhất; phí giao tính theo khu vực, báo khi xác nhận đơn.</li>
+    <li><b>Kiểm tra khi nhận:</b> kiểm tra số lượng, kiện hàng, niêm phong và hạn dùng trước khi ký nhận.</li>
+  </ol>
+  <p>Các yêu cầu riêng như hóa đơn, thiệp kèm quà hay đóng gói theo yêu cầu, doanh nghiệp vui lòng hỏi trực tiếp khi trao đổi đơn để được xác nhận có làm được hay không.</p>
+
+  <h2>Nên đặt quà doanh nghiệp trước bao lâu?</h2>
+  <p>Đơn quà số lượng lớn nên đặt càng sớm càng tốt, nhất là quà Tết, vì sát Tết lượng đơn tăng và thời gian giao có thể kéo dài. Đặt sớm giúp doanh nghiệp có thời gian xem mẫu, chốt danh sách người nhận và chủ động lịch phát quà.</p>
+  <table><thead><tr><th>Việc cần làm</th><th>Gợi ý thời điểm</th></tr></thead><tbody>
+  <tr><td>Chốt ngân sách và danh sách người nhận</td><td>Trước tiên, càng sớm càng tốt</td></tr>
+  <tr><td>Nhắn Zalo, xem mẫu, nhận báo giá</td><td>Ngay sau khi có danh sách</td></tr>
+  <tr><td>Chốt đơn</td><td>Đủ sớm trước ngày cần nhận để kịp chuẩn bị</td></tr>
+  <tr><td>Nhận hàng</td><td>Vài ngày trước ngày phát quà để kịp kiểm tra</td></tr>
+  </tbody></table>
+  <p>Thời gian giao theo khu vực xem <a href="../chinh-sach/van-chuyen.html">chính sách vận chuyển</a>.</p>
+
+  <h2>Lưu ý khi chọn quà tặng doanh nghiệp yến sào</h2>
+  <ul>
+    <li><b>Hạn dùng:</b> quà thường được người nhận để dành, nên chọn sản phẩm còn hạn dài.</li>
+    <li><b>Nguồn gốc rõ ràng:</b> chọn đơn vị có địa chỉ sản xuất, chứng nhận an toàn thực phẩm; xem bài <a href="chung-nhan-haccp-iso-22000-gmp-la-gi.html">HACCP, ISO 22000 và GMP nghĩa là gì</a>.</li>
+    <li><b>Đồng bộ trong từng nhóm:</b> người cùng cấp nên nhận cùng mẫu để tránh so sánh.</li>
+    <li><b>Hướng dẫn kèm theo:</b> có thể kèm lời nhắn cách bảo quản; xem bài <a href="bao-quan-yen-sao.html">cách bảo quản yến sào</a>.</li>
+    <li><b>Lời chúc đơn giản:</b> yến là thực phẩm, không nên viết công dụng như thuốc trên thiệp; người có bệnh nền nên hỏi bác sĩ trước khi dùng.</li>
+  </ul>
+
+  <h2>Thông tin liên hệ đặt quà doanh nghiệp</h2>
+  <p>Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân, MST 3701518691. Nhà máy: 511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp; cơ sở đóng gói: 261-263 Võ Thị Sáu, Phường Đông Hòa, TP. Hồ Chí Minh. Xem đường đến xưởng trong bài <a href="yen-sao-binh-duong-di-an-mua-o-dau.html">mua yến sào ở Dĩ An, Bình Dương cũ</a>.</p>
+  <p>Đặt quà doanh nghiệp, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739 để được tư vấn và báo giá. Xem toàn bộ mẫu trong <a href="../#san-pham">bảng giá sản phẩm</a>.</p>""",
+  faq=[("Đặt quà tặng doanh nghiệp yến sào ở đâu?", "Có thể đặt tại Việt Cường Nhân bằng cách nhắn Zalo 0978 094 739 với dịp tặng, số lượng, ngân sách và ngày cần nhận để được tư vấn mẫu và báo giá."),
+       ("Quà tặng nhân viên bằng yến sào nên chọn loại nào?", f"Thường chọn lốc yến hũ hoặc túi, hộp quà giá vừa vì gọn và đồng bộ, ví dụ {P[131][2]} ({P[131][3]}) giá lẻ {gia(131)}."),
+       ("Quà tặng đối tác bằng yến sào nên chọn gì?", "Hộp gỗ, giỏ, khay quà hoặc hộp yến khô cao cấp như yến tinh chế, yến rút lông, tùy ngân sách."),
+       ("Đặt số lượng lớn có giá riêng không?", "Đơn doanh nghiệp và mua sỉ được báo giá riêng theo số lượng. Nhắn Zalo 0978 094 739 để nhận báo giá."),
+       ("Nên đặt quà Tết doanh nghiệp trước bao lâu?", "Nên đặt càng sớm càng tốt, vì sát Tết lượng đơn tăng và thời gian giao có thể kéo dài. Nên nhận hàng vài ngày trước ngày phát quà để kịp kiểm tra.")]),
 ]
