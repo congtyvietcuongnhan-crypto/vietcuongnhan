@@ -1677,4 +1677,60 @@ dict(slug="qua-tang-doanh-nghiep-yen-sao", cat="Quà tặng", ngay="2026-11-03",
        ("Quà tặng đối tác bằng yến sào nên chọn gì?", "Hộp gỗ, giỏ, khay quà hoặc hộp yến khô cao cấp như yến tinh chế, yến rút lông, tùy ngân sách."),
        ("Đặt số lượng lớn có giá riêng không?", "Đơn doanh nghiệp và mua sỉ được báo giá riêng theo số lượng. Nhắn Zalo 0978 094 739 để nhận báo giá."),
        ("Nên đặt quà Tết doanh nghiệp trước bao lâu?", "Nên đặt càng sớm càng tốt, vì sát Tết lượng đơn tăng và thời gian giao có thể kéo dài. Nên nhận hàng vài ngày trước ngày phát quà để kịp kiểm tra.")]),
+dict(slug="yen-nha-va-yen-dao", cat="Yến sào", ngay="2026-11-04",
+  tu_khoa="yến nhà và yến đảo, yến nhà là gì, yến đảo là gì, yến đảo có tốt hơn yến nhà không, phân biệt yến nhà và yến đảo",
+  h1="Yến nhà và yến đảo khác nhau thế nào?",
+  desc="Yến nhà và yến đảo khác nhau thế nào? So sánh nơi làm tổ, cách khai thác, hình dạng tổ, độ sạch, sản lượng và giá, kèm cách chọn yến nhà có nguồn gốc rõ ràng.",
+  lede="Yến nhà và yến đảo đều là tổ của chim yến, khác nhau chủ yếu ở nơi làm tổ: yến nhà làm tổ trong nhà yến do con người xây, còn yến đảo làm tổ trên vách hang đá ở các đảo ven biển. Vì vậy hai loại khác nhau về cách khai thác, hình dạng tổ, độ sạch, sản lượng và giá; phần lớn yến sào bán trên thị trường hiện nay là yến nhà.",
+  tom_tat=["Yến nhà: tổ làm trong nhà yến do con người xây, khai thác chủ động, tổ tương đối đều, ít tạp chất hơn.",
+           "Yến đảo: tổ làm trên vách hang đá ở đảo ven biển, khai thác khó và theo mùa, sản lượng ít nên giá cao hơn nhiều.",
+           "Không có căn cứ rõ ràng để nói loại nào bổ hơn; khác biệt chính là nguồn gốc, hình dạng tổ, công sơ chế và giá.",
+           "Yến đảo hiếm và dễ bị giả mạo tên gọi, nên cần mua nơi có nguồn gốc và giấy tờ rõ ràng.",
+           f"Yến của Việt Cường Nhân là yến nhà, ví dụ {P[101][2]} {gia(101)}/100gr, {P[109][2]} {gia(109)}/100gr."],
+  body=f"""  <h2>Yến nhà là gì?</h2>
+  <p>Yến nhà là tổ yến do chim yến làm trong nhà yến, tức những ngôi nhà được con người xây và thiết kế riêng để dẫn dụ chim yến về làm tổ. Bên trong nhà yến có các xà gỗ để chim bám tổ, được giữ độ ẩm, nhiệt độ và độ tối phù hợp.</p>
+  <p>Việt Cường Nhân có nhà yến tại Gò Công Tây (Tiền Giang cũ) và Bình Thuận, cùng các xưởng nhặt lông tại Lâm Đồng. Tổ yến từ nhà yến được thu hoạch, rồi đưa về xưởng làm sạch, nhặt lông và sấy khô thành yến tinh chế, yến rút lông.</p>
+
+  <h2>Yến đảo là gì?</h2>
+  <p>Yến đảo là tổ yến do chim yến làm tự nhiên trên vách các hang đá ở đảo và vùng ven biển. Việc khai thác yến đảo khó khăn vì hang đá cao, hiểm trở, thường chỉ làm vào một số thời điểm trong năm và phải tuân theo quy định quản lý của nơi khai thác.</p>
+  <p>Vì sản lượng ít và khai thác vất vả, yến đảo có giá cao hơn yến nhà nhiều lần và không phổ biến trên thị trường bán lẻ.</p>
+
+  <h2>So sánh yến nhà và yến đảo</h2>
+  <p>Yến nhà và yến đảo khác nhau rõ nhất ở nơi làm tổ, cách khai thác, hình dạng tổ và giá. Bảng dưới tóm tắt các tiêu chí chính.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Yến nhà</th><th>Yến đảo</th></tr></thead><tbody>
+  <tr><td>Nơi làm tổ</td><td>Xà gỗ trong nhà yến do con người xây</td><td>Vách hang đá tự nhiên ở đảo, ven biển</td></tr>
+  <tr><td>Khai thác</td><td>Chủ động, an toàn hơn</td><td>Khó, hiểm trở, theo mùa</td></tr>
+  <tr><td>Hình dạng tổ</td><td>Tương đối đều, hình chén, chân tổ bám xà gỗ</td><td>Kém đều, chân tổ bám vào đá</td></tr>
+  <tr><td>Tạp chất</td><td>Có lông, bụi, cần làm sạch</td><td>Thường lẫn nhiều tạp chất từ vách đá hơn</td></tr>
+  <tr><td>Sản lượng</td><td>Chiếm phần lớn yến sào trên thị trường</td><td>Ít, hiếm</td></tr>
+  <tr><td>Giá</td><td>Phổ biến, nhiều mức giá</td><td>Cao hơn nhiều lần</td></tr>
+  <tr><td>Dễ kiểm tra nguồn gốc</td><td>Có thể hỏi nhà yến, xưởng sản xuất</td><td>Khó kiểm chứng nếu không mua đúng kênh</td></tr>
+  </tbody></table>
+
+  <h2>Yến đảo có tốt hơn yến nhà không?</h2>
+  <p>Không có căn cứ rõ ràng để khẳng định yến đảo bổ hơn yến nhà. Cả hai đều là tổ yến; điểm khác lớn nhất là nơi làm tổ, sự hiếm có và giá, nên chọn loại nào chủ yếu tùy ngân sách và mục đích dùng.</p>
+  <p>Với nhu cầu dùng hằng tuần trong gia đình, yến nhà đã làm sạch là lựa chọn phổ biến vì dễ mua, giá hợp lý và có thể hỏi rõ nhà yến, xưởng sơ chế. Yến đảo thường được chọn khi người mua muốn một món quà hiếm và chấp nhận giá cao.</p>
+
+  <h2>Cẩn thận khi mua hàng gắn tên "yến đảo"</h2>
+  <p>Vì yến đảo hiếm và đắt, trên thị trường có hàng được gọi là "yến đảo" nhưng không rõ nguồn gốc. Trước khi mua, nên kiểm tra những điểm sau:</p>
+  <ul>
+    <li>Người bán có cho biết rõ nơi khai thác và đơn vị cung cấp không.</li>
+    <li>Sản phẩm có nhãn, bản tự công bố, thông tin cơ sở sản xuất không.</li>
+    <li>Giá có hợp lý với độ hiếm của yến đảo không; yến đảo giá rẻ bất thường cần hỏi kỹ.</li>
+    <li>Sợi yến khi ngâm có nở tơi, nước ngâm không đục, không có mùi lạ.</li>
+  </ul>
+  <p>Các dấu hiệu chung xem bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>.</p>
+
+  <h2>Chọn yến nhà thế nào cho đúng nhu cầu?</h2>
+  <p>Với yến nhà, điều quan trọng hơn chuyện "nhà hay đảo" là mức độ làm sạch và dạng sợi. Yến thô còn lông, giá mềm nhưng phải tự nhặt; yến tinh chế đã nhặt sạch lông, ngâm xong là chưng; yến rút lông giữ sợi dài, tổ đẹp, hợp biếu tặng.</p>
+""" + ul(li(101, "Yến nhà, ít lông, tự làm sạch tại nhà."), li(109, "Yến nhà đã nhặt sạch lông, ngâm xong là chưng."), li(113, "Sợi dài, hợp biếu tặng.")) + """
+  <p>So sánh chi tiết các nhóm yến xem bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông khác nhau thế nào</a>; cách làm sạch yến thô xem bài <a href="cach-lam-sach-yen-tho.html">cách làm sạch yến thô tại nhà: 5 bước</a>. Chọn theo ngân sách xem bài <a href="yen-sao-loai-nao-tot.html">yến sào loại nào tốt</a>.</p>
+
+  <h2>Yến nhà của Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân làm yến từ năm 2009, có nhà yến riêng, xưởng nhặt lông và nhà máy đạt HACCP, ISO 22000:2018 và GMP, có bản tự công bố tổ yến thô và tổ yến tinh chế trên <a href="../chung-nhan/">trang chứng nhận</a>. Giá trên website chưa gồm phí giao hàng; đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Yến nhà và yến đảo khác nhau thế nào?", "Yến nhà làm tổ trong nhà yến do con người xây, còn yến đảo làm tổ trên vách hang đá ở đảo, ven biển. Hai loại khác nhau về cách khai thác, hình dạng tổ, sản lượng và giá."),
+       ("Yến đảo có bổ hơn yến nhà không?", "Không có căn cứ rõ ràng để khẳng định yến đảo bổ hơn. Khác biệt chính là nguồn gốc, độ hiếm và giá."),
+       ("Vì sao yến đảo đắt hơn yến nhà?", "Vì yến đảo khai thác khó, hiểm trở, theo mùa và sản lượng ít, trong khi yến nhà được khai thác chủ động từ nhà yến."),
+       ("Yến bán trên thị trường chủ yếu là loại nào?", "Phần lớn yến sào bán lẻ hiện nay là yến nhà, vì sản lượng nhiều hơn và giá phổ biến hơn yến đảo."),
+       ("Yến của Việt Cường Nhân là yến nhà hay yến đảo?", "Là yến nhà, từ nhà yến của Việt Cường Nhân tại Gò Công Tây (Tiền Giang cũ) và Bình Thuận, được làm sạch tại xưởng.")]),
 ]
