@@ -1733,4 +1733,70 @@ dict(slug="yen-nha-va-yen-dao", cat="Yến sào", ngay="2026-11-04",
        ("Vì sao yến đảo đắt hơn yến nhà?", "Vì yến đảo khai thác khó, hiểm trở, theo mùa và sản lượng ít, trong khi yến nhà được khai thác chủ động từ nhà yến."),
        ("Yến bán trên thị trường chủ yếu là loại nào?", "Phần lớn yến sào bán lẻ hiện nay là yến nhà, vì sản lượng nhiều hơn và giá phổ biến hơn yến đảo."),
        ("Yến của Việt Cường Nhân là yến nhà hay yến đảo?", "Là yến nhà, từ nhà yến của Việt Cường Nhân tại Gò Công Tây (Tiền Giang cũ) và Bình Thuận, được làm sạch tại xưởng.")]),
+dict(slug="yen-trang-yen-hong-huyet-yen", cat="Yến sào", ngay="2026-11-04",
+  tu_khoa="huyết yến, yến trắng yến hồng huyết yến, huyết yến là gì, huyết yến có phải máu chim yến không, cách nhận biết huyết yến nhuộm màu",
+  h1="Yến trắng, yến hồng, huyết yến khác nhau ra sao?",
+  desc="Huyết yến là gì, có phải máu chim yến không? So sánh yến trắng, yến hồng và huyết yến về màu sắc, nguồn gốc màu, độ hiếm, giá và cách tránh hàng nhuộm màu.",
+  lede="Huyết yến là tổ yến có màu đỏ cam, không phải do chim yến nhả máu như nhiều người vẫn nghĩ; màu của tổ yến chủ yếu chịu ảnh hưởng của môi trường nơi tổ được làm. Yến trắng là loại phổ biến nhất, còn yến hồng và huyết yến hiếm hơn nên giá cao hơn, và cũng là nhóm dễ bị làm giả bằng cách nhuộm màu.",
+  tom_tat=["Yến trắng (trắng ngà) phổ biến nhất; yến hồng có màu hồng cam nhạt; huyết yến có màu đỏ cam đậm hơn.",
+           "Huyết yến không phải máu chim yến; màu tổ chủ yếu do môi trường nơi làm tổ, như vách đá, độ ẩm và khoáng chất.",
+           "Không có căn cứ rõ ràng để nói yến màu bổ hơn yến trắng; khác biệt chính là màu sắc, độ hiếm và giá.",
+           "Yến màu dễ bị nhuộm: nước ngâm ra màu đỏ, màu loang không đều hoặc giá rẻ bất thường là dấu hiệu cần hỏi kỹ.",
+           f"Việt Cường Nhân bán yến trắng, ví dụ {P[109][2]} {gia(109)}/100gr và {P[112][2]} {gia(112)}/100gr."],
+  body=f"""  <h2>Huyết yến là gì?</h2>
+  <p>Huyết yến là tên gọi tổ yến có màu đỏ cam đến đỏ đậm. Dù tên có chữ "huyết", đây không phải tổ yến có máu của chim yến: chim yến làm tổ bằng nước dãi, và màu của tổ chủ yếu chịu ảnh hưởng từ môi trường nơi tổ được làm và thời gian tổ ở đó.</p>
+  <p>Ở xưởng Việt Cường Nhân, khách hay hỏi "huyết yến có phải chim yến kiệt sức nhả ra máu không". Đó là cách hiểu phổ biến nhưng không đúng. Tổ yến màu đỏ hiếm gặp, nên được gọi tên riêng và có giá cao.</p>
+
+  <h2>Yến trắng, yến hồng và huyết yến khác nhau thế nào?</h2>
+  <p>Ba loại khác nhau chủ yếu ở màu sắc, độ hiếm và giá; cả ba đều là tổ yến. Bảng dưới so sánh các tiêu chí chính.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Yến trắng</th><th>Yến hồng</th><th>Huyết yến</th></tr></thead><tbody>
+  <tr><td>Màu sắc</td><td>Trắng ngà, hơi vàng nhạt</td><td>Hồng cam nhạt, vàng cam</td><td>Đỏ cam đến đỏ đậm</td></tr>
+  <tr><td>Mức độ phổ biến</td><td>Phổ biến nhất</td><td>Ít hơn</td><td>Hiếm</td></tr>
+  <tr><td>Giá</td><td>Nhiều mức giá</td><td>Cao hơn yến trắng</td><td>Cao nhất trong ba loại</td></tr>
+  <tr><td>Nguy cơ hàng nhuộm</td><td>Có thể bị tẩy trắng bất thường</td><td>Cao</td><td>Cao</td></tr>
+  <tr><td>Dễ kiểm tra nguồn gốc</td><td>Dễ, hỏi nhà yến, xưởng</td><td>Khó hơn</td><td>Khó hơn</td></tr>
+  </tbody></table>
+
+  <h2>Vì sao tổ yến có màu khác nhau?</h2>
+  <p>Màu tổ yến chủ yếu do môi trường nơi tổ được làm. Theo kinh nghiệm trong nghề, tổ bám vào vách đá có khoáng chất, tổ ở nơi có độ ẩm cao hoặc tổ để lâu trong nhà yến trước khi khai thác thường ngả màu vàng cam, hồng, có khi đỏ.</p>
+  <ul>
+    <li><b>Nơi làm tổ:</b> tổ bám vách hang đá dễ có màu hơn tổ bám xà gỗ trong nhà yến.</li>
+    <li><b>Độ ẩm, không khí:</b> ảnh hưởng đến màu tổ theo thời gian.</li>
+    <li><b>Thời gian tổ ở lại:</b> tổ để lâu trước khi khai thác có thể sậm màu hơn.</li>
+  </ul>
+  <p>Vì phụ thuộc nhiều yếu tố tự nhiên, tổ yến màu xuất hiện ít và không đều, nên khó có số lượng lớn. Nơi làm tổ còn liên quan tới khác biệt giữa yến nhà và yến đảo, xem bài <a href="yen-nha-va-yen-dao.html">yến nhà và yến đảo khác nhau thế nào</a>.</p>
+
+  <h2>Huyết yến có tốt hơn yến trắng không?</h2>
+  <p>Không có căn cứ rõ ràng để khẳng định huyết yến hay yến hồng bổ hơn yến trắng. Cả ba đều là tổ yến; điều làm giá chênh lệch là màu sắc đẹp, độ hiếm và tâm lý chuộng hàng hiếm, không phải một công dụng được chứng minh.</p>
+  <p>Với nhu cầu dùng thường xuyên trong gia đình, yến trắng đã làm sạch là lựa chọn phổ biến vì dễ mua, giá hợp lý và dễ kiểm tra nguồn gốc. Yến màu thường được chọn khi người mua muốn quà biếu hiếm và chấp nhận giá cao.</p>
+
+  <h2>Cách nhận biết yến hồng, huyết yến nhuộm màu</h2>
+  <p>Vì yến màu đắt, trên thị trường có hàng yến trắng bị nhuộm để bán thành yến hồng, huyết yến. Không có mẹo nào chắc chắn 100%, nhưng có vài dấu hiệu nên cẩn thận:</p>
+  <ol>
+    <li><b>Nước ngâm ra màu:</b> yến màu tự nhiên khi ngâm thường không làm nước chuyển đỏ rõ; nước ngâm đỏ hoặc cam đậm là dấu hiệu đáng ngờ.</li>
+    <li><b>Màu loang không đều bất thường:</b> màu đậm ở bề mặt nhưng bên trong sợi lại trắng.</li>
+    <li><b>Màu quá rực, đồng đều như sơn:</b> màu tự nhiên thường không đều và hơi ngả cam.</li>
+    <li><b>Giá rẻ bất thường:</b> huyết yến hiếm, giá thấp hơn thị trường nhiều cần hỏi kỹ.</li>
+    <li><b>Không có giấy tờ:</b> thiếu nhãn, bản tự công bố, thông tin cơ sở sản xuất.</li>
+  </ol>
+  <p>Yến trắng cũng có thể bị tẩy để trắng tinh bất thường; dấu hiệu chung xem bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>.</p>
+
+  <h2>Nên chọn loại nào?</h2>
+  <table><thead><tr><th>Nhu cầu</th><th>Gợi ý</th></tr></thead><tbody>
+  <tr><td>Chưng hằng tuần trong gia đình</td><td>Yến trắng tinh chế, sợi vừa</td></tr>
+  <tr><td>Muốn chén yến nhiều sợi, đặc</td><td>Yến trắng tinh chế 2 lớp sợi</td></tr>
+  <tr><td>Biếu tặng, muốn tổ đẹp</td><td>Yến rút lông định hình</td></tr>
+  <tr><td>Muốn quà hiếm, ngân sách cao</td><td>Yến màu từ nơi bán có nguồn gốc và giấy tờ rõ ràng</td></tr>
+  </tbody></table>
+  <p>Chọn theo ngân sách xem bài <a href="yen-sao-loai-nao-tot.html">yến sào loại nào tốt</a>; so sánh mức độ làm sạch xem bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông</a>.</p>
+
+  <h2>Yến trắng tại Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân hiện bán yến trắng từ nhà yến riêng, nhặt lông tại xưởng, nhà máy đạt HACCP, ISO 22000:2018 và GMP. Giá dưới đây lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Sợi vừa, dùng hằng tuần."), li(112, "Hai lớp sợi, chén yến đặc hơn."), li(114, "Tổ nguyên dáng, hợp biếu tặng.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Huyết yến là gì?", "Huyết yến là tổ yến có màu đỏ cam đến đỏ đậm. Màu tổ chủ yếu do môi trường nơi làm tổ, không phải do máu của chim yến."),
+       ("Huyết yến có phải máu chim yến không?", "Không. Chim yến làm tổ bằng nước dãi; tên 'huyết yến' chỉ là cách gọi theo màu đỏ của tổ."),
+       ("Huyết yến có bổ hơn yến trắng không?", "Không có căn cứ rõ ràng để khẳng định như vậy. Huyết yến đắt hơn chủ yếu vì hiếm và màu đẹp."),
+       ("Làm sao biết huyết yến bị nhuộm?", "Cẩn thận khi nước ngâm ra màu đỏ, màu loang chỉ ở bề mặt, màu quá rực và đồng đều, giá rẻ bất thường hoặc không có giấy tờ nguồn gốc."),
+       ("Yến hồng là gì?", "Yến hồng là tổ yến có màu hồng cam nhạt, nằm giữa yến trắng và huyết yến, hiếm hơn yến trắng nên giá cao hơn.")]),
 ]
