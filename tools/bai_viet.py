@@ -1799,4 +1799,74 @@ dict(slug="yen-trang-yen-hong-huyet-yen", cat="Yến sào", ngay="2026-11-04",
        ("Huyết yến có bổ hơn yến trắng không?", "Không có căn cứ rõ ràng để khẳng định như vậy. Huyết yến đắt hơn chủ yếu vì hiếm và màu đẹp."),
        ("Làm sao biết huyết yến bị nhuộm?", "Cẩn thận khi nước ngâm ra màu đỏ, màu loang chỉ ở bề mặt, màu quá rực và đồng đều, giá rẻ bất thường hoặc không có giấy tờ nguồn gốc."),
        ("Yến hồng là gì?", "Yến hồng là tổ yến có màu hồng cam nhạt, nằm giữa yến trắng và huyết yến, hiếm hơn yến trắng nên giá cao hơn.")]),
+dict(slug="yen-bi-chay-nuoc-khi-chung", cat="Yến sào", ngay="2026-11-05",
+  tu_khoa="yến bị chảy nước, yến chưng bị tan, vì sao yến bị chảy nước khi chưng, cách chưng yến không bị tan, yến chưng bị nhão",
+  h1="Vì sao yến bị chảy nước khi chưng? Cách khắc phục",
+  desc="Yến bị chảy nước, tan sợi khi chưng thường do ngâm quá lâu, chưng quá lâu, lửa quá to hoặc khuấy mạnh. Nguyên nhân, cách khắc phục, thời gian ngâm và chưng.",
+  lede="Yến bị chảy nước khi chưng, tức sợi yến tan hết vào nước, thường do ngâm quá lâu, chưng quá lâu, đun lửa quá to hoặc khuấy mạnh tay. Cách khắc phục là ngâm vừa đủ cho sợi nở mềm, chưng cách thủy lửa nhỏ khoảng 20–30 phút với yến tinh chế, đậy kín nắp và chỉ khuấy nhẹ khi thêm đường phèn.",
+  tom_tat=["Nguyên nhân thường gặp: ngâm quá lâu, chưng quá lâu, lửa to sôi sùng sục, khuấy mạnh, ngâm hoặc chưng bằng nước nóng.",
+           "Thời gian tham khảo: yến tinh chế ngâm 30–60 phút, chưng cách thủy 20–30 phút; yến vụn ngâm 15–20 phút, chưng 10–15 phút.",
+           "Chưng cách thủy lửa nhỏ, nước ngoài thố sôi lăn tăn, đậy kín nắp thố.",
+           "Đường phèn cho ở 5 phút cuối, khuấy nhẹ; không đun lại nhiều lần yến đã chưng.",
+           "Yến chảy nước vẫn ăn được nếu không có mùi vị lạ, chỉ là mất độ dai của sợi."],
+  body=f"""  <h2>Vì sao yến bị chảy nước khi chưng?</h2>
+  <p>Yến bị chảy nước khi chưng chủ yếu do sợi yến bị làm mềm quá mức: ngâm quá lâu, chưng quá lâu hoặc đun ở nhiệt quá cao. Sợi yến khi ngâm sẽ hút nước và nở ra; nếu tiếp tục chịu nhiệt lâu, sợi mềm dần rồi tan vào nước, chén yến trở thành nước sệt, không còn sợi.</p>
+  <p>Ở xưởng Việt Cường Nhân, đây là câu khách mới chưng yến lần đầu hay hỏi nhất: "sao yến nhà em chưng xong mất hết sợi". Hầu như lần nào cũng do một trong các nguyên nhân dưới đây.</p>
+  <table><thead><tr><th>Nguyên nhân</th><th>Dấu hiệu</th><th>Cách khắc phục</th></tr></thead><tbody>
+  <tr><td>Ngâm quá lâu</td><td>Sợi đã nhũn trước khi chưng</td><td>Ngâm vừa đủ đến khi sợi nở mềm, tơi</td></tr>
+  <tr><td>Chưng quá lâu</td><td>Sợi tan dần vào nước</td><td>Yến tinh chế chưng 20–30 phút, yến vụn 10–15 phút</td></tr>
+  <tr><td>Lửa quá to, nước sôi sùng sục</td><td>Nước trong thố sôi, sợi đứt vụn</td><td>Chưng cách thủy, lửa nhỏ, sôi lăn tăn</td></tr>
+  <tr><td>Nấu trực tiếp trên bếp</td><td>Yến sôi mạnh, nhanh tan</td><td>Chuyển sang chưng cách thủy</td></tr>
+  <tr><td>Ngâm hoặc chưng bằng nước nóng ngay từ đầu</td><td>Sợi mềm nhanh, khó giữ dáng</td><td>Ngâm bằng nước sạch nhiệt độ thường</td></tr>
+  <tr><td>Khuấy mạnh, xé sợi quá nhỏ</td><td>Sợi đứt vụn, nước đục</td><td>Xé theo thớ sợi, khuấy nhẹ</td></tr>
+  <tr><td>Đun lại nhiều lần</td><td>Yến cất tủ lạnh bị nhão dần</td><td>Chưng vừa đủ, hâm cách thủy ngắn</td></tr>
+  </tbody></table>
+
+  <h2>Ngâm yến bao lâu để không bị chảy nước?</h2>
+  <p>Ngâm yến chỉ cần đến khi sợi nở mềm và tơi ra; ngâm lâu hơn mức đó là nguyên nhân đầu tiên làm yến dễ tan khi chưng. Thời gian thay đổi theo loại yến:</p>
+  <table><thead><tr><th>Loại yến</th><th>Ngâm</th><th>Chưng cách thủy</th></tr></thead><tbody>
+  <tr><td>Yến tinh chế vụn</td><td>15–20 phút</td><td>10–15 phút</td></tr>
+  <tr><td>Yến tinh chế sợi</td><td>30–60 phút</td><td>20–30 phút</td></tr>
+  <tr><td>Yến rút lông</td><td>30–60 phút hoặc hơn, đến khi sợi mềm</td><td>20–30 phút</td></tr>
+  <tr><td>Chân yến</td><td>Khoảng 2–3 tiếng</td><td>30–40 phút</td></tr>
+  </tbody></table>
+  <p>Đây là mức tham khảo; tổ khô, dày cần lâu hơn, tổ mỏng nhanh hơn. Chi tiết từng loại xem bài <a href="yen-vun-baby-la-gi.html">yến vụn baby là gì</a> và <a href="chan-yen-chan-tua-la-gi.html">chân yến là gì</a>.</p>
+
+  <h2>Cách chưng yến không bị chảy nước</h2>
+  <p>Chưng cách thủy lửa nhỏ, đậy kín nắp và canh đúng thời gian là cách giữ sợi yến dai. Các bước cho một chén khoảng 3–5 g yến khô với 150–200 ml nước:</p>
+  <ol>
+    <li><b>Ngâm vừa đủ:</b> nước sạch nhiệt độ thường, đến khi sợi nở mềm, tơi.</li>
+    <li><b>Vớt qua rây, xé theo thớ:</b> xé nhẹ tay, không xé quá nhỏ.</li>
+    <li><b>Cho yến và nước vào thố, đậy nắp:</b> nước ngập yến khoảng 1–2 đốt ngón tay.</li>
+    <li><b>Chưng cách thủy lửa nhỏ:</b> nước ngoài thố sôi lăn tăn, ngập khoảng nửa thân thố.</li>
+    <li><b>Canh thời gian:</b> yến tinh chế sợi khoảng 20–30 phút; yến vụn 10–15 phút.</li>
+    <li><b>Thêm đường phèn ở 5 phút cuối:</b> khuấy nhẹ cho tan rồi tắt bếp.</li>
+  </ol>
+  <p>Các bước chưng đầy đủ xem bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>. Nếu chưng cùng hạt sen, nên nấu sen trước để không phải chưng yến quá lâu, xem bài <a href="yen-chung-tao-do-hat-sen.html">cách làm yến chưng táo đỏ hạt sen</a>.</p>
+
+  <h2>Yến bị chảy nước rồi có ăn được không?</h2>
+  <p>Yến bị chảy nước vì chưng quá tay vẫn ăn được nếu không có mùi chua, mùi lạ hay váng bất thường; chỉ là chén yến mất độ dai và không còn sợi đẹp. Nếu yến có mùi chua, nhớt hoặc đã để lâu ở nhiệt độ phòng thì nên bỏ.</p>
+  <p>Dấu hiệu yến hỏng và cách cất yến đã chưng xem bài <a href="bao-quan-yen-sao.html">cách bảo quản yến sào khô và yến đã chưng</a>.</p>
+
+  <h2>Yến tan nhanh có phải yến giả không?</h2>
+  <p>Không thể kết luận yến giả chỉ vì chén yến bị tan, vì yến thật chưng sai cách cũng tan. Nếu bạn ngâm và chưng đúng thời gian, lửa nhỏ mà sợi vẫn tan rất nhanh, nước đục trắng, có váng hoặc mùi lạ, thì nên hỏi kỹ nguồn gốc sản phẩm. Các dấu hiệu khác xem bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>.</p>
+
+  <h2>Mẹo giữ sợi yến dai</h2>
+  <ul>
+    <li><b>Chưng thử mẻ nhỏ</b> khi mới mua loại yến khác để canh thời gian phù hợp.</li>
+    <li><b>Dùng thố sứ có nắp</b> thay vì nồi kim loại nấu trực tiếp.</li>
+    <li><b>Hẹn giờ</b> khi chưng, tránh quên để quá lâu.</li>
+    <li><b>Chưng vừa đủ ăn 2–3 ngày,</b> hạn chế hâm lại nhiều lần.</li>
+    <li><b>Muốn sợi rõ, dai:</b> chọn yến tinh chế sợi hoặc yến rút lông thay vì yến vụn.</li>
+  </ul>
+
+  <h2>Yến giữ sợi tốt khi chưng</h2>
+  <p>Yến sợi dài và dày giữ dáng tốt hơn khi chưng. Giá dưới đây lấy từ bảng giá website Việt Cường Nhân, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Sợi vừa, chưng 20–30 phút."), li(112, "Hai lớp sợi, chén yến đặc hơn."), li(113, "Sợi dài, giữ dáng tốt.")) + """
+  <p>So sánh các loại yến xem bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông khác nhau thế nào</a>. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>; cần hướng dẫn chưng, nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Vì sao yến bị chảy nước khi chưng?", "Thường do ngâm quá lâu, chưng quá lâu, lửa quá to hoặc nấu trực tiếp trên bếp, khuấy mạnh tay. Sợi yến bị mềm quá mức nên tan vào nước."),
+       ("Chưng yến bao lâu thì không bị tan?", "Yến tinh chế sợi chưng cách thủy lửa nhỏ khoảng 20–30 phút, yến vụn khoảng 10–15 phút. Chân yến cần lâu hơn, khoảng 30–40 phút."),
+       ("Yến bị chảy nước có ăn được không?", "Vẫn ăn được nếu không có mùi chua, mùi lạ hay váng bất thường; chỉ là mất độ dai của sợi."),
+       ("Yến tan nhanh có phải yến giả không?", "Chưa chắc. Yến thật chưng sai cách cũng tan; nếu chưng đúng mà vẫn tan rất nhanh, nước đục, có mùi lạ thì nên hỏi kỹ nguồn gốc."),
+       ("Có nên nấu yến trực tiếp trên bếp không?", "Không nên, vì nước sôi mạnh làm sợi yến nhanh tan. Nên chưng cách thủy với lửa nhỏ.")]),
 ]
