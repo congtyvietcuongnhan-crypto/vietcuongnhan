@@ -1869,4 +1869,67 @@ dict(slug="yen-bi-chay-nuoc-khi-chung", cat="Yến sào", ngay="2026-11-05",
        ("Yến bị chảy nước có ăn được không?", "Vẫn ăn được nếu không có mùi chua, mùi lạ hay váng bất thường; chỉ là mất độ dai của sợi."),
        ("Yến tan nhanh có phải yến giả không?", "Chưa chắc. Yến thật chưng sai cách cũng tan; nếu chưng đúng mà vẫn tan rất nhanh, nước đục, có mùi lạ thì nên hỏi kỹ nguồn gốc."),
        ("Có nên nấu yến trực tiếp trên bếp không?", "Không nên, vì nước sôi mạnh làm sợi yến nhanh tan. Nên chưng cách thủy với lửa nhỏ.")]),
+dict(slug="yen-co-mui-tanh-khong", cat="Yến sào", ngay="2026-11-05",
+  tu_khoa="yến có mùi tanh, yến sào có mùi tanh không, cách khử mùi tanh của yến, yến có mùi lạ, yến chưng bị tanh",
+  h1="Yến có mùi tanh không? Mùi thế nào là bình thường",
+  desc="Yến có mùi tanh không? Yến thật có mùi tanh nhẹ đặc trưng, rõ nhất khi ngâm. Cách phân biệt mùi bình thường với mùi lạ, mùi hỏng và mẹo giảm mùi tanh khi chưng.",
+  lede="Yến có mùi tanh nhẹ đặc trưng, rõ nhất khi ngâm nước và khi mở nắp thố lúc vừa chưng xong; đây là mùi bình thường của tổ yến. Mùi chua, mốc, hôi lạ, mùi hóa chất hoặc hoàn toàn không có mùi gì cùng với màu trắng bất thường mới là dấu hiệu cần cẩn thận.",
+  tom_tat=["Yến thật có mùi tanh nhẹ, thoang thoảng, rõ hơn khi ngâm và khi vừa chưng xong.",
+           "Mùi chua, mốc, hôi lạ, mùi hóa chất là dấu hiệu yến bị ẩm hỏng hoặc đã qua xử lý; nên hỏi kỹ hoặc bỏ.",
+           "Giảm mùi tanh: ngâm và xả nước sạch, chưng cùng 1–2 lát gừng, táo đỏ hoặc lá dứa.",
+           "Mùi tanh giảm nhiều sau khi chưng cùng đường phèn và để nguội, cất ngăn mát.",
+           f"Yến tinh chế đã nhặt sạch lông của Việt Cường Nhân: {P[109][2]} {gia(109)}/100gr, {P[113][2]} {gia(113)}/100gr."],
+  body=f"""  <h2>Yến có mùi tanh không?</h2>
+  <p>Có. Yến sào thật có mùi tanh nhẹ, thoang thoảng, giống mùi trứng hoặc mùi nước biển nhẹ. Mùi này rõ nhất khi ngâm yến và khi mở nắp thố lúc vừa chưng xong, sau đó dịu đi khi yến nguội.</p>
+  <p>Ở xưởng Việt Cường Nhân, khách mới mua yến lần đầu thường hỏi "yến có mùi tanh vậy có sao không". Mùi tanh nhẹ là bình thường; điều cần để ý là mùi có lạ, nồng, chua hay mốc không.</p>
+
+  <h2>Mùi yến thế nào là bình thường, thế nào là bất thường?</h2>
+  <p>Mùi bình thường của yến là tanh nhẹ, dễ chịu, không xộc mũi. Bảng dưới giúp phân biệt nhanh.</p>
+  <table><thead><tr><th>Mùi</th><th>Đánh giá</th><th>Nên làm gì</th></tr></thead><tbody>
+  <tr><td>Tanh nhẹ, thoang thoảng</td><td>Bình thường</td><td>Ngâm, xả sạch rồi chưng như thường</td></tr>
+  <tr><td>Tanh rõ hơn khi vừa chưng</td><td>Bình thường</td><td>Để nguội, mùi sẽ dịu</td></tr>
+  <tr><td>Chua, lên men</td><td>Yến đã ngâm hoặc đã chưng bị hỏng</td><td>Bỏ, không dùng</td></tr>
+  <tr><td>Mốc, ẩm</td><td>Yến khô bị hút ẩm, mốc</td><td>Bỏ phần bị mốc; mốc nhiều thì bỏ cả</td></tr>
+  <tr><td>Mùi hóa chất, mùi lạ hắc</td><td>Đáng ngờ đã qua xử lý</td><td>Ngưng dùng, hỏi kỹ nguồn gốc</td></tr>
+  <tr><td>Hoàn toàn không mùi, kèm màu trắng tinh bất thường</td><td>Cần cẩn thận</td><td>Hỏi kỹ nguồn gốc, giấy tờ</td></tr>
+  </tbody></table>
+  <p>Không thể kết luận yến thật hay giả chỉ bằng mùi; nên kết hợp nhiều dấu hiệu khi ngâm, chưng và giấy tờ, xem bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>.</p>
+
+  <h2>Vì sao yến có mùi tanh?</h2>
+  <p>Tổ yến được chim yến làm từ nước dãi, nên có mùi tanh tự nhiên. Mùi này thường không mất hẳn sau khi làm sạch, chỉ nhẹ đi; vì vậy yến tinh chế vẫn còn mùi tanh nhẹ là bình thường. Yến thô còn lông và tạp chất thường có mùi rõ hơn yến tinh chế đã được làm sạch; khi ngâm, yến hút nước và nở ra nên mùi cũng lộ rõ hơn lúc còn khô.</p>
+  <ul>
+    <li><b>Yến thô:</b> mùi rõ hơn, giảm đi sau khi làm sạch; xem bài <a href="cach-lam-sach-yen-tho.html">cách làm sạch yến thô tại nhà</a>.</li>
+    <li><b>Yến tinh chế, yến rút lông:</b> đã nhặt lông, làm sạch tại xưởng nên mùi nhẹ hơn.</li>
+    <li><b>Nước yến hũ:</b> đã chưng và nêm, mùi tanh thường rất nhẹ.</li>
+  </ul>
+
+  <h2>Cách khử mùi tanh của yến khi chưng</h2>
+  <p>Có thể giảm mùi tanh của yến bằng cách xả kỹ sau khi ngâm và chưng cùng một chút nguyên liệu thơm. Không cần, và không nên, dùng hóa chất hay chất tẩy.</p>
+  <ol>
+    <li><b>Ngâm và xả nước sạch:</b> sau khi yến nở mềm, đổ qua rây, xả lại 1–2 lần bằng nước sạch.</li>
+    <li><b>Thêm 1–2 lát gừng mỏng:</b> cho vào thố khi chưng, vớt ra trước khi ăn.</li>
+    <li><b>Chưng cùng táo đỏ hoặc vài lá dứa:</b> tạo mùi thơm, át mùi tanh; công thức xem bài <a href="yen-chung-tao-do-hat-sen.html">yến chưng táo đỏ hạt sen</a>.</li>
+    <li><b>Đường phèn ở 5 phút cuối:</b> vị ngọt thanh giúp mùi tanh khó nhận ra hơn.</li>
+    <li><b>Để nguội, cất ngăn mát:</b> yến ăn mát thường ít mùi hơn khi ăn nóng.</li>
+  </ol>
+  <p>Có thể chưng cùng sữa tươi hoặc nước cốt dừa sau khi tắt bếp cho người không quen mùi yến. Các bước chưng cơ bản xem bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>.</p>
+
+  <h2>Những lỗi làm yến có mùi khó chịu</h2>
+  <ul>
+    <li><b>Bảo quản yến khô nơi ẩm:</b> yến hút ẩm, dễ có mùi mốc.</li>
+    <li><b>Ngâm yến để lâu ở nhiệt độ phòng:</b> nước ngâm dễ lên men, có mùi chua.</li>
+    <li><b>Để yến chưng qua đêm ngoài tủ lạnh:</b> yến dễ chua, hỏng.</li>
+    <li><b>Đậy hũ không kín trong tủ lạnh:</b> yến ám mùi thức ăn khác.</li>
+  </ul>
+  <p>Cách bảo quản đúng xem bài <a href="bao-quan-yen-sao.html">cách bảo quản yến sào khô và yến đã chưng</a>.</p>
+
+  <h2>Chọn yến đã làm sạch để ít mùi hơn</h2>
+  <p>Người không quen mùi yến có thể chọn yến tinh chế hoặc yến rút lông đã được nhặt lông, làm sạch tại xưởng. Yến của Việt Cường Nhân được làm sạch tại xưởng đạt HACCP, ISO 22000:2018 và GMP; giá dưới đây lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Đã nhặt sạch lông, ngâm xong là chưng."), li(113, "Sợi dài, đã nhặt lông bằng tay."), li(124, "Nước yến chưng sẵn, mùi rất nhẹ.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Cần hỏi về mùi của yến đã mua, nhắn Zalo 0978 094 739 kèm ảnh hoặc video để được tư vấn.</p>""",
+  faq=[("Yến sào có mùi tanh không?", "Có. Yến thật có mùi tanh nhẹ, thoang thoảng, rõ nhất khi ngâm và khi vừa chưng xong; đây là mùi bình thường."),
+       ("Yến có mùi chua có ăn được không?", "Không nên. Mùi chua thường là dấu hiệu yến đã ngâm hoặc đã chưng bị hỏng, nên bỏ."),
+       ("Làm sao khử mùi tanh của yến?", "Xả kỹ yến bằng nước sạch sau khi ngâm, chưng cùng 1–2 lát gừng, táo đỏ hoặc lá dứa, thêm đường phèn ở cuối và để nguội trước khi ăn."),
+       ("Yến không có mùi gì là yến giả?", "Chưa chắc, nhưng yến hoàn toàn không mùi kèm màu trắng tinh bất thường thì nên hỏi kỹ nguồn gốc và giấy tờ sản phẩm."),
+       ("Yến khô có mùi mốc phải làm sao?", "Yến có mùi mốc hoặc đốm mốc là đã bị ẩm hỏng; nên bỏ, và lần sau bảo quản yến khô trong hộp kín, nơi khô ráo.")]),
 ]
