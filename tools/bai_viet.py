@@ -1932,4 +1932,75 @@ dict(slug="yen-co-mui-tanh-khong", cat="Yến sào", ngay="2026-11-05",
        ("Làm sao khử mùi tanh của yến?", "Xả kỹ yến bằng nước sạch sau khi ngâm, chưng cùng 1–2 lát gừng, táo đỏ hoặc lá dứa, thêm đường phèn ở cuối và để nguội trước khi ăn."),
        ("Yến không có mùi gì là yến giả?", "Chưa chắc, nhưng yến hoàn toàn không mùi kèm màu trắng tinh bất thường thì nên hỏi kỹ nguồn gốc và giấy tờ sản phẩm."),
        ("Yến khô có mùi mốc phải làm sao?", "Yến có mùi mốc hoặc đốm mốc là đã bị ẩm hỏng; nên bỏ, và lần sau bảo quản yến khô trong hộp kín, nơi khô ráo.")]),
+dict(slug="phan-biet-yen-tay-trang-yen-tron", cat="Yến sào", ngay="2026-11-06",
+  tu_khoa="yến tẩy trắng, cách nhận biết yến tẩy trắng, yến trộn tạp chất, yến trộn đường, phân biệt yến thật và yến pha",
+  h1="Cách nhận biết yến tẩy trắng, yến trộn tạp chất",
+  desc="Cách nhận biết yến tẩy trắng và yến trộn tạp chất bằng mắt, khi ngâm, khi chưng; dấu hiệu nên nghi ngờ, giấy tờ cần hỏi người bán và cách mua yến an toàn hơn.",
+  lede="Yến tẩy trắng thường có màu trắng tinh đều bất thường, sợi giòn, dễ gãy, đôi khi có mùi hắc lạ, còn yến trộn tạp chất thường nặng tay, sợi dính bết, khi ngâm nước bị đục, có cặn hoặc tan nhũn. Không có mẹo nào chắc chắn 100%, nên cần kết hợp nhiều dấu hiệu và mua ở nơi có nguồn gốc, giấy tờ rõ ràng.",
+  tom_tat=["Yến tự nhiên có màu trắng ngà, hơi vàng, không đều; yến trắng tinh như giấy, đều tuyệt đối là dấu hiệu nên hỏi kỹ.",
+           "Yến tẩy trắng thường sợi giòn, dễ gãy vụn, có thể có mùi hắc, mùi hóa chất thay vì mùi tanh nhẹ.",
+           "Yến trộn tạp chất thường nặng tay so với kích thước, sợi bết dính, nước ngâm đục, có cặn, vị ngọt hoặc tan nhanh khi chưng.",
+           "Không có mẹo nào chắc chắn 100%; hãy kết hợp quan sát, ngâm thử, chưng thử và giấy tờ của người bán.",
+           "Giấy tờ nên hỏi: bản tự công bố sản phẩm, chứng nhận an toàn thực phẩm của cơ sở, địa chỉ xưởng có thể đến xem."],
+  body=f"""  <h2>Yến tẩy trắng là gì?</h2>
+  <p>Yến tẩy trắng là tổ yến đã bị xử lý bằng chất tẩy để có màu trắng tinh, nhìn "sạch" và đẹp hơn, thường để che màu ngả vàng, tạp chất hoặc yến kém chất lượng. Đây là hàng không nên dùng vì người mua không biết đã dùng chất gì và dư lượng ra sao.</p>
+  <p>Yến tự nhiên đã làm sạch thường có màu trắng ngà đến vàng nhạt, không đều tuyệt đối. Ở xưởng Việt Cường Nhân, yến chỉ được làm sạch bằng nước sạch và nhặt lông thủ công bằng nhíp, nên sợi giữ màu tự nhiên.</p>
+
+  <h2>Yến trộn tạp chất là gì?</h2>
+  <p>Yến trộn tạp chất là yến bị trộn thêm chất độn như bột, đường, chất tạo đông hoặc phụ gia để tăng khối lượng, làm tổ trông dày, đầy đặn hơn, rồi bán theo giá yến. Người mua trả tiền cho phần không phải yến, và không rõ phần trộn thêm là gì.</p>
+  <p>Hàng trộn thường gặp ở yến vụn, yến ép miếng hoặc tổ được "đắp" lại với giá rẻ bất thường. Không phải mọi yến đắp tổ hay yến vụn đều là hàng trộn; yến đắp tổ thật chỉ là sợi yến sạch được đắp lại thành tai cho gọn.</p>
+
+  <h2>Cách nhận biết yến tẩy trắng</h2>
+  <p>Yến tẩy trắng thường lộ ra qua màu sắc, độ giòn của sợi và mùi. Hãy để ý các dấu hiệu sau:</p>
+  <table><thead><tr><th>Dấu hiệu</th><th>Yến tự nhiên đã làm sạch</th><th>Yến nghi tẩy trắng</th></tr></thead><tbody>
+  <tr><td>Màu sắc</td><td>Trắng ngà, hơi vàng, không đều</td><td>Trắng tinh như giấy, đều tuyệt đối</td></tr>
+  <tr><td>Sợi yến</td><td>Dai, uốn được, to nhỏ không đều</td><td>Giòn, dễ gãy vụn khi bẻ</td></tr>
+  <tr><td>Mùi</td><td>Tanh nhẹ đặc trưng</td><td>Mùi hắc, mùi hóa chất, hoặc gần như không mùi</td></tr>
+  <tr><td>Khi ngâm</td><td>Nở mềm, sợi tơi, giữ dáng</td><td>Nở rất nhanh, sợi nhũn, dễ đứt</td></tr>
+  <tr><td>Khi chưng</td><td>Sợi còn, hơi dai</td><td>Sợi tan nhanh dù chưng đúng thời gian</td></tr>
+  </tbody></table>
+  <p>Mùi bình thường của yến xem thêm bài <a href="yen-co-mui-tanh-khong.html">yến có mùi tanh không</a>.</p>
+
+  <h2>Cách nhận biết yến trộn tạp chất</h2>
+  <p>Yến trộn tạp chất thường nặng tay, sợi bết dính và lộ rõ khi ngâm nước. Các dấu hiệu nên chú ý:</p>
+  <ol>
+    <li><b>Nặng bất thường:</b> tổ nhỏ nhưng cầm thấy nặng, đặc cứng, không thấy rõ từng lớp sợi.</li>
+    <li><b>Sợi bết dính:</b> soi dưới đèn thấy bề mặt bóng, láng như có lớp keo, không thấy sợi đan xen.</li>
+    <li><b>Nước ngâm đục, có cặn:</b> nước chuyển đục trắng, có lớp cặn lắng hoặc váng; nếm nước ngâm thấy ngọt.</li>
+    <li><b>Tan nhũn khi ngâm:</b> một phần tổ tan thành bột, nhão, không xé được thành sợi.</li>
+    <li><b>Sau khi chưng còn ít sợi:</b> khối lượng khô nhiều nhưng chén yến sau chưng có rất ít sợi.</li>
+  </ol>
+  <p>Yến thật chưng sai cách cũng có thể bị tan, nên hãy chưng thử đúng thời gian trước khi kết luận; xem bài <a href="yen-bi-chay-nuoc-khi-chung.html">vì sao yến bị chảy nước khi chưng</a>.</p>
+
+  <h2>Cách thử yến tại nhà: ngâm và chưng thử</h2>
+  <p>Cách đơn giản nhất là ngâm và chưng thử một lượng nhỏ trước khi dùng cả hộp. Đây là cách tham khảo, không thay được kiểm nghiệm.</p>
+  <ol>
+    <li>Lấy khoảng 2–3 g yến, ngâm trong ly nước sạch, nhiệt độ thường.</li>
+    <li>Quan sát sau 30–60 phút với yến tinh chế: yến thật nở mềm, sợi tơi ra, nước khá trong.</li>
+    <li>Dùng tay kéo nhẹ một sợi: yến thật có độ dai nhất định, không bở như bột.</li>
+    <li>Chưng cách thủy lửa nhỏ 20–30 phút: yến thật vẫn còn sợi, hơi dai, có mùi tanh nhẹ.</li>
+  </ol>
+  <p>Các bước chưng chuẩn xem bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>.</p>
+
+  <h2>Những mẹo truyền miệng không đáng tin</h2>
+  <p>Nhiều mẹo thử yến được truyền tai, nhưng không mẹo nào đủ để khẳng định yến thật hay giả. Ví dụ đốt sợi yến để ngửi mùi, hay chỉ nhìn màu trắng để kết luận, đều dễ cho kết quả sai. Nên kết hợp nhiều dấu hiệu và ưu tiên mua nơi có nguồn gốc rõ ràng.</p>
+
+  <h2>Giá rẻ bất thường: dấu hiệu dễ thấy nhất</h2>
+  <p>Giá rẻ hơn thị trường quá nhiều là dấu hiệu dễ thấy nhất của yến pha, vì công nhặt lông thủ công chiếm phần lớn giá thành yến tinh chế. Giá tham khảo theo bảng giá website Việt Cường Nhân:</p>
+""" + ul(li(101, "Yến thô, còn lông, tự làm sạch tại nhà."), li(109, "Yến tinh chế đã nhặt sạch lông."), li(113, "Nhặt lông bằng tay trên tổ nguyên sợi.")) + f"""
+  <p>Bảng giá các loại xem bài <a href="gia-yen-sao-bao-nhieu-tien.html">giá yến sào bao nhiêu tiền 100gr</a>.</p>
+
+  <h2>Giấy tờ nên hỏi khi mua yến</h2>
+  <ul>
+    <li><b>Bản tự công bố sản phẩm</b> cho đúng loại yến đang mua.</li>
+    <li><b>Chứng nhận an toàn thực phẩm</b> của cơ sở sản xuất như HACCP, ISO 22000, GMP; xem bài <a href="chung-nhan-haccp-iso-22000-gmp-la-gi.html">HACCP, ISO 22000 và GMP nghĩa là gì</a>.</li>
+    <li><b>Nhãn sản phẩm</b> ghi tên, khối lượng, ngày sản xuất, hạn dùng, cơ sở sản xuất.</li>
+    <li><b>Địa chỉ xưởng</b> có thể đến xem tận nơi.</li>
+  </ul>
+  <p>Việt Cường Nhân công khai chứng nhận HACCP, ISO 22000:2018, GMP và bản tự công bố tổ yến thô, tổ yến tinh chế trên <a href="../chung-nhan/">trang chứng nhận</a>; khách có thể hẹn trước để đến xưởng ở Dĩ An xem quy trình làm sạch, địa chỉ trong bài <a href="yen-sao-binh-duong-di-an-mua-o-dau.html">mua yến sào ở Dĩ An</a>. Thêm các dấu hiệu chung ở bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>. Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>; cần hỏi, nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Làm sao nhận biết yến tẩy trắng?", "Yến tẩy trắng thường trắng tinh đều bất thường, sợi giòn dễ gãy, có mùi hắc hoặc gần như không mùi, ngâm nhanh nhũn và chưng nhanh tan."),
+       ("Yến trắng tinh có phải yến tẩy không?", "Chưa chắc, nhưng yến tự nhiên thường trắng ngà, hơi vàng và không đều. Yến trắng tinh như giấy nên hỏi kỹ nguồn gốc và giấy tờ."),
+       ("Yến trộn tạp chất có dấu hiệu gì?", "Tổ nặng bất thường, sợi bóng bết dính, nước ngâm đục có cặn hoặc vị ngọt, một phần tan thành bột khi ngâm, chưng xong còn rất ít sợi."),
+       ("Có mẹo nào nhận biết yến thật chắc chắn 100% không?", "Không. Nên kết hợp quan sát, ngâm thử, chưng thử, giá cả và giấy tờ của cơ sở sản xuất."),
+       ("Mua yến ở đâu để tránh hàng pha?", "Chọn nơi có địa chỉ xưởng rõ ràng, bản tự công bố sản phẩm, chứng nhận an toàn thực phẩm và cho phép khách đến xem.")]),
 ]
