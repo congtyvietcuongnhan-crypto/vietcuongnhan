@@ -2003,4 +2003,74 @@ dict(slug="phan-biet-yen-tay-trang-yen-tron", cat="Yến sào", ngay="2026-11-06
        ("Yến trộn tạp chất có dấu hiệu gì?", "Tổ nặng bất thường, sợi bóng bết dính, nước ngâm đục có cặn hoặc vị ngọt, một phần tan thành bột khi ngâm, chưng xong còn rất ít sợi."),
        ("Có mẹo nào nhận biết yến thật chắc chắn 100% không?", "Không. Nên kết hợp quan sát, ngâm thử, chưng thử, giá cả và giấy tờ của cơ sở sản xuất."),
        ("Mua yến ở đâu để tránh hàng pha?", "Chọn nơi có địa chỉ xưởng rõ ràng, bản tự công bố sản phẩm, chứng nhận an toàn thực phẩm và cho phép khách đến xem.")]),
+dict(slug="yen-tinh-che-1-lop-va-2-lop", cat="Yến sào", ngay="2026-11-06",
+  tu_khoa="yến tinh chế 1 lớp 2 lớp, yến tinh chế 1 lớp là gì, yến tinh chế 2 lớp là gì, yến 10 tai và 18-20 tai, nên mua yến 1 lớp hay 2 lớp",
+  h1="Yến tinh chế 1 lớp 2 lớp sợi khác nhau thế nào?",
+  desc="Yến tinh chế 1 lớp 2 lớp khác nhau ở cách đắp sợi, độ dày tai yến, cảm giác khi ăn và giá. So sánh loại 10 tai, 18–20 tai, bảng giá 100gr và nên chọn loại nào.",
+  lede="Yến tinh chế 1 lớp và 2 lớp đều là yến đã nhặt sạch lông tại xưởng, khác nhau ở cách đắp sợi khi định hình: loại 1 lớp đắp một lớp sợi mỏng thành tai yến, loại 2 lớp đắp hai lớp sợi chồng lên nên tai dày, chắc và chén yến nhiều sợi hơn. Loại 1 lớp hợp dùng hằng ngày, loại 2 lớp hợp người thích chén yến đặc sợi hoặc làm quà.",
+  tom_tat=["Cả hai đều là yến tinh chế đã nhặt sạch lông, ngâm 30–60 phút rồi chưng cách thủy 20–30 phút.",
+           "1 lớp: tai mỏng, sợi đan đều, dễ chia phần; 2 lớp: hai lớp sợi chồng lên, tai dày, chắc tay.",
+           f"Giá 100gr: {P[109][2]} {gia(109)}, loại 10 tai và 18–20 tai {gia(110)}, {P[112][2]} {gia(112)}.",
+           "Loại 18–20 tai/100gr mỗi tai khoảng 5 g, đủ một chén; loại 10 tai/100gr mỗi tai khoảng 10 g, chia được 2 chén.",
+           "Dùng hằng ngày chọn 1 lớp sợi vừa; thích nhiều sợi hoặc biếu tặng chọn 2 lớp."],
+  body=f"""  <h2>Yến tinh chế 1 lớp và 2 lớp là gì?</h2>
+  <p>Yến tinh chế là tổ yến đã được ngâm, nhặt sạch lông tại xưởng, rồi đắp sợi vào khuôn và sấy khô thành hình tai yến. "1 lớp" và "2 lớp" chỉ số lớp sợi được đắp khi định hình: một lớp sợi mỏng, hoặc hai lớp sợi chồng lên nhau.</p>
+  <p>Ở xưởng Việt Cường Nhân, sau khi nhặt lông, thợ đắp sợi yến vào khuôn tai theo từng loại. Cùng là sợi yến sạch, nhưng số lớp và kích thước tai quyết định độ dày, cảm giác khi ăn và giá bán.</p>
+
+  <h2>So sánh yến tinh chế 1 lớp và 2 lớp</h2>
+  <p>Khác biệt chính giữa yến tinh chế 1 lớp và 2 lớp là độ dày tai yến, lượng sợi khi chưng và giá. Bảng dưới so sánh theo bảng giá website Việt Cường Nhân.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Yến tinh chế 1 lớp</th><th>Yến tinh chế 2 lớp</th></tr></thead><tbody>
+  <tr><td>Cách đắp</td><td>Một lớp sợi mỏng, đan đều</td><td>Hai lớp sợi chồng lên</td></tr>
+  <tr><td>Hình dạng tai</td><td>Mỏng, nhẹ</td><td>Dày, chắc tay</td></tr>
+  <tr><td>Khi chưng</td><td>Sợi mềm, chén yến vừa</td><td>Nhiều sợi hơn, chén yến đặc</td></tr>
+  <tr><td>Ngâm</td><td>30–60 phút</td><td>30–60 phút, có thể lâu hơn chút vì tai dày</td></tr>
+  <tr><td>Chưng cách thủy</td><td>20–30 phút</td><td>20–30 phút</td></tr>
+  <tr><td>Hợp với</td><td>Dùng hằng ngày, chia phần dễ</td><td>Thích chén yến đặc sợi, biếu tặng</td></tr>
+  <tr><td>Giá 100gr</td><td>{gia(109)} – {gia(110)}</td><td>{gia(112)}</td></tr>
+  </tbody></table>
+  <p>Đây là mức ngâm, chưng tham khảo; tai dày hoặc yến khô hơn thì ngâm lâu hơn. Nếu chưng quá lâu sợi dễ tan, xem bài <a href="yen-bi-chay-nuoc-khi-chung.html">vì sao yến bị chảy nước khi chưng</a>.</p>
+
+  <h2>Yến 1 lớp sợi vừa, 10 tai và 18–20 tai khác nhau thế nào?</h2>
+  <p>Trong nhóm 1 lớp, Việt Cường Nhân có ba loại: sợi vừa, 10 tai và 18–20 tai. "10 tai" hay "18–20 tai" là số tai yến trong 100gr, nên số tai càng nhiều thì mỗi tai càng nhỏ.</p>
+  <table><thead><tr><th>Loại</th><th>Số tai / 100gr</th><th>Mỗi tai khoảng</th><th>Giá 100gr</th><th>Hợp với</th></tr></thead><tbody>
+  <tr><td>{P[109][2]}</td><td>Không cố định</td><td>Tùy tai</td><td>{gia(109)}</td><td>Dùng đều trong gia đình, giá mềm nhất nhóm</td></tr>
+  <tr><td>{P[110][2]}</td><td>10 tai</td><td>khoảng 10 g, chia được 2 chén</td><td>{gia(110)}</td><td>Gia đình 2 người, tai to đẹp</td></tr>
+  <tr><td>{P[111][2]}</td><td>18–20 tai</td><td>khoảng 5 g, đủ 1 chén</td><td>{gia(111)}</td><td>Người ăn một mình, khỏi cân</td></tr>
+  </tbody></table>
+  <p>Khối lượng mỗi tai là ước tính từ số tai trong 100gr, từng tai có thể chênh lệch một chút. Cách chia phần và số chén từ một hộp xem bài <a href="100gr-yen-chung-duoc-bao-nhieu-chen.html">100gr yến chưng được bao nhiêu chén</a>.</p>
+
+  <h2>Yến 2 lớp có bổ hơn yến 1 lớp không?</h2>
+  <p>Không. Yến 1 lớp và 2 lớp đều là sợi yến sạch, chỉ khác cách đắp khi định hình. Nếu dùng cùng một lượng yến khô, ví dụ 4 g mỗi chén, thì lượng yến bạn ăn là như nhau; yến 2 lớp chỉ cho cảm giác tai dày, sợi nhiều và đẹp hơn khi nhìn.</p>
+  <p>Giá yến 2 lớp cao hơn chủ yếu vì tốn công đắp hai lớp sợi và hình thức đẹp hơn, không phải vì công dụng khác.</p>
+
+  <h2>Nên mua yến tinh chế 1 lớp hay 2 lớp?</h2>
+  <p>Chọn theo cách dùng và ngân sách:</p>
+  <ul>
+    <li><b>Dùng hằng ngày, muốn tiết kiệm:</b> {P[109][2]}.</li>
+    <li><b>Ăn một mình, không muốn cân:</b> {P[111][2]}, mỗi tai khoảng một chén.</li>
+    <li><b>Hai người cùng ăn:</b> {P[110][2]}, mỗi tai chia đôi.</li>
+    <li><b>Thích chén yến đặc sợi, hoặc biếu tặng:</b> {P[112][2]}.</li>
+    <li><b>Biếu trang trọng, muốn sợi dài nhất:</b> cân nhắc yến rút lông, xem bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông</a>.</li>
+  </ul>
+  <p>Chưa biết chọn nhóm nào, xem bài <a href="yen-sao-loai-nao-tot.html">yến sào loại nào tốt</a>.</p>
+
+  <h2>Cách chưng yến tinh chế 1 lớp và 2 lớp</h2>
+  <p>Hai loại chưng giống nhau: ngâm cho nở mềm, xé tơi theo thớ sợi, chưng cách thủy lửa nhỏ, thêm đường phèn ở cuối.</p>
+  <ol>
+    <li>Ngâm yến trong nước sạch 30–60 phút; tai 2 lớp dày nên kiểm tra phần giữa đã mềm chưa.</li>
+    <li>Vớt qua rây, xé tơi theo thớ sợi.</li>
+    <li>Cho yến với 150–200 ml nước mỗi chén vào thố, chưng cách thủy lửa nhỏ 20–30 phút.</li>
+    <li>Thêm đường phèn ở 5 phút cuối, khuấy nhẹ rồi tắt bếp.</li>
+  </ol>
+  <p>Các bước chi tiết xem bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>.</p>
+
+  <h2>Bảng giá yến tinh chế tại Việt Cường Nhân</h2>
+  <p>Giá lấy từ bảng giá website, chưa gồm phí giao hàng. Yến được nhặt lông tại xưởng đạt HACCP, ISO 22000:2018 và GMP.</p>
+""" + ul(li(109, "Sợi vừa, dùng hằng ngày."), li(110, "Tai to, khoảng 10 g mỗi tai."), li(111, "Tai nhỏ, khoảng 5 g mỗi tai."), li(112, "Hai lớp sợi, tai dày.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Yến tinh chế 1 lớp và 2 lớp khác nhau thế nào?", "Khác nhau ở cách đắp sợi khi định hình: 1 lớp đắp một lớp sợi mỏng, 2 lớp đắp hai lớp sợi chồng lên nên tai dày hơn, chén yến nhiều sợi hơn và giá cao hơn."),
+       ("Yến 2 lớp có bổ hơn yến 1 lớp không?", "Không. Cả hai đều là sợi yến sạch; nếu dùng cùng số gam yến khô mỗi chén thì lượng yến ăn vào như nhau."),
+       ("Yến 18–20 tai là gì?", "Là yến tinh chế 1 lớp có khoảng 18–20 tai trong 100gr, mỗi tai khoảng 5 g, đủ cho một chén mà không cần cân."),
+       ("Yến 10 tai là gì?", "Là yến tinh chế 1 lớp có khoảng 10 tai trong 100gr, mỗi tai khoảng 10 g, có thể chia đôi cho 2 chén."),
+       ("Nên mua yến tinh chế 1 lớp hay 2 lớp?", "Dùng hằng ngày, muốn tiết kiệm thì chọn 1 lớp sợi vừa; thích chén yến đặc sợi hoặc mua biếu thì chọn 2 lớp.")]),
 ]
