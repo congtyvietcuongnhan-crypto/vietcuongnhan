@@ -2073,4 +2073,79 @@ dict(slug="yen-tinh-che-1-lop-va-2-lop", cat="Yến sào", ngay="2026-11-06",
        ("Yến 18–20 tai là gì?", "Là yến tinh chế 1 lớp có khoảng 18–20 tai trong 100gr, mỗi tai khoảng 5 g, đủ cho một chén mà không cần cân."),
        ("Yến 10 tai là gì?", "Là yến tinh chế 1 lớp có khoảng 10 tai trong 100gr, mỗi tai khoảng 10 g, có thể chia đôi cho 2 chén."),
        ("Nên mua yến tinh chế 1 lớp hay 2 lớp?", "Dùng hằng ngày, muốn tiết kiệm thì chọn 1 lớp sợi vừa; thích chén yến đặc sợi hoặc mua biếu thì chọn 2 lớp.")]),
+dict(slug="yen-rut-long-kho-la-gi", cat="Yến sào", ngay="2026-11-07",
+  tu_khoa="yến rút lông khô, yến rút lông khô là gì, yến rút lông là gì, vì sao yến rút lông khô giá cao, yến rút lông đắp tổ định hình",
+  h1="Yến rút lông khô là gì, vì sao giá cao?",
+  desc="Yến rút lông khô là gì? Là tổ yến nhặt lông khi tổ còn khô, giữ nguyên sợi và dáng tổ, rất tốn công nên giá cao. So sánh các loại yến rút lông, giá 100gr.",
+  lede="Yến rút lông khô là tổ yến được nhặt lông thủ công khi tổ còn khô hoặc gần như khô, không ngâm nở rồi xé tơi như yến tinh chế, nên giữ được sợi yến dài, nguyên và dáng tổ tự nhiên. Vì công nhặt rất chậm và tỉ mỉ, đây là loại yến có giá cao nhất trong nhóm yến đã làm sạch.",
+  tom_tat=["Yến rút lông khô: nhặt lông khi tổ còn khô, giữ sợi nguyên và dáng tổ, không ngâm tơi rồi đắp lại.",
+           "Giá cao vì công nhặt thủ công rất chậm, sợi giữ dài và tổ đẹp; không phải vì công dụng khác các loại yến sạch khác.",
+           f"Giá 100gr tại Việt Cường Nhân: {P[116][2]} {gia(116)}, {P[117][2]} {gia(117)}, {P[115][2]} {gia(115)}, {P[114][2]} {gia(114)}, {P[113][2]} {gia(113)}.",
+           "Yến rút lông khô thường cần ngâm lâu hơn yến tinh chế vì sợi dày, tổ chắc; chưng cách thủy khoảng 20–30 phút.",
+           "Hợp làm quà biếu trang trọng hoặc người thích chén yến sợi dài, dai; dùng hằng ngày thì yến tinh chế đã đủ."],
+  body=f"""  <h2>Yến rút lông khô là gì?</h2>
+  <p>Yến rút lông khô là tổ yến được làm sạch bằng cách dùng nhíp rút từng sợi lông khi tổ còn khô hoặc chỉ hơi ẩm, thay vì ngâm cho tổ nở hẳn, xé tơi rồi đắp lại thành tai như yến tinh chế. Nhờ vậy sợi yến giữ được độ dài, độ dày và tổ còn gần như nguyên dáng ban đầu.</p>
+  <p>Ở xưởng Việt Cường Nhân, khách xem tận nơi thường thấy rõ khác biệt: tổ rút lông khô nhìn như tổ yến mới lấy từ nhà yến nhưng đã sạch lông, còn yến tinh chế là các tai yến đều nhau được định hình lại.</p>
+
+  <h2>Vì sao yến rút lông khô giá cao?</h2>
+  <p>Yến rút lông khô có giá cao chủ yếu vì công làm sạch. Khi tổ còn khô, sợi lông bám chặt và khó thấy hơn, thợ phải gắp từng sợi rất chậm để không làm gãy sợi yến hay vỡ dáng tổ.</p>
+  <ul>
+    <li><b>Công nhặt thủ công lâu:</b> mỗi tổ cần nhiều thời gian hơn so với nhặt lông yến đã ngâm nở.</li>
+    <li><b>Giữ sợi dài, nguyên:</b> sợi không bị đứt vụn trong quá trình ngâm, xé tơi.</li>
+    <li><b>Giữ dáng tổ đẹp:</b> hợp làm quà biếu, nhìn rõ là tổ yến tự nhiên.</li>
+    <li><b>Chọn tổ đẹp:</b> chỉ những tổ có dáng và sợi tốt mới được làm theo cách này.</li>
+  </ul>
+  <p>Giá cao phản ánh công làm và hình thức, không có nghĩa yến rút lông khô bổ hơn các loại yến sạch khác khi dùng cùng số gam yến khô. Các yếu tố làm giá yến chênh lệch xem bài <a href="gia-yen-sao-bao-nhieu-tien.html">giá yến sào bao nhiêu tiền 100gr</a>.</p>
+
+  <h2>Các loại yến rút lông khác nhau thế nào?</h2>
+  <p>Trong nhóm yến rút lông, cách gọi phản ánh hình dạng thành phẩm sau khi nhặt lông. Cách gọi có thể khác nhau giữa các nơi bán, nên khi mua hãy hỏi rõ người bán. Dưới đây là cách hiểu thường gặp và giá theo bảng giá website Việt Cường Nhân:</p>
+  <table><thead><tr><th>Loại</th><th>Thường hiểu là</th><th>Giá 100gr</th></tr></thead><tbody>
+  <tr><td>{P[113][2]}</td><td>Sợi yến rút lông được đắp lại thành tổ</td><td>{gia(113)}</td></tr>
+  <tr><td>{P[114][2]}</td><td>Rút lông rồi định hình lại dáng tổ đẹp, đều</td><td>{gia(114)}</td></tr>
+  <tr><td>{P[115][2]}</td><td>Rút lông, giữ phần khung (xương) tổ, sợi dày</td><td>{gia(115)}</td></tr>
+  <tr><td>{P[117][2]}</td><td>Rút lông khô, ép thành miếng gọn</td><td>{gia(117)}</td></tr>
+  <tr><td>{P[116][2]}</td><td>Rút lông khi tổ còn khô, gần như nguyên tổ</td><td>{gia(116)}</td></tr>
+  </tbody></table>
+  <p>Khác biệt giữa yến thô, yến tinh chế và yến rút lông xem bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông khác nhau thế nào</a>.</p>
+
+  <h2>So sánh yến rút lông khô và yến tinh chế</h2>
+  <table><thead><tr><th>Tiêu chí</th><th>Yến rút lông khô</th><th>Yến tinh chế 1 lớp sợi vừa</th></tr></thead><tbody>
+  <tr><td>Cách làm sạch</td><td>Nhặt lông khi tổ còn khô</td><td>Ngâm nở, nhặt lông, đắp lại thành tai</td></tr>
+  <tr><td>Hình dạng</td><td>Gần như nguyên tổ</td><td>Tai yến đều, định hình</td></tr>
+  <tr><td>Sợi yến</td><td>Dài, dày, nguyên</td><td>Sợi vừa, đan đều</td></tr>
+  <tr><td>Ngâm</td><td>Thường lâu hơn, đến khi sợi mềm</td><td>30–60 phút</td></tr>
+  <tr><td>Chưng cách thủy</td><td>20–30 phút</td><td>20–30 phút</td></tr>
+  <tr><td>Hợp với</td><td>Biếu trang trọng, thích sợi dai</td><td>Dùng hằng ngày</td></tr>
+  <tr><td>Giá 100gr</td><td>{gia(116)}</td><td>{gia(109)}</td></tr>
+  </tbody></table>
+  <p>So sánh trong nhóm yến tinh chế xem bài <a href="yen-tinh-che-1-lop-va-2-lop.html">yến tinh chế 1 lớp và 2 lớp</a>.</p>
+
+  <h2>Cách ngâm và chưng yến rút lông khô</h2>
+  <p>Yến rút lông khô có sợi dày và tổ chắc, nên thường cần ngâm lâu hơn yến tinh chế; ngâm đến khi tổ mềm, sợi tơi ra là được, không cần đúng một con số.</p>
+  <ol>
+    <li><b>Tách phần dùng:</b> bẻ nhẹ một phần tổ, khoảng 3–5 g cho một chén.</li>
+    <li><b>Ngâm nước sạch:</b> nhiệt độ thường, đến khi sợi nở mềm; kiểm tra phần dày ở giữa tổ.</li>
+    <li><b>Xé tơi theo thớ sợi:</b> nhẹ tay để giữ sợi dài.</li>
+    <li><b>Kiểm tra lại:</b> soi dưới đèn, nhặt sợi lông nhỏ còn sót nếu có.</li>
+    <li><b>Chưng cách thủy:</b> 150–200 ml nước mỗi chén, lửa nhỏ, khoảng 20–30 phút; đường phèn cho ở 5 phút cuối.</li>
+  </ol>
+  <p>Các bước chưng xem bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>; tránh chưng quá lâu làm tan sợi, xem bài <a href="yen-bi-chay-nuoc-khi-chung.html">vì sao yến bị chảy nước khi chưng</a>.</p>
+
+  <h2>Có nên mua yến rút lông khô không?</h2>
+  <p>Nên mua yến rút lông khô khi bạn muốn quà biếu trang trọng, người nhận thích tổ yến nhìn tự nhiên, hoặc bạn thích chén yến sợi dài và dai. Nếu chỉ dùng hằng tuần trong gia đình, yến tinh chế 1 lớp sợi vừa tiết kiệm hơn nhiều mà lượng yến mỗi chén vẫn như nhau.</p>
+  <ul>
+    <li><b>Biếu tặng:</b> {P[116][2]} hoặc {P[114][2]}.</li>
+    <li><b>Thích sợi dày, dai, giá mềm hơn trong nhóm:</b> {P[113][2]}.</li>
+    <li><b>Dùng hằng ngày:</b> yến tinh chế, xem bài <a href="yen-sao-loai-nao-tot.html">yến sào loại nào tốt</a>.</li>
+  </ul>
+
+  <h2>Bảng giá yến rút lông tại Việt Cường Nhân</h2>
+  <p>Yến rút lông của Việt Cường Nhân được nhặt lông thủ công tại xưởng, nhà máy đạt HACCP, ISO 22000:2018 và GMP. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(113), li(114), li(115), li(117), li(116)) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>; quà Tết có yến rút lông xem bài <a href="qua-tet-yen-sao.html">quà Tết yến sào</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Yến rút lông khô là gì?", "Là tổ yến được nhặt lông thủ công khi tổ còn khô hoặc gần như khô, không ngâm tơi rồi đắp lại, nên giữ sợi dài và dáng tổ gần như nguyên."),
+       ("Vì sao yến rút lông khô đắt?", "Vì nhặt lông khi tổ còn khô rất chậm và tỉ mỉ, lại giữ được sợi dài, tổ đẹp. Giá cao phản ánh công làm và hình thức, không phải công dụng khác."),
+       ("Yến rút lông khô có bổ hơn yến tinh chế không?", "Không có căn cứ để nói như vậy. Cùng số gam yến khô mỗi chén thì lượng yến như nhau; khác biệt là sợi dài, dai và tổ đẹp hơn."),
+       ("Yến rút lông khô ngâm bao lâu?", "Thường lâu hơn yến tinh chế vì sợi dày, tổ chắc. Ngâm đến khi sợi mềm và tơi ra, sau đó chưng cách thủy khoảng 20–30 phút."),
+       ("Yến rút lông khô giá bao nhiêu?", f"Tại Việt Cường Nhân, {P[116][2]} giá {gia(116)}/100gr, chưa gồm phí giao hàng.")]),
 ]
