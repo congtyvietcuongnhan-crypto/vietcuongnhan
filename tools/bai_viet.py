@@ -2437,4 +2437,79 @@ dict(slug="tao-do-tan-cuong-va-nhuoc-khuong", cat="Táo đỏ", ngay="2026-11-17
        ("Táo đỏ Nhược Khương giá bao nhiêu?", f"Tại Việt Cường Nhân, táo đỏ Nhược Khương hộp 350gr giá {gia(147)}, chưa gồm phí giao hàng."),
        ("Pha trà táo đỏ nên dùng loại nào?", "Pha trà dùng táo Nhược Khương hoặc Tân Cương size trung là đủ, mỗi ấm 4–5 quả xẻ đôi, hãm khoảng 10 phút."),
        ("Táo đỏ sấy khô để được bao lâu?", "Táo đỏ để trong túi, hộp kín nơi khô mát dùng theo hạn trên bao bì. Nhà ẩm nên để ngăn mát tủ lạnh; có mốc hoặc mùi chua thì bỏ.")]),
+
+dict(slug="tra-tao-do-ky-tu", cat="Món ngon", ngay="2026-11-17",
+  tu_khoa="trà táo đỏ kỷ tử, cách pha trà táo đỏ kỷ tử, trà táo đỏ, trà táo đỏ kỷ tử gừng, trà táo đỏ kỷ tử hoa cúc",
+  h1="Cách pha trà táo đỏ kỷ tử thơm ngon tại nhà",
+  desc="Cách pha trà táo đỏ kỷ tử tại nhà: định lượng cho 1 ấm 500 ml, 5 bước hãm hoặc đun, 3 biến tấu gừng, hoa cúc, long nhãn và mẹo để trà thơm, ngọt thanh.",
+  lede="Cách pha trà táo đỏ kỷ tử đơn giản nhất là xẻ đôi 5–6 quả táo đỏ, cho cùng 1 muỗng canh kỷ tử vào ấm, rót 500 ml nước sôi và hãm 10–15 phút. Muốn trà đậm vị táo hơn thì đun lửa nhỏ 10 phút rồi mới thêm kỷ tử.",
+  tom_tat=["Định lượng cho 1 ấm 500 ml: 5–6 quả táo đỏ, 1 muỗng canh kỷ tử (khoảng 10 g), đường phèn hoặc mật ong tùy thích.",
+           "Táo đỏ nên xẻ đôi hoặc khía dọc để vị ngọt ra nhanh; kỷ tử cho sau để không bị nát.",
+           "Hãm nước sôi 10–15 phút, hoặc đun lửa nhỏ 10 phút cho vị táo đậm hơn.",
+           "Có thể thêm 2–3 lát gừng, vài bông cúc khô hoặc long nhãn để đổi vị.",
+           f"Táo đỏ Tân Cương size đại hộp 350gr tại Việt Cường Nhân giá {gia(146)}, đủ pha nhiều ấm trà."],
+  body=f"""  <h2>Nguyên liệu pha trà táo đỏ kỷ tử</h2>
+  <p>Trà táo đỏ kỷ tử chỉ cần ba thứ chính: táo đỏ sấy khô, kỷ tử và nước sôi. Định lượng dưới đây cho 1 ấm khoảng 500 ml, đủ 2–3 cốc.</p>
+  <table><thead><tr><th>Nguyên liệu</th><th>Lượng cho 1 ấm 500 ml</th><th>Ghi chú</th></tr></thead><tbody>
+  <tr><td>Táo đỏ sấy khô</td><td>5–6 quả size đại, hoặc 7–8 quả nhỏ</td><td>Rửa nhanh, xẻ đôi hoặc khía dọc</td></tr>
+  <tr><td>Kỷ tử</td><td>1 muỗng canh, khoảng 10 g</td><td>Chọn hạt đỏ tươi, khô, không dính</td></tr>
+  <tr><td>Nước</td><td>500 ml</td><td>Nước lọc đun sôi</td></tr>
+  <tr><td>Đường phèn hoặc mật ong</td><td>Tùy thích, có thể bỏ</td><td>Táo đỏ đã có vị ngọt tự nhiên</td></tr>
+  </tbody></table>
+  <p>Ở Việt Cường Nhân, khách pha trà hằng ngày thường dùng táo đỏ Tân Cương size trung hoặc size đại; quả size đại cùi dày nên chỉ cần 5–6 quả là nước đã ngọt thanh. Muốn biết khác nhau giữa các loại táo, xem bài <a href="tao-do-tan-cuong-va-nhuoc-khuong.html">táo đỏ Tân Cương và táo đỏ Nhược Khương khác gì</a>.</p>
+
+  <h2>Cách pha trà táo đỏ kỷ tử (hãm nước sôi)</h2>
+  <p>Cách pha trà táo đỏ kỷ tử bằng hãm nước sôi mất khoảng 15 phút và hợp nhất cho người bận rộn.</p>
+  <ol>
+    <li><b>Rửa táo và kỷ tử.</b> Rửa nhanh táo đỏ dưới vòi nước, tráng kỷ tử qua một lần nước rồi để ráo. Không ngâm kỷ tử lâu vì hạt dễ nở nát.</li>
+    <li><b>Xẻ táo.</b> Dùng dao xẻ đôi hoặc khía 2–3 đường dọc quả để vị ngọt tiết ra nhanh. Có thể bỏ hạt cho dễ uống.</li>
+    <li><b>Tráng ấm.</b> Tráng ấm bằng nước sôi để giữ nhiệt khi hãm.</li>
+    <li><b>Hãm trà.</b> Cho táo vào ấm, rót 500 ml nước sôi, đậy nắp 10 phút, sau đó thêm kỷ tử và hãm thêm 5 phút.</li>
+    <li><b>Nêm vị.</b> Thêm đường phèn khi trà còn nóng, hoặc chờ trà nguội bớt dưới 60 độ mới cho mật ong để giữ mùi thơm.</li>
+  </ol>
+
+  <h2>Cách nấu trà táo đỏ kỷ tử đậm vị</h2>
+  <p>Muốn trà táo đỏ kỷ tử đậm màu và đậm vị táo, nên đun táo với nước ở lửa nhỏ khoảng 10 phút thay vì chỉ hãm.</p>
+  <ol>
+    <li>Cho táo đã xẻ và 600 ml nước vào nồi nhỏ, đun sôi.</li>
+    <li>Hạ lửa nhỏ, đun liu riu 10 phút cho nước chuyển màu vàng nâu.</li>
+    <li>Thêm kỷ tử, đun thêm 2–3 phút rồi tắt bếp.</li>
+    <li>Nêm đường phèn, rót ra cốc dùng nóng hoặc để nguội, thêm đá.</li>
+  </ol>
+  <p>Đun lâu nước sẽ bay hơi, nên cho dư khoảng 100 ml so với cách hãm để còn lại đủ 500 ml trà.</p>
+
+  <h2>3 cách biến tấu trà táo đỏ kỷ tử</h2>
+  <p>Trà táo đỏ kỷ tử dễ phối thêm nguyên liệu để đổi vị, mỗi cách chỉ cần thêm một thứ.</p>
+  <h3>Trà táo đỏ kỷ tử gừng</h3>
+  <p>Thêm 2–3 lát gừng tươi đập dập vào cùng lúc với táo. Trà có vị ấm cay nhẹ, hợp những ngày trời lạnh hoặc mưa.</p>
+  <h3>Trà táo đỏ kỷ tử hoa cúc</h3>
+  <p>Thêm 5–6 bông cúc khô ở bước cho kỷ tử, hãm 5 phút rồi vớt hoa ra để trà không bị đắng. Trà có mùi thơm hoa nhẹ, uống lạnh rất dễ chịu.</p>
+  <h3>Trà táo đỏ kỷ tử long nhãn</h3>
+  <p>Thêm 8–10 cùi long nhãn khô cùng lúc với táo. Long nhãn ngọt sẵn nên có thể bỏ đường.</p>
+
+  <h2>Mẹo pha trà táo đỏ kỷ tử ngon</h2>
+  <ul>
+    <li><b>Xẻ táo là bắt buộc:</b> táo nguyên quả hãm 15 phút gần như chưa ra vị.</li>
+    <li><b>Kỷ tử cho sau:</b> cho từ đầu hạt nát, nước đục.</li>
+    <li><b>Không nêm quá ngọt:</b> nếm trước rồi mới thêm đường, vì táo đỏ đã ngọt tự nhiên.</li>
+    <li><b>Ăn luôn cái:</b> táo và kỷ tử sau khi hãm vẫn mềm, ngọt, ăn được.</li>
+    <li><b>Pha vừa đủ uống trong ngày:</b> trà để qua đêm ở nhiệt độ phòng dễ chua; dư thì cất ngăn mát và dùng trong ngày hôm sau.</li>
+  </ul>
+
+  <h2>Bảo quản táo đỏ và kỷ tử khô</h2>
+  <p>Táo đỏ và kỷ tử khô đều sợ ẩm: để trong túi hoặc hũ kín, nơi khô mát, tránh nắng; nhà ẩm thì để ngăn mát tủ lạnh. Kỷ tử bị dính chùm, có mùi chua hoặc đốm mốc thì nên bỏ.</p>
+  <p>Táo đỏ còn dùng được cho nhiều món khác như <a href="yen-chung-tao-do-hat-sen.html">yến chưng táo đỏ hạt sen</a> hay <a href="nam-dong-trung-ha-thao-tiem-ga-ac.html">đông trùng hạ thảo tiềm gà ác</a>. Cách chọn size táo xem bài <a href="tao-do-tan-cuong-cach-chon-va-mon-ngon.html">táo đỏ Tân Cương: cách chọn size và món ngon</a>.</p>
+
+  <h2>Lưu ý khi uống trà táo đỏ kỷ tử</h2>
+  <p>Trà táo đỏ kỷ tử là đồ uống thực phẩm, không phải thuốc và không thay thế thuốc chữa bệnh. Phụ nữ mang thai, người cần kiểm soát đường huyết, người có bệnh nền hoặc đang dùng thuốc nên hỏi bác sĩ trước khi uống thường xuyên. Không cho trẻ nhỏ ăn nguyên quả táo còn hạt để tránh hóc.</p>
+
+  <h2>Mua táo đỏ pha trà tại Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân nhập khẩu và phân phối táo đỏ Tân Cương, bán cùng yến sào. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(146, "Hộp nhỏ, tiện pha trà dần."), li(143, "Túi 1kg cho gia đình uống thường xuyên."), li(147, "Quả nhỏ, giá mềm, hợp pha trà, nấu chè.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Pha trà táo đỏ kỷ tử cần bao nhiêu quả táo?", "Một ấm 500 ml dùng 5–6 quả táo đỏ size đại hoặc 7–8 quả nhỏ, cùng khoảng 1 muỗng canh kỷ tử."),
+       ("Hãm trà táo đỏ kỷ tử bao lâu?", "Hãm táo với nước sôi khoảng 10 phút, thêm kỷ tử rồi hãm thêm 5 phút. Muốn đậm vị hơn thì đun lửa nhỏ 10 phút."),
+       ("Có cần bỏ hạt táo đỏ khi pha trà không?", "Không bắt buộc, chỉ cần xẻ đôi hoặc khía quả. Bỏ hạt giúp ăn cái dễ hơn, nhất là khi cho trẻ nhỏ ăn."),
+       ("Trà táo đỏ kỷ tử để qua đêm được không?", "Không nên để qua đêm ở nhiệt độ phòng vì dễ chua. Pha dư thì cất ngăn mát, đậy kín và dùng trong ngày hôm sau."),
+       ("Bà bầu uống trà táo đỏ kỷ tử được không?", "Phụ nữ mang thai nên hỏi bác sĩ trước khi uống thường xuyên, nhất là khi cần kiểm soát đường huyết.")]),
 ]
