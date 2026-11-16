@@ -2148,4 +2148,71 @@ dict(slug="yen-rut-long-kho-la-gi", cat="Yến sào", ngay="2026-11-07",
        ("Yến rút lông khô có bổ hơn yến tinh chế không?", "Không có căn cứ để nói như vậy. Cùng số gam yến khô mỗi chén thì lượng yến như nhau; khác biệt là sợi dài, dai và tổ đẹp hơn."),
        ("Yến rút lông khô ngâm bao lâu?", "Thường lâu hơn yến tinh chế vì sợi dày, tổ chắc. Ngâm đến khi sợi mềm và tơi ra, sau đó chưng cách thủy khoảng 20–30 phút."),
        ("Yến rút lông khô giá bao nhiêu?", f"Tại Việt Cường Nhân, {P[116][2]} giá {gia(116)}/100gr, chưa gồm phí giao hàng.")]),
+dict(slug="dong-trung-ha-thao-loai-cay-va-loai-gay", cat="Đông trùng hạ thảo", ngay="2026-11-17",
+  tu_khoa="đông trùng hạ thảo loại cây, đông trùng hạ thảo loại gãy, đông trùng loại cây và loại gãy khác nhau, nên mua đông trùng loại nào",
+  h1="Đông trùng hạ thảo loại cây và loại gãy: chọn loại nào?",
+  desc="Đông trùng hạ thảo loại cây và loại gãy khác ở độ dài, hình thức và giá, vị gần như nhau. So sánh, giá 100gr và nên chọn loại nào để nấu ăn, pha trà, biếu.",
+  lede="Đông trùng hạ thảo loại cây là nấm sấy khô còn nguyên cọng dài, đều, đẹp; loại gãy là những cọng bị gãy ngắn trong lúc thu hái, sấy và đóng gói. Hai loại cùng một nguồn nấm, vị gần như nhau, khác chủ yếu ở hình thức và giá, nên nấu ăn hằng ngày chọn loại gãy, biếu tặng hoặc đãi khách chọn loại cây.",
+  tom_tat=["Loại cây: cọng nguyên, dài đều, màu cam đẹp; loại gãy: cọng ngắn, gãy trong lúc thu hái, sấy, đóng gói.",
+           "Cùng một nguồn nấm nên vị gần như nhau; khác biệt chính là hình thức và giá.",
+           f"Giá tại Việt Cường Nhân: {P[136][2]} {gia(136)}/100gr, {gia(137)}/50gr; {P[138][2]} {gia(138)}/100gr.",
+           "Nấu canh, tiềm, chưng yến hằng ngày: loại gãy tiết kiệm; pha trà, đãi khách, biếu tặng: loại cây.",
+           "Cả hai bảo quản giống nhau: hũ, túi kín, nơi khô mát, đậy kín ngay sau khi lấy."],
+  body=f"""  <h2>Đông trùng hạ thảo loại cây là gì?</h2>
+  <p>Đông trùng hạ thảo loại cây là nấm đông trùng hạ thảo sấy khô còn nguyên cọng, dài và tương đối đều, màu cam tươi. Sau khi sấy, những cọng đẹp, nguyên vẹn được chọn riêng để đóng gói thành loại cây.</p>
+  <p>Nấm đông trùng hạ thảo bán ở Việt Cường Nhân là loại nuôi trồng, do công ty bắt đầu nuôi trồng từ năm 2022. Loại cây thường được chọn khi cần hình thức đẹp, như pha trà nhìn rõ từng cọng nấm hay làm quà biếu.</p>
+
+  <h2>Đông trùng hạ thảo loại gãy là gì?</h2>
+  <p>Đông trùng hạ thảo loại gãy là những cọng nấm bị gãy ngắn trong quá trình thu hái, sấy khô và phân loại. Nấm vẫn cùng nguồn, cùng cách sấy như loại cây, chỉ là cọng không còn nguyên nên được bán riêng với giá mềm hơn.</p>
+  <p>Ở xưởng, khách mua để nấu ăn trong gia đình thường chọn loại gãy, vì khi cho vào nồi canh hay thố chưng thì độ dài cọng không còn quan trọng.</p>
+
+  <h2>So sánh đông trùng hạ thảo loại cây và loại gãy</h2>
+  <p>Hai loại khác nhau chủ yếu ở độ dài cọng, hình thức và giá. Bảng dưới so sánh theo bảng giá website Việt Cường Nhân.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Loại cây</th><th>Loại gãy</th></tr></thead><tbody>
+  <tr><td>Hình dạng</td><td>Cọng nguyên, dài, đều</td><td>Cọng ngắn, gãy, không đều</td></tr>
+  <tr><td>Màu sắc</td><td>Cam tươi</td><td>Cam, tương tự loại cây</td></tr>
+  <tr><td>Nguồn nấm, cách sấy</td><td>Như nhau</td><td>Như nhau</td></tr>
+  <tr><td>Vị khi nấu</td><td>Ngọt nhẹ, thơm</td><td>Gần như loại cây</td></tr>
+  <tr><td>Hợp với</td><td>Pha trà, đãi khách, biếu tặng</td><td>Nấu canh, tiềm, chưng yến hằng ngày</td></tr>
+  <tr><td>Giá</td><td>{gia(136)}/100gr, {gia(137)}/50gr</td><td>{gia(138)}/100gr</td></tr>
+  </tbody></table>
+
+  <h2>Đông trùng loại gãy có kém hơn loại cây không?</h2>
+  <p>Không có căn cứ để nói loại gãy kém hơn loại cây về chất lượng khi cùng nguồn nấm và cách sấy. Loại gãy rẻ hơn vì hình thức không đẹp bằng, không phải vì là nấm khác. Khi nấu, cọng ngắn còn dễ chia lượng và nhanh mềm hơn.</p>
+  <p>Điều quan trọng hơn chuyện cây hay gãy là nấm phải khô, màu cam tự nhiên, không ẩm mốc, không mùi lạ, và có nguồn gốc rõ ràng.</p>
+
+  <h2>Nên chọn loại nào cho từng món?</h2>
+  <table><thead><tr><th>Món, nhu cầu</th><th>Gợi ý</th><th>Ghi chú</th></tr></thead><tbody>
+  <tr><td>Canh gà, canh sườn, hầm</td><td>Loại gãy</td><td>Cho vào 10–15 phút cuối</td></tr>
+  <tr><td>Gà ác tiềm đông trùng</td><td>Loại gãy hoặc cây</td><td>Xem công thức bên dưới</td></tr>
+  <tr><td>Chưng cùng yến</td><td>Loại gãy</td><td>Cho vào 5–10 phút cuối</td></tr>
+  <tr><td>Pha trà</td><td>Loại cây</td><td>Nhìn đẹp trong ly thủy tinh</td></tr>
+  <tr><td>Ngâm mật ong</td><td>Loại cây</td><td>Cọng nguyên đẹp trong hũ</td></tr>
+  <tr><td>Biếu tặng, đãi khách</td><td>Loại cây</td><td>Hình thức đẹp</td></tr>
+  </tbody></table>
+  <p>Công thức chi tiết xem bài <a href="nam-dong-trung-ha-thao-tiem-ga-ac.html">nấm đông trùng hạ thảo tiềm gà ác</a> và <a href="yen-chung-dong-trung-ha-thao.html">yến chưng đông trùng hạ thảo</a>. Các cách dùng khác xem bài <a href="cach-dung-dong-trung-ha-thao.html">cách dùng nấm đông trùng hạ thảo sấy khô</a>.</p>
+
+  <h2>Cách nhận biết đông trùng hạ thảo sấy khô chất lượng</h2>
+  <ul>
+    <li><b>Màu:</b> cam vàng đến cam đậm tự nhiên, không đỏ rực bất thường.</li>
+    <li><b>Độ khô:</b> cọng giòn, bẻ gãy được, không dẻo ẩm.</li>
+    <li><b>Mùi:</b> thơm nhẹ mùi nấm, không mốc, không chua.</li>
+    <li><b>Bao bì:</b> có nhãn, khối lượng, ngày sản xuất, hạn dùng, thông tin cơ sở.</li>
+  </ul>
+
+  <h2>Bảo quản đông trùng hạ thảo sấy khô</h2>
+  <p>Cả loại cây và loại gãy bảo quản như nhau: để trong hũ hoặc túi kín, nơi khô mát, tránh nắng; lấy bằng tay hoặc muỗng khô và đậy kín ngay để nấm không hút ẩm. Nấm bị mềm, có đốm mốc hoặc mùi lạ thì nên bỏ.</p>
+
+  <h2>Lưu ý khi dùng</h2>
+  <p>Nấm đông trùng hạ thảo là thực phẩm, dùng như một nguyên liệu trong món ăn, không thay thế thuốc. Trẻ nhỏ, phụ nữ mang thai, người có bệnh nền hoặc đang dùng thuốc nên hỏi bác sĩ trước khi dùng.</p>
+
+  <h2>Đông trùng hạ thảo tại Việt Cường Nhân</h2>
+  <p>Giá lấy từ bảng giá website Việt Cường Nhân, chưa gồm phí giao hàng:</p>
+""" + ul(li(136, "Cọng nguyên, hợp pha trà, biếu tặng."), li(137, "Gói nhỏ, dùng thử."), li(138, "Cọng gãy, giá mềm, nấu ăn hằng ngày."), li(140, "Hũ nhỏ tiện dùng.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Đông trùng hạ thảo loại cây và loại gãy khác nhau thế nào?", "Loại cây còn nguyên cọng dài, đều, đẹp; loại gãy là cọng bị gãy ngắn trong lúc thu hái, sấy, đóng gói. Cùng nguồn nấm nên vị gần như nhau, khác chủ yếu ở hình thức và giá."),
+       ("Đông trùng loại gãy có kém hơn loại cây không?", "Không có căn cứ để nói như vậy khi cùng nguồn nấm và cách sấy. Loại gãy rẻ hơn vì hình thức không đẹp bằng."),
+       ("Nấu ăn nên dùng đông trùng loại nào?", "Nấu canh, tiềm, chưng yến hằng ngày nên dùng loại gãy cho tiết kiệm; pha trà, đãi khách hoặc biếu tặng thì chọn loại cây."),
+       ("Đông trùng hạ thảo loại cây giá bao nhiêu?", f"Tại Việt Cường Nhân, {P[136][2]} giá {gia(136)}/100gr và {gia(137)}/50gr, chưa gồm phí giao hàng."),
+       ("Đông trùng hạ thảo sấy khô bảo quản thế nào?", "Để hũ hoặc túi kín, nơi khô mát, tránh nắng; lấy bằng dụng cụ khô và đậy kín ngay sau khi dùng.")]),
 ]
