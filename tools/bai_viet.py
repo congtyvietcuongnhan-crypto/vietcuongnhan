@@ -2215,4 +2215,75 @@ dict(slug="dong-trung-ha-thao-loai-cay-va-loai-gay", cat="Đông trùng hạ th�
        ("Nấu ăn nên dùng đông trùng loại nào?", "Nấu canh, tiềm, chưng yến hằng ngày nên dùng loại gãy cho tiết kiệm; pha trà, đãi khách hoặc biếu tặng thì chọn loại cây."),
        ("Đông trùng hạ thảo loại cây giá bao nhiêu?", f"Tại Việt Cường Nhân, {P[136][2]} giá {gia(136)}/100gr và {gia(137)}/50gr, chưa gồm phí giao hàng."),
        ("Đông trùng hạ thảo sấy khô bảo quản thế nào?", "Để hũ hoặc túi kín, nơi khô mát, tránh nắng; lấy bằng dụng cụ khô và đậy kín ngay sau khi dùng.")]),
+dict(slug="dong-trung-ha-thao-ngam-mat-ong", cat="Đông trùng hạ thảo", ngay="2026-11-17",
+  tu_khoa="đông trùng hạ thảo ngâm mật ong, cách ngâm đông trùng hạ thảo với mật ong, tỉ lệ đông trùng mật ong, đông trùng ngâm mật ong để được bao lâu",
+  h1="Đông trùng hạ thảo ngâm mật ong: cách làm và bảo quản",
+  desc="Cách làm đông trùng hạ thảo ngâm mật ong tại nhà: tỉ lệ 10–20g nấm khô cho 500ml mật ong, 5 bước làm, thời gian ngâm, cách dùng và bảo quản hũ ngâm đúng cách.",
+  lede="Đông trùng hạ thảo ngâm mật ong làm rất đơn giản: dùng khoảng 10–20 g nấm đông trùng sấy khô cho 500 ml mật ong nguyên chất, cho vào hũ thủy tinh sạch, khô, đậy kín và ngâm 2–3 tuần là dùng được. Điều quyết định hũ ngâm ngon và không hỏng là nấm thật khô, hũ thật khô và mật ong không lẫn nước.",
+  tom_tat=["Tỉ lệ gợi ý: 10–20 g đông trùng hạ thảo sấy khô cho 500 ml mật ong nguyên chất.",
+           "Hũ thủy tinh tráng nước sôi, phơi hoặc sấy thật khô; nấm và dụng cụ cũng phải khô.",
+           "Ngâm khoảng 2–3 tuần, nấm mềm và mật ong có màu cam nhạt là dùng được.",
+           "Mỗi lần dùng 1–2 thìa cà phê pha với nước ấm dưới 60°C; không cho trẻ dưới 1 tuổi dùng mật ong.",
+           f"Nên dùng {P[136][2]} cho hũ ngâm đẹp; giá {gia(136)}/100gr tại Việt Cường Nhân."],
+  body=f"""  <h2>Chuẩn bị nguyên liệu và dụng cụ</h2>
+  <p>Một hũ đông trùng hạ thảo ngâm mật ong cỡ 500 ml cần 10–20 g nấm đông trùng sấy khô và khoảng 500 ml mật ong nguyên chất. Lượng nấm ít hay nhiều tùy khẩu vị: 10 g cho vị nhẹ, 20 g cho hũ nhiều nấm, nhìn đầy đặn hơn.</p>
+  <table><thead><tr><th>Nguyên liệu, dụng cụ</th><th>Định lượng</th><th>Ghi chú</th></tr></thead><tbody>
+  <tr><td>Nấm đông trùng hạ thảo sấy khô</td><td>10–20 g</td><td>Loại cây cho hũ đẹp; loại gãy vẫn ngâm được</td></tr>
+  <tr><td>Mật ong nguyên chất</td><td>500 ml (khoảng 650–700 g)</td><td>Mật sánh, không lẫn nước</td></tr>
+  <tr><td>Hũ thủy tinh có nắp kín</td><td>1 hũ 600–700 ml</td><td>Chừa khoảng trống phía trên</td></tr>
+  <tr><td>Đũa hoặc muỗng gỗ, thủy tinh</td><td>1 cái</td><td>Phải khô hoàn toàn</td></tr>
+  </tbody></table>
+  <p>Ở Việt Cường Nhân, khách ngâm mật ong thường chọn nấm loại cây vì cọng nguyên nổi lơ lửng trong mật nhìn rất đẹp, hợp để bày hoặc biếu. Nếu chỉ ngâm để nhà dùng, loại gãy cũng cho kết quả tương tự, chỉ khác hình thức. Xem thêm so sánh trong bài <a href="dong-trung-ha-thao-loai-cay-va-loai-gay.html">đông trùng hạ thảo loại cây và loại gãy</a>.</p>
+
+  <h2>Cách làm đông trùng hạ thảo ngâm mật ong: 5 bước</h2>
+  <ol>
+    <li><b>Làm sạch hũ.</b> Rửa hũ và nắp, tráng nước sôi rồi úp ngược cho ráo, phơi nắng hoặc sấy cho thật khô. Hũ còn một giọt nước cũng có thể làm mật lên men.</li>
+    <li><b>Kiểm tra nấm.</b> Nấm sấy khô phải giòn, màu cam tự nhiên, không mốc. Không rửa nấm khô bằng nước trước khi ngâm mật ong; nếu muốn làm sạch bụi, chỉ dùng khăn khô lau nhẹ hoặc lắc trong rổ.</li>
+    <li><b>Cho nấm vào hũ.</b> Xếp 10–20 g nấm vào hũ. Muốn cọng nấm dựng đẹp thì cho một lớp mật ong mỏng trước rồi mới thả nấm.</li>
+    <li><b>Rót mật ong.</b> Rót mật từ từ cho ngập nấm, chừa 2–3 cm phía trên miệng hũ. Dùng đũa khô ấn nhẹ cho nấm chìm và bọt khí thoát lên.</li>
+    <li><b>Đậy kín và ngâm.</b> Đậy nắp, để nơi khô mát, tránh nắng. Mấy ngày đầu nấm nổi lên mặt là bình thường; có thể đảo nhẹ bằng đũa khô 1–2 lần mỗi tuần.</li>
+  </ol>
+
+  <h2>Ngâm bao lâu thì dùng được?</h2>
+  <p>Đông trùng hạ thảo ngâm mật ong dùng được sau khoảng 2–3 tuần. Lúc đó nấm đã ngấm mật, mềm hơn, mật ong ngả màu cam nhạt và có mùi thơm nhẹ của nấm.</p>
+  <p>Nếu cần dùng sớm, sau khoảng 1 tuần vẫn dùng được, chỉ là nấm chưa mềm và vị chưa hòa đều. Ngâm càng lâu nấm càng mềm, nhưng nên dùng hết hũ trong vài tháng để giữ hương vị.</p>
+
+  <h2>Cách dùng đông trùng hạ thảo ngâm mật ong</h2>
+  <ul>
+    <li><b>Pha nước ấm:</b> 1–2 thìa cà phê mật ong kèm vài cọng nấm, pha với 150–200 ml nước ấm. Nước dưới khoảng 60°C để giữ mùi mật ong.</li>
+    <li><b>Ăn trực tiếp:</b> nhai luôn cọng nấm đã ngấm mật, vị ngọt dịu, hơi dai.</li>
+    <li><b>Pha cùng trà:</b> thêm vào trà gừng, trà chanh hoặc trà táo đỏ để tạo vị ngọt.</li>
+    <li><b>Dùng với món tráng miệng:</b> rưới lên sữa chua, bánh, hoặc chè.</li>
+  </ul>
+  <p>Ngoài ngâm mật ong, nấm đông trùng còn hợp nấu canh, tiềm gà, chưng yến; xem bài <a href="cach-dung-dong-trung-ha-thao.html">cách dùng nấm đông trùng hạ thảo sấy khô</a> và <a href="yen-chung-dong-trung-ha-thao.html">yến chưng đông trùng hạ thảo</a>.</p>
+
+  <h2>Bảo quản hũ đông trùng ngâm mật ong</h2>
+  <p>Hũ đông trùng ngâm mật ong bảo quản ở nhiệt độ phòng, nơi khô mát, tránh nắng là được, không cần để tủ lạnh. Tủ lạnh làm mật ong đặc và kết tinh, khó múc hơn.</p>
+  <ul>
+    <li>Luôn dùng muỗng khô, sạch để lấy; không chấm muỗng đã dùng vào hũ.</li>
+    <li>Đậy nắp kín ngay sau mỗi lần lấy để mật không hút ẩm.</li>
+    <li>Mật ong kết tinh (đóng đường) là hiện tượng tự nhiên, không phải hỏng.</li>
+  </ul>
+
+  <h2>Dấu hiệu hũ ngâm bị hỏng</h2>
+  <p>Hũ đông trùng ngâm mật ong bị hỏng khi có mùi chua như men rượu, sủi bọt liên tục, nổi váng hoặc có đốm mốc trên nấm. Nguyên nhân thường gặp là hũ hoặc nấm còn ẩm, mật ong bị pha nước, hoặc dùng muỗng ướt. Khi thấy các dấu hiệu này nên bỏ cả hũ, không cố dùng.</p>
+  <table><thead><tr><th>Hiện tượng</th><th>Bình thường hay không?</th><th>Cách xử lý</th></tr></thead><tbody>
+  <tr><td>Nấm nổi lên mặt mấy ngày đầu</td><td>Bình thường</td><td>Ấn nhẹ bằng đũa khô</td></tr>
+  <tr><td>Mật ngả màu cam</td><td>Bình thường</td><td>Màu từ nấm tan vào mật</td></tr>
+  <tr><td>Mật đặc lại, có hạt đường</td><td>Bình thường</td><td>Ngâm hũ vào nước ấm cho tan</td></tr>
+  <tr><td>Mùi chua, sủi bọt, có váng</td><td>Hỏng</td><td>Bỏ cả hũ</td></tr>
+  </tbody></table>
+
+  <h2>Lưu ý khi dùng</h2>
+  <p>Đông trùng hạ thảo ngâm mật ong là món ăn, thức uống trong gia đình, không phải thuốc và không thay thế thuốc chữa bệnh. Không cho trẻ dưới 1 tuổi dùng mật ong. Người đang mang thai, người có bệnh nền như tiểu đường, hoặc đang dùng thuốc nên hỏi bác sĩ trước khi dùng.</p>
+
+  <h2>Mua đông trùng hạ thảo để ngâm mật ong</h2>
+  <p>Giá lấy từ bảng giá website Việt Cường Nhân, chưa gồm phí giao hàng:</p>
+""" + ul(li(136, "Cọng nguyên, ngâm mật ong đẹp nhất."), li(141, "Vừa đủ cho 1 hũ ngâm 500 ml nhiều nấm."), li(140, "Hũ nhỏ, đủ 1 hũ ngâm vị nhẹ.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Ngâm đông trùng hạ thảo với mật ong theo tỉ lệ nào?", "Tỉ lệ gợi ý là 10–20 g nấm đông trùng sấy khô cho 500 ml mật ong nguyên chất. Dùng 10 g cho vị nhẹ, 20 g cho hũ nhiều nấm."),
+       ("Đông trùng hạ thảo ngâm mật ong bao lâu thì dùng được?", "Khoảng 2–3 tuần là nấm ngấm mật, mềm và dùng ngon. Sau 1 tuần vẫn dùng được nhưng vị chưa hòa đều."),
+       ("Có cần rửa đông trùng hạ thảo trước khi ngâm mật ong không?", "Không nên rửa nấm khô bằng nước vì hơi ẩm còn lại dễ làm mật ong lên men. Chỉ cần lau hoặc lắc nhẹ cho sạch bụi."),
+       ("Đông trùng ngâm mật ong có cần để tủ lạnh không?", "Không cần. Để hũ kín nơi khô mát, tránh nắng; tủ lạnh làm mật đặc và kết tinh, khó múc."),
+       ("Đông trùng hạ thảo ngâm mật ong bị chua có dùng được không?", "Không nên dùng. Mùi chua, sủi bọt hoặc có váng là dấu hiệu mật đã lên men do lẫn nước, nên bỏ cả hũ.")]),
 ]
