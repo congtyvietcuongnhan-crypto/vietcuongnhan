@@ -2512,4 +2512,97 @@ dict(slug="tra-tao-do-ky-tu", cat="Món ngon", ngay="2026-11-17",
        ("Có cần bỏ hạt táo đỏ khi pha trà không?", "Không bắt buộc, chỉ cần xẻ đôi hoặc khía quả. Bỏ hạt giúp ăn cái dễ hơn, nhất là khi cho trẻ nhỏ ăn."),
        ("Trà táo đỏ kỷ tử để qua đêm được không?", "Không nên để qua đêm ở nhiệt độ phòng vì dễ chua. Pha dư thì cất ngăn mát, đậy kín và dùng trong ngày hôm sau."),
        ("Bà bầu uống trà táo đỏ kỷ tử được không?", "Phụ nữ mang thai nên hỏi bác sĩ trước khi uống thường xuyên, nhất là khi cần kiểm soát đường huyết.")]),
+
+dict(slug="thach-nha-dam-lam-mon-gi", cat="Món ngon", ngay="2026-11-17",
+  tu_khoa="thạch nha đam, thạch nha đam làm món gì, món ngon từ thạch nha đam, nha đam đường phèn, sữa chua nha đam",
+  h1="Thạch nha đam làm món gì? 5 món giải nhiệt dễ làm",
+  desc="Thạch nha đam làm được 5 món mát dễ làm: nha đam đường phèn, sữa chua nha đam, nước chanh nha đam hạt chia, chè nha đam táo đỏ, trà trái cây. Định lượng và mẹo.",
+  lede="Thạch nha đam làm được nhiều món mát trong 5–15 phút: nha đam đường phèn, sữa chua nha đam, nước chanh nha đam hạt chia, chè nha đam táo đỏ và trà trái cây nha đam. Dùng thạch nha đam làm sẵn thì không phải gọt, ngâm hay trụng nha đam tươi.",
+  tom_tat=["Thạch nha đam là phần thịt lá nha đam đã gọt, cắt hạt lựu và chế biến sẵn, vớt ra là dùng được.",
+           "5 món dễ làm: nha đam đường phèn, sữa chua nha đam, nước chanh nha đam hạt chia, chè nha đam táo đỏ, trà trái cây nha đam.",
+           "Mỗi ly thường dùng 2–3 muỗng canh thạch nha đam, khoảng 50–80 g.",
+           "Món đã có đường hoặc sữa chua ngọt nên chọn nha đam không đường; món cần nước đường sẵn chọn nha đam có đường.",
+           f"Thạch nha đam túi 1kg tại Việt Cường Nhân giá {gia(148)}, có loại có đường và không đường."],
+  body=f"""  <h2>Thạch nha đam là gì?</h2>
+  <p>Thạch nha đam là phần thịt trong của lá nha đam đã được gọt vỏ, cắt hạt lựu và chế biến sẵn, đóng túi để dùng ngay cho chè, sữa chua, nước giải khát. So với nha đam tươi, thạch nha đam không còn nhớt và không có vị đắng của nhựa vỏ, nên không phải ngâm, trụng mất công.</p>
+  <p>Ở Việt Cường Nhân có hai loại túi 1kg:</p>
+  <table><thead><tr><th>Loại</th><th>Đặc điểm</th><th>Hợp với món</th></tr></thead><tbody>
+  <tr><td>Nha đam có đường</td><td>Ngọt sẵn, vớt ra ăn được ngay</td><td>Nha đam đường phèn, chè, topping trà</td></tr>
+  <tr><td>Nha đam không đường</td><td>Vị nhạt, tự nêm ngọt theo ý</td><td>Sữa chua, nước chanh, món cần kiểm soát lượng đường</td></tr>
+  </tbody></table>
+
+  <h2>Thạch nha đam làm món gì? 5 món dễ làm</h2>
+  <p>Thạch nha đam hợp nhất với món mát: chè, sữa chua, nước chanh, trà trái cây. Năm món dưới đây đều làm trong 5–15 phút, không cần dụng cụ đặc biệt.</p>
+
+  <h3>1. Nha đam đường phèn</h3>
+  <p>Nha đam đường phèn là món đơn giản nhất: nấu nước đường phèn, để nguội rồi cho thạch nha đam vào, ướp lạnh.</p>
+  <ul>
+    <li><b>Nguyên liệu (4 chén):</b> 300 g thạch nha đam, 1 lít nước, 80–100 g đường phèn, 2–3 lá dứa.</li>
+    <li><b>Cách làm:</b> đun nước với lá dứa và đường phèn đến khi đường tan, vớt lá dứa, để nguội. Cho thạch nha đam vào, cất ngăn mát 1 tiếng rồi dùng với đá.</li>
+    <li><b>Mẹo:</b> dùng nha đam có đường thì giảm đường phèn còn khoảng một nửa.</li>
+  </ul>
+
+  <h3>2. Sữa chua nha đam</h3>
+  <p>Sữa chua nha đam là món ăn vặt nhanh nhất, chỉ cần trộn 2 thứ.</p>
+  <ul>
+    <li><b>Nguyên liệu (1 hũ):</b> 1 hũ sữa chua 100 g, 2 muỗng canh thạch nha đam (khoảng 50 g).</li>
+    <li><b>Cách làm:</b> vớt thạch nha đam để ráo nước, trộn vào sữa chua, để lạnh 10 phút. Có thể thêm vài miếng trái cây hoặc ít granola.</li>
+    <li><b>Mẹo:</b> sữa chua có đường nên chọn nha đam không đường cho vị vừa.</li>
+  </ul>
+
+  <h3>3. Nước chanh nha đam hạt chia</h3>
+  <p>Nước chanh nha đam hạt chia là món giải khát chua ngọt, làm trong 15 phút.</p>
+  <ul>
+    <li><b>Nguyên liệu (2 ly):</b> 1 quả chanh, 1 muỗng cà phê hạt chia, 100 g thạch nha đam, 400 ml nước, đường hoặc mật ong tùy thích.</li>
+    <li><b>Cách làm:</b> ngâm hạt chia với 100 ml nước 10 phút cho nở. Vắt chanh, pha với phần nước còn lại và đường. Cho hạt chia, thạch nha đam vào, thêm đá.</li>
+    <li><b>Mẹo:</b> vắt chanh xong dùng ngay, để lâu vỏ chanh làm nước bị đắng.</li>
+  </ul>
+
+  <h3>4. Chè nha đam táo đỏ</h3>
+  <p>Chè nha đam táo đỏ có vị ngọt thanh của táo đỏ và độ giòn của nha đam, dùng nóng hay lạnh đều được.</p>
+  <ul>
+    <li><b>Nguyên liệu (4 chén):</b> 300 g thạch nha đam, 8–10 quả táo đỏ, 1 muỗng canh kỷ tử, 1 lít nước, 60–80 g đường phèn.</li>
+    <li><b>Cách làm:</b> táo đỏ xẻ đôi, đun với nước lửa nhỏ 10 phút. Thêm đường phèn, kỷ tử, đun 2 phút rồi tắt bếp. Để nguội bớt mới cho thạch nha đam vào để giữ độ giòn.</li>
+    <li><b>Mẹo:</b> phần nước táo đỏ chính là nền của <a href="tra-tao-do-ky-tu.html">trà táo đỏ kỷ tử</a>, nấu dư uống riêng cũng ngon.</li>
+  </ul>
+
+  <h3>5. Trà trái cây nha đam</h3>
+  <p>Trà trái cây nha đam là cách dùng thạch nha đam làm topping, giống ly trà ngoài quán.</p>
+  <ul>
+    <li><b>Nguyên liệu (2 ly):</b> 300 ml trà xanh hoặc trà lài pha nhạt để nguội, 2–3 muỗng canh siro hoặc nước đường, 100 g thạch nha đam, trái cây như cam, dứa, dâu.</li>
+    <li><b>Cách làm:</b> cho thạch nha đam và trái cây cắt nhỏ vào ly, thêm đá, rót trà và siro, khuấy đều.</li>
+    <li><b>Mẹo:</b> nha đam có đường dùng làm topping vừa vị, không cần thêm nhiều siro.</li>
+  </ul>
+
+  <h2>So sánh nhanh 5 món từ thạch nha đam</h2>
+  <table><thead><tr><th>Món</th><th>Thời gian</th><th>Lượng nha đam</th><th>Loại nên dùng</th></tr></thead><tbody>
+  <tr><td>Nha đam đường phèn</td><td>15 phút + 1 tiếng ướp lạnh</td><td>300 g cho 4 chén</td><td>Có đường hoặc không đường</td></tr>
+  <tr><td>Sữa chua nha đam</td><td>5 phút</td><td>50 g mỗi hũ</td><td>Không đường</td></tr>
+  <tr><td>Nước chanh nha đam hạt chia</td><td>15 phút</td><td>100 g cho 2 ly</td><td>Không đường</td></tr>
+  <tr><td>Chè nha đam táo đỏ</td><td>15 phút</td><td>300 g cho 4 chén</td><td>Không đường</td></tr>
+  <tr><td>Trà trái cây nha đam</td><td>10 phút</td><td>100 g cho 2 ly</td><td>Có đường</td></tr>
+  </tbody></table>
+
+  <h2>Mẹo dùng và bảo quản thạch nha đam</h2>
+  <p>Thạch nha đam giữ giòn ngon nhất khi để lạnh và cho vào món sau cùng, không đun sôi lâu.</p>
+  <ul>
+    <li><b>Vớt bằng muỗng sạch, khô:</b> không dùng muỗng đã nhúng vào món khác để phần còn lại trong túi không bị hỏng.</li>
+    <li><b>Bảo quản:</b> làm theo hướng dẫn trên bao bì; túi đã mở thì buộc kín hoặc chuyển sang hộp có nắp, cất ngăn mát và dùng sớm.</li>
+    <li><b>Muốn bớt ngọt:</b> với loại có đường, tráng qua nước đun sôi để nguội rồi để ráo.</li>
+    <li><b>Dấu hiệu hỏng:</b> nước chua, có mùi lạ, thạch nhớt hoặc đổi màu thì bỏ.</li>
+  </ul>
+  <p>Muốn kết hợp với yến cho bữa xế, có thể dùng nước yến hũ ướp lạnh, xem bài <a href="nuoc-yen-hu-uong-luc-nao.html">nước yến hũ uống lúc nào</a>.</p>
+
+  <h2>Lưu ý khi dùng</h2>
+  <p>Thạch nha đam là thực phẩm, dùng như một nguyên liệu món ăn, không phải thuốc. Nên ăn lượng vừa phải trong ngày. Phụ nữ mang thai, trẻ nhỏ và người có bệnh nền nên hỏi bác sĩ trước khi ăn thường xuyên; cho trẻ nhỏ ăn thì cắt hạt nhỏ hơn để tránh hóc.</p>
+
+  <h2>Mua thạch nha đam tại Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân bán thạch nha đam cùng yến sào và táo đỏ. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(148, "Ngọt sẵn, hợp nha đam đường phèn, topping trà."), li(149, "Tự nêm ngọt, hợp sữa chua, nước chanh, chè."), li(147, "Nấu chè nha đam táo đỏ.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua sỉ cho quán chè, quán nước hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Thạch nha đam làm món gì ngon?", "Thạch nha đam làm ngon nhất các món mát: nha đam đường phèn, sữa chua nha đam, nước chanh nha đam hạt chia, chè nha đam táo đỏ và trà trái cây nha đam."),
+       ("Thạch nha đam có cần nấu lại không?", "Không cần. Thạch nha đam đã chế biến sẵn, vớt ra là dùng được. Nếu cho vào chè nóng, nên cho sau cùng để thạch giữ độ giòn."),
+       ("Nên mua nha đam có đường hay không đường?", "Món đã có vị ngọt như sữa chua, chè, nước chanh nên chọn không đường để tự nêm. Cần ăn ngay hoặc làm topping trà thì chọn loại có đường."),
+       ("Thạch nha đam mở túi để được bao lâu?", "Túi đã mở nên buộc kín hoặc chuyển sang hộp có nắp, cất ngăn mát và dùng sớm, theo hướng dẫn trên bao bì. Nước chua hoặc có mùi lạ thì bỏ."),
+       ("Thạch nha đam 1kg giá bao nhiêu?", f"Tại Việt Cường Nhân, thạch nha đam túi 1kg giá {gia(148)} cho cả loại có đường và không đường, chưa gồm phí giao hàng.")]),
 ]
