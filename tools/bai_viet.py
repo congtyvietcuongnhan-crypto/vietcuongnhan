@@ -2357,4 +2357,84 @@ dict(slug="bao-quan-dong-trung-ha-thao", cat="Đông trùng hạ thảo", ngay="
        ("Có nên để đông trùng hạ thảo khô trong tủ lạnh không?", "Không bắt buộc. Nếu nhà ẩm có thể để hũ thật kín trong ngăn mát, lấy ra dùng nhanh rồi cất lại ngay."),
        ("Đông trùng hạ thảo bị mềm có dùng được không?", "Nấm khô bị mềm là đã hút ẩm. Nếu chưa có mốc hay mùi lạ thì nên dùng sớm; có mốc, mùi chua thì bỏ."),
        ("Làm sao biết đông trùng hạ thảo bị hỏng?", "Có đốm mốc, mùi chua hoặc mùi lạ, màu xỉn đen bất thường là nấm đã hỏng và nên bỏ.")]),
+
+dict(slug="tao-do-tan-cuong-va-nhuoc-khuong", cat="Táo đỏ", ngay="2026-11-17",
+  tu_khoa="táo đỏ Nhược Khương, táo đỏ Tân Cương và Nhược Khương, táo đỏ Nhược Khương là gì, nên mua táo đỏ loại nào",
+  h1="Táo đỏ Tân Cương và táo đỏ Nhược Khương khác gì?",
+  desc=f"Táo đỏ Nhược Khương khác táo đỏ Tân Cương size trung, size đại ở kích cỡ quả, độ dày cùi, món hợp và giá. Bảng so sánh, cách chọn và giá tại Việt Cường Nhân.",
+  lede=f"Táo đỏ Nhược Khương là táo đỏ mang tên huyện Nhược Khương, một vùng trồng táo thuộc Tân Cương, nên hai loại không đối lập nhau mà khác chủ yếu ở giống, cỡ quả và giá. Ở Việt Cường Nhân, hộp 350gr táo đỏ Nhược Khương giá {gia(147)}, còn táo đỏ Tân Cương size đại hộp 350gr giá {gia(146)}.",
+  tom_tat=["Nhược Khương là một huyện thuộc vùng Tân Cương, nên táo Nhược Khương cũng là táo đỏ vùng Tân Cương.",
+           "Trên thị trường, “táo đỏ Tân Cương” thường chỉ loại quả to, cùi dày, chia size theo số quả mỗi kg.",
+           "Táo đỏ Nhược Khương thường quả nhỏ hơn, hợp pha trà, nấu chè, hầm canh hằng ngày.",
+           f"Giá hộp 350gr tại Việt Cường Nhân: Nhược Khương {gia(147)}, Tân Cương size trung {gia(145)}, size đại {gia(146)}.",
+           "Biếu tặng hoặc ăn trực tiếp nên chọn Tân Cương size đại; nấu nướng dùng nhiều có thể chọn Nhược Khương cho tiết kiệm."],
+  body=f"""  <h2>Táo đỏ Nhược Khương là gì?</h2>
+  <p>Táo đỏ Nhược Khương là táo đỏ sấy khô được gọi theo tên huyện Nhược Khương, một huyện nằm ở phía đông nam vùng Tân Cương (Trung Quốc), nơi có nắng nhiều và khí hậu khô. Vì vậy, nói đúng thì táo Nhược Khương cũng là táo đỏ vùng Tân Cương.</p>
+  <p>Khi bán ở Việt Nam, người ta tách hai tên gọi để khách dễ chọn: “táo đỏ Tân Cương” thường dùng cho loại quả to, chia size theo số quả mỗi kg; còn “táo đỏ Nhược Khương” dùng cho loại quả nhỏ hơn, giá mềm hơn. Khách hay hỏi Việt Cường Nhân hai loại này loại nào “thật” hơn, câu trả lời là cả hai đều là táo đỏ, chỉ khác giống và cỡ quả.</p>
+
+  <h2>Táo đỏ Tân Cương và táo đỏ Nhược Khương khác nhau ở đâu?</h2>
+  <p>Táo đỏ Tân Cương và táo đỏ Nhược Khương khác nhau chủ yếu ở kích cỡ quả, độ dày cùi, món hợp dùng và giá. Bảng dưới tóm tắt theo hàng Việt Cường Nhân đang bán:</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Táo đỏ Tân Cương (size trung, đại, thượng hạng)</th><th>Táo đỏ Nhược Khương</th></tr></thead><tbody>
+  <tr><td>Vùng</td><td>Vùng Tân Cương</td><td>Huyện Nhược Khương, thuộc vùng Tân Cương</td></tr>
+  <tr><td>Cỡ quả</td><td>To, chia size theo số quả mỗi kg (từ {P[144][3].split("(")[1].rstrip(")")} đến {P[142][3].split("(")[1].rstrip(")")})</td><td>Thường nhỏ hơn, không chia size</td></tr>
+  <tr><td>Cùi</td><td>Dày, quả càng to cùi càng dày</td><td>Mỏng hơn, quả nhỏ gọn</td></tr>
+  <tr><td>Hợp với</td><td>Ăn trực tiếp, biếu tặng, chưng yến, nấu chè</td><td>Pha trà, nấu chè, hầm canh, dùng nhiều mỗi ngày</td></tr>
+  <tr><td>Giá hộp 350gr</td><td>{gia(145)} (size trung), {gia(146)} (size đại)</td><td>{gia(147)}</td></tr>
+  </tbody></table>
+  <p>Vị của hai loại đều ngọt tự nhiên của táo sấy. Độ ngọt, độ dẻo có thể khác nhau giữa các mẻ hàng, nên cách chắc nhất là nếm thử một hộp nhỏ trước khi mua số lượng lớn.</p>
+
+  <h3>Size táo đỏ Tân Cương nghĩa là gì?</h3>
+  <p>Size táo đỏ Tân Cương được tính theo số quả trong 1 kg: số quả càng ít thì quả càng to. Ở Việt Cường Nhân có ba size:</p>
+""" + ul(li(142), li(143), li(144)) + f"""
+
+  <h2>Nên chọn táo đỏ Tân Cương hay Nhược Khương?</h2>
+  <p>Nên chọn táo đỏ theo món mình định làm: ăn trực tiếp và biếu tặng thì chọn Tân Cương size đại hoặc thượng hạng, còn nấu nướng hằng ngày thì táo Nhược Khương hoặc Tân Cương size trung là đủ.</p>
+  <table><thead><tr><th>Nhu cầu</th><th>Gợi ý</th></tr></thead><tbody>
+  <tr><td>Ăn trực tiếp như món ăn vặt</td><td>Tân Cương size đại hoặc thượng hạng, cùi dày, nhai thích</td></tr>
+  <tr><td>Biếu tặng, làm giỏ quà</td><td>Tân Cương size thượng hạng 1kg, quả to đều</td></tr>
+  <tr><td>Pha trà táo đỏ mỗi ngày</td><td>Nhược Khương hoặc Tân Cương size trung</td></tr>
+  <tr><td>Chưng cùng yến sào</td><td>Tân Cương size trung hoặc size đại, 2–3 quả mỗi chén</td></tr>
+  <tr><td>Hầm gà, nấu canh, nấu chè số lượng nhiều</td><td>Nhược Khương, tiết kiệm hơn</td></tr>
+  </tbody></table>
+
+  <h2>Cách chọn táo đỏ sấy khô ngon</h2>
+  <p>Táo đỏ sấy khô ngon có vỏ đỏ sẫm bóng tự nhiên, quả căng hoặc nhăn nhẹ đều, cầm lên thấy khô ráo, bẻ ra cùi vàng, mùi thơm ngọt, không có mùi chua hay mùi mốc.</p>
+  <ul>
+    <li><b>Nhìn vỏ:</b> màu đỏ sẫm đều, không có đốm trắng, đốm xanh của mốc.</li>
+    <li><b>Sờ quả:</b> khô, không dính tay, không ẩm mềm bất thường.</li>
+    <li><b>Bẻ quả:</b> cùi không bị đen, không có sâu, hạt không bị mọt.</li>
+    <li><b>Ngửi:</b> thơm mùi táo sấy; có mùi chua, mùi lạ là táo đã hút ẩm hoặc hỏng.</li>
+    <li><b>Xem bao bì:</b> có nhãn, ngày đóng gói và hạn dùng rõ ràng.</li>
+  </ul>
+
+  <h2>Món ngon với từng loại táo đỏ</h2>
+  <p>Cả táo đỏ Tân Cương và táo đỏ Nhược Khương đều dùng được cho trà, chè, chưng yến và món hầm; chỉ khác là quả to thì ít quả mà nhiều cùi, quả nhỏ thì cần nhiều quả hơn một chút.</p>
+  <ul>
+    <li><b>Trà táo đỏ:</b> 4–5 quả xẻ đôi, hãm nước sôi khoảng 10 phút, có thể thêm vài hạt kỷ tử.</li>
+    <li><b>Yến chưng táo đỏ:</b> 2–3 quả táo thái lát cho vào thố cùng yến khi chưng cách thủy, xem <a href="yen-chung-tao-do-hat-sen.html">cách chưng yến táo đỏ hạt sen</a>.</li>
+    <li><b>Gà ác tiềm:</b> 6–8 quả táo đỏ cho nước dùng ngọt thanh, xem <a href="nam-dong-trung-ha-thao-tiem-ga-ac.html">nấm đông trùng hạ thảo tiềm gà ác</a>.</li>
+    <li><b>Ăn vặt:</b> táo size đại, thượng hạng ăn trực tiếp như mứt.</li>
+  </ul>
+  <p>Xem thêm cách chọn size và các món khác trong bài <a href="tao-do-tan-cuong-cach-chon-va-mon-ngon.html">táo đỏ Tân Cương: cách chọn size và món ngon</a>.</p>
+
+  <h2>Bảo quản táo đỏ sấy khô</h2>
+  <p>Táo đỏ sấy khô bảo quản trong túi hoặc hộp kín, nơi khô mát, tránh nắng; nhà ẩm thì để ngăn mát tủ lạnh. Hộp 350gr nhỏ gọn, mở ra dùng hết sớm nên ít bị hút ẩm hơn túi lớn để lâu.</p>
+  <ul>
+    <li>Đậy kín ngay sau khi lấy, dùng tay khô hoặc kẹp khô.</li>
+    <li>Không để gần bếp, cửa sổ nắng hay nơi có hơi nước.</li>
+    <li>Táo có đốm mốc, mùi chua thì bỏ, không dùng tiếp.</li>
+  </ul>
+
+  <h2>Lưu ý khi dùng</h2>
+  <p>Táo đỏ là thực phẩm khô, không phải thuốc. Táo có vị ngọt tự nhiên khá đậm, người cần hạn chế đường, phụ nữ mang thai hoặc người có bệnh nền nên hỏi bác sĩ về lượng dùng phù hợp.</p>
+
+  <h2>Giá táo đỏ tại Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân nhập khẩu và phân phối táo đỏ, bán cùng yến sào tại xưởng ở Dĩ An, Bình Dương. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(147, "Quả nhỏ, giá mềm, hợp nấu nướng hằng ngày."), li(145), li(146), li(143, "Túi 1kg dùng cho gia đình hoặc quán.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Táo đỏ Nhược Khương có phải táo Tân Cương không?", "Có. Nhược Khương là một huyện thuộc vùng Tân Cương, nên táo Nhược Khương cũng là táo đỏ vùng Tân Cương. Trên thị trường tên “Nhược Khương” thường dùng cho loại quả nhỏ hơn, giá mềm hơn."),
+       ("Táo đỏ Nhược Khương và Tân Cương loại nào ngon hơn?", "Không có loại nào ngon hơn tuyệt đối. Tân Cương size đại cùi dày, hợp ăn trực tiếp và biếu tặng; Nhược Khương quả nhỏ, hợp pha trà, nấu chè, hầm canh."),
+       ("Táo đỏ Nhược Khương giá bao nhiêu?", f"Tại Việt Cường Nhân, táo đỏ Nhược Khương hộp 350gr giá {gia(147)}, chưa gồm phí giao hàng."),
+       ("Pha trà táo đỏ nên dùng loại nào?", "Pha trà dùng táo Nhược Khương hoặc Tân Cương size trung là đủ, mỗi ấm 4–5 quả xẻ đôi, hãm khoảng 10 phút."),
+       ("Táo đỏ sấy khô để được bao lâu?", "Táo đỏ để trong túi, hộp kín nơi khô mát dùng theo hạn trên bao bì. Nhà ẩm nên để ngăn mát tủ lạnh; có mốc hoặc mùi chua thì bỏ.")]),
 ]
