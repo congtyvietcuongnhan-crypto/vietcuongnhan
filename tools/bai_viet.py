@@ -2286,4 +2286,75 @@ dict(slug="dong-trung-ha-thao-ngam-mat-ong", cat="Đông trùng hạ thảo", ng
        ("Có cần rửa đông trùng hạ thảo trước khi ngâm mật ong không?", "Không nên rửa nấm khô bằng nước vì hơi ẩm còn lại dễ làm mật ong lên men. Chỉ cần lau hoặc lắc nhẹ cho sạch bụi."),
        ("Đông trùng ngâm mật ong có cần để tủ lạnh không?", "Không cần. Để hũ kín nơi khô mát, tránh nắng; tủ lạnh làm mật đặc và kết tinh, khó múc."),
        ("Đông trùng hạ thảo ngâm mật ong bị chua có dùng được không?", "Không nên dùng. Mùi chua, sủi bọt hoặc có váng là dấu hiệu mật đã lên men do lẫn nước, nên bỏ cả hũ.")]),
+dict(slug="bao-quan-dong-trung-ha-thao", cat="Đông trùng hạ thảo", ngay="2026-11-17",
+  tu_khoa="bảo quản đông trùng hạ thảo, bảo quản đông trùng hạ thảo sấy khô, bảo quản đông trùng hạ thảo tươi, đông trùng hạ thảo để được bao lâu",
+  h1="Bảo quản đông trùng hạ thảo sấy khô và tươi đúng cách",
+  desc="Bảo quản đông trùng hạ thảo sấy khô trong hũ kín nơi khô mát, đông trùng tươi trong ngăn mát tủ lạnh. Cách làm, thời gian dùng, dấu hiệu hỏng và lỗi hay gặp.",
+  lede="Bảo quản đông trùng hạ thảo đúng cách tùy loại: nấm sấy khô để trong hũ hoặc túi kín, nơi khô mát, tránh nắng, có thể cho thêm gói hút ẩm; đông trùng tươi phải để ngăn mát tủ lạnh và dùng trong thời gian ghi trên nhãn. Kẻ thù lớn nhất của nấm khô là hơi ẩm, còn của nấm tươi là nhiệt độ cao.",
+  tom_tat=["Nấm sấy khô: hũ thủy tinh hoặc túi zip kín, nơi khô mát, tránh nắng, tránh gần bếp.",
+           "Nấm tươi: để ngăn mát tủ lạnh, không để ngăn đá trừ khi muốn trữ lâu, dùng theo hạn trên nhãn.",
+           "Luôn lấy nấm bằng tay khô hoặc muỗng khô, đậy kín ngay sau khi lấy.",
+           "Nấm khô bị mềm, có đốm mốc, mùi chua hoặc mùi lạ thì nên bỏ.",
+           f"Hũ nhỏ {P[140][2]} ({gia(140)}) tiện dùng dần, ít bị hở khí hơn túi lớn mở nhiều lần."],
+  body=f"""  <h2>Vì sao đông trùng hạ thảo dễ hỏng?</h2>
+  <p>Đông trùng hạ thảo dễ hỏng chủ yếu vì hút ẩm. Nấm sấy khô rất xốp, để hở trong không khí ẩm của miền Nam vài ngày là có thể mềm lại, sau đó dễ mốc và đổi màu.</p>
+  <p>Đông trùng tươi thì chứa nhiều nước nên để ở nhiệt độ phòng rất nhanh hỏng. Vì vậy hai loại có cách bảo quản khác nhau, không nên làm chung một cách.</p>
+
+  <h2>Cách bảo quản đông trùng hạ thảo sấy khô</h2>
+  <p>Đông trùng hạ thảo sấy khô bảo quản tốt nhất trong hũ thủy tinh hoặc túi zip kín, đặt nơi khô mát, tránh ánh nắng và tránh gần bếp, máy giặt hay nơi có hơi nước.</p>
+  <ol>
+    <li><b>Giữ bao bì gốc khi chưa mở.</b> Gói còn niêm phong thì để nguyên, nơi khô mát.</li>
+    <li><b>Sau khi mở, chuyển sang hũ kín.</b> Hũ thủy tinh nắp vặn hoặc hũ nhựa thực phẩm có gioăng giữ khô tốt hơn túi bị gập miệng.</li>
+    <li><b>Thêm gói hút ẩm thực phẩm.</b> Một gói hút ẩm loại dùng cho thực phẩm trong hũ giúp nấm giữ giòn lâu hơn.</li>
+    <li><b>Lấy bằng dụng cụ khô.</b> Không dùng tay ướt hay muỗng vừa khuấy canh để lấy nấm.</li>
+    <li><b>Đậy kín ngay.</b> Mỗi lần mở nắp lâu là một lần nấm hút ẩm.</li>
+  </ol>
+  <p>Mua túi lớn mà dùng ít, có thể chia nhỏ ra vài hũ, mỗi lần chỉ mở một hũ. Ở Việt Cường Nhân, khách dùng lẻ hằng ngày thường chọn hũ 10 g hoặc 20 g cho tiện.</p>
+
+  <h3>Có nên để đông trùng sấy khô trong tủ lạnh?</h3>
+  <p>Không bắt buộc. Nếu nhà rất ẩm hoặc không có chỗ khô mát, có thể để hũ đã đậy thật kín vào ngăn mát. Khi lấy ra dùng, mở nhanh, lấy xong đậy lại và cất ngay, để tránh hơi nước đọng trên nấm lạnh.</p>
+
+  <h2>Cách bảo quản đông trùng hạ thảo tươi</h2>
+  <p>Đông trùng hạ thảo tươi phải bảo quản trong ngăn mát tủ lạnh, giữ nguyên hũ hoặc hộp đựng, và dùng trong thời gian ghi trên nhãn sản phẩm.</p>
+  <ul>
+    <li>Để ngăn mát, không để cửa tủ là nơi nhiệt độ thay đổi nhiều.</li>
+    <li>Không rửa nấm trước khi cất; chỉ rửa nhẹ ngay trước khi nấu.</li>
+    <li>Đã mở hộp thì đậy kín, ưu tiên dùng sớm.</li>
+    <li>Muốn trữ lâu hơn, có thể chia phần nhỏ vào túi kín và để ngăn đá; khi nấu cho thẳng vào nồi, không cần rã đông lâu.</li>
+  </ul>
+
+  <h2>So sánh bảo quản đông trùng sấy khô và đông trùng tươi</h2>
+  <table><thead><tr><th>Tiêu chí</th><th>Đông trùng sấy khô</th><th>Đông trùng tươi</th></tr></thead><tbody>
+  <tr><td>Nơi cất</td><td>Hũ, túi kín, nơi khô mát</td><td>Ngăn mát tủ lạnh</td></tr>
+  <tr><td>Kẻ thù chính</td><td>Hơi ẩm</td><td>Nhiệt độ cao</td></tr>
+  <tr><td>Thời gian dùng</td><td>Theo hạn trên bao bì, đậy kín thì giữ được lâu</td><td>Ngắn, dùng theo hạn trên nhãn</td></tr>
+  <tr><td>Có rửa trước khi cất?</td><td>Không</td><td>Không, rửa ngay trước khi nấu</td></tr>
+  <tr><td>Hợp với</td><td>Pha trà, ngâm mật ong, nấu canh, chưng yến</td><td>Xào, nấu canh, lẩu</td></tr>
+  </tbody></table>
+
+  <h2>Dấu hiệu đông trùng hạ thảo bị hỏng</h2>
+  <p>Đông trùng hạ thảo bị hỏng khi có đốm mốc trắng hoặc xanh, mùi chua, mùi hôi hoặc mùi lạ, màu chuyển xỉn đen bất thường. Riêng nấm khô bị mềm dẻo là dấu hiệu đã hút ẩm; nếu chưa có mốc, mùi lạ thì nên dùng sớm và cất lại cho kín.</p>
+  <p>Nấm đã mốc thì bỏ cả phần nấm trong hũ, không nhặt riêng cọng mốc ra để dùng tiếp, vì mốc có thể đã lan dù chưa nhìn thấy.</p>
+
+  <h2>Những lỗi bảo quản hay gặp</h2>
+  <ul>
+    <li><b>Để túi mở miệng, chỉ gập lại:</b> nấm hút ẩm rất nhanh.</li>
+    <li><b>Cất gần bếp hoặc cửa sổ nắng:</b> nóng và ẩm làm nấm mau đổi màu.</li>
+    <li><b>Dùng muỗng ướt:</b> mang hơi nước vào hũ, dễ mốc.</li>
+    <li><b>Để đông trùng tươi ngoài nhiệt độ phòng:</b> rất nhanh hỏng.</li>
+  </ul>
+  <p>Cách bảo quản yến sào cũng có nhiều điểm giống, xem bài <a href="bao-quan-yen-sao.html">cách bảo quản yến sào khô và yến đã chưng</a>. Cách dùng nấm trong món ăn xem bài <a href="cach-dung-dong-trung-ha-thao.html">cách dùng nấm đông trùng hạ thảo sấy khô</a> và <a href="dong-trung-ha-thao-ngam-mat-ong.html">đông trùng hạ thảo ngâm mật ong</a>.</p>
+
+  <h2>Lưu ý khi dùng</h2>
+  <p>Nấm đông trùng hạ thảo là thực phẩm, không phải thuốc và không thay thế thuốc chữa bệnh. Trẻ nhỏ, phụ nữ mang thai, người có bệnh nền hoặc đang dùng thuốc nên hỏi bác sĩ trước khi dùng.</p>
+
+  <h2>Đông trùng hạ thảo tại Việt Cường Nhân</h2>
+  <p>Giá lấy từ bảng giá website Việt Cường Nhân, chưa gồm phí giao hàng:</p>
+""" + ul(li(136, "Nấm sấy khô cọng nguyên."), li(140, "Hũ nhỏ, tiện dùng dần, ít mở nhiều lần."), li(139, "Nấm tươi, bảo quản ngăn mát.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Mua số lượng lớn, mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Đông trùng hạ thảo sấy khô bảo quản thế nào?", "Để trong hũ hoặc túi zip kín, nơi khô mát, tránh nắng, có thể thêm gói hút ẩm thực phẩm. Lấy bằng dụng cụ khô và đậy kín ngay."),
+       ("Đông trùng hạ thảo tươi để được bao lâu?", "Đông trùng tươi phải để ngăn mát tủ lạnh và dùng trong thời gian ghi trên nhãn sản phẩm. Muốn trữ lâu hơn có thể chia nhỏ để ngăn đá."),
+       ("Có nên để đông trùng hạ thảo khô trong tủ lạnh không?", "Không bắt buộc. Nếu nhà ẩm có thể để hũ thật kín trong ngăn mát, lấy ra dùng nhanh rồi cất lại ngay."),
+       ("Đông trùng hạ thảo bị mềm có dùng được không?", "Nấm khô bị mềm là đã hút ẩm. Nếu chưa có mốc hay mùi lạ thì nên dùng sớm; có mốc, mùi chua thì bỏ."),
+       ("Làm sao biết đông trùng hạ thảo bị hỏng?", "Có đốm mốc, mùi chua hoặc mùi lạ, màu xỉn đen bất thường là nấm đã hỏng và nên bỏ.")]),
 ]
