@@ -2605,4 +2605,69 @@ dict(slug="thach-nha-dam-lam-mon-gi", cat="Món ngon", ngay="2026-11-17",
        ("Nên mua nha đam có đường hay không đường?", "Món đã có vị ngọt như sữa chua, chè, nước chanh nên chọn không đường để tự nêm. Cần ăn ngay hoặc làm topping trà thì chọn loại có đường."),
        ("Thạch nha đam mở túi để được bao lâu?", "Túi đã mở nên buộc kín hoặc chuyển sang hộp có nắp, cất ngăn mát và dùng sớm, theo hướng dẫn trên bao bì. Nước chua hoặc có mùi lạ thì bỏ."),
        ("Thạch nha đam 1kg giá bao nhiêu?", f"Tại Việt Cường Nhân, thạch nha đam túi 1kg giá {gia(148)} cho cả loại có đường và không đường, chưa gồm phí giao hàng.")]),
+dict(slug="quy-trinh-san-xuat-yen-viet-cuong-nhan", cat="Về Việt Cường Nhân", ngay="2026-11-17",
+  tu_khoa="quy trình sản xuất yến sào, quy trình làm sạch tổ yến, xưởng yến sào Việt Cường Nhân, quy trình nhặt lông yến, sản xuất nước yến chưng",
+  h1="Quy trình sản xuất yến sào tại xưởng Việt Cường Nhân",
+  desc="Quy trình sản xuất yến sào tại Việt Cường Nhân: từ nhà yến, phân loại, ngâm, nhặt lông bằng tay, sấy, định hình đến đóng gói và chưng nước yến hũ.",
+  lede="Quy trình sản xuất yến sào tại Việt Cường Nhân đi qua 6 khâu chính: thu tổ từ nhà yến, phân loại tổ thô, ngâm nở, nhặt lông bằng tay, sấy và định hình, rồi đóng gói dán nhãn. Một phần yến sạch được chuyển sang nhà máy để chưng thành nước yến đóng hũ.",
+  tom_tat=["Chuỗi khép kín: nhà yến tại Gò Công Tây (Tiền Giang cũ) và Bình Thuận, xưởng nhặt lông tại Lâm Đồng, xưởng tinh chế và nhà máy nước yến tại khu vực Dĩ An.",
+           "6 khâu làm sạch tổ yến: thu tổ, phân loại, ngâm nở, nhặt lông bằng tay, sấy và định hình, đóng gói dán nhãn.",
+           "Lông yến được nhặt thủ công bằng nhíp trên nền trắng, từng sợi một.",
+           "Hệ thống quản lý an toàn thực phẩm đạt HACCP, ISO 22000:2018 và GMP do G-CERTI cấp.",
+           f"Thành phẩm gồm yến thô, yến tinh chế, yến rút lông và nước yến chưng; ví dụ {P[109][2]} {gia(109)}/100gr."],
+  body=f"""  <h2>Chuỗi sản xuất yến sào của Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân tự làm gần như trọn chuỗi sản xuất yến sào, từ nhà yến đến hũ nước yến. Công ty thành lập tháng 6 năm 2009; năm 2018 bắt đầu xây và nuôi yến tại Gò Công Tây (Tiền Giang cũ) và Bình Thuận, năm 2019 đưa vào hoạt động xưởng tinh chế đầu tiên tại Dĩ An, năm 2020 mở thêm 2 xưởng nhặt lông tại Đạ Tẻh và Madagui (Lâm Đồng), năm 2022 xây nhà máy nước yến chưng sẵn.</p>
+  <table><thead><tr><th>Khâu</th><th>Nơi thực hiện</th><th>Kết quả</th></tr></thead><tbody>
+  <tr><td>Nuôi yến, thu tổ</td><td>Nhà yến Gò Công Tây, Bình Thuận</td><td>Tổ yến thô</td></tr>
+  <tr><td>Nhặt lông, làm sạch</td><td>Xưởng nhặt lông Lâm Đồng, xưởng tinh chế Dĩ An</td><td>Yến tinh chế, yến rút lông</td></tr>
+  <tr><td>Chưng, tiệt trùng, đóng hũ</td><td>Nhà máy 511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp</td><td>Nước yến chưng đóng hũ</td></tr>
+  <tr><td>Đóng gói, giao hàng</td><td>Cơ sở đóng gói 261-263 Võ Thị Sáu, Phường Đông Hòa</td><td>Hộp, túi, lốc thành phẩm</td></tr>
+  </tbody></table>
+  <p>Vì tự làm sạch và đóng gói, xưởng biết rõ mỗi lô yến đến từ đâu và đã qua những khâu nào. Đây cũng là điều khách hay hỏi nhất khi đến xưởng.</p>
+
+  <h2>Quy trình làm sạch tổ yến: 6 khâu</h2>
+  <p>Quy trình làm sạch tổ yến tại xưởng Việt Cường Nhân gồm 6 khâu, làm chủ yếu bằng tay để giữ sợi yến nguyên và dai.</p>
+  <h3>1. Thu tổ từ nhà yến</h3>
+  <p>Tổ yến được thu từ nhà yến khi chim đã rời tổ. Tổ mới thu còn lông, bụi và tạp chất tự nhiên, gọi là yến thô.</p>
+  <h3>2. Phân loại tổ thô</h3>
+  <p>Tổ thô được chia theo kích thước, độ dày, độ nguyên vẹn và lượng lông. Tổ đẹp, ít lông thường làm yến rút lông hoặc bán yến thô loại tốt; tổ bể, nứt hoặc nhiều lông đi làm yến tinh chế. Cách phân loại này giải thích vì sao cùng là yến nhưng giá mỗi loại khác nhau.</p>
+  <h3>3. Ngâm nở bằng nước sạch</h3>
+  <p>Tổ yến được ngâm trong nước sạch đến khi mềm, sợi tách ra để lộ lông và bụi.</p>
+  <h3>4. Nhặt lông bằng tay</h3>
+  <p>Nhặt lông là khâu tốn công nhất: thợ dùng nhíp nhặt từng sợi lông trên nền trắng dưới đèn. Với yến rút lông, thợ nhặt ngay trên tổ còn nguyên sợi; với yến tinh chế, tổ được xé tơi rồi mới nhặt, sau đó đắp lại thành tổ hoặc miếng.</p>
+  <h3>5. Sấy khô và định hình</h3>
+  <p>Yến sạch được đắp vào khuôn để định hình thành tổ, miếng hoặc giữ dạng sợi, vụn, rồi sấy khô. Yến khô đúng độ mới để được lâu và giữ được sợi khi chưng.</p>
+  <h3>6. Kiểm tra, đóng gói, dán nhãn</h3>
+  <p>Thành phẩm được kiểm tra lại lông sót và khối lượng, đóng hộp, dán nhãn có tên sản phẩm, khối lượng, ngày sản xuất, hạn dùng và thông tin cơ sở sản xuất.</p>
+  <p>Nếu bạn mua yến thô và muốn tự làm sạch ở nhà, các bước tương tự được hướng dẫn ở bài <a href="cach-lam-sach-yen-tho.html">cách làm sạch yến thô tại nhà</a>.</p>
+
+  <h2>Quy trình sản xuất nước yến chưng đóng hũ</h2>
+  <p>Nước yến chưng tại nhà máy Việt Cường Nhân được làm từ yến đã làm sạch, chưng, đóng hũ và tiệt trùng. Có hai dòng: nước yến chưng thủ công ghi rõ lượng yến tươi mỗi hũ, và nước yến VCN Nest ghi lượng tổ yến thô mỗi hũ.</p>
+  <ol>
+    <li>Yến sạch được cân theo công thức của từng dòng sản phẩm.</li>
+    <li>Chưng cùng nước và nguyên liệu phối trộn theo công thức.</li>
+    <li>Rót hũ, đóng nắp kín.</li>
+    <li>Tiệt trùng, để nguội, kiểm tra nắp và nhãn.</li>
+    <li>Đóng lốc, đóng hộp, lưu kho chờ giao.</li>
+  </ol>
+  <p>Cách dùng và bảo quản nước yến hũ có ở bài <a href="nuoc-yen-chung-san-cach-dung-bao-quan.html">nước yến chưng sẵn: cách dùng và bảo quản</a>.</p>
+
+  <h2>Tiêu chuẩn an toàn thực phẩm áp dụng</h2>
+  <p>Hệ thống quản lý an toàn thực phẩm của Việt Cường Nhân đạt HACCP, ISO 22000:2018 và GMP do G-CERTI cấp. Phạm vi chứng nhận gồm sơ chế và kinh doanh yến sào, sản phẩm từ yến (yến chưng sẵn, nước yến, yến đóng gói) và nuôi cấy, sản xuất nấm đông trùng hạ thảo.</p>
+  <ul>
+    <li><b>HACCP:</b> xác định và kiểm soát các bước có thể gây mất an toàn trong sản xuất.</li>
+    <li><b>ISO 22000:2018:</b> hệ thống quản lý an toàn thực phẩm cho cả chuỗi.</li>
+    <li><b>GMP:</b> yêu cầu về nhà xưởng, vệ sinh, con người và thiết bị.</li>
+  </ul>
+  <p>Tổ yến thô, tổ yến tinh chế và nấm đông trùng hạ thảo có hồ sơ tự công bố. Bản scan giấy tờ xem tại <a href="../chung-nhan/">trang chứng nhận</a>; ý nghĩa từng chứng nhận xem bài <a href="chung-nhan-haccp-iso-22000-gmp-la-gi.html">HACCP, ISO 22000 và GMP nghĩa là gì</a>.</p>
+
+  <h2>Thành phẩm từ quy trình sản xuất yến sào</h2>
+  <p>Mỗi khâu trong quy trình tạo ra một nhóm sản phẩm với mức giá khác nhau. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(101, "Sau khâu phân loại, còn lông, tự làm sạch tại nhà."), li(109, "Đã nhặt sạch lông, đắp tổ và sấy khô."), li(113, "Nhặt lông trên tổ còn nguyên sợi."), li(124, "Chưng và tiệt trùng tại nhà máy.")) + """
+  <p>Muốn xem trực tiếp, bạn gọi hoặc nhắn Zalo 0978 094 739 để hẹn giờ ghé xưởng; địa chỉ chi tiết có ở bài <a href="yen-sao-binh-duong-di-an-mua-o-dau.html">mua yến sào ở Dĩ An</a>. Đặt hàng online qua <a href="../#san-pham">bảng giá sản phẩm</a>.</p>""",
+  faq=[("Yến sào Việt Cường Nhân được làm sạch như thế nào?", "Tổ yến được phân loại, ngâm nở bằng nước sạch, nhặt lông bằng tay với nhíp, sau đó định hình, sấy khô, kiểm tra lại và đóng gói."),
+       ("Việt Cường Nhân có nhà yến riêng không?", "Có. Từ năm 2018 Việt Cường Nhân xây và nuôi yến tại Gò Công Tây (Tiền Giang cũ) và Bình Thuận, cùng các xưởng nhặt lông tại Đạ Tẻh và Madagui (Lâm Đồng)."),
+       ("Nước yến hũ Việt Cường Nhân sản xuất ở đâu?", "Nước yến chưng được sản xuất tại nhà máy 511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp, TP. Hồ Chí Minh, đi vào hoạt động từ năm 2022."),
+       ("Xưởng yến Việt Cường Nhân có chứng nhận gì?", "Hệ thống quản lý an toàn thực phẩm đạt HACCP, ISO 22000:2018 và GMP do G-CERTI cấp; tổ yến thô, tổ yến tinh chế có hồ sơ tự công bố."),
+       ("Có được đến xem xưởng làm yến không?", "Bạn gọi hoặc nhắn Zalo 0978 094 739 trước để được hẹn giờ và địa điểm phù hợp, vì xưởng là nơi đang sản xuất.")]),
 ]
