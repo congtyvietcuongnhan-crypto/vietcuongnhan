@@ -3159,4 +3159,69 @@ dict(slug="xa-bong-handmade-tbeauty", cat="Mỹ phẩm", ngay="2026-11-17",
        ("Dùng xà bông handmade thế nào cho đúng?", "Làm ướt da và xà bông, tạo bọt trên tay hoặc bông tắm, thoa nhẹ, xả sạch, rồi để cục xà bông lên khay thoát nước cho khô."),
        ("Da nhạy cảm dùng xà bông handmade được không?", "Nên thử trên vùng da nhỏ ở cổ tay trước. Nếu thấy đỏ, ngứa thì ngưng dùng và hỏi bác sĩ da liễu khi cần."),
        ("Xà bông thủ công giá bao nhiêu?", f"Tại Việt Cường Nhân, giá từ {gia(201)} cho cục 110g; hộp quà 3 cục giá {gia(246)}, chưa gồm phí giao hàng.")]),
+dict(slug="cach-giu-xa-bong-handmade-ben-lau", cat="Mỹ phẩm", ngay="2026-11-17",
+  tu_khoa="bảo quản xà bông handmade, cách giữ xà bông không bị nhũn, xà bông handmade bị nhũn, dùng xà bông cục bền lâu",
+  h1="Cách bảo quản xà bông handmade dùng bền, không nhũn",
+  desc="Cách bảo quản xà bông handmade để không bị nhũn: khay thoát nước, để nơi khô thoáng, tránh tia nước, cắt nhỏ, dùng luân phiên. Cách cất cục chưa dùng và xử lý khi bị mềm.",
+  lede="Bảo quản xà bông handmade đúng cách chủ yếu là giữ cục xà bông khô giữa các lần dùng: đặt trên khay có lỗ thoát nước, để nơi thoáng, tránh tia nước chiếu trực tiếp và không ngâm trong nước đọng. Cục chưa dùng thì cất nơi khô mát, tránh nắng, gói giấy hoặc để trong hộp thoáng.",
+  tom_tat=["Xà bông nhũn chủ yếu vì ngâm trong nước đọng hoặc để chỗ ẩm, không kịp khô giữa các lần dùng.",
+           "Dùng khay có lỗ hoặc rãnh thoát nước, đặt xa vòi sen.",
+           "Cắt cục lớn thành 2–3 miếng nhỏ, dùng từng miếng để phần còn lại luôn khô.",
+           "Dùng luân phiên 2 cục để mỗi cục có thời gian khô.",
+           "Cục chưa dùng cất nơi khô mát, tránh nắng, gói giấy hoặc hộp thoáng."],
+  cac_buoc=[("Dùng khay thoát nước", "Đặt xà bông trên khay có lỗ hoặc rãnh thoát nước, không để nước đọng dưới cục."),
+            ("Để xa tia nước", "Đặt khay ở nơi không bị vòi sen xối trực tiếp, thoáng khí."),
+            ("Tạo bọt rồi cất", "Tạo bọt trên tay hoặc bông tắm rồi đặt xà bông lại khay ngay, không để cục ngâm nước."),
+            ("Cắt nhỏ, dùng luân phiên", "Cắt cục lớn thành miếng nhỏ hoặc dùng luân phiên 2 cục để mỗi cục khô hẳn."),
+            ("Cất cục chưa dùng", "Gói giấy hoặc để hộp thoáng, nơi khô mát, tránh nắng.")],
+  body=f"""  <h2>Vì sao xà bông handmade bị nhũn?</h2>
+  <p>Xà bông handmade bị nhũn chủ yếu vì tiếp xúc nước quá lâu và không kịp khô giữa các lần dùng. Khi cục xà bông nằm trong khay đọng nước hoặc ngay dưới vòi sen, lớp ngoài hút nước, mềm ra và tan nhanh.</p>
+  <ul>
+    <li>Khay đựng không thoát nước, cục xà bông ngâm trong nước đọng.</li>
+    <li>Nhà tắm ẩm, ít thông gió, cục xà bông không khô được.</li>
+    <li>Cầm cục xà bông chà trực tiếp lên da nhiều lần, mỗi lần dùng tốn nhiều.</li>
+    <li>Để cục xà bông bị tia nước chiếu trong lúc tắm.</li>
+  </ul>
+
+  <h2>Cách bảo quản xà bông handmade đang dùng: 5 bước</h2>
+  <p>Cách bảo quản xà bông handmade đang dùng gồm 5 thói quen đơn giản, giúp cục xà bông khô nhanh và bền hơn.</p>
+  <ol>
+    <li><b>Dùng khay thoát nước:</b> chọn khay có lỗ, rãnh hoặc khay gỗ có nan để nước chảy hết, cục xà bông không nằm trong vũng nước.</li>
+    <li><b>Đặt xa tia nước:</b> để khay ở góc thoáng, không bị vòi sen xối trực tiếp. Nếu nhà tắm nhỏ, có thể mang khay ra ngoài sau khi tắm.</li>
+    <li><b>Tạo bọt rồi cất ngay:</b> xoa xà bông trên tay hoặc bông tắm vài vòng để tạo bọt, rồi đặt cục xà bông lại khay. Không để cục xà bông trên sàn hay trong chậu nước.</li>
+    <li><b>Cắt nhỏ, dùng luân phiên:</b> cục lớn cắt thành 2–3 miếng, dùng từng miếng; hoặc dùng luân phiên 2 cục khác mùi để mỗi cục có một ngày khô hẳn.</li>
+    <li><b>Lau nhẹ khi quá ướt:</b> nếu cục xà bông còn ướt nhiều sau khi tắm, thấm nhẹ bằng khăn khô trước khi đặt lại khay.</li>
+  </ol>
+
+  <h2>So sánh các loại khay đựng xà bông</h2>
+  <table><thead><tr><th>Loại khay</th><th>Thoát nước</th><th>Lưu ý</th></tr></thead><tbody>
+  <tr><td>Khay phẳng, không lỗ</td><td>Kém, đọng nước</td><td>Dễ làm xà bông nhũn, nên tránh</td></tr>
+  <tr><td>Khay có lỗ hoặc rãnh</td><td>Tốt</td><td>Đổ nước đọng ở đáy khay thường xuyên</td></tr>
+  <tr><td>Khay gỗ có nan</td><td>Tốt</td><td>Để khay khô, vệ sinh định kỳ</td></tr>
+  <tr><td>Túi lưới tạo bọt</td><td>Tốt</td><td>Treo lên sau khi dùng; tạo bọt nhiều, ít hao</td></tr>
+  </tbody></table>
+
+  <h2>Cách cất xà bông handmade chưa dùng</h2>
+  <p>Xà bông chưa dùng nên cất nơi khô mát, tránh nắng và tránh ẩm để giữ màu và mùi hương.</p>
+  <ul>
+    <li>Để nguyên bao bì hoặc gói bằng giấy, đặt trong hộp thoáng.</li>
+    <li>Không cất trong nhà tắm; tủ quần áo hoặc kệ khô ráo là chỗ hợp.</li>
+    <li>Tránh nơi nắng chiếu trực tiếp hoặc gần bếp, nhiệt độ cao.</li>
+    <li>Dùng trong thời hạn ghi trên bao bì.</li>
+  </ul>
+  <p>Một mẹo nhỏ: đặt vài cục xà bông chưa dùng trong tủ quần áo để quần áo có mùi thơm nhẹ.</p>
+
+  <h2>Xà bông đã bị mềm, nhũn thì làm sao?</h2>
+  <p>Xà bông mềm do ngấm nước thường vẫn dùng được nếu không có mùi lạ. Đặt cục xà bông ở nơi thoáng, trên khay thoát nước 1–2 ngày cho khô lại, sau đó dùng theo các bước trên. Nếu xà bông có mùi lạ, đổi màu bất thường hoặc gây khó chịu khi dùng thì nên bỏ.</p>
+  <p>Mẩu xà bông nhỏ còn lại có thể gom vào túi lưới tạo bọt để dùng hết, không lãng phí.</p>
+
+  <h2>Chọn xà bông thủ công tại Việt Cường Nhân</h2>
+  <p>Cách chọn mùi theo sở thích có ở bài <a href="xa-bong-handmade-tbeauty.html">xà bông handmade: cách chọn mùi hương và cách dùng</a>. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(201, "Tươi mát, dùng hằng ngày."), li(213, "Cục lớn 133g, có thể cắt đôi dùng dần."), li(246, "Dùng luân phiên hoặc làm quà.")) + """
+  <p>Đặt hàng tại <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739. Ngoài xà bông, Việt Cường Nhân còn có yến sào, nước yến và đông trùng hạ thảo, xem bài <a href="viet-cuong-nhan-la-ai.html">Việt Cường Nhân là ai</a>.</p>""",
+  faq=[("Vì sao xà bông handmade nhanh bị nhũn?", "Chủ yếu vì cục xà bông ngâm trong nước đọng hoặc để nơi ẩm, không kịp khô giữa các lần dùng."),
+       ("Để xà bông handmade ở đâu cho bền?", "Đặt trên khay có lỗ hoặc rãnh thoát nước, ở nơi thoáng và không bị vòi sen xối trực tiếp."),
+       ("Xà bông bị mềm còn dùng được không?", "Thường vẫn dùng được nếu không có mùi lạ. Để nơi thoáng 1–2 ngày cho khô lại; nếu đổi màu, có mùi lạ thì nên bỏ."),
+       ("Cất xà bông chưa dùng thế nào?", "Để nguyên bao bì hoặc gói giấy, cất trong hộp thoáng nơi khô mát, tránh nắng và không để trong nhà tắm."),
+       ("Có nên cắt nhỏ xà bông không?", "Nên, với cục lớn. Cắt thành 2–3 miếng và dùng từng miếng giúp phần còn lại luôn khô, dùng được lâu hơn.")]),
 ]
