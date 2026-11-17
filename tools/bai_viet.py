@@ -3029,4 +3029,74 @@ dict(slug="yen-chung-sua-tuoi", cat="Món ngon", ngay="2026-11-17",
        ("Yến chưng sữa để được bao lâu?", "Vì có sữa, nên để nguội, đậy kín, cất ngăn mát và dùng trong ngày."),
        ("Hạt chia cho vào yến lúc nào?", "Ngâm hạt chia 10–15 phút cho nở, cho vào khi yến chưng đã nguội bớt và khuấy đều."),
        ("Trẻ nhỏ ăn yến chưng sữa được không?", "Nên hỏi bác sĩ trước, nhất là trẻ dị ứng sữa. Khi cho ăn, xé sợi yến nhỏ và dùng lượng ít.")]),
+dict(slug="sup-ga-yen-sao", cat="Món ngon", ngay="2026-11-17",
+  tu_khoa="súp gà yến sào, cách nấu súp gà yến sào, súp yến gà bắp, súp yến cho tiệc",
+  h1="Cách nấu súp gà yến sào cho bữa tiệc gia đình",
+  desc="Cách nấu súp gà yến sào cho 6 người: nguyên liệu định lượng, ngâm yến, luộc gà lấy nước dùng, nấu súp sánh mịn với bắp, nấm, trứng. Thời gian, mẹo giữ sợi yến không tan.",
+  lede="Súp gà yến sào nấu bằng nước luộc gà, thịt gà xé, bắp, nấm, trứng và yến đã ngâm nở, làm sánh bằng bột năng; yến cho vào cuối cùng, nấu thêm vài phút để giữ sợi. Một nồi cho khoảng 6 người cần 10 g yến khô và mất chừng 1 giờ kể cả thời gian luộc gà.",
+  tom_tat=["Nồi súp 6 chén dùng khoảng 10 g yến khô, 400 g ức gà, 1 trái bắp, 100 g nấm, 2 quả trứng.",
+           "Tổng thời gian khoảng 1 giờ: ngâm yến, luộc gà lấy nước dùng, nấu súp 15 phút.",
+           "Cho yến vào sau khi súp đã sánh, đun lửa nhỏ 3–5 phút để sợi yến không tan.",
+           "Yến vụn hoặc yến tinh chế vụn đắp tổ hợp nấu súp vì giá mềm và tơi sợi.",
+           f"Ví dụ {P[106][2]} {gia(106)}/100gr, {P[107][2]} {gia(107)}/100gr."],
+  cac_buoc=[("Ngâm yến", "Ngâm 10 g yến khô trong nước sạch 30–60 phút cho nở, vớt ra để ráo."),
+            ("Luộc gà lấy nước dùng", "Luộc 400 g ức gà với 1,5 lít nước, gừng và hành tím khoảng 20 phút, vớt gà xé sợi, lọc nước dùng."),
+            ("Nấu súp", "Cho bắp, nấm, cà rốt vào nước dùng, nấu 10 phút, thêm gà xé và nêm gia vị."),
+            ("Làm sánh và thêm trứng", "Hòa bột năng với nước, đổ từ từ vào nồi và khuấy; đánh trứng, rót thành sợi vào súp."),
+            ("Thêm yến", "Cho yến vào, đun lửa nhỏ 3–5 phút rồi tắt bếp, rắc hành ngò, tiêu.")],
+  body=f"""  <h2>Nguyên liệu súp gà yến sào (6 chén)</h2>
+  <p>Súp gà yến sào cho bữa tiệc gia đình khoảng 6 người cần các nguyên liệu sau:</p>
+  <table><thead><tr><th>Nguyên liệu</th><th>Định lượng</th></tr></thead><tbody>
+  <tr><td>Yến khô (vụn hoặc tinh chế)</td><td>10 g</td></tr>
+  <tr><td>Ức gà hoặc đùi gà</td><td>400 g</td></tr>
+  <tr><td>Nước</td><td>1,5 lít</td></tr>
+  <tr><td>Bắp ngọt tách hạt</td><td>1 trái</td></tr>
+  <tr><td>Nấm (nấm hương tươi, nấm đông cô hoặc nấm rơm)</td><td>100 g</td></tr>
+  <tr><td>Cà rốt cắt hạt lựu</td><td>1/2 củ</td></tr>
+  <tr><td>Trứng gà</td><td>2 quả</td></tr>
+  <tr><td>Bột năng</td><td>2–3 muỗng canh</td></tr>
+  <tr><td>Gừng, hành tím, hành lá, ngò, tiêu, muối, hạt nêm</td><td>Vừa đủ</td></tr>
+  </tbody></table>
+  <p>Ở xưởng Việt Cường Nhân, khách mua yến nấu súp thường chọn yến vụn vì giá mềm, sợi tơi dễ hòa vào súp; yến sợi đẹp hợp chưng hơn. Tìm hiểu thêm ở bài <a href="yen-vun-baby-la-gi.html">yến vụn baby là gì</a>.</p>
+
+  <h2>Cách nấu súp gà yến sào: 5 bước</h2>
+  <p>Cách nấu súp gà yến sào gồm 5 bước, khoảng 1 giờ. Điểm cần nhớ là cho yến vào sau cùng.</p>
+  <ol>
+    <li><b>Ngâm yến (30–60 phút):</b> ngâm 10 g yến khô trong nước sạch cho nở mềm, vớt ra, xé tơi, để ráo. Nếu dùng yến thô, cần làm sạch lông trước theo bài <a href="cach-lam-sach-yen-tho.html">cách làm sạch yến thô tại nhà</a>.</li>
+    <li><b>Luộc gà lấy nước dùng (20 phút):</b> cho gà vào 1,5 lít nước cùng vài lát gừng, 2 củ hành tím đập dập, đun sôi rồi hạ lửa, vớt bọt. Gà chín vớt ra xé sợi; lọc nước dùng cho trong.</li>
+    <li><b>Nấu súp (10 phút):</b> đun sôi lại nước dùng, cho bắp, nấm, cà rốt vào nấu đến khi chín mềm. Thêm gà xé, nêm muối, hạt nêm vừa ăn.</li>
+    <li><b>Làm sánh và thêm trứng (3 phút):</b> hòa bột năng với ít nước nguội, vừa đổ từ từ vào nồi vừa khuấy đều đến khi súp sánh. Đánh tan trứng, rót thành dòng mảnh vào súp, khuấy nhẹ để trứng thành sợi.</li>
+    <li><b>Thêm yến (3–5 phút):</b> cho yến vào, đun lửa nhỏ, khuấy nhẹ rồi tắt bếp. Múc ra chén, rắc hành lá, ngò, tiêu.</li>
+  </ol>
+
+  <h2>Mẹo nấu súp gà yến sào ngon</h2>
+  <ul>
+    <li><b>Yến cho sau cùng:</b> đun yến lâu trong nồi súp nóng sẽ làm sợi tan, mất độ dai. 3–5 phút lửa nhỏ là đủ.</li>
+    <li><b>Nước dùng trong:</b> vớt bọt kỹ khi luộc gà; có thể thêm vài miếng xương gà để nước ngọt hơn.</li>
+    <li><b>Súp không vón:</b> hòa bột năng với nước nguội, đổ từ từ và khuấy liên tục.</li>
+    <li><b>Trứng thành sợi đẹp:</b> rót trứng khi súp đang sôi nhẹ, khuấy một chiều.</li>
+    <li><b>Đổi vị:</b> thêm vài cọng <a href="cach-dung-dong-trung-ha-thao.html">đông trùng hạ thảo</a> hoặc cua xé cho bữa tiệc.</li>
+  </ul>
+
+  <h2>Súp gà yến sào cho tiệc: tính lượng thế nào?</h2>
+  <p>Với súp khai vị, mỗi người thường dùng một chén nhỏ. Có thể nhân định lượng theo số khách:</p>
+  <table><thead><tr><th>Số người</th><th>Yến khô</th><th>Gà</th><th>Nước</th></tr></thead><tbody>
+  <tr><td>4 người</td><td>6–7 g</td><td>250–300 g</td><td>1 lít</td></tr>
+  <tr><td>6 người</td><td>10 g</td><td>400 g</td><td>1,5 lít</td></tr>
+  <tr><td>10 người</td><td>15–20 g</td><td>700 g</td><td>2,5 lít</td></tr>
+  </tbody></table>
+
+  <h2>Bảo quản súp còn dư</h2>
+  <p>Súp nguội nên đậy kín, cất ngăn mát và dùng trong ngày; khi hâm lại chỉ đun lửa nhỏ, không nấu sôi lâu. Yến khô chưa dùng bảo quản theo bài <a href="bao-quan-yen-sao.html">cách bảo quản yến sào</a>.</p>
+  <p>Súp gà yến là món ăn, không phải thuốc. Người có bệnh nền, bà bầu và trẻ nhỏ nên hỏi bác sĩ trước khi ăn thường xuyên; nấu cho bé thì tham khảo bài <a href="chao-yen-cho-be.html">cháo yến cho bé</a>.</p>
+
+  <h2>Yến nấu súp tại Việt Cường Nhân</h2>
+  <p>Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(106, "Đã nhặt sạch lông, hợp nấu súp, cháo."), li(107, "Sợi nhỏ, tơi, hợp món cho bé và súp.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Nấu súp gà yến sào cần bao nhiêu yến?", "Khoảng 10 g yến khô cho nồi súp 6 chén; 4 người dùng 6–7 g, 10 người dùng 15–20 g."),
+       ("Khi nào cho yến vào súp?", "Cho yến vào sau cùng, khi súp đã sánh và có trứng, đun lửa nhỏ 3–5 phút rồi tắt bếp để sợi yến không tan."),
+       ("Nấu súp nên dùng loại yến nào?", "Yến vụn hoặc yến tinh chế vụn đắp tổ hợp nấu súp vì giá mềm, sợi tơi; yến sợi đẹp nên dùng để chưng."),
+       ("Súp gà yến để qua đêm được không?", "Nên dùng trong ngày. Súp còn dư để nguội, đậy kín, cất ngăn mát; hâm lại bằng lửa nhỏ."),
+       ("Có thể thay gà bằng cua không?", "Được. Có thể dùng thịt cua xé hoặc kết hợp gà và cua; cách nấu tương tự, yến vẫn cho vào sau cùng.")]),
 ]
