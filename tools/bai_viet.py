@@ -3538,4 +3538,72 @@ dict(slug="dong-trung-ha-thao-nau-canh-ga", cat="Món ngon", ngay="2026-11-17",
        ("Có cần ngâm đông trùng trước khi nấu không?", "Không cần ngâm lâu, chỉ rửa nhanh qua nước rồi để ráo là được."),
        ("Nấu canh gà nên dùng đông trùng loại nào?", "Loại gãy hợp nấu ăn hằng ngày, giá mềm; loại cây cọng nguyên đẹp hơn, hợp đãi khách hoặc biếu tặng."),
        ("Canh gà đông trùng để được bao lâu?", "Để nguội, đậy kín, cất ngăn mát và dùng trong ngày hôm sau; hâm sôi lại trước khi ăn.")]),
+dict(slug="tao-do-an-song-duoc-khong", cat="Táo đỏ", ngay="2026-11-17",
+  tu_khoa="táo đỏ ăn sống được không, táo đỏ sấy ăn trực tiếp, ăn táo đỏ khô, táo đỏ Tân Cương ăn liền",
+  h1="Táo đỏ Tân Cương ăn sống được không? Cách ăn đúng",
+  desc="Táo đỏ Tân Cương sấy khô ăn sống, ăn trực tiếp được sau khi rửa sạch, lau khô. Cách chọn size, ăn bao nhiêu là vừa, ai nên hỏi bác sĩ, cách bảo quản để không bị ẩm mốc.",
+  lede="Táo đỏ Tân Cương sấy khô ăn sống được: rửa nhanh qua nước, lau khô rồi ăn trực tiếp như một món ăn vặt, có vị ngọt tự nhiên và cùi dẻo. Nên chọn quả size đại hoặc thượng hạng cho cùi dày, ăn lượng vừa phải mỗi ngày và bảo quản kín để táo không bị ẩm mốc.",
+  tom_tat=["Táo đỏ sấy khô ăn trực tiếp được sau khi rửa nhanh và lau khô.",
+           "Ăn trực tiếp nên chọn size đại (80–100 quả/kg) hoặc thượng hạng (70–80 quả/kg) vì cùi dày, dẻo.",
+           "Táo đỏ có vị ngọt tự nhiên; nên ăn lượng vừa phải, vài quả mỗi lần.",
+           "Người cần hạn chế đường, bà bầu, trẻ nhỏ nên hỏi bác sĩ; cho trẻ ăn thì bỏ hạt để tránh hóc.",
+           f"Giá tại Việt Cường Nhân: size đại {gia(143)}/kg, thượng hạng {gia(144)}/kg."],
+  body=f"""  <h2>Táo đỏ ăn sống được không?</h2>
+  <p>Táo đỏ Tân Cương bán ở Việt Cường Nhân là táo đã sấy khô, nên "ăn sống" ở đây là ăn trực tiếp không qua nấu, và hoàn toàn ăn được. Táo sấy có cùi dẻo, vị ngọt tự nhiên, nhiều gia đình dùng thay bánh kẹo khi uống trà.</p>
+  <p>Trước khi ăn chỉ cần rửa nhanh qua nước sạch để bỏ bụi trên vỏ, rồi lau khô hoặc để ráo. Không nên ngâm lâu vì táo hút nước, mềm nhão và mất vị.</p>
+
+  <h2>Cách ăn táo đỏ sấy khô đúng</h2>
+  <ol>
+    <li><b>Rửa nhanh:</b> cho táo vào rổ, xả nước sạch trong vài giây.</li>
+    <li><b>Lau khô:</b> dùng khăn sạch thấm khô, hoặc để ráo vài phút.</li>
+    <li><b>Ăn trực tiếp:</b> cắn quanh hạt; với trẻ nhỏ và người lớn tuổi nên bỏ hạt, cắt nhỏ trước.</li>
+    <li><b>Ăn lượng vừa phải:</b> vài quả mỗi lần, kèm trà hoặc nước lọc.</li>
+  </ol>
+
+  <h2>Size táo đỏ nào hợp ăn trực tiếp?</h2>
+  <p>Ăn trực tiếp nên chọn quả to vì cùi dày, dẻo, hạt nhỏ so với quả; quả nhỏ hợp nấu nướng hơn.</p>
+  <table><thead><tr><th>Loại</th><th>Quy cách</th><th>Hợp với</th><th>Giá</th></tr></thead><tbody>
+  <tr><td>{P[144][2]}</td><td>{P[144][3]}</td><td>Ăn trực tiếp, biếu tặng</td><td>{gia(144)}</td></tr>
+  <tr><td>{P[143][2]}</td><td>{P[143][3]}</td><td>Ăn trực tiếp, pha trà</td><td>{gia(143)}</td></tr>
+  <tr><td>{P[142][2]}</td><td>{P[142][3]}</td><td>Nấu chè, hầm canh, chưng yến</td><td>{gia(142)}</td></tr>
+  <tr><td>{P[147][2]}</td><td>{P[147][3]}</td><td>Pha trà, nấu nướng hằng ngày</td><td>{gia(147)}</td></tr>
+  </tbody></table>
+  <p>Khác biệt giữa táo Tân Cương và Nhược Khương có ở bài <a href="tao-do-tan-cuong-va-nhuoc-khuong.html">táo đỏ Tân Cương và táo đỏ Nhược Khương khác gì</a>.</p>
+
+  <h2>Nhận biết táo đỏ còn ngon để ăn trực tiếp</h2>
+  <ul>
+    <li><b>Vỏ:</b> đỏ sẫm, bóng nhẹ, có nếp nhăn tự nhiên.</li>
+    <li><b>Cùi:</b> dẻo, bẻ ra có màu vàng nâu, không khô cứng.</li>
+    <li><b>Mùi:</b> thơm ngọt, không chua, không hắc.</li>
+    <li><b>Bỏ ngay:</b> quả có đốm mốc trắng hoặc xanh, mùi chua lạ, cùi nhớt.</li>
+  </ul>
+  <p>Cách chọn chi tiết hơn ở bài <a href="tao-do-tan-cuong-cach-chon-va-mon-ngon.html">táo đỏ Tân Cương: cách chọn và món ngon</a>.</p>
+
+  <h2>Ngoài ăn sống, táo đỏ còn dùng làm gì?</h2>
+  <ul>
+    <li>Pha trà táo đỏ kỷ tử, xem bài <a href="tra-tao-do-ky-tu.html">cách pha trà táo đỏ kỷ tử</a>.</li>
+    <li>Chưng cùng yến, xem bài <a href="yen-chung-tao-do-hat-sen.html">yến chưng táo đỏ hạt sen</a>.</li>
+    <li>Hầm canh gà, canh sườn cho ngọt nước, xem bài <a href="dong-trung-ha-thao-nau-canh-ga.html">đông trùng hạ thảo nấu canh gà</a>.</li>
+    <li>Nấu chè cùng nha đam, hạt sen.</li>
+  </ul>
+
+  <h2>Ai nên lưu ý khi ăn táo đỏ?</h2>
+  <p>Táo đỏ là thực phẩm, không phải thuốc. Táo sấy có vị ngọt tự nhiên, nên người cần hạn chế đường, người có bệnh nền và bà bầu nên hỏi bác sĩ về lượng ăn phù hợp. Cho trẻ nhỏ ăn thì bỏ hạt, cắt nhỏ để tránh hóc.</p>
+
+  <h2>Bảo quản táo đỏ để ăn dần</h2>
+  <ul>
+    <li>Đựng trong hộp hoặc túi kín, nơi khô mát, tránh nắng.</li>
+    <li>Mùa ẩm có thể cất ngăn mát tủ lạnh để táo không bị mốc.</li>
+    <li>Lấy táo bằng tay khô hoặc muỗng khô; chỉ rửa phần sắp ăn.</li>
+  </ul>
+
+  <h2>Mua táo đỏ Tân Cương tại Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân có kho táo đỏ Tân Cương, đóng gói theo túi 1kg và hộp 350gr. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(144, "Quả to, cùi dày, hợp ăn trực tiếp."), li(143, "Ăn trực tiếp, pha trà."), li(146, "Hộp nhỏ, ăn thử hoặc làm quà.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Táo đỏ khô có ăn sống được không?", "Được. Táo đỏ sấy khô rửa nhanh qua nước, lau khô là ăn trực tiếp được, không cần nấu."),
+       ("Có cần ngâm táo đỏ trước khi ăn không?", "Không cần. Chỉ rửa nhanh vài giây rồi lau khô; ngâm lâu táo sẽ mềm nhão, mất vị."),
+       ("Mỗi ngày nên ăn bao nhiêu quả táo đỏ?", "Nên ăn lượng vừa phải, vài quả mỗi lần. Người cần hạn chế đường hoặc có bệnh nền nên hỏi bác sĩ."),
+       ("Táo đỏ size nào ăn trực tiếp ngon?", "Size đại (80–100 quả/kg) hoặc thượng hạng (70–80 quả/kg) có cùi dày, dẻo, hợp ăn trực tiếp."),
+       ("Trẻ em ăn táo đỏ được không?", "Nên bỏ hạt và cắt nhỏ để tránh hóc, cho ăn lượng ít; trẻ nhỏ nên hỏi bác sĩ trước khi ăn thường xuyên.")]),
 ]
