@@ -3473,4 +3473,69 @@ dict(slug="nuoc-yen-hu-lam-qua-bieu", cat="Quà tặng", ngay="2026-11-17",
        ("Lốc nước yến có hộp giá bao nhiêu?", f"Loại 0.8gr có hộp: lốc 6 hũ {gia(133)}, lốc 10 hũ {gia(135)}; loại 0.3gr có hộp: lốc 6 hũ {gia(132)}, lốc 10 hũ {gia(134)}. Giá chưa gồm phí giao hàng."),
        ("Nước yến hũ có cần để tủ lạnh không?", "Hũ tiệt trùng chưa mở để nơi khô mát được; để lạnh trước khi uống sẽ ngon hơn. Đã mở nắp thì dùng hết trong ngày."),
        ("Mua nhiều nước yến làm quà công ty thì liên hệ ai?", "Nhắn Zalo 0978 094 739 để được Việt Cường Nhân tư vấn số lượng và đóng gói.")]),
+dict(slug="dong-trung-ha-thao-nau-canh-ga", cat="Món ngon", ngay="2026-11-17",
+  tu_khoa="đông trùng hạ thảo nấu canh gà, gà hầm đông trùng hạ thảo, canh gà đông trùng táo đỏ, cách nấu canh gà đông trùng",
+  h1="Đông trùng hạ thảo nấu canh gà: cách làm ngọt nước",
+  desc="Cách nấu canh gà đông trùng hạ thảo cho 4 người: nguyên liệu định lượng, sơ chế gà không hôi, hầm 40 phút với táo đỏ, cho đông trùng 10 phút cuối để giữ màu cam.",
+  lede="Đông trùng hạ thảo nấu canh gà ngon nhất khi hầm gà với táo đỏ, gừng cho ngọt nước trước, rồi mới thả nấm đông trùng hạ thảo khô vào 10 phút cuối để giữ màu cam và vị ngọt nhẹ. Nồi canh 4 người cần khoảng nửa con gà (600–800 g), 5–10 g đông trùng khô và 8–10 quả táo đỏ.",
+  tom_tat=["Nồi 4 người: 600–800 g gà, 5–10 g nấm đông trùng hạ thảo khô, 8–10 quả táo đỏ, 1,5 lít nước, vài lát gừng.",
+           "Chần gà qua nước sôi với gừng, muối để nước canh trong, không hôi.",
+           "Hầm gà với táo đỏ lửa nhỏ khoảng 40 phút.",
+           "Thả đông trùng vào 10 phút cuối để giữ màu cam và độ dai.",
+           f"Nấu ăn hằng ngày dùng {P[138][2]} {gia(138)}/100gr; {P[136][2]} {gia(136)}/100gr cọng đẹp hơn."],
+  cac_buoc=[("Sơ chế gà", "Gà chặt miếng, chần qua nước sôi có gừng, muối 2–3 phút rồi rửa lại."),
+            ("Chuẩn bị nguyên liệu", "Rửa nhanh đông trùng khô, táo đỏ rửa sạch xẻ đôi, gừng thái lát."),
+            ("Hầm gà", "Cho gà, táo đỏ, gừng và 1,5 lít nước vào nồi, đun sôi, hạ lửa nhỏ hầm 40 phút, vớt bọt."),
+            ("Thêm đông trùng", "Thả đông trùng vào, nêm muối, hạt nêm, nấu thêm 10 phút."),
+            ("Hoàn thành", "Tắt bếp, múc ra tô, thêm hành ngò nếu thích.")],
+  body=f"""  <h2>Nguyên liệu canh gà đông trùng hạ thảo (4 người)</h2>
+  <table><thead><tr><th>Nguyên liệu</th><th>Định lượng</th><th>Ghi chú</th></tr></thead><tbody>
+  <tr><td>Gà ta hoặc gà ác</td><td>600–800 g (khoảng nửa con)</td><td>Gà ác nhỏ thì dùng 1 con</td></tr>
+  <tr><td>Nấm đông trùng hạ thảo khô</td><td>5–10 g</td><td>Loại gãy dùng nấu ăn tiết kiệm hơn</td></tr>
+  <tr><td>Táo đỏ</td><td>8–10 quả</td><td>Cho vị ngọt tự nhiên</td></tr>
+  <tr><td>Gừng</td><td>3–4 lát</td><td>Khử mùi gà</td></tr>
+  <tr><td>Nước</td><td>1,5 lít</td><td></td></tr>
+  <tr><td>Muối, hạt nêm, hành ngò</td><td>Vừa đủ</td><td></td></tr>
+  <tr><td>Hạt sen, nấm hương (tùy chọn)</td><td>50 g hạt sen, vài tai nấm</td><td>Thêm vị bùi, thơm</td></tr>
+  </tbody></table>
+
+  <h2>Cách nấu canh gà đông trùng hạ thảo: 5 bước</h2>
+  <p>Cách nấu canh gà đông trùng hạ thảo mất khoảng 1 giờ. Điểm quan trọng là hầm gà trước, đông trùng cho sau.</p>
+  <ol>
+    <li><b>Sơ chế gà:</b> gà rửa sạch, chặt miếng vừa ăn. Chần qua nồi nước sôi có vài lát gừng và chút muối 2–3 phút, vớt ra rửa lại để nước canh trong, không hôi.</li>
+    <li><b>Chuẩn bị nguyên liệu:</b> đông trùng khô rửa nhanh qua nước, để ráo; táo đỏ rửa sạch, xẻ đôi; gừng thái lát. Nếu dùng hạt sen tươi thì bỏ tim.</li>
+    <li><b>Hầm gà (40 phút):</b> cho gà, táo đỏ, gừng, hạt sen và 1,5 lít nước vào nồi, đun sôi rồi hạ lửa nhỏ, vớt bọt, hầm đến khi gà mềm.</li>
+    <li><b>Thêm đông trùng (10 phút):</b> thả đông trùng vào, nêm muối, hạt nêm vừa ăn, nấu thêm khoảng 10 phút.</li>
+    <li><b>Hoàn thành:</b> tắt bếp, múc ra tô, rắc hành ngò nếu thích. Ăn nóng.</li>
+  </ol>
+  <p>Muốn làm món hầm với gà ác, xem bài <a href="nam-dong-trung-ha-thao-tiem-ga-ac.html">nấm đông trùng hạ thảo tiềm gà ác</a>.</p>
+
+  <h2>Mẹo nấu canh gà đông trùng ngon</h2>
+  <ul>
+    <li><b>Đông trùng cho sau:</b> hầm lâu từ đầu, nấm mất màu cam và bị nhũn.</li>
+    <li><b>Nước canh trong:</b> chần gà kỹ, hầm lửa nhỏ, vớt bọt thường xuyên.</li>
+    <li><b>Không nêm quá đậm:</b> vị ngọt của táo đỏ và gà đã đủ, nêm nhạt để giữ mùi đông trùng.</li>
+    <li><b>Dùng nồi áp suất:</b> hầm gà 15–20 phút, xả hơi rồi mới cho đông trùng và nấu mở nắp thêm 10 phút.</li>
+  </ul>
+
+  <h2>Đông trùng loại cây hay loại gãy để nấu canh?</h2>
+  <p>Nấu canh gà hằng ngày dùng loại gãy là đủ, vì cọng gãy và cọng nguyên khác nhau chủ yếu ở hình thức. Loại cây có cọng nguyên đẹp, hợp làm quà hoặc khi muốn tô canh đẹp mắt. So sánh chi tiết ở bài <a href="dong-trung-ha-thao-loai-cay-va-loai-gay.html">đông trùng hạ thảo loại cây và loại gãy</a>.</p>
+  <table><thead><tr><th>Loại</th><th>Hợp với</th><th>Giá</th></tr></thead><tbody>
+  <tr><td>{P[138][2]}</td><td>Nấu canh, hầm hằng ngày</td><td>{gia(138)}/100gr</td></tr>
+  <tr><td>{P[136][2]}</td><td>Biếu tặng, món đãi khách</td><td>{gia(136)}/100gr</td></tr>
+  </tbody></table>
+
+  <h2>Bảo quản và lưu ý</h2>
+  <p>Canh còn dư để nguội, đậy kín, cất ngăn mát và dùng trong ngày hôm sau. Đông trùng khô chưa dùng bảo quản theo bài <a href="bao-quan-dong-trung-ha-thao.html">cách bảo quản đông trùng hạ thảo</a>.</p>
+  <p>Canh gà đông trùng là món ăn, không phải thuốc. Bà bầu, trẻ nhỏ và người có bệnh nền nên hỏi bác sĩ trước khi dùng đông trùng hạ thảo thường xuyên.</p>
+
+  <h2>Mua đông trùng hạ thảo và táo đỏ tại Việt Cường Nhân</h2>
+  <p>Nấm đông trùng hạ thảo do Việt Cường Nhân nuôi trồng và sấy khô, có hồ sơ tự công bố. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(138, "Nấu canh, hầm hằng ngày."), li(136, "Cọng nguyên, đẹp."), li(142, "Hầm cùng gà cho ngọt nước.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Nấu canh gà cần bao nhiêu đông trùng hạ thảo?", "Khoảng 5–10 g nấm đông trùng hạ thảo khô cho nồi canh 4 người với 600–800 g gà."),
+       ("Khi nào cho đông trùng vào canh gà?", "Cho vào khoảng 10 phút cuối, sau khi gà đã hầm mềm, để đông trùng giữ màu cam và độ dai."),
+       ("Có cần ngâm đông trùng trước khi nấu không?", "Không cần ngâm lâu, chỉ rửa nhanh qua nước rồi để ráo là được."),
+       ("Nấu canh gà nên dùng đông trùng loại nào?", "Loại gãy hợp nấu ăn hằng ngày, giá mềm; loại cây cọng nguyên đẹp hơn, hợp đãi khách hoặc biếu tặng."),
+       ("Canh gà đông trùng để được bao lâu?", "Để nguội, đậy kín, cất ngăn mát và dùng trong ngày hôm sau; hâm sôi lại trước khi ăn.")]),
 ]
