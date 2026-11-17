@@ -3139,7 +3139,7 @@ dict(slug="xa-bong-handmade-tbeauty", cat="Mỹ phẩm", ngay="2026-11-17",
     <li><b>Xả sạch</b> bằng nước, lau khô.</li>
     <li><b>Để cục xà bông lên khay thoát nước</b>, nơi khô ráo, không ngâm trong nước.</li>
   </ol>
-  <p>Giữ cục xà bông khô giữa các lần dùng là cách đơn giản nhất để xà bông không bị nhũn và dùng được lâu.</p>
+  <p>Giữ cục xà bông khô giữa các lần dùng là cách đơn giản nhất để xà bông không bị nhũn và dùng được lâu, xem bài <a href="cach-giu-xa-bong-handmade-ben-lau.html">cách bảo quản xà bông handmade dùng bền</a>.</p>
 
   <h2>Lưu ý khi dùng</h2>
   <ul>
@@ -3224,4 +3224,69 @@ dict(slug="cach-giu-xa-bong-handmade-ben-lau", cat="Mỹ phẩm", ngay="2026-11-
        ("Xà bông bị mềm còn dùng được không?", "Thường vẫn dùng được nếu không có mùi lạ. Để nơi thoáng 1–2 ngày cho khô lại; nếu đổi màu, có mùi lạ thì nên bỏ."),
        ("Cất xà bông chưa dùng thế nào?", "Để nguyên bao bì hoặc gói giấy, cất trong hộp thoáng nơi khô mát, tránh nắng và không để trong nhà tắm."),
        ("Có nên cắt nhỏ xà bông không?", "Nên, với cục lớn. Cắt thành 2–3 miếng và dùng từng miếng giúp phần còn lại luôn khô, dùng được lâu hơn.")]),
+dict(slug="yen-chung-gung-duong-phen", cat="Món ngon", ngay="2026-11-17",
+  tu_khoa="yến chưng gừng, yến chưng gừng đường phèn, cách chưng yến với gừng, yến chưng gừng táo đỏ",
+  h1="Yến chưng gừng đường phèn cho ngày se lạnh",
+  desc="Cách làm yến chưng gừng đường phèn tại nhà: nguyên liệu cho 1 chén và 4 chén, 5 bước chưng cách thủy, lượng gừng vừa vị, mẹo không bị cay gắt, biến tấu với táo đỏ.",
+  lede="Yến chưng gừng đường phèn làm bằng cách chưng yến đã ngâm với nước và vài lát gừng mỏng khoảng 20–25 phút, thêm đường phèn ở 5 phút cuối rồi vớt gừng ra. Món có vị ngọt thanh, thơm và ấm nhẹ của gừng, hợp ăn vào buổi sáng hay chiều tối những ngày trời se lạnh.",
+  tom_tat=["Mỗi chén dùng 3–5 g yến khô, 150–200 ml nước, 2–3 lát gừng mỏng và đường phèn tùy khẩu vị.",
+           "Chưng cách thủy lửa nhỏ 20–25 phút; thêm đường phèn 5 phút cuối.",
+           "Vớt gừng ra sau khi chưng để vị không bị cay gắt.",
+           "Có thể thêm 2–3 quả táo đỏ để vị ngọt hơn.",
+           f"Yến hợp món này: {P[109][2]} {gia(109)}/100gr hoặc {P[106][2]} {gia(106)}/100gr."],
+  cac_buoc=[("Ngâm yến", "Ngâm 3–5 g yến khô trong nước sạch 30–60 phút cho nở mềm, vớt ra để ráo."),
+            ("Sơ chế gừng", "Gọt vỏ gừng, rửa sạch, thái 2–3 lát thật mỏng."),
+            ("Chưng yến với gừng", "Cho yến, gừng và 150–200 ml nước vào thố, chưng cách thủy lửa nhỏ 20–25 phút."),
+            ("Thêm đường phèn", "Thêm đường phèn trong 5 phút cuối, khuấy nhẹ cho tan."),
+            ("Vớt gừng", "Tắt bếp, vớt lát gừng ra, dùng ấm.")],
+  body=f"""  <h2>Nguyên liệu yến chưng gừng đường phèn</h2>
+  <p>Yến chưng gừng chỉ cần 4 nguyên liệu: yến, gừng, đường phèn và nước. Định lượng cho 1 chén và cho cả nhà 4 chén:</p>
+  <table><thead><tr><th>Nguyên liệu</th><th>1 chén</th><th>4 chén</th></tr></thead><tbody>
+  <tr><td>Yến khô (tinh chế hoặc rút lông)</td><td>3–5 g</td><td>12–20 g</td></tr>
+  <tr><td>Nước lọc</td><td>150–200 ml</td><td>600–800 ml</td></tr>
+  <tr><td>Gừng tươi</td><td>2–3 lát mỏng</td><td>1 khúc khoảng 3 cm, thái lát</td></tr>
+  <tr><td>Đường phèn</td><td>Tùy khẩu vị</td><td>Tùy khẩu vị</td></tr>
+  <tr><td>Táo đỏ (tùy chọn)</td><td>2–3 quả</td><td>8–10 quả</td></tr>
+  </tbody></table>
+
+  <h2>Cách làm yến chưng gừng đường phèn: 5 bước</h2>
+  <p>Cách làm yến chưng gừng giống cách chưng yến đường phèn thông thường, chỉ thêm gừng thái lát mỏng vào cùng lúc chưng.</p>
+  <ol>
+    <li><b>Ngâm yến (30–60 phút):</b> ngâm yến khô trong nước sạch đến khi nở mềm, vớt ra, xé sợi vừa ăn, để ráo.</li>
+    <li><b>Sơ chế gừng:</b> gọt vỏ, rửa sạch, thái thật mỏng. Lát mỏng giúp mùi thơm ra nhanh mà không quá cay.</li>
+    <li><b>Chưng yến với gừng (20–25 phút):</b> cho yến, gừng và nước vào thố có nắp, đặt vào nồi nước sôi lăn tăn, chưng lửa nhỏ.</li>
+    <li><b>Thêm đường phèn:</b> cho đường phèn vào trong 5 phút cuối, khuấy nhẹ cho tan.</li>
+    <li><b>Vớt gừng:</b> tắt bếp, vớt lát gừng ra để vị không bị cay gắt khi để lâu, múc ra chén dùng ấm.</li>
+  </ol>
+  <p>Các bước ngâm, chưng cơ bản xem thêm ở bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>.</p>
+
+  <h2>Mẹo để yến chưng gừng ngon</h2>
+  <ul>
+    <li><b>Ít gừng thôi:</b> 2–3 lát mỏng cho mỗi chén là đủ thơm; nhiều gừng sẽ át mùi yến.</li>
+    <li><b>Không chưng quá lâu:</b> quá 30 phút hoặc lửa to làm sợi yến tan, xem bài <a href="yen-bi-chay-nuoc-khi-chung.html">vì sao yến bị chảy nước khi chưng</a>.</li>
+    <li><b>Chọn gừng:</b> gừng tươi, vỏ mỏng, không dập úng.</li>
+    <li><b>Đổi vị:</b> thêm 2–3 quả <a href="tao-do-tan-cuong-cach-chon-va-mon-ngon.html">táo đỏ Tân Cương</a> xẻ đôi, hoặc vài hạt kỷ tử ở 5 phút cuối.</li>
+  </ul>
+
+  <h2>So sánh yến chưng gừng với các cách chưng khác</h2>
+  <table><thead><tr><th>Món</th><th>Vị</th><th>Hợp khi</th></tr></thead><tbody>
+  <tr><td>Yến chưng gừng đường phèn</td><td>Ngọt thanh, thơm ấm</td><td>Ngày se lạnh, buổi sáng sớm, chiều tối</td></tr>
+  <tr><td>Yến chưng đường phèn</td><td>Ngọt thanh, giữ mùi yến</td><td>Ăn hằng ngày</td></tr>
+  <tr><td>Yến chưng táo đỏ hạt sen</td><td>Ngọt, bùi</td><td>Đổi vị, xem bài <a href="yen-chung-tao-do-hat-sen.html">yến chưng táo đỏ hạt sen</a></td></tr>
+  <tr><td>Yến chưng sữa tươi</td><td>Béo nhẹ</td><td>Bữa xế, xem bài <a href="yen-chung-sua-tuoi.html">yến chưng sữa tươi</a></td></tr>
+  </tbody></table>
+
+  <h2>Bảo quản và lưu ý</h2>
+  <p>Yến chưng gừng ngon nhất khi ăn ấm ngay sau khi chưng. Nếu còn dư, để nguội, đậy kín, cất ngăn mát và dùng trong vài ngày; khi ăn hâm cách thủy cho ấm.</p>
+  <p>Yến chưng gừng là món ăn, không phải thuốc. Trẻ nhỏ, bà bầu và người có bệnh nền nên hỏi bác sĩ trước khi ăn thường xuyên; cho trẻ ăn thì giảm gừng hoặc bỏ gừng.</p>
+
+  <h2>Yến phù hợp để chưng gừng</h2>
+  <p>Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Sợi vừa, chưng giữ sợi đẹp."), li(106, "Giá mềm, hợp chưng cho cả nhà."), li(142, "Thêm vào khi chưng để đổi vị.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Chưng yến với gừng có được không?", "Được. Thêm 2–3 lát gừng mỏng khi chưng yến cách thủy, chưng 20–25 phút rồi vớt gừng ra, món có vị thơm ấm nhẹ."),
+       ("Chưng yến gừng bao lâu?", "Chưng cách thủy lửa nhỏ khoảng 20–25 phút, thêm đường phèn trong 5 phút cuối."),
+       ("Cho bao nhiêu gừng vào yến là vừa?", "Khoảng 2–3 lát gừng mỏng cho một chén 3–5 g yến khô. Nhiều gừng sẽ át mùi yến và cay."),
+       ("Trẻ em ăn yến chưng gừng được không?", "Nên hỏi bác sĩ trước. Nếu cho trẻ ăn, nên giảm hoặc bỏ gừng và dùng lượng ít."),
+       ("Yến chưng gừng để được bao lâu?", "Để nguội, đậy kín, cất ngăn mát và dùng trong vài ngày; hâm cách thủy trước khi ăn.")]),
 ]
