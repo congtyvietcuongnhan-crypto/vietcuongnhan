@@ -259,6 +259,8 @@ form.f .btn { justify-content: center; }
 .f label { display: grid; gap: 6px; align-content: start; font-size: 13px; color: var(--muted); }
 .f input, .f select, .f textarea { font: 15px var(--font-body); padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--ivory); color: var(--ink); width: 100%; }
 .f .row { display: grid; grid-template-columns: 2fr 1fr; gap: 12px; }
+.o-price { margin: -2px 0 0; padding: 10px 12px; border-radius: 10px; background: var(--ivory); border: 1px dashed var(--gold); font-size: 14px; color: var(--muted); }
+.o-price b { color: var(--sale); font-size: 18px; }
 .summary { white-space: pre-wrap; background: var(--ivory); border: 1px dashed var(--gold); border-radius: 10px; padding: 12px; font-size: 14px; }
 .contact p { margin: 0 0 10px; }
 .contact .big { font: 700 28px var(--font-display); color: var(--emerald-2); user-select: all; }
@@ -381,6 +383,7 @@ dialog.lb::backdrop { background: rgba(8,16,12,.85); }
         <label for="o-prod">Sản phẩm<select id="o-prod"></select></label>
         <label for="o-qty">Số lượng<input id="o-qty" type="number" min="1" value="1"></label>
       </div>
+      <p class="o-price" id="o-price" aria-live="polite"></p>
       <label for="o-note">Ghi chú<textarea id="o-note" rows="2"></textarea></label>
       <input id="o-web" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
       <p id="o-err" style="color:var(--sale);margin:0;font-size:13px" hidden>Vui lòng điền họ tên, số điện thoại và địa chỉ.</p>
@@ -795,6 +798,20 @@ function draw() {
 }
 function fillSel() { const v = sel.value; sel.innerHTML = cats.slice(1).map(c => `<optgroup label="${c}">${P.filter(p => p[1] === c).map(p => `<option value="${p[0]}"${HET_HANG.includes(p[0]) ? " disabled" : ""}>${p[2]} (${p[3]}) - ${HET_HANG.includes(p[0]) ? "Hết hàng" : vnd(fsPrice(p)) + (FS_ON && p[4] ? " (Flash Sale -" + FS_PCT + "%)" : "")}</option>`).join("")}</optgroup>`).join(""); if (v) sel.value = v; }
 fillSel();
+// Hiện giá sản phẩm đang chọn và tạm tính theo số lượng ngay trong khung đặt hàng.
+function showPrice() {
+  const p = P.find(x => String(x[0]) === sel.value), el = document.getElementById("o-price");
+  if (!p) { el.hidden = true; return; }
+  const q = Math.max(1, parseInt(document.getElementById("o-qty").value) || 1);
+  el.hidden = false;
+  el.innerHTML = p[4]
+    ? `Giá: <b>${vnd(fsPrice(p))}</b>${FS_ON ? ` <s>${vnd(p[4])}</s> (Flash Sale -${FS_PCT}%)` : ""} / ${p[3]}${q > 1 ? `<br>Tạm tính ${q} x: <b>${vnd(fsPrice(p) * q)}</b>` : ""}<br><small>Chưa gồm phí giao hàng.</small>`
+    : "Giá: <b>Liên hệ báo giá</b>";
+}
+sel.addEventListener("change", showPrice);
+document.getElementById("o-qty").addEventListener("input", showPrice);
+document.getElementById("form").addEventListener("reset", () => setTimeout(showPrice));
+showPrice();
 document.getElementById("f-count").textContent = P.length;
 document.getElementById("f-min").textContent = "Từ " + vnd(Math.min(...P.map(p => p[4])));
 draw();
@@ -809,7 +826,7 @@ function openFromHash() {
   if (!p) return;
   cur = p[1]; draw();
   if (HET_HANG.includes(p[0])) return;
-  sel.value = p[0];
+  sel.value = p[0]; showPrice();
   setTimeout(() => document.getElementById("dat-hang").scrollIntoView({behavior: "smooth"}), 100);
 }
 openFromHash();
@@ -823,7 +840,7 @@ document.addEventListener("click", e => {
   const c = e.target.closest("[data-cat]"); if (c) { cur = c.dataset.cat; bud = 0; draw(); return; }
   const sc = e.target.closest("[data-showcat]"); if (sc) { cur = sc.dataset.showcat; draw(); document.getElementById("san-pham").scrollIntoView({behavior: "smooth"}); return; }
   const k = e.target.closest("[data-pick]");
-  if (k) { sel.value = k.dataset.pick; document.getElementById("dat-hang").scrollIntoView({behavior: "smooth"}); setTimeout(() => document.getElementById("o-name").focus({preventScroll: true}), 600); }
+  if (k) { sel.value = k.dataset.pick; showPrice(); document.getElementById("dat-hang").scrollIntoView({behavior: "smooth"}); setTimeout(() => document.getElementById("o-name").focus({preventScroll: true}), 600); }
 });
 // Địa chỉ Apps Script "Website VCN → Pancake": tạo đơn thẳng trong POS shop Yến sào (1942180173), giữ giá web. Để trống thì chỉ tạo nội dung đơn để gửi Zalo.
 const ORDER_ENDPOINT = "https://script.google.com/macros/s/AKfycbz20B70mB81OJDkvuV_487N-FsViJhi3-IoEfqT8UY_pLCVXYxpAh3VqIPF2PVUCV5uBw/exec";
@@ -898,7 +915,7 @@ document.getElementById("o-copy").addEventListener("click", async e => {
 const two = n => String(n).padStart(2, "0");
 function fsTick() {
   const st = fsState();
-  if (st.on !== FS_ON) { FS_ON = st.on; draw(); fillSel(); }
+  if (st.on !== FS_ON) { FS_ON = st.on; draw(); fillSel(); showPrice(); }
   const left = Math.max(0, Math.floor((st.t - Date.now()) / 1000)), hh = two(Math.floor(left / 3600)), mm = two(Math.floor(left / 60) % 60), ss = two(left % 60);
   document.getElementById("fs-h").textContent = hh; document.getElementById("fs-m").textContent = mm; document.getElementById("fs-s").textContent = ss;
   document.getElementById("flash").classList.toggle("off", !st.on);
