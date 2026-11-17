@@ -3353,4 +3353,65 @@ dict(slug="che-yen-hat-sen-long-nhan", cat="Món ngon", ngay="2026-11-17",
        ("Vì sao chè hạt sen bị đắng?", "Thường do còn tim sen. Dùng tăm đẩy bỏ tim trước khi nấu."),
        ("Chè yến ăn nóng hay lạnh?", "Ăn được cả hai: ngày lạnh ăn ấm, ngày nóng để nguội rồi cất ngăn mát."),
        ("Chè yến để được bao lâu?", "Để nguội, đậy kín, cất ngăn mát và dùng trong vài ngày; hâm lại bằng lửa nhỏ.")]),
+dict(slug="yen-sao-an-voi-gi", cat="Món ngon", ngay="2026-11-17",
+  tu_khoa="yến sào ăn với gì, yến chưng với gì ngon, kết hợp yến sào, món ngon từ yến sào",
+  h1="Yến sào ăn với gì ngon? 7 cách kết hợp dễ làm",
+  desc="Yến sào ăn với gì ngon? 7 cách kết hợp: đường phèn, táo đỏ hạt sen, gừng, sữa tươi hạt chia, đông trùng hạ thảo, cháo và súp gà, chè long nhãn. Kèm bảng chọn món.",
+  lede="Yến sào ăn ngon nhất khi chưng cùng nguyên liệu có vị nhẹ để không át mùi yến: đường phèn, táo đỏ, hạt sen, gừng, sữa tươi, hạt chia, đông trùng hạ thảo, hoặc nấu cháo, súp gà và chè. Dưới đây là 7 cách kết hợp kèm định lượng ngắn và link công thức đầy đủ.",
+  tom_tat=["7 cách kết hợp: đường phèn; táo đỏ hạt sen; gừng; sữa tươi hạt chia; đông trùng hạ thảo; cháo, súp gà; chè hạt sen long nhãn.",
+           "Món chưng từng chén dùng 3–5 g yến khô; món nấu nồi như súp, chè dùng 10–15 g cho 4–6 người.",
+           "Nguyên tắc: chưng yến riêng hoặc cho yến vào sau cùng để sợi không tan.",
+           "Tránh nguyên liệu vị quá mạnh hoặc nhiều dầu mỡ vì át mùi yến.",
+           f"Yến chưng từng chén chọn {P[109][2]} {gia(109)}/100gr; nấu súp, cháo chọn yến vụn."],
+  body=f"""  <h2>Yến sào ăn với gì ngon?</h2>
+  <p>Yến sào hợp nhất với nguyên liệu có vị ngọt thanh hoặc béo nhẹ, vì sợi yến có mùi nhẹ, dễ bị át. Ở xưởng Việt Cường Nhân, khách hỏi nhiều nhất là chưng yến với gì cho đổi vị; dưới đây là 7 cách mà các gia đình hay làm.</p>
+  <table><thead><tr><th>Cách kết hợp</th><th>Vị</th><th>Yến khô</th><th>Công thức</th></tr></thead><tbody>
+  <tr><td>1. Đường phèn</td><td>Ngọt thanh, giữ mùi yến</td><td>3–5 g/chén</td><td><a href="cach-chung-yen-sao.html">Yến chưng đường phèn</a></td></tr>
+  <tr><td>2. Táo đỏ, hạt sen</td><td>Ngọt, bùi</td><td>3–5 g/chén</td><td><a href="yen-chung-tao-do-hat-sen.html">Yến chưng táo đỏ hạt sen</a></td></tr>
+  <tr><td>3. Gừng</td><td>Thơm ấm</td><td>3–5 g/chén</td><td><a href="yen-chung-gung-duong-phen.html">Yến chưng gừng</a></td></tr>
+  <tr><td>4. Sữa tươi, hạt chia</td><td>Béo nhẹ, sánh</td><td>3–5 g/chén</td><td><a href="yen-chung-sua-tuoi.html">Yến chưng sữa tươi</a></td></tr>
+  <tr><td>5. Đông trùng hạ thảo</td><td>Ngọt nhẹ, thơm</td><td>3–5 g/chén</td><td><a href="yen-chung-dong-trung-ha-thao.html">Yến chưng đông trùng</a></td></tr>
+  <tr><td>6. Cháo, súp gà</td><td>Mặn, đậm đà</td><td>10 g/6 người</td><td><a href="sup-ga-yen-sao.html">Súp gà yến sào</a></td></tr>
+  <tr><td>7. Chè hạt sen long nhãn</td><td>Ngọt, thơm</td><td>10–15 g/4 chén</td><td><a href="che-yen-hat-sen-long-nhan.html">Chè yến long nhãn</a></td></tr>
+  </tbody></table>
+
+  <h2>1. Yến chưng đường phèn</h2>
+  <p>Yến chưng đường phèn là cách ăn cơ bản nhất, giữ trọn mùi yến. Ngâm 3–5 g yến khô, chưng cách thủy với 150–200 ml nước 20–30 phút, thêm đường phèn 5 phút cuối.</p>
+
+  <h2>2. Yến chưng táo đỏ, hạt sen</h2>
+  <p>Táo đỏ cho vị ngọt tự nhiên, hạt sen cho vị bùi. Hạt sen nên ninh mềm trước, táo đỏ xẻ đôi chưng cùng yến.</p>
+
+  <h2>3. Yến chưng gừng</h2>
+  <p>Thêm 2–3 lát gừng mỏng khi chưng cho món thơm ấm, hợp ngày se lạnh. Vớt gừng ra sau khi chưng để không bị cay.</p>
+
+  <h2>4. Yến chưng sữa tươi, hạt chia</h2>
+  <p>Chưng yến với nước trước, để nguội bớt rồi thêm sữa tươi hâm nhẹ, không đun sôi. Thêm hạt chia đã ngâm nở để món sánh hơn.</p>
+
+  <h2>5. Yến chưng đông trùng hạ thảo</h2>
+  <p>Thêm vài cọng nấm đông trùng hạ thảo khô vào thố khi chưng, cho màu vàng cam đẹp mắt và vị ngọt nhẹ. Cách dùng đông trùng xem bài <a href="cach-dung-dong-trung-ha-thao.html">cách dùng đông trùng hạ thảo</a>.</p>
+
+  <h2>6. Cháo yến, súp gà yến</h2>
+  <p>Yến vụn hợp nấu món mặn như cháo, súp. Nấu cháo hoặc súp chín trước, cho yến đã ngâm vào sau cùng và đun thêm 3–5 phút. Cháo cho bé xem bài <a href="chao-yen-cho-be.html">cháo yến cho bé</a>.</p>
+
+  <h2>7. Chè yến hạt sen long nhãn</h2>
+  <p>Ninh hạt sen bở, thêm long nhãn và đường phèn, cuối cùng cho yến đã chưng riêng vào. Hợp nấu nồi lớn đãi cả nhà.</p>
+
+  <h2>Yến sào không nên kết hợp thế nào?</h2>
+  <p>Không có nguyên liệu nào "kỵ" yến theo nghĩa nguy hiểm, nhưng một số cách kết hợp làm món kém ngon:</p>
+  <ul>
+    <li><b>Nguyên liệu vị quá mạnh</b> như sầu riêng, nhiều quế, hồi: át mất mùi yến.</li>
+    <li><b>Nhiều dầu mỡ</b>: làm món ngấy, sợi yến bị lẫn.</li>
+    <li><b>Nấu sôi lâu cùng nguyên liệu khác</b>: sợi yến tan, xem bài <a href="yen-bi-chay-nuoc-khi-chung.html">vì sao yến bị chảy nước</a>.</li>
+  </ul>
+  <p>Người có bệnh nền, bà bầu, trẻ nhỏ nên hỏi bác sĩ trước khi ăn yến thường xuyên, nhất là món có nhiều đường. Yến sào là thực phẩm, không phải thuốc.</p>
+
+  <h2>Chọn yến theo món</h2>
+  <p>Món chưng từng chén nên dùng yến sợi để chén yến đẹp; món nấu nồi như súp, cháo, chè dùng yến vụn cho tiết kiệm. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Chưng từng chén."), li(106, "Nấu súp, cháo, chè."), li(142, "Chưng cùng yến."), li(136, "Chưng cùng yến.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Yến sào chưng với gì ngon nhất?", "Đường phèn là cách giữ mùi yến nhất; muốn đổi vị có thể chưng cùng táo đỏ, hạt sen, gừng, sữa tươi hoặc đông trùng hạ thảo."),
+       ("Yến nấu món mặn được không?", "Được. Yến vụn hợp nấu cháo, súp gà; nấu chín món trước rồi cho yến vào sau cùng, đun thêm 3–5 phút."),
+       ("Yến không nên ăn với gì?", "Nên tránh nguyên liệu vị quá mạnh hoặc nhiều dầu mỡ vì át mùi yến, và không nấu sôi lâu làm sợi yến tan."),
+       ("Một chén yến chưng cần bao nhiêu yến?", "Khoảng 3–5 g yến khô cho một chén; món nấu nồi như súp, chè dùng 10–15 g cho 4–6 người."),
+       ("Nên dùng loại yến nào để nấu chè, súp?", "Yến vụn hoặc yến tinh chế vụn đắp tổ hợp nấu chè, súp vì giá mềm, sợi tơi.")]),
 ]
