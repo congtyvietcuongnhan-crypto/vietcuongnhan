@@ -3414,4 +3414,63 @@ dict(slug="yen-sao-an-voi-gi", cat="Món ngon", ngay="2026-11-17",
        ("Yến không nên ăn với gì?", "Nên tránh nguyên liệu vị quá mạnh hoặc nhiều dầu mỡ vì át mùi yến, và không nấu sôi lâu làm sợi yến tan."),
        ("Một chén yến chưng cần bao nhiêu yến?", "Khoảng 3–5 g yến khô cho một chén; món nấu nồi như súp, chè dùng 10–15 g cho 4–6 người."),
        ("Nên dùng loại yến nào để nấu chè, súp?", "Yến vụn hoặc yến tinh chế vụn đắp tổ hợp nấu chè, súp vì giá mềm, sợi tơi.")]),
+dict(slug="nuoc-yen-hu-lam-qua-bieu", cat="Quà tặng", ngay="2026-11-17",
+  tu_khoa="nước yến hũ làm quà, quà biếu nước yến, lốc 6 hũ yến, lốc 10 hũ yến, nước yến VCN Nest có hộp",
+  h1="Nước yến hũ làm quà biếu: chọn lốc 6 hay lốc 10?",
+  desc="Nước yến hũ làm quà biếu nên chọn lốc 6 hay lốc 10, loại 0.3gr hay 0.8gr, có hộp hay không hộp. Bảng giá VCN Nest, gợi ý theo người nhận và ngân sách, cách đặt.",
+  lede="Nước yến hũ làm quà biếu nên chọn lốc có hộp: lốc 6 hũ hợp quà thăm hỏi, ngân sách vừa; lốc 10 hũ hợp biếu gia đình đông người hoặc quà dịp lễ, Tết. Loại 0.8gr tổ yến thô mỗi hũ đậm yến hơn loại 0.3gr nên hợp làm quà hơn.",
+  tom_tat=["Lốc 6 hũ hợp quà thăm hỏi, người ở một mình hoặc hai vợ chồng; lốc 10 hũ hợp gia đình đông người.",
+           "Loại 0.8gr tổ yến thô mỗi hũ đậm yến hơn loại 0.3gr.",
+           "Làm quà nên chọn loại có hộp để trang trọng, dễ cầm.",
+           f"Giá VCN Nest có hộp loại 0.8gr: lốc 6 {gia(133)}, lốc 10 {gia(135)}.",
+           "Hũ tiệt trùng chưa mở để nơi khô mát, xem hạn dùng in trên hũ; mở nắp thì dùng hết trong ngày."],
+  body=f"""  <h2>Vì sao nước yến hũ hợp làm quà biếu?</h2>
+  <p>Nước yến hũ hợp làm quà vì người nhận không phải ngâm, nhặt, chưng; mở nắp là dùng được. Đây là lựa chọn khách hay hỏi ở Việt Cường Nhân khi biếu người lớn tuổi ở xa, người bận rộn hoặc đi thăm người ốm.</p>
+  <p>Nước yến VCN Nest được sản xuất tại nhà máy nước yến của Việt Cường Nhân ở Phường Tân Đông Hiệp, đóng hũ tiệt trùng, ghi rõ lượng tổ yến thô mỗi hũ. So sánh với yến tổ tự chưng xem bài <a href="nuoc-yen-hu-va-yen-to-chung.html">nước yến hũ và yến tổ chưng</a>.</p>
+
+  <h2>Lốc 6 hay lốc 10: chọn thế nào?</h2>
+  <p>Chọn lốc 6 hay lốc 10 chủ yếu dựa vào số người dùng và ngân sách.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Lốc 6 hũ</th><th>Lốc 10 hũ</th></tr></thead><tbody>
+  <tr><td>Người nhận</td><td>Người ở một mình, hai vợ chồng, đi thăm hỏi</td><td>Gia đình đông người, biếu ông bà, cha mẹ</td></tr>
+  <tr><td>Dịp</td><td>Thăm người ốm, quà cảm ơn, quà nhỏ</td><td>Lễ, Tết, mừng thọ, quà doanh nghiệp</td></tr>
+  <tr><td>Giá có hộp, loại 0.8gr</td><td>{gia(133)}</td><td>{gia(135)}</td></tr>
+  <tr><td>Giá có hộp, loại 0.3gr</td><td>{gia(132)}</td><td>{gia(134)}</td></tr>
+  </tbody></table>
+
+  <h2>Loại 0.3gr hay 0.8gr?</h2>
+  <p>Con số 0.3gr hoặc 0.8gr là lượng tổ yến thô trong mỗi hũ VCN Nest. Loại 0.8gr có nhiều yến hơn nên đậm vị yến hơn, thường được chọn làm quà; loại 0.3gr giá mềm, hợp uống hằng ngày hoặc biếu số lượng lớn.</p>
+  <p>Nếu muốn quà nhiều yến hơn nữa, có thể chọn nước yến chưng thủ công như {P[125][2]} ({P[125][3]}), giá {gia(125)}/hũ.</p>
+
+  <h2>Có hộp hay không hộp?</h2>
+  <p>Làm quà biếu nên chọn lốc có hộp: trang trọng, dễ cầm, không cần gói thêm. Lốc không hộp giá mềm hơn, hợp mua về nhà dùng hoặc mua số lượng lớn rồi tự đóng gói.</p>
+  <table><thead><tr><th>Sản phẩm (loại 0.8gr)</th><th>Không hộp</th><th>Có hộp</th></tr></thead><tbody>
+  <tr><td>Lốc 6 hũ</td><td>{gia(129)}</td><td>{gia(133)}</td></tr>
+  <tr><td>Lốc 10 hũ</td><td>{gia(131)}</td><td>{gia(135)}</td></tr>
+  </tbody></table>
+
+  <h2>Gợi ý quà nước yến theo người nhận</h2>
+  <ul>
+    <li><b>Ông bà, cha mẹ lớn tuổi:</b> lốc 10 hũ có hộp loại 0.8gr; người có bệnh nền nên hỏi bác sĩ trước khi dùng thường xuyên. Xem thêm bài <a href="nguoi-gia-an-yen-the-nao.html">người già ăn yến thế nào</a>.</li>
+    <li><b>Đi thăm người ốm:</b> lốc 6 hũ có hộp, gọn nhẹ.</li>
+    <li><b>Đối tác, nhân viên:</b> lốc có hộp số lượng nhiều; xem bài <a href="qua-tang-doanh-nghiep-yen-sao.html">quà tặng doanh nghiệp yến sào</a>.</li>
+    <li><b>Quà Tết:</b> kết hợp nước yến với giỏ, hộp quà; xem bài <a href="qua-tet-yen-sao.html">quà Tết yến sào</a>.</li>
+  </ul>
+
+  <h2>Dặn người nhận cách dùng và bảo quản</h2>
+  <ul>
+    <li>Hũ chưa mở để nơi khô mát, tránh nắng trực tiếp; xem hạn dùng in trên hũ.</li>
+    <li>Để mát trước khi uống sẽ ngon hơn; lắc nhẹ trước khi mở.</li>
+    <li>Đã mở nắp thì dùng hết trong ngày.</li>
+  </ul>
+  <p>Thời điểm uống xem bài <a href="nuoc-yen-hu-uong-luc-nao.html">nước yến hũ uống lúc nào</a>. Nước yến là thực phẩm, không phải thuốc.</p>
+
+  <h2>Bảng giá nước yến hũ làm quà</h2>
+  <p>Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(133, "Quà thăm hỏi."), li(135, "Quà biếu gia đình, dịp lễ Tết."), li(129), li(131)) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a>. Đặt số lượng lớn làm quà công ty: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Nước yến hũ làm quà nên chọn lốc 6 hay lốc 10?", "Lốc 6 hợp quà thăm hỏi, người ở một mình hoặc hai vợ chồng; lốc 10 hợp biếu gia đình đông người, dịp lễ Tết."),
+       ("Nước yến VCN Nest 0.3gr và 0.8gr khác gì?", "Là lượng tổ yến thô trong mỗi hũ. Loại 0.8gr nhiều yến hơn, đậm vị hơn, thường được chọn làm quà."),
+       ("Lốc nước yến có hộp giá bao nhiêu?", f"Loại 0.8gr có hộp: lốc 6 hũ {gia(133)}, lốc 10 hũ {gia(135)}; loại 0.3gr có hộp: lốc 6 hũ {gia(132)}, lốc 10 hũ {gia(134)}. Giá chưa gồm phí giao hàng."),
+       ("Nước yến hũ có cần để tủ lạnh không?", "Hũ tiệt trùng chưa mở để nơi khô mát được; để lạnh trước khi uống sẽ ngon hơn. Đã mở nắp thì dùng hết trong ngày."),
+       ("Mua nhiều nước yến làm quà công ty thì liên hệ ai?", "Nhắn Zalo 0978 094 739 để được Việt Cường Nhân tư vấn số lượng và đóng gói.")]),
 ]
