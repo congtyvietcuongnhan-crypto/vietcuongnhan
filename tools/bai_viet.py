@@ -3606,4 +3606,83 @@ dict(slug="tao-do-an-song-duoc-khong", cat="Táo đỏ", ngay="2026-11-17",
        ("Mỗi ngày nên ăn bao nhiêu quả táo đỏ?", "Nên ăn lượng vừa phải, vài quả mỗi lần. Người cần hạn chế đường hoặc có bệnh nền nên hỏi bác sĩ."),
        ("Táo đỏ size nào ăn trực tiếp ngon?", "Size đại (80–100 quả/kg) hoặc thượng hạng (70–80 quả/kg) có cùi dày, dẻo, hợp ăn trực tiếp."),
        ("Trẻ em ăn táo đỏ được không?", "Nên bỏ hạt và cắt nhỏ để tránh hóc, cho ăn lượng ít; trẻ nhỏ nên hỏi bác sĩ trước khi ăn thường xuyên.")]),
+dict(slug="mat-na-duong-da-dung-may-lan", cat="Mỹ phẩm", ngay="2026-11-18",
+  tu_khoa="mặt nạ dưỡng da dùng mấy lần một tuần, đắp mặt nạ giấy bao lâu, đắp mặt nạ mỗi ngày được không, cách đắp mặt nạ giấy đúng",
+  h1="Mặt nạ dưỡng da dùng mấy lần một tuần là vừa?",
+  desc="Mặt nạ dưỡng da dùng mấy lần một tuần: thường 2–3 lần, mỗi lần 15–20 phút. Cách đắp mặt nạ giấy đúng 6 bước, lịch đắp theo loại da và lỗi hay gặp cần tránh.",
+  lede="Mặt nạ dưỡng da dạng giấy thường dùng 2–3 lần một tuần, mỗi lần đắp khoảng 15–20 phút hoặc theo thời gian ghi trên bao bì. Da khô hoặc thời tiết hanh có thể tăng lên 3–4 lần; da nhạy cảm nên bắt đầu 1–2 lần và thử trước trên một vùng da nhỏ.",
+  tom_tat=["Mặt nạ giấy dưỡng da thường dùng 2–3 lần một tuần là vừa.",
+           "Mỗi lần đắp 15–20 phút hoặc theo bao bì; không để mặt nạ khô hẳn trên mặt.",
+           "Da khô, mùa hanh có thể 3–4 lần; da nhạy cảm bắt đầu 1–2 lần và thử trước trên vùng da nhỏ.",
+           "Đắp sau bước làm sạch và toner, sau đó vỗ nhẹ cho tinh chất thấm rồi thoa kem dưỡng.",
+           f"Mặt nạ tại Việt Cường Nhân: hộp 10 miếng {gia(238)}, mặt nạ nâng tone hộp 10 miếng {gia(242)}."],
+  cac_buoc=[("Làm sạch da", "Tẩy trang (nếu có trang điểm, kem chống nắng) rồi rửa mặt bằng sữa rửa mặt, lau khô bằng khăn sạch."),
+            ("Cân bằng da", "Thoa một lớp toner mỏng để da sẵn sàng nhận dưỡng chất."),
+            ("Đắp mặt nạ", "Mở gói, trải miếng mặt nạ khớp mắt, mũi, miệng, vuốt nhẹ cho bám sát da, không để bọt khí."),
+            ("Thư giãn 15–20 phút", "Nằm hoặc ngồi thư giãn, đắp đúng thời gian ghi trên bao bì, không để mặt nạ khô hẳn."),
+            ("Vỗ nhẹ tinh chất", "Gỡ mặt nạ, vỗ nhẹ phần tinh chất còn lại trên da cho thấm, không cần rửa lại nếu bao bì không yêu cầu."),
+            ("Khóa ẩm", "Thoa kem dưỡng ẩm để giữ ẩm cho da.")],
+  body=f"""  <h2>Mặt nạ dưỡng da dùng mấy lần một tuần?</h2>
+  <p>Với mặt nạ giấy dưỡng ẩm thông thường, 2–3 lần một tuần là tần suất hợp với đa số làn da. Khoảng cách 1–2 ngày giữa các lần đắp giúp da nhận dưỡng chất đều mà không bị bí hay quá tải.</p>
+  <p>Luôn ưu tiên hướng dẫn ghi trên bao bì của từng loại mặt nạ, vì mỗi sản phẩm có thành phần và thời gian đắp riêng. Khách hay hỏi Việt Cường Nhân có nên đắp càng nhiều càng tốt không; câu trả lời là không cần, đắp đều đặn quan trọng hơn đắp dồn.</p>
+
+  <h2>Lịch đắp mặt nạ theo loại da</h2>
+  <p>Tần suất đắp mặt nạ dưỡng da nên điều chỉnh theo loại da và thời tiết. Bảng dưới là gợi ý để bắt đầu, sau đó anh chị quan sát da và tăng giảm cho hợp.</p>
+  <table><thead><tr><th>Loại da</th><th>Số lần mỗi tuần</th><th>Lưu ý</th></tr></thead><tbody>
+  <tr><td>Da thường</td><td>2–3 lần</td><td>Duy trì đều, cách nhau 1–2 ngày</td></tr>
+  <tr><td>Da khô, mùa hanh lạnh</td><td>3–4 lần</td><td>Thoa kem dưỡng ẩm ngay sau khi đắp</td></tr>
+  <tr><td>Da dầu, hỗn hợp</td><td>2 lần</td><td>Làm sạch kỹ trước khi đắp, chọn mặt nạ mỏng nhẹ</td></tr>
+  <tr><td>Da nhạy cảm</td><td>1–2 lần</td><td>Thử trước trên vùng da nhỏ, ngưng nếu thấy rát, ngứa</td></tr>
+  <tr><td>Sau đi nắng, đi đường dài</td><td>Thêm 1 lần</td><td>Làm sạch da trước, không đắp lên da đang trầy xước</td></tr>
+  </tbody></table>
+
+  <h2>Đắp mặt nạ giấy bao lâu là đủ?</h2>
+  <p>Đắp mặt nạ giấy khoảng 15–20 phút là đủ với đa số sản phẩm. Để lâu hơn, miếng mặt nạ bắt đầu khô và có thể hút ngược độ ẩm trên da, nên không có lợi thêm.</p>
+  <ul>
+    <li>Không ngủ quên khi đang đắp; có thể hẹn giờ trên điện thoại.</li>
+    <li>Gỡ mặt nạ khi miếng giấy còn hơi ẩm, không đợi khô cứng.</li>
+    <li>Phần tinh chất còn thừa trong gói có thể thoa lên cổ, mu bàn tay.</li>
+  </ul>
+
+  <h2>Cách đắp mặt nạ giấy đúng: 6 bước</h2>
+  <p>Đắp mặt nạ đúng thứ tự giúp tinh chất bám đều và da không bị bí. Đây là các bước gọn cho buổi tối:</p>
+  <ol>
+    <li><b>Làm sạch da:</b> tẩy trang nếu có trang điểm hoặc kem chống nắng, rồi rửa mặt bằng sữa rửa mặt, lau khô.</li>
+    <li><b>Cân bằng da:</b> thoa một lớp toner mỏng.</li>
+    <li><b>Đắp mặt nạ:</b> trải miếng mặt nạ khớp mắt, mũi, miệng, vuốt nhẹ từ giữa ra ngoài để không còn bọt khí.</li>
+    <li><b>Thư giãn 15–20 phút</b> hoặc theo thời gian ghi trên bao bì.</li>
+    <li><b>Vỗ nhẹ tinh chất:</b> gỡ mặt nạ, dùng đầu ngón tay vỗ nhẹ cho tinh chất thấm, không chà xát.</li>
+    <li><b>Khóa ẩm:</b> thoa kem dưỡng ẩm để giữ ẩm qua đêm.</li>
+  </ol>
+  <p>Buổi sáng nếu đắp, sau bước kem dưỡng nhớ thoa thêm kem chống nắng trước khi ra ngoài.</p>
+
+  <h2>Đắp mặt nạ mỗi ngày được không?</h2>
+  <p>Đắp mặt nạ giấy dưỡng ẩm hằng ngày thường không cần thiết với đa số làn da. Nếu da quá khô vào mùa hanh, có thể đắp dày hơn trong một thời gian ngắn, miễn là da không có dấu hiệu bí, nổi mẩn hay châm chích.</p>
+  <p>Với mặt nạ có công dụng đặc biệt như nâng tone, nên đọc kỹ hướng dẫn trên bao bì và không tự tăng số lần. Da đang mụn viêm, trầy xước hoặc đang điều trị da liễu thì nên hỏi bác sĩ da liễu trước khi đắp.</p>
+
+  <h2>Những lỗi hay gặp khi đắp mặt nạ</h2>
+  <ul>
+    <li><b>Đắp lên da chưa sạch:</b> bụi và kem chống nắng còn trên da làm tinh chất khó thấm.</li>
+    <li><b>Đắp quá lâu:</b> để mặt nạ khô hẳn trên mặt, da dễ khô căng.</li>
+    <li><b>Rửa mặt ngay sau khi gỡ:</b> trôi mất phần tinh chất, trừ khi bao bì yêu cầu rửa lại.</li>
+    <li><b>Dùng lại miếng đã mở:</b> mặt nạ giấy dùng một lần, mở gói nên dùng ngay.</li>
+    <li><b>Bỏ qua kem dưỡng:</b> không khóa ẩm, độ ẩm bay hơi nhanh.</li>
+    <li><b>Cất nơi nóng:</b> để mặt nạ gần cửa sổ nắng hoặc trong xe hơi.</li>
+  </ul>
+
+  <h2>Bảo quản mặt nạ giấy</h2>
+  <p>Mặt nạ giấy nên cất nơi khô mát, tránh nắng, dùng trong hạn ghi trên bao bì. Mùa nóng có thể để ngăn mát tủ lạnh 10–15 phút trước khi đắp cho dễ chịu, nhưng không để ngăn đá.</p>
+
+  <h2>Kết hợp mặt nạ với các bước dưỡng da khác</h2>
+  <p>Mặt nạ là bước dưỡng bổ sung, không thay cho các bước cơ bản hằng ngày: làm sạch, toner, dưỡng ẩm và chống nắng ban ngày. Nếu anh chị dùng xà bông handmade để tắm, có thể xem thêm bài <a href="xa-bong-handmade-tbeauty.html">xà bông handmade: cách chọn mùi hương và cách dùng</a> và <a href="cach-giu-xa-bong-handmade-ben-lau.html">cách bảo quản xà bông handmade dùng bền</a>.</p>
+
+  <h2>Mua mặt nạ dưỡng da tại Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân có mặt nạ giấy hộp 10 miếng và các sản phẩm cho các bước dưỡng da cơ bản. Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(238, "Hộp 10 miếng, dùng khoảng 3–5 tuần nếu đắp 2–3 lần mỗi tuần."), li(242, "Có 3 màu hồng, nâu, xanh."), li(233, "Bước cân bằng da trước khi đắp."), li(235, "Khóa ẩm sau khi đắp.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Mặt nạ giấy nên đắp mấy lần một tuần?", "Thường 2–3 lần một tuần là vừa. Da khô hoặc mùa hanh có thể 3–4 lần; da nhạy cảm nên bắt đầu 1–2 lần."),
+       ("Đắp mặt nạ giấy bao nhiêu phút?", "Khoảng 15–20 phút hoặc theo thời gian ghi trên bao bì. Không để mặt nạ khô hẳn trên mặt."),
+       ("Đắp mặt nạ xong có cần rửa mặt không?", "Thường không cần, chỉ vỗ nhẹ cho tinh chất thấm rồi thoa kem dưỡng. Nếu bao bì ghi rửa lại thì làm theo bao bì."),
+       ("Nên đắp mặt nạ buổi sáng hay buổi tối?", "Buổi tối tiện hơn vì có thời gian thư giãn và da nghỉ qua đêm. Đắp buổi sáng thì nhớ thoa kem chống nắng sau cùng."),
+       ("Một hộp mặt nạ 10 miếng dùng được bao lâu?", "Nếu đắp 2–3 lần mỗi tuần, hộp 10 miếng dùng được khoảng 3–5 tuần.")]),
 ]
