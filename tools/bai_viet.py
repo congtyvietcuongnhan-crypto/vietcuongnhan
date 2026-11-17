@@ -2670,4 +2670,86 @@ dict(slug="quy-trinh-san-xuat-yen-viet-cuong-nhan", cat="Về Việt Cường Nh
        ("Nước yến hũ Việt Cường Nhân sản xuất ở đâu?", "Nước yến chưng được sản xuất tại nhà máy 511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp, TP. Hồ Chí Minh, đi vào hoạt động từ năm 2022."),
        ("Xưởng yến Việt Cường Nhân có chứng nhận gì?", "Hệ thống quản lý an toàn thực phẩm đạt HACCP, ISO 22000:2018 và GMP do G-CERTI cấp; tổ yến thô, tổ yến tinh chế có hồ sơ tự công bố."),
        ("Có được đến xem xưởng làm yến không?", "Bạn gọi hoặc nhắn Zalo 0978 094 739 trước để được hẹn giờ và địa điểm phù hợp, vì xưởng là nơi đang sản xuất.")]),
+dict(slug="viet-cuong-nhan-la-ai", cat="Về Việt Cường Nhân", ngay="2026-11-17",
+  tu_khoa="Việt Cường Nhân, công ty Việt Cường Nhân, yến sào Việt Cường Nhân, Việt Cường Nhân là ai, VCN Nest",
+  h1="Việt Cường Nhân là ai? Hành trình từ nhà yến đến nhà máy",
+  desc="Việt Cường Nhân là công ty yến sào thành lập năm 2009 tại Dĩ An, có nhà yến, xưởng nhặt lông, nhà máy nước yến, đạt HACCP, ISO 22000, GMP. Hành trình và sản phẩm.",
+  lede="Việt Cường Nhân là Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân, thành lập tháng 6 năm 2009, trụ sở tại Phường Dĩ An, TP. Hồ Chí Minh. Công ty làm yến sào theo chuỗi khép kín: nhà yến, xưởng nhặt lông, xưởng tinh chế, nhà máy nước yến chưng sẵn, cùng trang trại nấm đông trùng hạ thảo và nha đam.",
+  tom_tat=["Tên đầy đủ: Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân, mã số doanh nghiệp 3701518691, thành lập tháng 6 năm 2009.",
+           "Chuỗi khép kín: nhà yến Gò Công Tây và Bình Thuận (2018), xưởng tinh chế Dĩ An (2019), 2 xưởng nhặt lông Lâm Đồng (2020), nhà máy nước yến (2022).",
+           "Hệ thống quản lý an toàn thực phẩm đạt HACCP, ISO 22000:2018 và GMP do G-CERTI cấp.",
+           "Sản phẩm có mặt tại nhiều chuỗi siêu thị, bán trên TikTok Shop, Shopee, Facebook, website và xuất khẩu sang Campuchia, Hàn Quốc.",
+           "Phương châm: \"Chất lượng tạo nên giá trị – Uy tín tạo nên thương hiệu\". Hotline, Zalo 0978 094 739."],
+  body=f"""  <h2>Việt Cường Nhân là ai?</h2>
+  <p>Việt Cường Nhân là doanh nghiệp sản xuất và kinh doanh yến sào, nước yến chưng, nấm đông trùng hạ thảo và thực phẩm dinh dưỡng, có trụ sở tại Dĩ An (Bình Dương cũ, nay thuộc TP. Hồ Chí Minh). Tên pháp lý là Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân, mã số doanh nghiệp 3701518691, thành lập tháng 6 năm 2009.</p>
+  <table><thead><tr><th>Thông tin</th><th>Chi tiết</th></tr></thead><tbody>
+  <tr><td>Tên công ty</td><td>Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân</td></tr>
+  <tr><td>Năm thành lập</td><td>Tháng 6 năm 2009</td></tr>
+  <tr><td>Trụ sở</td><td>Số 24/22 Khu phố Thống Nhất 1, Phường Dĩ An, TP. Hồ Chí Minh</td></tr>
+  <tr><td>Nhà máy</td><td>511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp, TP. Hồ Chí Minh</td></tr>
+  <tr><td>Cơ sở đóng gói</td><td>261-263 Võ Thị Sáu, KP. Tây A, Phường Đông Hòa, TP. Hồ Chí Minh</td></tr>
+  <tr><td>Chứng nhận</td><td>HACCP, ISO 22000:2018, GMP (G-CERTI)</td></tr>
+  <tr><td>Liên hệ</td><td>Hotline, Zalo 0978 094 739</td></tr>
+  </tbody></table>
+
+  <h2>Hành trình phát triển của Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân đi từ một công ty thương mại năm 2009 đến chuỗi sản xuất yến sào khép kín sau hơn một thập kỷ. Các mốc chính:</p>
+  <ol>
+    <li><b>2009:</b> thành lập Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân.</li>
+    <li><b>2018:</b> xây dựng và nuôi yến tại Gò Công Tây (Tiền Giang cũ) và Bình Thuận; mua bán yến thô, yến tinh chế.</li>
+    <li><b>2019:</b> đưa vào hoạt động xưởng tinh chế yến sào đầu tiên tại Dĩ An.</li>
+    <li><b>2020:</b> mở thêm 2 xưởng nhặt lông yến tại Đạ Tẻh và Madagui (Lâm Đồng), nâng lên 3 xưởng.</li>
+    <li><b>2022:</b> nuôi trồng nấm đông trùng hạ thảo, xây nhà máy nước yến chưng sẵn.</li>
+    <li><b>2024:</b> mở rộng hợp tác trong và ngoài nước; phát triển thêm thực phẩm dinh dưỡng, mỹ phẩm.</li>
+  </ol>
+  <p>Từng khâu trong chuỗi, từ thu tổ đến đóng hũ, được mô tả ở bài <a href="quy-trinh-san-xuat-yen-viet-cuong-nhan.html">quy trình sản xuất yến sào tại xưởng Việt Cường Nhân</a>.</p>
+
+  <h2>Việt Cường Nhân sản xuất những gì?</h2>
+  <p>Việt Cường Nhân có 5 nhóm sản phẩm chính, phần lớn do công ty tự nuôi, tự sơ chế và đóng gói.</p>
+  <table><thead><tr><th>Nhóm</th><th>Ví dụ</th><th>Nguồn</th></tr></thead><tbody>
+  <tr><td>Tổ yến thô</td><td>{P[101][2]}</td><td>Nhà yến Gò Công Tây, Bình Thuận</td></tr>
+  <tr><td>Yến đã nhặt sạch lông</td><td>{P[109][2]}, {P[113][2]}</td><td>Xưởng nhặt lông Lâm Đồng, xưởng tinh chế Dĩ An</td></tr>
+  <tr><td>Nước yến chưng đóng hũ</td><td>{P[124][2]}, nước yến VCN Nest</td><td>Nhà máy nước yến Tân Đông Hiệp</td></tr>
+  <tr><td>Nấm đông trùng hạ thảo</td><td>{P[136][2]}</td><td>Trang trại nuôi trồng của công ty</td></tr>
+  <tr><td>Táo đỏ, thạch nha đam, mỹ phẩm</td><td>Táo đỏ Tân Cương, nha đam, xà bông T'Beauty</td><td>Kho táo đỏ, trang trại và nhà máy nha đam</td></tr>
+  </tbody></table>
+  <p>Nếu mới tìm hiểu yến, bạn có thể đọc bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông khác nhau thế nào</a> để chọn loại hợp nhu cầu.</p>
+
+  <h2>Chứng nhận an toàn thực phẩm của Việt Cường Nhân</h2>
+  <p>Hệ thống quản lý an toàn thực phẩm của Việt Cường Nhân đạt HACCP, ISO 22000:2018 và GMP do G-CERTI cấp. Phạm vi chứng nhận gồm sơ chế và kinh doanh yến sào, sản phẩm từ yến, nuôi cấy và sản xuất nấm đông trùng hạ thảo, đóng gói nhụy hoa nghệ tây, táo đỏ.</p>
+  <ul>
+    <li>HACCP: hiệu lực đến 30/11/2026.</li>
+    <li>ISO 22000:2018: hiệu lực đến 28/06/2027.</li>
+    <li>GMP: hiệu lực đến 21/08/2027.</li>
+    <li>Hồ sơ tự công bố: tổ yến thô, tổ yến tinh chế, nấm đông trùng hạ thảo.</li>
+  </ul>
+  <p>Bản scan giấy tờ xem tại <a href="../chung-nhan/">trang chứng nhận</a>; ý nghĩa từng chứng nhận xem bài <a href="chung-nhan-haccp-iso-22000-gmp-la-gi.html">HACCP, ISO 22000 và GMP nghĩa là gì</a>.</p>
+
+  <h2>Sản phẩm Việt Cường Nhân bán ở đâu?</h2>
+  <p>Sản phẩm Việt Cường Nhân có ở kênh siêu thị, kênh online và xuất khẩu. Trong nước, công ty cung cấp yến thô cho các xưởng tinh chế trên toàn quốc; sản phẩm có mặt tại LOTTE Mart, KingKong Mart, Z-Mart, LongBeach Mart, YOUTH MARKET, HELLO MART, Taka Mart, JAPAN VINA, J24 MART và một số spa, cửa hàng làm đẹp.</p>
+  <ul>
+    <li><b>Online:</b> website vietcuongnhan.com, TikTok Shop, Shopee, Facebook.</li>
+    <li><b>Tại xưởng:</b> nhà máy Tân Đông Hiệp và cơ sở đóng gói Đông Hòa, gọi trước 0978 094 739 để hẹn giờ. Chi tiết ở bài <a href="yen-sao-binh-duong-di-an-mua-o-dau.html">mua yến sào ở Dĩ An</a>.</li>
+    <li><b>Xuất khẩu:</b> Campuchia (nước yến chưng đóng hũ), Hàn Quốc (nước yến chưng đóng hũ và yến tinh chế).</li>
+  </ul>
+
+  <h2>Tầm nhìn và giá trị cốt lõi</h2>
+  <p>Phương châm của Việt Cường Nhân là "Chất lượng tạo nên giá trị – Uy tín tạo nên thương hiệu". Công ty đặt mục tiêu trở thành doanh nghiệp hàng đầu tại Việt Nam trong lĩnh vực thực phẩm dinh dưỡng, mỹ phẩm và dịch vụ thương mại.</p>
+  <ul>
+    <li><b>Chất lượng:</b> luôn đặt chất lượng lên hàng đầu.</li>
+    <li><b>Uy tín:</b> xây dựng niềm tin lâu dài.</li>
+    <li><b>Đổi mới:</b> không ngừng cải tiến.</li>
+    <li><b>Trách nhiệm:</b> cam kết với cộng đồng.</li>
+  </ul>
+  <p>Đọc thêm ở <a href="../gioi-thieu/">trang giới thiệu Việt Cường Nhân</a>.</p>
+
+  <h2>Một số sản phẩm tiêu biểu</h2>
+  <p>Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(101), li(109), li(124), li(136)) + """
+  <p>Xem đầy đủ và đặt hàng ở <a href="../#san-pham">bảng giá sản phẩm</a>. Mua sỉ hoặc làm đại lý: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Việt Cường Nhân là công ty gì?", "Việt Cường Nhân là Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân, thành lập năm 2009 tại Dĩ An, sản xuất và kinh doanh yến sào, nước yến chưng, nấm đông trùng hạ thảo, táo đỏ, nha đam và mỹ phẩm."),
+       ("Yến sào Việt Cường Nhân có nhà yến riêng không?", "Có. Từ năm 2018 công ty xây và nuôi yến tại Gò Công Tây (Tiền Giang cũ) và Bình Thuận, cùng các xưởng nhặt lông tại Lâm Đồng và xưởng tinh chế tại Dĩ An."),
+       ("Việt Cường Nhân ở đâu?", "Trụ sở tại Số 24/22 Khu phố Thống Nhất 1, Phường Dĩ An; nhà máy tại 511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp; cơ sở đóng gói tại 261-263 Võ Thị Sáu, Phường Đông Hòa, TP. Hồ Chí Minh."),
+       ("VCN Nest là gì?", "VCN Nest là dòng nước yến chưng đóng hũ của Việt Cường Nhân, sản xuất tại nhà máy nước yến ở Tân Đông Hiệp, có loại 0.3gr và 0.8gr tổ yến thô mỗi hũ."),
+       ("Việt Cường Nhân có chứng nhận gì?", "Hệ thống quản lý an toàn thực phẩm đạt HACCP, ISO 22000:2018 và GMP do G-CERTI cấp; tổ yến thô, tổ yến tinh chế và nấm đông trùng hạ thảo có hồ sơ tự công bố.")]),
 ]
