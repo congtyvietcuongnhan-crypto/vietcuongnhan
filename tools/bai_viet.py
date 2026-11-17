@@ -3099,4 +3099,64 @@ dict(slug="sup-ga-yen-sao", cat="Món ngon", ngay="2026-11-17",
        ("Nấu súp nên dùng loại yến nào?", "Yến vụn hoặc yến tinh chế vụn đắp tổ hợp nấu súp vì giá mềm, sợi tơi; yến sợi đẹp nên dùng để chưng."),
        ("Súp gà yến để qua đêm được không?", "Nên dùng trong ngày. Súp còn dư để nguội, đậy kín, cất ngăn mát; hâm lại bằng lửa nhỏ."),
        ("Có thể thay gà bằng cua không?", "Được. Có thể dùng thịt cua xé hoặc kết hợp gà và cua; cách nấu tương tự, yến vẫn cho vào sau cùng.")]),
+dict(slug="xa-bong-handmade-tbeauty", cat="Mỹ phẩm", ngay="2026-11-17",
+  tu_khoa="xà bông handmade, xà bông thủ công, chọn mùi xà bông, cách dùng xà bông handmade, xà bông hương hoa",
+  h1="Xà bông handmade: cách chọn mùi hương và cách dùng",
+  desc="Xà bông handmade tại Việt Cường Nhân có hơn 20 mùi chia 4 nhóm: hoa, trái cây, hương ấm, tươi mát. Cách chọn mùi theo sở thích, cách dùng đúng, bảng giá theo từng cục.",
+  lede="Chọn xà bông handmade dễ nhất là chọn theo nhóm mùi: hương hoa (sen, hồng, lan, mẫu đơn), trái cây (dứa, măng cụt, xoài, bưởi), hương ấm (gạo rang, vani, mật ong, bông cà phê) và tươi mát (trà xanh, bạc hà). Khi dùng, làm ướt xà bông, xoa tạo bọt trên tay hoặc bông tắm rồi mới thoa lên da, xả sạch và để cục xà bông khô ráo sau mỗi lần dùng.",
+  tom_tat=["Xà bông thủ công tại Việt Cường Nhân có hơn 20 mùi, cục từ 67 g đến 140 g.",
+           "4 nhóm mùi: hương hoa, trái cây, hương ấm, tươi mát; chọn theo sở thích và thời điểm dùng.",
+           "Cách dùng: làm ướt, tạo bọt trên tay hoặc bông tắm, thoa nhẹ, xả sạch.",
+           "Da nhạy cảm nên thử trên vùng da nhỏ trước; ngưng dùng nếu thấy khó chịu.",
+           f"Giá từ {gia(201)}/cục 110g; có hộp quà 3 cục {gia(246)}."],
+  body=f"""  <h2>Xà bông thủ công là gì?</h2>
+  <p>Xà bông thủ công (xà bông handmade) là xà bông được làm theo mẻ nhỏ, đổ khuôn và cắt từng cục, nên mỗi cục có hình dáng, màu sắc riêng. Bên cạnh yến sào, Việt Cường Nhân có bán dòng xà bông thủ công với nhiều mùi hương, quy cách theo từng cục.</p>
+  <p>Vì là sản phẩm làm theo mẻ, màu và vân trên từng cục có thể khác nhau đôi chút so với ảnh. Mùi hương là tiêu chí chọn chính.</p>
+
+  <h2>Cách chọn mùi xà bông handmade</h2>
+  <p>Cách chọn mùi xà bông handmade đơn giản nhất là chọn theo 4 nhóm mùi, rồi thử 1–2 mùi trong nhóm mình thích.</p>
+  <table><thead><tr><th>Nhóm mùi</th><th>Mùi có sẵn</th><th>Hợp với</th></tr></thead><tbody>
+  <tr><td>Hương hoa</td><td>Sen, hoa hồng, hoa lan, lyly, hoa mẫu đơn, hoa sứ, hoa hướng dương, bông bưởi</td><td>Người thích mùi dịu, nữ tính, dùng làm quà</td></tr>
+  <tr><td>Trái cây</td><td>Dứa, măng cụt, xoài, bưởi, cam, dâu, nho, chuối, cherry, dừa</td><td>Người thích mùi ngọt, tươi vui, trẻ trung</td></tr>
+  <tr><td>Hương ấm</td><td>Gạo rang, vani, mật ong, bắp, bông cà phê</td><td>Người thích mùi ấm, dễ chịu, dùng buổi tối</td></tr>
+  <tr><td>Tươi mát</td><td>Trà xanh, bạc hà</td><td>Người thích mùi sạch, mát, dùng buổi sáng hoặc ngày nóng</td></tr>
+  </tbody></table>
+
+  <h3>Mẹo chọn mùi</h3>
+  <ul>
+    <li><b>Mới dùng lần đầu:</b> chọn mùi quen như sen, trà xanh, dừa.</li>
+    <li><b>Dùng cho cả nhà:</b> chọn mùi nhẹ, dễ chịu như trà xanh, gạo rang.</li>
+    <li><b>Làm quà:</b> chọn hương hoa hoặc hộp quà nhiều mùi để người nhận thử.</li>
+    <li><b>Đổi mùi theo mùa:</b> mùa nóng dùng bạc hà, trà xanh; mùa mát dùng vani, mật ong.</li>
+  </ul>
+
+  <h2>Cách dùng xà bông handmade đúng cách</h2>
+  <p>Xà bông handmade dùng như xà bông cục thông thường, nhưng nên tạo bọt trước khi thoa để dùng tiết kiệm và cục xà bông bền hơn.</p>
+  <ol>
+    <li><b>Làm ướt da và cục xà bông</b> bằng nước sạch.</li>
+    <li><b>Tạo bọt:</b> xoa xà bông giữa hai lòng bàn tay hoặc trên bông tắm, lưới tạo bọt.</li>
+    <li><b>Thoa bọt lên da</b>, massage nhẹ, tránh vùng mắt.</li>
+    <li><b>Xả sạch</b> bằng nước, lau khô.</li>
+    <li><b>Để cục xà bông lên khay thoát nước</b>, nơi khô ráo, không ngâm trong nước.</li>
+  </ol>
+  <p>Giữ cục xà bông khô giữa các lần dùng là cách đơn giản nhất để xà bông không bị nhũn và dùng được lâu.</p>
+
+  <h2>Lưu ý khi dùng</h2>
+  <ul>
+    <li>Da nhạy cảm nên thử trên một vùng da nhỏ ở cổ tay trước khi dùng toàn thân.</li>
+    <li>Ngưng dùng nếu thấy đỏ, ngứa hoặc khó chịu; trường hợp kéo dài nên hỏi bác sĩ da liễu.</li>
+    <li>Tránh để bọt dính vào mắt; nếu dính, rửa ngay bằng nhiều nước sạch.</li>
+    <li>Dùng cho trẻ nhỏ thì người lớn nên hỏi ý kiến bác sĩ và trông chừng khi tắm.</li>
+    <li>Xà bông là mỹ phẩm làm sạch, không phải thuốc.</li>
+  </ul>
+
+  <h2>Bảng giá xà bông thủ công tại Việt Cường Nhân</h2>
+  <p>Giá lấy từ bảng giá website, chưa gồm phí giao hàng. Một số mùi tiêu biểu:</p>
+""" + ul(li(201, "Tươi mát, hợp dùng hằng ngày."), li(207, "Hương ấm, dễ chịu."), li(211, "Hương hoa nhẹ."), li(222, "Hương hoa, cục lớn."), li(226, "Hương ấm ngọt."), li(246, "Hợp làm quà.")) + f"""
+  <p>Xem đủ hơn 20 mùi và đặt hàng tại <a href="../#san-pham">bảng giá sản phẩm</a>. Muốn kết hợp xà bông với yến sào làm quà Tết, xem bài <a href="qua-tet-yen-sao.html">quà Tết yến sào</a>. Mua số lượng lớn làm quà tặng: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Xà bông handmade có mấy mùi?", "Tại Việt Cường Nhân có hơn 20 mùi, chia 4 nhóm: hương hoa, trái cây, hương ấm và tươi mát."),
+       ("Nên chọn mùi xà bông nào cho người mới dùng?", "Nên chọn mùi quen và nhẹ như sen, trà xanh hoặc dừa, rồi đổi sang mùi khác khi đã quen."),
+       ("Dùng xà bông handmade thế nào cho đúng?", "Làm ướt da và xà bông, tạo bọt trên tay hoặc bông tắm, thoa nhẹ, xả sạch, rồi để cục xà bông lên khay thoát nước cho khô."),
+       ("Da nhạy cảm dùng xà bông handmade được không?", "Nên thử trên vùng da nhỏ ở cổ tay trước. Nếu thấy đỏ, ngứa thì ngưng dùng và hỏi bác sĩ da liễu khi cần."),
+       ("Xà bông thủ công giá bao nhiêu?", f"Tại Việt Cường Nhân, giá từ {gia(201)} cho cục 110g; hộp quà 3 cục giá {gia(246)}, chưa gồm phí giao hàng.")]),
 ]
