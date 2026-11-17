@@ -788,7 +788,7 @@ function draw() {
         <h3>${p[2]}</h3>
         <div class="spec">${p[3]}</div>
         <div class="price">${priceHtml(p)}</div>
-        ${HET_HANG.includes(p[0]) ? `<button class="btn btn-line" type="button" disabled style="opacity:.55;cursor:not-allowed">Hết hàng</button>` : `<a class="btn btn-line" href="https://zalo.me/0978094739" target="_blank" rel="noopener">Liên hệ</a>`}
+        ${HET_HANG.includes(p[0]) ? `<button class="btn btn-line" type="button" disabled style="opacity:.55;cursor:not-allowed">Hết hàng</button>` : `<button class="btn btn-line" type="button" data-pick="${p[0]}">Liên hệ</button>`}
       </div>
     </article>`).join("");
   chips.innerHTML = cats.map(c => `<button class="chip" type="button" aria-pressed="${c === cur}" data-cat="${c}">${c}</button>`).join("");
@@ -823,7 +823,7 @@ document.addEventListener("click", e => {
   const c = e.target.closest("[data-cat]"); if (c) { cur = c.dataset.cat; bud = 0; draw(); return; }
   const sc = e.target.closest("[data-showcat]"); if (sc) { cur = sc.dataset.showcat; draw(); document.getElementById("san-pham").scrollIntoView({behavior: "smooth"}); return; }
   const k = e.target.closest("[data-pick]");
-  if (k) { sel.value = k.dataset.pick; document.getElementById("dat-hang").scrollIntoView({behavior: "smooth"}); }
+  if (k) { sel.value = k.dataset.pick; document.getElementById("dat-hang").scrollIntoView({behavior: "smooth"}); setTimeout(() => document.getElementById("o-name").focus({preventScroll: true}), 600); }
 });
 // Địa chỉ Apps Script "Website VCN → Pancake": tạo đơn thẳng trong POS shop Yến sào (1942180173), giữ giá web. Để trống thì chỉ tạo nội dung đơn để gửi Zalo.
 const ORDER_ENDPOINT = "https://script.google.com/macros/s/AKfycbz20B70mB81OJDkvuV_487N-FsViJhi3-IoEfqT8UY_pLCVXYxpAh3VqIPF2PVUCV5uBw/exec";
