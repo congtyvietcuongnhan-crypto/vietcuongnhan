@@ -250,6 +250,8 @@ form.f .btn { justify-content: center; }
 .f label { display: grid; gap: 6px; align-content: start; font-size: 13px; color: var(--muted); }
 .f input, .f select, .f textarea { font: 15px var(--font-body); padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--ivory); color: var(--ink); width: 100%; }
 .f .row { display: grid; grid-template-columns: 2fr 1fr; gap: 12px; }
+.o-price { margin: -2px 0 0; padding: 10px 12px; border-radius: 10px; background: var(--ivory); border: 1px dashed var(--gold); font-size: 14px; color: var(--muted); }
+.o-price b { color: var(--sale); font-size: 18px; }
 .summary { white-space: pre-wrap; background: var(--ivory); border: 1px dashed var(--gold); border-radius: 10px; padding: 12px; font-size: 14px; }
 .contact p { margin: 0 0 10px; }
 .contact .big { font: 700 28px var(--font-display); color: var(--emerald-2); user-select: all; }
@@ -276,6 +278,10 @@ button.ph { border: 0; padding: 0; width: 100%; cursor: zoom-in; font: inherit; 
 dialog.lb { border: 0; padding: 0; background: transparent; max-width: min(92vw, 720px); width: 100%; }
 dialog.lb::backdrop { background: rgba(8,16,12,.85); }
 .lb img { width: 100%; border-radius: 12px; display: block; }
+.lb video { display: block; margin: 0 auto; max-width: 100%; max-height: 82vh; border-radius: 12px; background: #000; }
+.lb video[hidden], .lb img[hidden] { display: none; }
+.card .qua { font-size: 12.5px; line-height: 1.4; color: var(--logo-gold); margin-top: 4px; }
+.ph .count.v { bottom: auto; right: auto; top: 50%; left: 8px; transform: translateY(-50%); }
 .lb .bar { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 10px; color: #fff; font-size: 14px; }
 .lb .bar button { background: rgba(255,255,255,.14); color: #fff; border: 0; border-radius: 999px; padding: 8px 14px; font: 600 14px var(--font-body); cursor: pointer; }
 .flash { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; margin: 22px 0 6px; padding: 14px 18px; border-radius: 14px; background: linear-gradient(100deg, #f3dc6a, #d9b23c); color: #4a0c10; box-shadow: 0 8px 22px rgb(0 0 0 / .25); }
