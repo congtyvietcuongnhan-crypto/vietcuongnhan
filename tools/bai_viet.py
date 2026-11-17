@@ -2752,4 +2752,79 @@ dict(slug="viet-cuong-nhan-la-ai", cat="Về Việt Cường Nhân", ngay="2026-
        ("Việt Cường Nhân ở đâu?", "Trụ sở tại Số 24/22 Khu phố Thống Nhất 1, Phường Dĩ An; nhà máy tại 511/9 Bùi Thị Xuân, Phường Tân Đông Hiệp; cơ sở đóng gói tại 261-263 Võ Thị Sáu, Phường Đông Hòa, TP. Hồ Chí Minh."),
        ("VCN Nest là gì?", "VCN Nest là dòng nước yến chưng đóng hũ của Việt Cường Nhân, sản xuất tại nhà máy nước yến ở Tân Đông Hiệp, có loại 0.3gr và 0.8gr tổ yến thô mỗi hũ."),
        ("Việt Cường Nhân có chứng nhận gì?", "Hệ thống quản lý an toàn thực phẩm đạt HACCP, ISO 22000:2018 và GMP do G-CERTI cấp; tổ yến thô, tổ yến tinh chế và nấm đông trùng hạ thảo có hồ sơ tự công bố.")]),
+dict(slug="mua-yen-online-can-kiem-tra-gi", cat="Yến sào", ngay="2026-11-17",
+  tu_khoa="mua yến online, mua yến sào online, mua yến sào online uy tín, kiểm tra yến khi nhận hàng, đặt yến sào qua mạng",
+  h1="Mua yến sào online cần kiểm tra những gì?",
+  desc="Mua yến online cần kiểm tra 4 nhóm: thông tin người bán, mô tả và giá sản phẩm, giấy tờ chứng nhận, cách kiểm hàng khi nhận. Checklist dễ làm, kèm chính sách đổi trả.",
+  lede="Mua yến online an toàn hơn khi bạn kiểm tra 4 nhóm thông tin trước và sau khi đặt: người bán là ai, sản phẩm được mô tả và báo giá rõ ràng không, cơ sở sản xuất có giấy tờ gì, và khi nhận hàng được kiểm tra, đổi trả ra sao. Không có dấu hiệu nào chắc chắn 100%, nhưng càng nhiều điểm rõ ràng thì rủi ro càng thấp.",
+  tom_tat=["Kiểm tra người bán: tên công ty, mã số doanh nghiệp, địa chỉ xưởng, số điện thoại gọi được.",
+           "Kiểm tra sản phẩm: tên loại yến (thô, tinh chế, rút lông), khối lượng, giá cho từng quy cách, ảnh thật sợi yến.",
+           "Kiểm tra giấy tờ: chứng nhận HACCP, ISO 22000, GMP còn hiệu lực và hồ sơ tự công bố sản phẩm.",
+           "Khi nhận: kiểm tra kiện, số lượng, niêm phong trước khi thanh toán, quay video lúc mở hàng.",
+           f"Giá yến cao cấp không rẻ bất thường; ví dụ {P[109][2]} tại Việt Cường Nhân {gia(109)}/100gr."],
+  body=f"""  <h2>Vì sao cần kiểm tra khi mua yến online?</h2>
+  <p>Mua yến online tiện nhưng bạn không được cầm sợi yến lên xem như ở cửa hàng, nên phải dựa vào thông tin người bán đưa ra. Yến sào là thực phẩm giá cao, vì vậy dành vài phút kiểm tra trước khi đặt giúp bạn tránh mua nhầm loại, nhầm khối lượng hoặc hàng không rõ nguồn gốc.</p>
+  <p>Khách hay hỏi xưởng Việt Cường Nhân câu "mua online có sợ hàng pha không". Câu trả lời ngắn: chọn người bán minh bạch thông tin và có chính sách kiểm hàng, đổi trả rõ ràng là cách giảm rủi ro hiệu quả nhất.</p>
+
+  <h2>1. Kiểm tra thông tin người bán</h2>
+  <p>Người bán yến online uy tín công khai đầy đủ tên doanh nghiệp, mã số doanh nghiệp, địa chỉ và số điện thoại liên lạc được.</p>
+  <ul>
+    <li><b>Tên pháp lý và mã số doanh nghiệp:</b> có thể tra trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.</li>
+    <li><b>Địa chỉ xưởng hoặc cửa hàng:</b> tìm được trên bản đồ, có thể hẹn đến xem.</li>
+    <li><b>Số điện thoại, Zalo:</b> gọi thử, hỏi vài câu về loại yến, cách chưng. Người làm yến thật trả lời cụ thể.</li>
+    <li><b>Trang chính sách:</b> có chính sách vận chuyển, kiểm hàng, đổi trả viết rõ ràng.</li>
+  </ul>
+  <p>Ví dụ, chân trang website Việt Cường Nhân ghi tên Công ty TNHH Thương mại - Dịch vụ Việt Cường Nhân, mã số doanh nghiệp 3701518691, trụ sở, nhà máy, cơ sở đóng gói và hotline 0978 094 739.</p>
+
+  <h2>2. Kiểm tra mô tả sản phẩm và giá</h2>
+  <p>Mô tả sản phẩm yến cần ghi rõ loại yến, khối lượng và giá cho từng quy cách; mô tả mập mờ là dấu hiệu nên hỏi lại.</p>
+  <table><thead><tr><th>Cần có</th><th>Vì sao quan trọng</th></tr></thead><tbody>
+  <tr><td>Loại yến: thô, tinh chế, rút lông, chân tua, vụn</td><td>Mỗi loại có mức làm sạch và giá khác nhau</td></tr>
+  <tr><td>Khối lượng tịnh (50gr, 100gr...)</td><td>So sánh giá cho đúng, tránh nhầm khối lượng hộp</td></tr>
+  <tr><td>Giá cho từng quy cách</td><td>Biết trước tổng tiền, tránh "inbox báo giá" rồi đổi giá</td></tr>
+  <tr><td>Ảnh thật sợi yến, video cận cảnh</td><td>Nhìn được độ dày sợi, màu, lông còn sót</td></tr>
+  <tr><td>Nguồn gốc: nhà yến, nơi làm sạch</td><td>Biết hàng đi qua những khâu nào</td></tr>
+  </tbody></table>
+  <p>Giá rẻ bất thường so với mặt bằng chung là điểm cần cảnh giác. Tham khảo khung giá từng loại ở bài <a href="gia-yen-sao-bao-nhieu-tien.html">giá yến sào bao nhiêu tiền 100gr</a>, và phân biệt các loại ở bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông khác nhau thế nào</a>.</p>
+
+  <h2>3. Kiểm tra giấy tờ, chứng nhận</h2>
+  <p>Giấy chứng nhận cho biết cơ sở sản xuất được đánh giá về quy trình an toàn thực phẩm. Khi xem, hãy đối chiếu 3 điểm:</p>
+  <ol>
+    <li>Tên và địa chỉ trên giấy trùng với cơ sở sản xuất sản phẩm bạn mua.</li>
+    <li>Phạm vi chứng nhận có ghi nhóm sản phẩm yến sào.</li>
+    <li>Số chứng nhận, tổ chức cấp và thời hạn hiệu lực còn hạn.</li>
+  </ol>
+  <p>Ngoài chứng nhận hệ thống, sản phẩm yến nên có hồ sơ tự công bố. Việt Cường Nhân công khai bản scan HACCP, ISO 22000:2018, GMP và hồ sơ tự công bố tổ yến thô, tổ yến tinh chế tại <a href="../chung-nhan/">trang chứng nhận</a>. Ý nghĩa từng chứng nhận xem bài <a href="chung-nhan-haccp-iso-22000-gmp-la-gi.html">HACCP, ISO 22000 và GMP nghĩa là gì</a>.</p>
+
+  <h2>4. Kiểm tra khi nhận hàng</h2>
+  <p>Khi nhận yến, hãy kiểm tra kiện hàng trước khi thanh toán và quay video lúc mở hộp để có căn cứ nếu cần đổi trả.</p>
+  <ol>
+    <li><b>Bên ngoài kiện:</b> không móp, rách, ướt.</li>
+    <li><b>Số lượng và loại:</b> đúng với đơn đã xác nhận.</li>
+    <li><b>Niêm phong, tem nhãn:</b> còn nguyên; nhãn có tên sản phẩm, khối lượng, ngày sản xuất, hạn dùng, cơ sở sản xuất.</li>
+    <li><b>Quay video khi mở hộp:</b> quay liền mạch từ lúc cắt băng keo.</li>
+    <li><b>Xem sợi yến:</b> sợi tự nhiên to nhỏ không đều, màu trắng ngà, không bóng nhựa, có mùi tanh nhẹ đặc trưng.</li>
+  </ol>
+  <p>Các dấu hiệu khi ngâm và chưng để nhận biết yến thật có ở bài <a href="cach-chon-yen-sao-that.html">cách chọn mua yến sào thật, tránh hàng pha</a>.</p>
+
+  <h2>Chính sách khi mua yến online tại Việt Cường Nhân</h2>
+  <p>Theo chính sách hiện hành trên website Việt Cường Nhân, khách được kiểm tra hàng trước khi thanh toán và được đổi trả nếu hàng sai, thiếu hoặc hư hỏng.</p>
+  <table><thead><tr><th>Nội dung</th><th>Chi tiết</th></tr></thead><tbody>
+  <tr><td>Thời gian giao</td><td>TP. Hồ Chí Minh và lân cận 1–2 ngày làm việc; tỉnh khác 2–5 ngày làm việc</td></tr>
+  <tr><td>Phí giao</td><td>Giá web chưa gồm phí giao; phí báo khi gọi xác nhận đơn, trước khi giao</td></tr>
+  <tr><td>Kiểm hàng</td><td>Kiểm tra kiện, số lượng, loại, niêm phong trước khi thanh toán</td></tr>
+  <tr><td>Đổi trả</td><td>Báo trong 03 ngày kể từ khi nhận nếu giao sai, thiếu, hư hỏng, hết hạn; có ảnh hoặc video mở hàng</td></tr>
+  <tr><td>Hoàn tiền</td><td>Chuyển khoản trong 07 ngày làm việc kể từ khi nhận lại hàng</td></tr>
+  </tbody></table>
+  <p>Chi tiết xem <a href="../chinh-sach/van-chuyen.html">chính sách vận chuyển và kiểm hàng</a> và <a href="../chinh-sach/doi-tra.html">chính sách đổi trả</a>.</p>
+
+  <h2>Đặt yến online tại Việt Cường Nhân</h2>
+  <p>Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Đã nhặt sạch lông, ngâm xong là chưng."), li(113, "Sợi dài, hợp biếu tặng.")) + """
+  <p>Chọn sản phẩm ở <a href="../#san-pham">bảng giá</a>, điền thông tin đặt hàng, nhân viên sẽ gọi xác nhận và báo phí giao. Cần tư vấn chọn loại hoặc mua sỉ: nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Mua yến sào online có an toàn không?", "An toàn hơn khi người bán công khai tên doanh nghiệp, địa chỉ xưởng, giấy chứng nhận và có chính sách kiểm hàng, đổi trả rõ ràng. Luôn kiểm tra hàng và quay video lúc mở hộp."),
+       ("Mua yến online cần kiểm tra gì trước khi đặt?", "Kiểm tra thông tin người bán, loại yến, khối lượng, giá từng quy cách, ảnh thật sợi yến và giấy chứng nhận an toàn thực phẩm còn hiệu lực."),
+       ("Nhận yến rồi mới thấy sai loại thì làm sao?", "Tại Việt Cường Nhân, bạn báo qua điện thoại hoặc Zalo 0978 094 739 trong 03 ngày kể từ khi nhận, kèm ảnh hoặc video mở hàng để được đổi sản phẩm hoặc hoàn tiền."),
+       ("Có được kiểm tra yến trước khi thanh toán không?", "Theo chính sách của Việt Cường Nhân, bạn được kiểm tra bên ngoài kiện, số lượng, loại sản phẩm và niêm phong trước khi thanh toán."),
+       ("Đặt yến online bao lâu thì nhận?", "Với Việt Cường Nhân, TP. Hồ Chí Minh và khu vực lân cận nhận trong 1–2 ngày làm việc, các tỉnh khác 2–5 ngày làm việc.")]),
 ]
