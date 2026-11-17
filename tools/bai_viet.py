@@ -2827,4 +2827,70 @@ dict(slug="mua-yen-online-can-kiem-tra-gi", cat="Yến sào", ngay="2026-11-17",
        ("Nhận yến rồi mới thấy sai loại thì làm sao?", "Tại Việt Cường Nhân, bạn báo qua điện thoại hoặc Zalo 0978 094 739 trong 03 ngày kể từ khi nhận, kèm ảnh hoặc video mở hàng để được đổi sản phẩm hoặc hoàn tiền."),
        ("Có được kiểm tra yến trước khi thanh toán không?", "Theo chính sách của Việt Cường Nhân, bạn được kiểm tra bên ngoài kiện, số lượng, loại sản phẩm và niêm phong trước khi thanh toán."),
        ("Đặt yến online bao lâu thì nhận?", "Với Việt Cường Nhân, TP. Hồ Chí Minh và khu vực lân cận nhận trong 1–2 ngày làm việc, các tỉnh khác 2–5 ngày làm việc.")]),
+dict(slug="thanh-phan-dinh-duong-yen-sao", cat="Yến sào", ngay="2026-11-17",
+  tu_khoa="thành phần dinh dưỡng yến sào, trong tổ yến có gì, tổ yến làm từ gì, protein trong yến sào, axit sialic trong yến",
+  h1="Trong tổ yến có gì? Thành phần dinh dưỡng yến sào",
+  desc="Thành phần dinh dưỡng yến sào gồm chủ yếu protein (glycoprotein), carbohydrate, axit amin và khoáng chất. Tổ yến làm từ gì, vì sao mỗi lô khác nhau, cách ăn cho đúng.",
+  lede="Thành phần dinh dưỡng yến sào chủ yếu là protein, phần lớn ở dạng glycoprotein, cùng carbohydrate (trong đó có axit sialic), các axit amin, một ít khoáng chất và nước. Tỷ lệ từng chất thay đổi theo nguồn tổ, mùa thu hoạch và cách sơ chế, nên muốn số liệu chính xác cho một sản phẩm cần xem phiếu kiểm nghiệm của chính lô hàng đó.",
+  tom_tat=["Tổ yến được chim yến làm từ nước bọt, khô lại thành sợi đan xen.",
+           "Thành phần chính là protein (dạng glycoprotein), tiếp theo là carbohydrate, axit amin, khoáng chất và nước.",
+           "Axit sialic là thành phần carbohydrate hay được nhắc đến nhất khi nói về yến sào.",
+           "Tỷ lệ các chất khác nhau giữa các lô; số liệu chính xác cần phiếu kiểm nghiệm.",
+           "Yến sào là thực phẩm, không phải thuốc; người có bệnh nền, bà bầu, trẻ nhỏ nên hỏi bác sĩ trước khi dùng thường xuyên."],
+  body=f"""  <h2>Tổ yến làm từ gì?</h2>
+  <p>Tổ yến được chim yến làm hoàn toàn từ nước bọt. Chim nhả nước bọt thành từng sợi, gắn lên vách hoặc xà nhà yến; sợi gặp không khí thì khô và cứng lại, chồng lên nhau thành chiếc tổ hình chén.</p>
+  <p>Khi mới thu hoạch, tổ còn lẫn lông chim và bụi. Phần ăn được là sợi yến; lông và tạp chất được loại bỏ ở khâu làm sạch, như mô tả ở bài <a href="quy-trinh-san-xuat-yen-viet-cuong-nhan.html">quy trình sản xuất yến sào tại xưởng Việt Cường Nhân</a>.</p>
+
+  <h2>Thành phần dinh dưỡng yến sào gồm những gì?</h2>
+  <p>Thành phần dinh dưỡng yến sào gồm 5 nhóm chính: protein, carbohydrate, axit amin, khoáng chất và nước. Trong đó protein là nhóm chiếm phần lớn khối lượng khô.</p>
+  <table><thead><tr><th>Nhóm chất</th><th>Có gì trong tổ yến</th><th>Ghi chú</th></tr></thead><tbody>
+  <tr><td>Protein</td><td>Chủ yếu là glycoprotein (protein gắn với chuỗi đường)</td><td>Nhóm chiếm nhiều nhất, tạo nên độ dai của sợi yến</td></tr>
+  <tr><td>Carbohydrate</td><td>Các loại đường gắn trên glycoprotein, trong đó có axit sialic</td><td>Axit sialic là thành phần hay được nhắc đến nhất</td></tr>
+  <tr><td>Axit amin</td><td>Nhiều loại axit amin khác nhau</td><td>Là đơn vị cấu tạo nên protein</td></tr>
+  <tr><td>Khoáng chất</td><td>Một lượng nhỏ khoáng như canxi, natri, kali, magie, sắt</td><td>Phụ thuộc môi trường nhà yến và nguồn nước</td></tr>
+  <tr><td>Nước</td><td>Độ ẩm còn lại sau khi sấy khô</td><td>Yến khô đúng độ thì bảo quản được lâu</td></tr>
+  </tbody></table>
+
+  <h3>Glycoprotein là gì?</h3>
+  <p>Glycoprotein là protein có gắn các chuỗi đường. Đây là thành phần tạo nên cấu trúc sợi yến: khi ngâm nước, sợi nở ra, mềm và trong; khi chưng quá lâu hoặc quá nóng, cấu trúc này bị phá vỡ khiến yến tan thành nước. Vì vậy cách chưng ảnh hưởng nhiều tới chén yến, xem bài <a href="yen-bi-chay-nuoc-khi-chung.html">vì sao yến bị chảy nước khi chưng</a>.</p>
+
+  <h3>Axit sialic là gì?</h3>
+  <p>Axit sialic là một loại đường có trong cấu trúc glycoprotein của tổ yến. Đây là thành phần được nhắc đến nhiều trong các tài liệu về yến sào và thường được dùng làm một chỉ tiêu khi phân tích mẫu yến.</p>
+
+  <h2>Vì sao thành phần mỗi lô yến khác nhau?</h2>
+  <p>Thành phần yến sào không cố định, vì tổ yến là sản phẩm tự nhiên. Ở xưởng Việt Cường Nhân, chúng tôi thấy các lô yến khác nhau rõ về độ dày sợi, độ nở và màu sắc, và thành phần cũng thay đổi theo:</p>
+  <ul>
+    <li><b>Nguồn tổ:</b> vùng nuôi, điều kiện nhà yến, thức ăn tự nhiên của chim.</li>
+    <li><b>Mùa thu hoạch:</b> tổ ở các mùa khác nhau có độ dày và độ chắc khác nhau.</li>
+    <li><b>Vị trí trên tổ:</b> phần chân tổ dày, đặc hơn phần thân, xem bài <a href="chan-yen-chan-tua-la-gi.html">chân yến là gì</a>.</li>
+    <li><b>Cách sơ chế:</b> ngâm, làm sạch, sấy ảnh hưởng tới độ ẩm và độ nguyên của sợi.</li>
+  </ul>
+  <p>Vì vậy bài này không đưa ra con số tỷ lệ cụ thể. Một con số chung cho mọi loại yến sẽ không chính xác với sản phẩm bạn đang cầm trên tay.</p>
+
+  <h2>Thành phần yến thô, yến tinh chế và nước yến khác nhau ra sao?</h2>
+  <p>Yến thô, yến tinh chế và yến rút lông có cùng bản chất là sợi tổ yến; khác nhau chủ yếu ở mức làm sạch và độ nguyên sợi. Nước yến đóng hũ thì khác hơn, vì ngoài yến còn có nước và nguyên liệu phối trộn theo công thức.</p>
+  <table><thead><tr><th>Sản phẩm</th><th>Thành phần</th><th>Cách đọc thông tin</th></tr></thead><tbody>
+  <tr><td>Yến thô</td><td>Sợi yến kèm lông, tạp chất tự nhiên</td><td>Khối lượng gồm cả phần sẽ bỏ đi khi làm sạch</td></tr>
+  <tr><td>Yến tinh chế, rút lông</td><td>Sợi yến đã làm sạch, sấy khô</td><td>Khối lượng gần như toàn bộ là phần ăn được</td></tr>
+  <tr><td>Nước yến hũ</td><td>Yến, nước và nguyên liệu phối trộn</td><td>Xem lượng yến ghi trên nhãn, ví dụ 12gr yến tươi hoặc 0.8gr tổ yến thô mỗi hũ</td></tr>
+  </tbody></table>
+  <p>So sánh chi tiết hơn có ở bài <a href="nuoc-yen-hu-va-yen-to-chung.html">nước yến hũ và yến tổ tự chưng</a>.</p>
+
+  <h2>Ăn yến thế nào cho đúng?</h2>
+  <p>Yến sào là thực phẩm bổ sung trong bữa ăn, không thay thế bữa ăn chính và không phải thuốc. Nhiều gia đình dùng mỗi lần khoảng 3–5 g yến khô, chưng cách thủy để giữ sợi.</p>
+  <ul>
+    <li>Chưng lửa nhỏ, không đun sôi sùng sục, theo bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn</a>.</li>
+    <li>Ăn kèm chế độ ăn đa dạng, đủ các nhóm chất.</li>
+    <li>Bà bầu, trẻ nhỏ, người lớn tuổi và người có bệnh nền nên hỏi bác sĩ trước khi dùng thường xuyên.</li>
+  </ul>
+
+  <h2>Yến sào tại Việt Cường Nhân</h2>
+  <p>Yến tinh chế và yến rút lông của Việt Cường Nhân được làm sạch tại xưởng, có hồ sơ tự công bố sản phẩm (xem <a href="../chung-nhan/">trang chứng nhận</a>). Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Đã nhặt sạch lông, ngâm xong là chưng."), li(113, "Sợi dài, nguyên tổ.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Trong tổ yến có chất gì?", "Tổ yến chủ yếu là protein dạng glycoprotein, cùng carbohydrate (trong đó có axit sialic), các axit amin, một ít khoáng chất và nước."),
+       ("Tổ yến làm từ gì?", "Tổ yến được chim yến làm từ nước bọt; nước bọt khô lại thành sợi, đan chồng lên nhau thành tổ gắn trên vách nhà yến."),
+       ("Yến sào bao nhiêu phần trăm protein?", "Protein là nhóm chiếm phần lớn khối lượng khô, nhưng tỷ lệ cụ thể khác nhau theo nguồn tổ, mùa và cách sơ chế. Số liệu chính xác cần xem phiếu kiểm nghiệm của từng lô."),
+       ("Yến tinh chế có mất chất so với yến thô không?", "Yến tinh chế và yến thô cùng là sợi tổ yến; khác nhau chủ yếu ở việc đã loại bỏ lông và tạp chất. Khâu làm sạch dùng nước sạch và nhặt lông bằng tay."),
+       ("Ăn yến có thay được thuốc không?", "Không. Yến sào là thực phẩm, không phải thuốc và không thay thế thuốc chữa bệnh. Người có bệnh nền nên hỏi bác sĩ.")]),
 ]
