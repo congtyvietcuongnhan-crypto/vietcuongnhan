@@ -2893,4 +2893,69 @@ dict(slug="thanh-phan-dinh-duong-yen-sao", cat="Yến sào", ngay="2026-11-17",
        ("Yến sào bao nhiêu phần trăm protein?", "Protein là nhóm chiếm phần lớn khối lượng khô, nhưng tỷ lệ cụ thể khác nhau theo nguồn tổ, mùa và cách sơ chế. Số liệu chính xác cần xem phiếu kiểm nghiệm của từng lô."),
        ("Yến tinh chế có mất chất so với yến thô không?", "Yến tinh chế và yến thô cùng là sợi tổ yến; khác nhau chủ yếu ở việc đã loại bỏ lông và tạp chất. Khâu làm sạch dùng nước sạch và nhặt lông bằng tay."),
        ("Ăn yến có thay được thuốc không?", "Không. Yến sào là thực phẩm, không phải thuốc và không thay thế thuốc chữa bệnh. Người có bệnh nền nên hỏi bác sĩ.")]),
+dict(slug="mua-yen-si-lam-dai-ly", cat="Yến sào", ngay="2026-11-17",
+  tu_khoa="mua yến sỉ, mua yến sào sỉ, làm đại lý yến sào, nhập yến sào về bán, nguồn yến sỉ uy tín",
+  h1="Mua yến sào sỉ, làm đại lý: cần chuẩn bị gì?",
+  desc="Mua yến sỉ, làm đại lý yến sào cần chuẩn bị 6 việc: chọn kênh bán, chọn dòng sản phẩm, vốn và tồn kho, giấy tờ nguồn gốc, kiến thức tư vấn, bảo quản. Kèm cách liên hệ.",
+  lede="Muốn mua yến sỉ hoặc làm đại lý yến sào, bạn nên chuẩn bị 6 việc trước khi nhập hàng: xác định kênh bán, chọn dòng sản phẩm hợp khách, tính vốn và lượng tồn kho, yêu cầu giấy tờ nguồn gốc từ nhà cung cấp, nắm kiến thức để tư vấn và chuẩn bị chỗ bảo quản. Chuẩn bị kỹ giúp bạn bán đều, ít tồn và giữ được khách lâu dài.",
+  tom_tat=["6 việc cần chuẩn bị: kênh bán, dòng sản phẩm, vốn và tồn kho, giấy tờ nguồn gốc, kiến thức tư vấn, chỗ bảo quản.",
+           "Nhà cung cấp nên có chứng nhận an toàn thực phẩm (HACCP, ISO 22000, GMP) và hồ sơ tự công bố sản phẩm.",
+           "Người mới thường bắt đầu với 2–3 dòng dễ bán: yến tinh chế, yến thô và nước yến hũ.",
+           "Việt Cường Nhân cung cấp yến thô cho các xưởng tinh chế trên toàn quốc và có sản phẩm tại nhiều chuỗi siêu thị.",
+           "Giá sỉ và chính sách đại lý: nhắn Zalo 0978 094 739 để được tư vấn theo số lượng."],
+  body=f"""  <h2>Mua yến sỉ, làm đại lý yến sào có gì khác?</h2>
+  <p>Mua yến sỉ là nhập số lượng lớn một lần để bán lại hoặc dùng cho cơ sở kinh doanh; làm đại lý là hợp tác lâu dài với một nhà cung cấp, bán sản phẩm của họ theo chính sách riêng. Cả hai đều cần chuẩn bị giống nhau ở khâu chọn sản phẩm, vốn và giấy tờ.</p>
+  <table><thead><tr><th>Tiêu chí</th><th>Mua sỉ</th><th>Làm đại lý</th></tr></thead><tbody>
+  <tr><td>Cách nhập</td><td>Theo từng đơn, linh hoạt</td><td>Theo thỏa thuận hợp tác lâu dài</td></tr>
+  <tr><td>Thương hiệu</td><td>Có thể bán theo thương hiệu nhà cung cấp</td><td>Bán sản phẩm, nhãn của nhà cung cấp</td></tr>
+  <tr><td>Hỗ trợ</td><td>Tùy nhà cung cấp</td><td>Thường có hình ảnh, tư vấn sản phẩm</td></tr>
+  <tr><td>Hợp với</td><td>Cửa hàng, quán, người mua làm quà số lượng lớn</td><td>Người muốn bán yến lâu dài, có kênh bán ổn định</td></tr>
+  </tbody></table>
+
+  <h2>6 việc cần chuẩn bị trước khi mua yến sỉ</h2>
+  <h3>1. Xác định kênh bán</h3>
+  <p>Kênh bán quyết định nên nhập loại yến nào và nhập bao nhiêu. Bán tại cửa hàng, bán online, bán cho người quen hay làm quà doanh nghiệp đều có nhóm khách và mức giá phù hợp khác nhau. Với quà biếu cuối năm, xem thêm bài <a href="qua-tang-doanh-nghiep-yen-sao.html">quà tặng doanh nghiệp yến sào</a>.</p>
+  <h3>2. Chọn dòng sản phẩm hợp khách</h3>
+  <p>Người mới thường bắt đầu với 2–3 dòng dễ bán thay vì nhập đủ loại:</p>
+  <ul>
+    <li><b>Yến tinh chế:</b> đã sạch lông, khách gia đình dễ dùng.</li>
+    <li><b>Yến thô:</b> cho khách quen tự làm sạch, hoặc bán cho cơ sở tinh chế.</li>
+    <li><b>Nước yến hũ:</b> giá thấp mỗi hũ, dễ bán lẻ và làm quà nhỏ.</li>
+  </ul>
+  <p>Hiểu rõ khác biệt từng loại qua bài <a href="yen-tho-yen-tinh-che-yen-rut-long-khac-nhau.html">yến thô, yến tinh chế và yến rút lông khác nhau thế nào</a>.</p>
+  <h3>3. Tính vốn và lượng tồn kho</h3>
+  <p>Yến sào giá cao nên vốn ban đầu đọng nhiều ở hàng tồn. Hãy nhập vừa đủ bán trong một khoảng thời gian ngắn, theo dõi loại nào bán chạy rồi mới tăng dần. Nước yến hũ có hạn dùng ghi trên nhãn, cần xoay vòng hàng theo ngày sản xuất.</p>
+  <h3>4. Yêu cầu giấy tờ nguồn gốc</h3>
+  <p>Giấy tờ là thứ giúp bạn trả lời khách khi được hỏi "yến này ở đâu ra". Nên yêu cầu nhà cung cấp:</p>
+  <ul>
+    <li>Thông tin doanh nghiệp: tên, mã số doanh nghiệp, địa chỉ cơ sở sản xuất.</li>
+    <li>Chứng nhận an toàn thực phẩm còn hiệu lực, ví dụ HACCP, ISO 22000, GMP.</li>
+    <li>Hồ sơ tự công bố sản phẩm cho đúng loại yến bạn nhập.</li>
+    <li>Nhãn sản phẩm đầy đủ: tên, khối lượng, ngày sản xuất, hạn dùng.</li>
+  </ul>
+  <p>Ý nghĩa từng chứng nhận xem ở bài <a href="chung-nhan-haccp-iso-22000-gmp-la-gi.html">HACCP, ISO 22000 và GMP nghĩa là gì</a>.</p>
+  <h3>5. Nắm kiến thức để tư vấn</h3>
+  <p>Khách mua yến hay hỏi cách ngâm, chưng, ăn bao nhiêu, bà bầu hay trẻ nhỏ ăn được không. Người bán trả lời đúng và không nói quá công dụng sẽ giữ được khách lâu. Các câu hỏi thường gặp có trong mục <a href="./">Kiến thức</a>, ví dụ bài <a href="cach-chung-yen-sao.html">cách chưng yến sào</a>. Với câu hỏi về sức khỏe, nên khuyên khách hỏi bác sĩ.</p>
+  <h3>6. Chuẩn bị chỗ bảo quản</h3>
+  <p>Yến khô cần hộp kín, nơi khô ráo, tránh nắng và ẩm; nước yến hũ để nơi khô mát. Hướng dẫn chi tiết ở bài <a href="bao-quan-yen-sao.html">cách bảo quản yến sào</a>.</p>
+
+  <h2>Chọn nguồn yến sỉ uy tín thế nào?</h2>
+  <p>Nguồn yến sỉ uy tín là nơi minh bạch xuất xứ, có cơ sở sản xuất thật và giấy tờ đầy đủ. Một số câu nên hỏi nhà cung cấp:</p>
+  <ol>
+    <li>Yến lấy từ nhà yến nào, làm sạch ở đâu?</li>
+    <li>Có thể đến xem xưởng không?</li>
+    <li>Có giao hàng đều theo số lượng cam kết không?</li>
+    <li>Xử lý thế nào khi hàng giao sai, thiếu hoặc hư hỏng?</li>
+  </ol>
+
+  <h2>Mua yến sỉ tại Việt Cường Nhân</h2>
+  <p>Việt Cường Nhân có nhà yến tại Gò Công Tây (Tiền Giang cũ) và Bình Thuận, xưởng nhặt lông tại Lâm Đồng, xưởng tinh chế và nhà máy nước yến tại khu vực Dĩ An. Công ty cung cấp yến thô cho các xưởng tinh chế trên toàn quốc; sản phẩm có mặt tại nhiều chuỗi siêu thị và xuất khẩu sang Campuchia, Hàn Quốc. Thông tin thêm ở bài <a href="viet-cuong-nhan-la-ai.html">Việt Cường Nhân là ai</a>.</p>
+  <p>Giá bán lẻ tham khảo trên website (chưa gồm phí giao hàng):</p>
+""" + ul(li(101), li(109), li(128), li(130)) + """
+  <p>Giá sỉ và chính sách đại lý phụ thuộc số lượng và dòng sản phẩm, vui lòng nhắn Zalo 0978 094 739 để được tư vấn. Bạn cũng có thể hẹn đến xưởng xem hàng trước khi nhập; địa chỉ ở bài <a href="yen-sao-binh-duong-di-an-mua-o-dau.html">mua yến sào ở Dĩ An</a>. Bảng giá lẻ đầy đủ xem tại <a href="../#san-pham">bảng giá sản phẩm</a>.</p>""",
+  faq=[("Mua yến sỉ ở đâu uy tín?", "Nên chọn nơi có cơ sở sản xuất thật, công khai tên doanh nghiệp, chứng nhận an toàn thực phẩm và hồ sơ tự công bố sản phẩm, cho phép đến xem xưởng trước khi nhập."),
+       ("Làm đại lý yến sào cần bao nhiêu vốn?", "Tùy kênh bán và dòng sản phẩm. Người mới nên nhập vừa đủ 2–3 dòng dễ bán, theo dõi loại bán chạy rồi tăng dần để không đọng vốn ở hàng tồn."),
+       ("Mới bán yến nên nhập loại nào?", "Thường bắt đầu với yến tinh chế cho khách gia đình, yến thô cho khách quen tự làm sạch và nước yến hũ để bán lẻ, làm quà nhỏ."),
+       ("Mua yến sỉ cần giấy tờ gì?", "Nên yêu cầu thông tin doanh nghiệp, chứng nhận an toàn thực phẩm còn hiệu lực, hồ sơ tự công bố sản phẩm và nhãn đầy đủ ngày sản xuất, hạn dùng."),
+       ("Muốn làm đại lý Việt Cường Nhân liên hệ ai?", "Nhắn Zalo 0978 094 739 để được tư vấn giá sỉ và chính sách đại lý theo số lượng.")]),
 ]
