@@ -2958,4 +2958,75 @@ dict(slug="mua-yen-si-lam-dai-ly", cat="Yến sào", ngay="2026-11-17",
        ("Mới bán yến nên nhập loại nào?", "Thường bắt đầu với yến tinh chế cho khách gia đình, yến thô cho khách quen tự làm sạch và nước yến hũ để bán lẻ, làm quà nhỏ."),
        ("Mua yến sỉ cần giấy tờ gì?", "Nên yêu cầu thông tin doanh nghiệp, chứng nhận an toàn thực phẩm còn hiệu lực, hồ sơ tự công bố sản phẩm và nhãn đầy đủ ngày sản xuất, hạn dùng."),
        ("Muốn làm đại lý Việt Cường Nhân liên hệ ai?", "Nhắn Zalo 0978 094 739 để được tư vấn giá sỉ và chính sách đại lý theo số lượng.")]),
+dict(slug="yen-chung-sua-tuoi", cat="Món ngon", ngay="2026-11-17",
+  tu_khoa="yến chưng sữa tươi, yến chưng hạt chia, cách làm yến chưng sữa tươi, yến sữa tươi hạt chia",
+  h1="Yến chưng sữa tươi và yến chưng hạt chia cho cả nhà",
+  desc="Cách làm yến chưng sữa tươi và yến chưng hạt chia tại nhà: nguyên liệu định lượng, các bước chưng cách thủy, thời gian, mẹo để sữa không bị tách và sợi yến vẫn dai.",
+  lede="Yến chưng sữa tươi làm bằng cách chưng yến với nước trước khoảng 20–25 phút, để nguội bớt rồi mới thêm sữa tươi và hâm nhẹ, không đun sôi. Thêm hạt chia đã ngâm nở là có món yến chưng hạt chia mát, dễ ăn cho cả nhà.",
+  tom_tat=["Mỗi chén dùng khoảng 3–5 g yến khô, 100 ml nước và 100 ml sữa tươi.",
+           "Chưng yến với nước 20–25 phút trước, thêm sữa sau cùng để sữa không bị tách, sợi yến không bị nát.",
+           "Hạt chia ngâm 10–15 phút cho nở, thêm vào khi yến đã nguội bớt.",
+           "Yến chưng sữa để ngăn mát, đậy kín và dùng trong ngày.",
+           f"Yến hợp món này: {P[109][2]} {gia(109)}/100gr hoặc {P[106][2]} {gia(106)}/100gr."],
+  cac_buoc=[("Ngâm yến", "Ngâm 3–5 g yến khô trong nước sạch 30–60 phút cho nở mềm, vớt ra để ráo."),
+            ("Chưng yến với nước", "Cho yến và 100 ml nước vào thố, chưng cách thủy lửa nhỏ 20–25 phút."),
+            ("Thêm đường phèn", "Thêm đường phèn trong 5 phút cuối nếu muốn ngọt, khuấy cho tan."),
+            ("Thêm sữa tươi", "Tắt bếp, để yến nguội bớt rồi thêm 100 ml sữa tươi, hâm nhẹ 2–3 phút, không để sôi."),
+            ("Thêm hạt chia", "Cho 1 muỗng cà phê hạt chia đã ngâm nở, khuấy đều, dùng ấm hoặc để lạnh.")],
+  body=f"""  <h2>Nguyên liệu yến chưng sữa tươi (1 chén)</h2>
+  <p>Yến chưng sữa tươi chỉ cần 4 nguyên liệu chính, dễ tìm và làm trong khoảng 40 phút kể cả thời gian ngâm.</p>
+  <table><thead><tr><th>Nguyên liệu</th><th>Định lượng</th><th>Ghi chú</th></tr></thead><tbody>
+  <tr><td>Yến khô (tinh chế hoặc rút lông)</td><td>3–5 g</td><td>Yến vụn cũng được, giá mềm hơn</td></tr>
+  <tr><td>Nước lọc</td><td>100 ml</td><td>Để chưng yến</td></tr>
+  <tr><td>Sữa tươi</td><td>100 ml</td><td>Có đường hoặc không đường</td></tr>
+  <tr><td>Đường phèn</td><td>Tùy khẩu vị</td><td>Bỏ qua nếu dùng sữa có đường</td></tr>
+  <tr><td>Hạt chia (cho bản hạt chia)</td><td>1 muỗng cà phê</td><td>Ngâm trước 10–15 phút</td></tr>
+  </tbody></table>
+
+  <h2>Cách làm yến chưng sữa tươi: 5 bước</h2>
+  <p>Điểm quan trọng nhất của yến chưng sữa tươi là chưng yến với nước trước, thêm sữa sau cùng. Sữa đun lâu dễ bị tách, đóng váng và làm món bị khét mùi.</p>
+  <ol>
+    <li><b>Ngâm yến:</b> ngâm 3–5 g yến khô trong nước sạch 30–60 phút cho nở mềm, vớt ra, xé sợi vừa ăn, để ráo.</li>
+    <li><b>Chưng yến với nước:</b> cho yến và 100 ml nước vào thố có nắp, đặt vào nồi nước sôi lăn tăn, chưng lửa nhỏ 20–25 phút.</li>
+    <li><b>Thêm đường phèn:</b> nếu dùng sữa không đường, thêm đường phèn trong 5 phút cuối, khuấy cho tan.</li>
+    <li><b>Thêm sữa tươi:</b> tắt bếp, để yến nguội bớt vài phút rồi rót 100 ml sữa tươi vào, hâm nhẹ 2–3 phút trong nồi cách thủy, không để sôi.</li>
+    <li><b>Hoàn thành:</b> dùng ấm, hoặc để nguội rồi cất ngăn mát để ăn lạnh.</li>
+  </ol>
+  <p>Cách ngâm và chưng yến cơ bản có ở bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>.</p>
+
+  <h2>Yến chưng hạt chia</h2>
+  <p>Yến chưng hạt chia là bản biến tấu của yến chưng sữa tươi, thêm hạt chia cho món có độ sánh và giòn nhẹ.</p>
+  <ul>
+    <li><b>Ngâm hạt chia:</b> 1 muỗng cà phê hạt chia ngâm với 3–4 muỗng canh nước 10–15 phút cho nở thành lớp gel.</li>
+    <li><b>Cho vào sau cùng:</b> thêm hạt chia khi yến chưng sữa đã nguội bớt, khuấy đều để hạt không vón cục.</li>
+    <li><b>Không có sữa:</b> có thể làm yến chưng đường phèn hạt chia, thêm hạt chia vào chén yến đường phèn đã nguội.</li>
+  </ul>
+
+  <h2>So sánh 3 cách làm</h2>
+  <table><thead><tr><th>Món</th><th>Thời gian</th><th>Vị</th><th>Hợp khi</th></tr></thead><tbody>
+  <tr><td>Yến chưng sữa tươi</td><td>Khoảng 30 phút chưng</td><td>Béo nhẹ, thơm sữa</td><td>Ăn sáng, bữa xế</td></tr>
+  <tr><td>Yến chưng sữa tươi hạt chia</td><td>Thêm 10–15 phút ngâm chia</td><td>Béo, sánh, giòn hạt</td><td>Ăn lạnh, đổi vị</td></tr>
+  <tr><td>Yến chưng đường phèn hạt chia</td><td>Khoảng 30 phút chưng</td><td>Ngọt thanh</td><td>Người không uống sữa</td></tr>
+  </tbody></table>
+
+  <h2>Mẹo để yến chưng sữa ngon</h2>
+  <ul>
+    <li><b>Không chưng yến quá lâu:</b> quá 30 phút hoặc lửa to, sợi yến dễ tan, xem bài <a href="yen-bi-chay-nuoc-khi-chung.html">vì sao yến bị chảy nước khi chưng</a>.</li>
+    <li><b>Không đun sôi sữa:</b> chỉ hâm ấm để sữa không tách.</li>
+    <li><b>Đổi vị:</b> thêm vài quả <a href="tao-do-tan-cuong-cach-chon-va-mon-ngon.html">táo đỏ Tân Cương</a> hoặc kỷ tử khi chưng yến với nước.</li>
+    <li><b>Bảo quản:</b> để nguội, đậy kín, cất ngăn mát và dùng trong ngày vì có sữa.</li>
+  </ul>
+
+  <h2>Lưu ý khi cho cả nhà dùng</h2>
+  <p>Yến chưng sữa là món ăn, không phải thuốc. Trẻ nhỏ, bà bầu, người dị ứng sữa hoặc có bệnh nền nên hỏi bác sĩ trước khi ăn thường xuyên. Cho trẻ ăn thì xé sợi yến nhỏ, ngâm hạt chia thật nở; tham khảo thêm bài <a href="tre-may-tuoi-an-duoc-yen.html">trẻ mấy tuổi ăn được yến</a>.</p>
+
+  <h2>Yến phù hợp để chưng sữa tươi</h2>
+  <p>Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(109, "Sợi vừa, chưng sữa giữ sợi đẹp."), li(106, "Giá mềm, hợp nấu cho cả nhà hằng ngày.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Yến chưng sữa tươi có cần chưng sữa cùng yến không?", "Không nên. Chưng yến với nước trước 20–25 phút, thêm sữa sau cùng và chỉ hâm ấm để sữa không bị tách."),
+       ("Một chén yến chưng sữa cần bao nhiêu yến?", "Khoảng 3–5 g yến khô, 100 ml nước và 100 ml sữa tươi cho một chén."),
+       ("Yến chưng sữa để được bao lâu?", "Vì có sữa, nên để nguội, đậy kín, cất ngăn mát và dùng trong ngày."),
+       ("Hạt chia cho vào yến lúc nào?", "Ngâm hạt chia 10–15 phút cho nở, cho vào khi yến chưng đã nguội bớt và khuấy đều."),
+       ("Trẻ nhỏ ăn yến chưng sữa được không?", "Nên hỏi bác sĩ trước, nhất là trẻ dị ứng sữa. Khi cho ăn, xé sợi yến nhỏ và dùng lượng ít.")]),
 ]
