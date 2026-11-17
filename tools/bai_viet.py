@@ -3289,4 +3289,68 @@ dict(slug="yen-chung-gung-duong-phen", cat="Món ngon", ngay="2026-11-17",
        ("Cho bao nhiêu gừng vào yến là vừa?", "Khoảng 2–3 lát gừng mỏng cho một chén 3–5 g yến khô. Nhiều gừng sẽ át mùi yến và cay."),
        ("Trẻ em ăn yến chưng gừng được không?", "Nên hỏi bác sĩ trước. Nếu cho trẻ ăn, nên giảm hoặc bỏ gừng và dùng lượng ít."),
        ("Yến chưng gừng để được bao lâu?", "Để nguội, đậy kín, cất ngăn mát và dùng trong vài ngày; hâm cách thủy trước khi ăn.")]),
+dict(slug="che-yen-hat-sen-long-nhan", cat="Món ngon", ngay="2026-11-17",
+  tu_khoa="chè yến hạt sen long nhãn, chè yến hạt sen, cách nấu chè yến long nhãn, chè yến sào",
+  h1="Cách nấu chè yến hạt sen long nhãn tại nhà",
+  desc="Cách nấu chè yến hạt sen long nhãn cho 4 chén: nguyên liệu định lượng, ninh hạt sen bở, ngâm long nhãn, chưng yến riêng rồi hợp lại. Thời gian, mẹo hạt sen không đắng.",
+  lede="Chè yến hạt sen long nhãn nấu bằng cách ninh hạt sen đến khi bở, thêm long nhãn và đường phèn, rồi cho yến đã chưng riêng vào sau cùng. Một nồi 4 chén cần khoảng 10–15 g yến khô, 150 g hạt sen tươi và 50 g long nhãn, mất chừng 1 giờ.",
+  tom_tat=["4 chén cần 10–15 g yến khô, 150 g hạt sen, 50 g long nhãn, 1 lít nước, đường phèn tùy khẩu vị.",
+           "Ninh hạt sen 20–30 phút đến khi bở; bỏ tim sen để chè không đắng.",
+           "Chưng yến riêng 20–25 phút rồi mới cho vào nồi chè để sợi yến không tan.",
+           "Long nhãn cho vào 5–10 phút cuối để giữ vị ngọt, không bị nhừ.",
+           f"Yến hợp nấu chè: {P[106][2]} {gia(106)}/100gr."],
+  cac_buoc=[("Ngâm yến", "Ngâm 10–15 g yến khô trong nước sạch 30–60 phút cho nở, vớt ra để ráo."),
+            ("Chưng yến riêng", "Chưng cách thủy yến với ít nước 20–25 phút."),
+            ("Ninh hạt sen", "Rửa 150 g hạt sen, bỏ tim, ninh với 1 lít nước 20–30 phút đến khi bở."),
+            ("Thêm long nhãn, đường phèn", "Cho 50 g long nhãn đã rửa và đường phèn vào, nấu thêm 5–10 phút."),
+            ("Hợp yến vào chè", "Cho yến đã chưng vào nồi, khuấy nhẹ, tắt bếp.")],
+  body=f"""  <h2>Nguyên liệu chè yến hạt sen long nhãn (4 chén)</h2>
+  <p>Chè yến hạt sen long nhãn cần 5 nguyên liệu chính, dễ mua ở chợ và cửa hàng đồ khô:</p>
+  <table><thead><tr><th>Nguyên liệu</th><th>Định lượng</th><th>Ghi chú</th></tr></thead><tbody>
+  <tr><td>Yến khô</td><td>10–15 g</td><td>Yến vụn hoặc tinh chế đều được</td></tr>
+  <tr><td>Hạt sen tươi</td><td>150 g</td><td>Hạt sen khô thì ngâm trước 2–3 tiếng</td></tr>
+  <tr><td>Long nhãn sấy</td><td>50 g</td><td>Chọn loại cùi dày, màu nâu vàng, không mốc</td></tr>
+  <tr><td>Nước lọc</td><td>1 lít</td><td>Thêm khoảng 100 ml để chưng yến</td></tr>
+  <tr><td>Đường phèn</td><td>80–100 g</td><td>Tùy khẩu vị</td></tr>
+  </tbody></table>
+
+  <h2>Cách nấu chè yến hạt sen long nhãn: 5 bước</h2>
+  <p>Bí quyết của chè yến là chưng yến riêng và cho vào sau cùng. Nếu nấu yến chung từ đầu với hạt sen, sợi yến sẽ tan trước khi hạt sen kịp bở.</p>
+  <ol>
+    <li><b>Ngâm yến (30–60 phút):</b> ngâm yến khô trong nước sạch đến khi nở mềm, xé tơi, để ráo.</li>
+    <li><b>Chưng yến riêng (20–25 phút):</b> cho yến và khoảng 100 ml nước vào thố, chưng cách thủy lửa nhỏ.</li>
+    <li><b>Ninh hạt sen (20–30 phút):</b> rửa hạt sen, dùng tăm đẩy bỏ tim sen. Cho vào nồi với 1 lít nước, đun sôi rồi hạ lửa nhỏ, ninh đến khi hạt sen bở mềm.</li>
+    <li><b>Thêm long nhãn và đường phèn (5–10 phút):</b> long nhãn rửa nhanh qua nước, cho vào nồi cùng đường phèn, nấu thêm đến khi đường tan, long nhãn nở.</li>
+    <li><b>Hợp yến vào chè:</b> cho phần yến đã chưng vào nồi, khuấy nhẹ, tắt bếp ngay.</li>
+  </ol>
+  <p>Cách ngâm và chưng yến chi tiết có ở bài <a href="cach-chung-yen-sao.html">cách chưng yến sào đường phèn tại nhà</a>.</p>
+
+  <h2>Mẹo nấu chè yến ngon</h2>
+  <ul>
+    <li><b>Bỏ tim sen:</b> tim sen có vị đắng, để lại sẽ làm cả nồi chè đắng.</li>
+    <li><b>Hạt sen không bị sượng:</b> ninh lửa nhỏ, không cho đường quá sớm vì đường làm hạt sen khó bở.</li>
+    <li><b>Long nhãn cho sau:</b> nấu lâu long nhãn bị nhừ, nước chè đục.</li>
+    <li><b>Ăn nóng hoặc lạnh:</b> mùa lạnh ăn ấm, mùa nóng để nguội rồi cất ngăn mát.</li>
+    <li><b>Đổi vị:</b> thêm vài quả táo đỏ hoặc kỷ tử cùng lúc cho long nhãn.</li>
+  </ul>
+
+  <h2>Chè yến hạt sen long nhãn khác yến chưng hạt sen thế nào?</h2>
+  <table><thead><tr><th>Món</th><th>Cách làm</th><th>Lượng yến</th><th>Hợp khi</th></tr></thead><tbody>
+  <tr><td>Chè yến hạt sen long nhãn</td><td>Nấu nồi chè, yến cho sau cùng</td><td>10–15 g cho 4 chén</td><td>Đãi cả nhà, khách đến chơi</td></tr>
+  <tr><td>Yến chưng hạt sen</td><td>Chưng từng thố</td><td>3–5 g mỗi chén</td><td>Ăn riêng từng phần, xem bài <a href="yen-chung-tao-do-hat-sen.html">yến chưng táo đỏ hạt sen</a></td></tr>
+  </tbody></table>
+
+  <h2>Bảo quản và lưu ý</h2>
+  <p>Chè yến còn dư để nguội, đậy kín, cất ngăn mát và dùng trong vài ngày. Hâm lại bằng lửa nhỏ, không đun sôi lâu.</p>
+  <p>Chè yến là món ăn, không phải thuốc. Long nhãn và đường phèn có vị ngọt, người cần hạn chế đường, bà bầu, trẻ nhỏ và người có bệnh nền nên hỏi bác sĩ trước khi ăn thường xuyên.</p>
+
+  <h2>Yến nấu chè tại Việt Cường Nhân</h2>
+  <p>Giá lấy từ bảng giá website, chưa gồm phí giao hàng:</p>
+""" + ul(li(106, "Giá mềm, hợp nấu chè, súp."), li(109, "Sợi vừa, chè đẹp mắt hơn.")) + """
+  <p>Đặt hàng qua <a href="../#san-pham">bảng giá sản phẩm</a> hoặc nhắn Zalo 0978 094 739.</p>""",
+  faq=[("Nấu chè yến hạt sen long nhãn cần bao nhiêu yến?", "Khoảng 10–15 g yến khô cho nồi 4 chén, cùng 150 g hạt sen và 50 g long nhãn."),
+       ("Có nên nấu yến chung với hạt sen từ đầu không?", "Không nên. Hạt sen cần ninh 20–30 phút, trong khi yến nấu lâu sẽ tan. Nên chưng yến riêng rồi cho vào sau cùng."),
+       ("Vì sao chè hạt sen bị đắng?", "Thường do còn tim sen. Dùng tăm đẩy bỏ tim trước khi nấu."),
+       ("Chè yến ăn nóng hay lạnh?", "Ăn được cả hai: ngày lạnh ăn ấm, ngày nóng để nguội rồi cất ngăn mát."),
+       ("Chè yến để được bao lâu?", "Để nguội, đậy kín, cất ngăn mát và dùng trong vài ngày; hâm lại bằng lửa nhỏ.")]),
 ]
