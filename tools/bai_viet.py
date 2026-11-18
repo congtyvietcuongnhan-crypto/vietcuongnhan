@@ -14,6 +14,8 @@ def li(i, note=""):
     return f'    <li><a href="../#san-pham"><b>{p[2]}</b></a> ({p[3]}): {vnd(p[4])}.{(" " + note) if note else ""}</li>'
 def ul(*rows): return "  <ul>\n" + "\n".join(rows) + "\n  </ul>"
 
+_Q1 = sorted((i for i in P if P[i][1] == "Quà Tết" and P[i][4] < 1000000), key=lambda i: P[i][4])
+
 BAI = [
 dict(slug="cach-chung-yen-sao", cat="Yến sào", ngay="2026-10-25",
   h1="Cách chưng yến sào đường phèn tại nhà",
@@ -3685,4 +3687,69 @@ dict(slug="mat-na-duong-da-dung-may-lan", cat="Mỹ phẩm", ngay="2026-11-18",
        ("Đắp mặt nạ xong có cần rửa mặt không?", "Thường không cần, chỉ vỗ nhẹ cho tinh chất thấm rồi thoa kem dưỡng. Nếu bao bì ghi rửa lại thì làm theo bao bì."),
        ("Nên đắp mặt nạ buổi sáng hay buổi tối?", "Buổi tối tiện hơn vì có thời gian thư giãn và da nghỉ qua đêm. Đắp buổi sáng thì nhớ thoa kem chống nắng sau cùng."),
        ("Một hộp mặt nạ 10 miếng dùng được bao lâu?", "Nếu đắp 2–3 lần mỗi tuần, hộp 10 miếng dùng được khoảng 3–5 tuần.")]),
+dict(slug="hop-qua-tet-yen-sao-duoi-1-trieu", cat="Quà tặng", ngay="2026-11-18",
+  tu_khoa="quà Tết yến sào dưới 1 triệu, hộp quà Tết yến sào dưới 500k, giỏ quà Tết yến hũ giá rẻ, quà Tết 2027 dưới 1 triệu",
+  h1="Hộp quà Tết yến sào dưới 1 triệu: chọn theo từng tầm giá",
+  desc="Quà Tết yến sào dưới 1 triệu: bảng giá túi, hộp, giỏ, hộp gỗ Tết 2027 Việt Cường Nhân theo tầm giá dưới 400k, 400–600k, 600–800k, 800k–1 triệu và cách chọn.",
+  lede=f"Quà Tết yến sào dưới 1 triệu có đủ dạng túi, hộp, giỏ và hộp gỗ, giá từ {gia(_Q1[0])} đến {gia(_Q1[-1])} trong bộ quà Tết 2027 của Việt Cường Nhân. Cách chọn nhanh: định tầm giá trước (dưới 400 nghìn, 400–600 nghìn, 600–800 nghìn, 800 nghìn – 1 triệu), rồi chọn dạng quà theo người nhận.",
+  tom_tat=[f"Bộ quà Tết 2027 của Việt Cường Nhân có {len(_Q1)} mẫu dưới 1 triệu, giá từ {gia(_Q1[0])} đến {gia(_Q1[-1])}.",
+           f"Dưới 400 nghìn: túi, hộp yến hũ gọn nhẹ như {P[358][2]} {gia(358)}, hợp quà nhân viên, họ hàng.",
+           f"400–600 nghìn: {P[348][2]} {gia(348)}, hợp biếu bạn bè, hàng xóm.",
+           f"600–800 nghìn: {P[340][2]} {gia(340)}; 800 nghìn – 1 triệu: {P[331][2]} {gia(331)}, {P[323][2]} {gia(323)}.",
+           "Giá bán lẻ trên website đã gồm VAT, chưa gồm phí giao hàng; đặt số lượng lớn nhắn Zalo 0978 094 739."],
+  body=f"""  <h2>Quà Tết yến sào dưới 1 triệu có những loại nào?</h2>
+  <p>Quà Tết yến sào dưới 1 triệu tại Việt Cường Nhân gồm {len(_Q1)} mẫu ở các dạng túi quà, hộp quà, giỏ quà, khay quà, tháp quà và hộp gỗ. Đây là tầm giá khách chọn nhiều nhất mỗi mùa Tết, vì đủ trang trọng để biếu cha mẹ, thầy cô, họ hàng mà vẫn dễ đặt số lượng nhiều.</p>
+  <table><thead><tr><th>Dạng quà</th><th>Số mẫu dưới 1 triệu</th><th>Giá từ</th><th>Hợp với</th></tr></thead><tbody>
+""" + "\n".join(f"  <tr><td>{d}</td><td>{len(ids)}</td><td>{gia(ids[0])}</td><td>{h}</td></tr>" for d, h in (("Túi quà", "Quà nhân viên, họ hàng, bạn bè"), ("Hộp quà", "Biếu cha mẹ, thầy cô, người thân"), ("Giỏ quà", "Biếu gia đình, mang đi thăm Tết"), ("Khay quà", "Biếu cha mẹ, người lớn tuổi"), ("Tháp quà", "Biếu gia đình, bày đẹp ngày Tết"), ("Hộp gỗ", "Biếu cấp trên, đối tác, cần trang trọng")) for ids in [[i for i in _Q1 if P[i][3] == d]] if ids) + f"""
+  </tbody></table>
+  <p>Toàn bộ giá trong bài lấy từ bảng giá website, đã gồm VAT, chưa gồm phí giao hàng. Ảnh từng mẫu có trong <a href="../#san-pham">bảng giá sản phẩm</a>.</p>
+
+  <h2>Hộp quà Tết yến sào dưới 400 nghìn</h2>
+  <p>Dưới 400 nghìn là các túi và hộp yến hũ nhỏ gọn, hợp làm quà cho nhân viên, quà cảm ơn hoặc quà thăm họ hàng. Ở xưởng chúng tôi, nhóm này thường được công ty đặt đồng loạt vì dễ chia đều, dễ mang đi.</p>
+""" + ul(*[li(i) for i in _Q1 if P[i][4] < 400000]) + f"""
+
+  <h2>Quà Tết yến sào từ 400 đến 600 nghìn</h2>
+  <p>Từ 400 đến 600 nghìn có thêm nhiều túi quà và giỏ yến hũ, hình thức đầy đặn hơn, hợp biếu bạn bè, hàng xóm, đồng nghiệp thân.</p>
+""" + ul(*[li(i) for i in _Q1 if 400000 <= P[i][4] < 600000]) + f"""
+
+  <h2>Quà Tết yến sào từ 600 đến 800 nghìn</h2>
+  <p>Tầm 600 đến 800 nghìn là lựa chọn vừa túi tiền để biếu cha mẹ, ông bà hoặc thầy cô, với các túi và hộp, khay quà trình bày kỹ hơn.</p>
+""" + ul(*[li(i) for i in _Q1 if 600000 <= P[i][4] < 800000]) + f"""
+
+  <h2>Quà Tết yến sào từ 800 nghìn đến dưới 1 triệu</h2>
+  <p>Từ 800 nghìn đến dưới 1 triệu là nhóm sát ngưỡng một triệu, có hộp quà, giỏ quà, tháp quà và hộp gỗ, hợp biếu cấp trên, đối tác hoặc người lớn tuổi cần sự trang trọng.</p>
+""" + ul(*[li(i) for i in _Q1 if 800000 <= P[i][4] < 1000000]) + f"""
+  <p>Muốn biết chính xác trong từng hộp, giỏ có những gì, anh chị xem ảnh trong bảng giá hoặc nhắn Zalo 0978 094 739 để nhân viên gửi chi tiết.</p>
+
+  <h2>Chọn quà Tết yến sào dưới 1 triệu theo người nhận</h2>
+  <p>Cùng một ngân sách, chọn đúng dạng quà theo người nhận sẽ khiến món quà được dùng trọn vẹn hơn. Bảng dưới là gợi ý từ kinh nghiệm tư vấn mùa Tết của Việt Cường Nhân:</p>
+  <table><thead><tr><th>Người nhận</th><th>Tầm giá gợi ý</th><th>Dạng quà</th></tr></thead><tbody>
+  <tr><td>Nhân viên, quà số lượng nhiều</td><td>Dưới 400 nghìn</td><td>Túi, hộp yến hũ đồng bộ</td></tr>
+  <tr><td>Họ hàng, bạn bè, hàng xóm</td><td>400–600 nghìn</td><td>Túi quà, giỏ yến hũ</td></tr>
+  <tr><td>Cha mẹ, ông bà, thầy cô</td><td>600–800 nghìn</td><td>Túi, hộp có yến hũ chưng sẵn, dễ dùng</td></tr>
+  <tr><td>Cấp trên, đối tác, khách hàng</td><td>800 nghìn – 1 triệu</td><td>Hộp gỗ, hộp quà, tháp quà</td></tr>
+  </tbody></table>
+  <p>Người lớn tuổi ở xa hoặc người bận rộn thường hợp yến hũ chưng sẵn, mở nắp là dùng. Người quen tự chưng yến có thể thích yến khô hơn (thường trên 1 triệu); so sánh hai loại xem bài <a href="nuoc-yen-hu-va-yen-to-chung.html">nước yến hũ hay yến tổ tự chưng: chọn cái nào</a>. Nếu người nhận đang mang thai, có bệnh nền hoặc quà dành cho trẻ nhỏ, nên khuyên họ hỏi bác sĩ trước khi dùng.</p>
+
+  <h2>Tự phối quà Tết yến sào dưới 1 triệu</h2>
+  <p>Ngoài hộp quà làm sẵn, có thể tự ghép một lốc yến hũ có hộp với đông trùng hạ thảo hoặc táo đỏ, vẫn nằm trong ngân sách dưới 1 triệu:</p>
+""" + ul(li(133), li(135), li(137), li(144)) + f"""
+  <p>Ví dụ: {P[135][2]} ({gia(135)}) cùng {P[137][2]} {P[137][3]} ({gia(137)}) là {vnd(P[135][4] + P[137][4])}. Khác nhau giữa đông trùng loại cây và loại gãy xem bài <a href="dong-trung-ha-thao-loai-cay-va-loai-gay.html">đông trùng hạ thảo loại cây và loại gãy</a>. Quà trên 1 triệu xem bài <a href="qua-tet-yen-sao.html">quà Tết yến sào: chọn hộp quà biếu theo ngân sách</a>.</p>
+
+  <h2>Kinh nghiệm đặt quà Tết yến sào dưới 1 triệu</h2>
+  <ol>
+    <li><b>Chốt ngân sách và số lượng</b> trước, tránh phân vân giữa quá nhiều mẫu.</li>
+    <li><b>Xem hạn dùng:</b> quà Tết thường được để dành, nên dặn người nhận cất nơi khô mát, tránh nắng.</li>
+    <li><b>Đặt sớm:</b> sát Tết đơn hàng tăng, thời gian giao có thể lâu hơn theo <a href="../chinh-sach/van-chuyen.html">chính sách vận chuyển</a>.</li>
+    <li><b>Kiểm tra khi nhận:</b> xem kiện hàng, số lượng, niêm phong trước khi thanh toán.</li>
+  </ol>
+  <p>Cách bảo quản sau khi nhận xem bài <a href="bao-quan-yen-sao.html">cách bảo quản yến sào khô và yến đã chưng</a>.</p>
+
+  <h2>Cách đặt hộp quà Tết yến sào tại Việt Cường Nhân</h2>
+  <p>Đặt quà qua <a href="../#san-pham">bảng giá sản phẩm</a> trên website hoặc nhắn Zalo 0978 094 739; nhân viên gọi xác nhận đơn và báo phí giao hàng trước khi giao. Việt Cường Nhân làm yến từ năm 2009, có nhà yến, xưởng nhặt lông và nhà máy nước yến đạt HACCP, ISO 22000:2018 và GMP. Công ty cần đặt quà Tết số lượng lớn hoặc mua sỉ, nhắn Zalo 0978 094 739 để được tư vấn.</p>""",
+  faq=[("Quà Tết yến sào dưới 1 triệu có những mẫu nào?", f"Bộ quà Tết 2027 của Việt Cường Nhân có {len(_Q1)} mẫu dưới 1 triệu gồm túi, hộp, giỏ và hộp gỗ, giá từ {gia(_Q1[0])} đến {gia(_Q1[-1])}."),
+       ("Quà Tết yến sào dưới 500k chọn gì?", f"Có thể chọn {P[358][2]} ({gia(358)}), {P[357][2]} ({gia(357)}) hoặc {P[348][2]} ({gia(348)}). Các mẫu này gọn nhẹ, hợp biếu họ hàng, bạn bè, nhân viên."),
+       ("Biếu sếp quà Tết yến sào dưới 1 triệu được không?", f"Được, nên chọn dạng hộp gỗ hoặc hộp quà trang trọng như {P[323][2]} ({gia(323)}) hay {P[331][2]} ({gia(331)})."),
+       ("Giá quà Tết đã gồm VAT và phí giao hàng chưa?", "Giá bán lẻ trên website đã gồm VAT, chưa gồm phí giao hàng. Nhân viên sẽ báo phí giao khi gọi xác nhận đơn."),
+       ("Đặt quà Tết yến sào số lượng lớn cho công ty thế nào?", "Nhắn Zalo 0978 094 739 để Việt Cường Nhân tư vấn mẫu quà, số lượng và thời gian giao.")]),
 ]
